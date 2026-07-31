@@ -187,10 +187,19 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div class="container">
-        <span>Cybersecurity Master Matrix v0.5.1</span>
-        <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a></span>
+        <span>Cybersecurity Master Matrix v1.0</span>
+        <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a> · <a href="https://github.com/pedri77/cybersecurity-master-matrix">GitHub</a></span>
       </div>
-    </footer>`;
+    </footer>
+    <button class="back-to-top" id="btt" onclick="window.scrollTo({top:0})" aria-label="Volver arriba">&#8593;</button>`;
+}
+
+// Back-to-top visibility
+if (typeof window !== 'undefined') {
+  window.addEventListener('scroll', () => {
+    const btn = document.getElementById('btt');
+    if (btn) btn.classList.toggle('visible', window.scrollY > 400);
+  }, { passive: true });
 }
 
 /** Render breadcrumbs */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pagina no encontrada">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#07111f">
+  <title>404 — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+      <div style="text-align:center;padding:80px 24px;">
+        <div class="eyebrow">Error 404</div>
+        <h1 style="font-size:clamp(2rem,5vw,3.5rem);margin:16px 0;">Pagina no encontrada</h1>
+        <p style="color:var(--text-secondary);font-size:1.1rem;margin-bottom:32px;">La pagina que buscas no existe o ha sido movida.</p>
+        <a href="index.html" style="display:inline-block;padding:12px 28px;background:var(--accent);color:#062034;border-radius:var(--radius-sm);font-weight:700;font-size:0.95rem;">Volver al inicio</a>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    (async () => {
+      await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+    })();
+  </script>
+</body>
+</html>
