@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="20 dominios estrategicos de ciberseguridad: red, identidad, cloud, endpoints, datos, aplicaciones, SOC, CTI, GRC y mas.">
+  <title>Dominios de seguridad — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">Dominios</div>
+        <h1>Dominios de seguridad</h1>
+        <p>20 dominios estrategicos que cubren todo el espectro de la ciberseguridad empresarial.</p>
+      </section>
+
+      <section class="panel toolbar two-col">
+        <input id="search" type="search" placeholder="Buscar dominio...">
+        <select id="maturity">
+          <option value="">Todas las madureces</option>
+          <option>Consolidado</option>
+          <option>Crecimiento</option>
+          <option>Emergente</option>
+          <option>Especializado</option>
+        </select>
+      </section>
+
+      <div class="section-header">
+        <h2>Todos los dominios</h2>
+        <span id="resultCount" class="result-count"></span>
+      </div>
+
+      <div id="content" class="grid"></div>
+
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('domains');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const searchEl = document.getElementById('search');
+      const maturityEl = document.getElementById('maturity');
+
+      function render() {
+        const q = searchEl.value.toLowerCase().trim();
+        const m = maturityEl.value;
+
+        let items = db.domains;
+        if (m) items = items.filter(d => d.Madurez === m);
+        if (q) items = items.filter(d =>
+          (d.Dominio + ' ' + d.Alcance + ' ' + d.ID).toLowerCase().includes(q)
+        );
+
+        document.getElementById('resultCount').textContent = `${items.length} dominios`;
+        document.getElementById('content').innerHTML = items.length
+          ? items.map(d => {
+              const catCount = categoriesForDomain(db, d.ID).length;
+              return `
+                <a class="card" href="domain.html#${esc(d.ID)}">
+                  <div class="eyebrow">${esc(d.ID)} · ${catCount} categorias</div>
+                  <h3>${esc(d.Dominio)}</h3>
+                  <p>${esc(d.Alcance)}</p>
+                  <div class="card-meta">
+                    ${maturityBadge(d.Madurez)}
+                  </div>
+                </a>`;
+            }).join('')
+          : '<div class="empty">No hay resultados.</div>';
+      }
+
+      searchEl.addEventListener('input', render);
+      maturityEl.addEventListener('change', render);
+      render();
+    }
+    init();
+  </script>
+</body>
+</html>

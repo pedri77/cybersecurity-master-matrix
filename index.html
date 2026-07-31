@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Matriz maestra global de mercados, categorias y proveedores de ciberseguridad. Taxonomia abierta con 20 dominios, 122 categorias y 343 proveedores.">
+  <title>Matriz Maestra Global de Ciberseguridad</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">Cybersecurity Market Intelligence</div>
+        <h1>Matriz Maestra Global de Ciberseguridad</h1>
+        <p>Taxonomia abierta para clasificar mercados, analizar proveedores y construir comparativas tecnologicas basadas en evidencias.</p>
+        <div id="stats" class="stats"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>Explorar</h2>
+        </div>
+        <div class="entries">
+          <a class="entry-card" href="domains.html">
+            <div class="entry-icon">&#127760;</div>
+            <h2>Dominios de seguridad</h2>
+            <p>20 dominios estrategicos: red, identidad, cloud, OT/IoT, IA, criptografia, GRC y mas.</p>
+            <span id="count-domains" class="entry-count"></span>
+          </a>
+          <a class="entry-card" href="categories.html">
+            <div class="entry-icon">&#128218;</div>
+            <h2>Categorias tecnologicas</h2>
+            <p>122 categorias con tipo de analisis, prioridad y proveedores representativos por cada una.</p>
+            <span id="count-categories" class="entry-count"></span>
+          </a>
+          <a class="entry-card" href="providers.html">
+            <div class="entry-icon">&#127970;</div>
+            <h2>Proveedores</h2>
+            <p>343 proveedores mapeados por dominio, cobertura de categorias y estado de analisis.</p>
+            <span id="count-providers" class="entry-count"></span>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>Categorias destacadas</h2>
+          <span class="result-count">Prioridad alta</span>
+        </div>
+        <div id="highlights"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

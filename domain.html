@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ficha de dominio de ciberseguridad con categorias asociadas y proveedores.">
+  <title>Dominio — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+      <div id="content" class="loading">Cargando...</div>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('domains');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const el = document.getElementById('content');
+      el.classList.remove('loading');
+
+      const id = location.hash.slice(1);
+      const domain = findDomain(db, id);
+
+      if (!domain) {
+        el.innerHTML =
+          '<div class="empty">Dominio no encontrado. <a href="domains.html">Ver todos los dominios</a></div>';
+        return;
+      }
+
+      document.title = `${domain.Dominio} — CyberMatrix`;
+
+      const cats = categoriesForDomain(db, id);
+
+      // Collect unique providers for this domain
+      const providerSet = new Set();
+      cats.forEach(c => {
+        providersForCategory(db, c['ID categoría']).forEach(p => providerSet.add(p));
+      });
+      const providerList = [...providerSet].sort();
+
+      // Count by priority
+      const highCount = cats.filter(c => c.Prioridad === 'Alta').length;
+      const medCount = cats.filter(c => c.Prioridad === 'Media').length;
+      const lowCount = cats.filter(c => c.Prioridad === 'Baja').length;
+
+      el.innerHTML = `
+        ${renderBreadcrumbs([
+          { href: 'index.html', label: 'Inicio' },
+          { href: 'domains.html', label: 'Dominios' },
+          { label: domain.Dominio }
+        ])}
+
+        <div class="detail-header">
+          <div class="eyebrow">${esc(id)}</div>
+          <h1>${esc(domain.Dominio)}</h1>
+          <p class="subtitle">${esc(domain.Alcance)}</p>
+        </div>
+
+        <div class="detail-layout">
+          <!-- Main: categories table -->
+          <div class="detail-main">
+            <div class="detail-section">
+              <h2>Categorias tecnologicas</h2>
+              <div class="panel">
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Categoria</th>
+                        <th>Objetivo</th>
+                        <th>Analisis</th>
+                        <th>Prioridad</th>
+                        <th>Proveedores</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${cats.map(c => {
+                        const provs = providersForCategory(db, c['ID categoría']);
+                        return `
+                          <tr>
+                            <td><a href="category.html#${esc(c['ID categoría'])}">${esc(c['Categoría tecnológica'])}</a></td>
+                            <td style="color: var(--text-secondary); font-size: 0.88rem;">${esc(c.Objetivo)}</td>
+                            <td><span class="badge">${esc(c['Tipo de análisis'])}</span></td>
+                            <td>${priorityBadge(c.Prioridad)}</td>
+                            <td>${provs.slice(0, 3).map(p =>
+                              `<a class="badge" href="provider.html#${slugify(p)}">${esc(p)}</a>`
+                            ).join(' ')}${provs.length > 3 ? ` <span class="badge">+${provs.length - 3}</span>` : ''}</td>
+                          </tr>`;
+                      }).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="detail-sidebar">
+            <div class="sidebar-card">
+              <h3>Resumen</h3>
+              <div class="sidebar-stats">
+                <div class="sidebar-stat">
+                  <strong>${cats.length}</strong>
+                  <span>Categorias</span>
+                </div>
+                <div class="sidebar-stat">
+                  <strong>${providerList.length}</strong>
+                  <span>Proveedores</span>
+                </div>
+              </div>
+              <div class="sidebar-row">
+                <span>Madurez</span>
+                ${maturityBadge(domain.Madurez)}
+              </div>
+              <div class="sidebar-row">
+                <span>Prioridad alta</span>
+                <strong>${highCount}</strong>
+              </div>
+              <div class="sidebar-row">
+                <span>Prioridad media</span>
+                <strong>${medCount}</strong>
+              </div>
+              ${lowCount ? `<div class="sidebar-row">
+                <span>Prioridad baja</span>
+                <strong>${lowCount}</strong>
+              </div>` : ''}
+            </div>
+
+            <div class="sidebar-card">
+              <h3>Proveedores (${providerList.length})</h3>
+              <div class="provider-chips">
+                ${providerList.map(p =>
+                  `<a class="provider-chip" href="provider.html#${slugify(p)}">${esc(p)}</a>`
+                ).join('')}
+              </div>
+            </div>
+          </aside>
+        </div>
+      `;
+    }
+
+    init();
+    window.addEventListener('hashchange', init);
+  </script>
+</body>
+</html>

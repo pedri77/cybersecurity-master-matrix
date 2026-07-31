@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ficha de proveedor de ciberseguridad con categorias cubiertas, dominios y estado de analisis.">
+  <title>Proveedor — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+      <div id="content" class="loading">Cargando...</div>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('providers');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const el = document.getElementById('content');
+      el.classList.remove('loading');
+
+      const slug = location.hash.slice(1);
+      const provider = findProviderBySlug(db, slug);
+
+      if (!provider) {
+        el.innerHTML =
+          '<div class="empty">Proveedor no encontrado. <a href="providers.html">Ver todos los proveedores</a></div>';
+        return;
+      }
+
+      document.title = `${provider.Proveedor} — CyberMatrix`;
+
+      const cats = categoriesForProvider(db, provider.Proveedor);
+      const domainIds = String(provider.Dominios).split(';').map(s => s.trim());
+      const domains = domainIds
+        .map(id => findDomain(db, id))
+        .filter(Boolean);
+
+      // Find other providers in same categories (peers)
+      const peerSet = new Set();
+      cats.forEach(c => {
+        providersForCategory(db, c['ID categoría']).forEach(p => {
+          if (p !== provider.Proveedor) peerSet.add(p);
+        });
+      });
+      const peers = [...peerSet].sort().slice(0, 20);
+
+      el.innerHTML = `
+        ${renderBreadcrumbs([
+          { href: 'index.html', label: 'Inicio' },
+          { href: 'providers.html', label: 'Proveedores' },
+          { label: provider.Proveedor }
+        ])}
+
+        <div class="detail-header">
+          <div class="eyebrow">Proveedor</div>
+          <h1>${esc(provider.Proveedor)}</h1>
+        </div>
+
+        <div class="detail-layout">
+          <!-- Main: categories table + peers -->
+          <div class="detail-main">
+            <div class="detail-section">
+              <h2>Categorias cubiertas</h2>
+              <div class="panel">
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Categoria</th>
+                        <th>Dominio</th>
+                        <th>Objetivo</th>
+                        <th>Prioridad</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${cats.map(c => `
+                        <tr>
+                          <td><a href="category.html#${esc(c['ID categoría'])}">${esc(c['Categoría tecnológica'])}</a></td>
+                          <td><a href="domain.html#${esc(c['ID dominio'])}">${esc(c.Dominio)}</a></td>
+                          <td style="color: var(--text-secondary); font-size: 0.88rem;">${esc(c.Objetivo)}</td>
+                          <td>${priorityBadge(c.Prioridad)}</td>
+                        </tr>
+                      `).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            ${peers.length ? `
+              <div class="detail-section">
+                <h2>Proveedores relacionados</h2>
+                <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 12px;">Comparten al menos una categoria con ${esc(provider.Proveedor)}.</p>
+                <div class="provider-chips">
+                  ${peers.map(p =>
+                    `<a class="provider-chip" href="provider.html#${slugify(p)}">${esc(p)}</a>`
+                  ).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="detail-sidebar">
+            <div class="sidebar-card">
+              <h3>Resumen</h3>
+              <div class="sidebar-stats">
+                <div class="sidebar-stat">
+                  <strong>${cats.length}</strong>
+                  <span>Categorias</span>
+                </div>
+                <div class="sidebar-stat">
+                  <strong>${domains.length}</strong>
+                  <span>Dominios</span>
+                </div>
+              </div>
+              <div class="sidebar-row">
+                <span>Estado</span>
+                <span class="badge">${esc(provider['Estado análisis'])}</span>
+              </div>
+              <div class="sidebar-row">
+                <span>Peers</span>
+                <strong>${peers.length}</strong>
+              </div>
+            </div>
+
+            <div class="sidebar-card">
+              <h3>Dominios</h3>
+              <div class="provider-chips">
+                ${domains.map(d =>
+                  `<a class="provider-chip" href="domain.html#${esc(d.ID)}">${esc(d.Dominio)}</a>`
+                ).join('')}
+              </div>
+            </div>
+          </aside>
+        </div>
+      `;
+    }
+
+    init();
+    window.addEventListener('hashchange', init);
+  </script>
+</body>
+</html>

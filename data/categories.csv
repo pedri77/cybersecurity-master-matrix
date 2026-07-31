@@ -1,0 +1,123 @@
+﻿ID categoría,ID dominio,Dominio,Categoría tecnológica,Objetivo,Tipo de análisis,Prioridad
+C001,D01,Network Security,Enterprise Firewall / NGFW,Prevención y control de tráfico de red,Magic Quadrant / Market Guide,Alta
+C002,D01,Network Security,Secure Service Edge (SSE),"SWG, CASB, ZTNA y FWaaS desde la nube",Magic Quadrant,Alta
+C003,D01,Network Security,SASE,Convergencia de red WAN y seguridad cloud,Magic Quadrant / Market Guide,Alta
+C004,D01,Network Security,Zero Trust Network Access,Acceso contextual a aplicaciones privadas,Market Guide,Alta
+C005,D01,Network Security,Web Application & API Protection,"WAF, bot management, DDoS y API protection",Magic Quadrant,Alta
+C006,D01,Network Security,DDoS Protection,Mitigación de ataques volumétricos y de aplicación,Market Guide,Alta
+C007,D01,Network Security,Network Detection & Response,Analítica de tráfico y detección de amenazas,Market Guide,Alta
+C008,D01,Network Security,Network Access Control,Control de acceso a red y postura de dispositivos,Market Guide,Media
+C009,D01,Network Security,DNS Security,"Protección DNS, filtrado y detección",Market Guide,Media
+C010,D01,Network Security,Microsegmentation,Segmentación basada en identidad y workload,Market Guide,Media
+C011,D02,Identity Security,Identity and Access Management,"Autenticación, SSO y gestión de acceso",Magic Quadrant,Alta
+C012,D02,Identity Security,Identity Governance & Administration,"Altas, bajas, recertificación y gobierno",Magic Quadrant,Alta
+C013,D02,Identity Security,Privileged Access Management,Control y monitorización de privilegios,Magic Quadrant,Alta
+C014,D02,Identity Security,Customer IAM,Identidad y acceso de clientes,Magic Quadrant,Alta
+C015,D02,Identity Security,Identity Threat Detection & Response,Detección de ataques y anomalías de identidad,Market Guide,Alta
+C016,D02,Identity Security,Passwordless Authentication,"FIDO2, passkeys y autenticación sin contraseña",Market Guide,Media
+C017,D02,Identity Security,Machine Identity Management,"Identidades de cargas, máquinas y servicios",Market Guide,Alta
+C018,D02,Identity Security,Authentication Security,MFA adaptativo y autenticación contextual,Market Guide,Alta
+C019,D03,Endpoint Security,Endpoint Protection Platform,Prevención de malware y explotación,Magic Quadrant,Alta
+C020,D03,Endpoint Security,Endpoint Detection & Response,"Detección, investigación y respuesta endpoint",Magic Quadrant,Alta
+C021,D03,Endpoint Security,Extended Detection & Response,Correlación multi-dominio y respuesta,Market Guide,Alta
+C022,D03,Endpoint Security,Mobile Threat Defense,Protección de dispositivos móviles,Market Guide,Media
+C023,D03,Endpoint Security,Endpoint Privilege Management,Mínimo privilegio en endpoints,Market Guide,Media
+C024,D03,Endpoint Security,Application Control / Allowlisting,Control de ejecución y lista blanca,Market Guide,Media
+C025,D04,Cloud Security,Cloud-Native Application Protection Platform,"CNAPP: CSPM, CWPP, CIEM y código",Magic Quadrant,Alta
+C026,D04,Cloud Security,Cloud Security Posture Management,Configuración y cumplimiento cloud,Market Guide,Alta
+C027,D04,Cloud Security,Cloud Workload Protection,"Protección de workloads, contenedores y serverless",Market Guide,Alta
+C028,D04,Cloud Security,Cloud Infrastructure Entitlement Management,Permisos y privilegios cloud,Market Guide,Media
+C029,D04,Cloud Security,Kubernetes & Container Security,Seguridad runtime y configuración de contenedores,Market Guide,Alta
+C030,D04,Cloud Security,Cloud Detection & Response,Detección y respuesta específica de cloud,Emerging Market,Media
+C031,D05,Data Security,Data Loss Prevention,Prevención de fuga de información,Magic Quadrant,Alta
+C032,D05,Data Security,Data Security Posture Management,Descubrimiento y riesgo de datos sensibles,Market Guide,Alta
+C033,D05,Data Security,Data Classification & Discovery,Inventario y etiquetado de información,Market Guide,Alta
+C034,D05,Data Security,Database Activity Monitoring,Monitorización y protección de bases de datos,Market Guide,Media
+C035,D05,Data Security,Tokenization & Data Masking,Protección de datos mediante sustitución y enmascarado,Market Guide,Media
+C036,D05,Data Security,Enterprise Encryption,"Cifrado de datos en reposo, tránsito y uso",Market Guide,Alta
+C037,D05,Data Security,Confidential Computing,Protección de datos en uso mediante TEEs,Emerging Market,Media
+C038,D06,Application Security,Static Application Security Testing,Análisis estático de código,Magic Quadrant,Alta
+C039,D06,Application Security,Dynamic Application Security Testing,Pruebas dinámicas de aplicaciones,Market Guide,Alta
+C040,D06,Application Security,Software Composition Analysis,Dependencias y vulnerabilidades open source,Market Guide,Alta
+C041,D06,Application Security,Application Security Posture Management,"Orquestación, priorización y gobierno AppSec",Emerging Market,Alta
+C042,D06,Application Security,API Security,"Descubrimiento, postura y protección de APIs",Market Guide,Alta
+C043,D06,Application Security,Software Supply Chain Security,"Integridad de build, artefactos y pipeline",Market Guide,Alta
+C044,D06,Application Security,Secrets Management,Gestión de secretos de aplicaciones y máquinas,Market Guide,Alta
+C045,D06,Application Security,Runtime Application Self-Protection,Defensa embebida en runtime,Market Guide,Media
+C046,D06,Application Security,Web Application Security Testing,Pentesting automatizado y validación continua,Market Guide,Media
+C047,D07,Security Operations,Security Information & Event Management,"Ingesta, correlación, investigación y reporting",Magic Quadrant,Alta
+C048,D07,Security Operations,Security Orchestration Automation & Response,Automatización y orquestación SOC,Market Guide,Alta
+C049,D07,Security Operations,Security Operations Platform,Plataforma unificada SOC y SecOps,Emerging Market,Alta
+C050,D07,Security Operations,Detection Engineering,Gestión del ciclo de vida de reglas y detecciones,Emerging Market,Alta
+C051,D07,Security Operations,Security Automation,Automatización low-code/no-code de seguridad,Emerging Market,Alta
+C052,D07,Security Operations,User & Entity Behavior Analytics,Analítica de comportamiento y anomalías,Market Guide,Media
+C053,D07,Security Operations,Digital Forensics & Incident Response Platforms,"Investigación, forense y gestión de incidentes",Market Guide,Media
+C054,D07,Security Operations,Security Case Management,"Gestión de casos, evidencias y workflows SOC",Market Guide,Media
+C055,D08,Threat Intelligence,Threat Intelligence Platform,"Agregación, normalización y operacionalización CTI",Market Guide,Alta
+C056,D08,Threat Intelligence,Commercial Threat Intelligence,Fuentes y análisis de inteligencia de pago,Market Guide,Alta
+C057,D08,Threat Intelligence,Open Source Threat Intelligence,Plataformas y fuentes abiertas de inteligencia,Open Source,Alta
+C058,D08,Threat Intelligence,Digital Risk Protection Intelligence,"Dark web, credenciales, fraude y exposición externa",Market Guide,Alta
+C059,D08,Threat Intelligence,Malware Intelligence,"Análisis, sandboxing y conocimiento de malware",Market Guide,Alta
+C060,D08,Threat Intelligence,Brand & Domain Intelligence,"Dominios, suplantación y abuso de marca",Market Guide,Media
+C061,D09,Exposure Management,External Attack Surface Management,Descubrimiento continuo de activos externos,Market Guide,Alta
+C062,D09,Exposure Management,Continuous Threat Exposure Management,Programa continuo de exposición y priorización,Strategic Framework,Alta
+C063,D09,Exposure Management,Vulnerability Management,Descubrimiento y gestión de vulnerabilidades,Magic Quadrant,Alta
+C064,D09,Exposure Management,Risk-Based Vulnerability Management,"Priorización basada en explotación, activos y riesgo",Market Guide,Alta
+C065,D09,Exposure Management,Breach & Attack Simulation,Validación automatizada de controles,Market Guide,Alta
+C066,D09,Exposure Management,Automated Security Validation,Validación continua de rutas y controles,Emerging Market,Alta
+C067,D09,Exposure Management,Cyber Asset Attack Surface Management,Inventario y relación de activos y exposiciones,Market Guide,Alta
+C068,D09,Exposure Management,Security Ratings,Riesgo externo de organizaciones y terceros,Market Guide,Media
+C069,D10,"Governance, Risk & Compliance",Enterprise GRC,"Gobierno, riesgo, controles, auditoría y cumplimiento",Magic Quadrant,Alta
+C070,D10,"Governance, Risk & Compliance",IT Risk Management,Riesgo tecnológico y controles,Market Guide,Alta
+C071,D10,"Governance, Risk & Compliance",Third-Party Risk Management,Riesgo de proveedores y cadena de suministro,Magic Quadrant,Alta
+C072,D10,"Governance, Risk & Compliance",Continuous Controls Monitoring,Monitorización automatizada de controles,Market Guide,Alta
+C073,D10,"Governance, Risk & Compliance",Cyber Risk Quantification,Cuantificación económica del riesgo cibernético,Market Guide,Media
+C074,D10,"Governance, Risk & Compliance",Audit Management,"Planificación, evidencias y ejecución de auditorías",Market Guide,Alta
+C075,D10,"Governance, Risk & Compliance",Business Continuity Management,"Continuidad, resiliencia y crisis",Magic Quadrant,Media
+C076,D10,"Governance, Risk & Compliance",Security Compliance Automation,Automatización de evidencias y certificaciones,Market Guide,Alta
+C077,D11,Privacy,Privacy Management,"Inventario, evaluaciones y gobierno de privacidad",Magic Quadrant,Alta
+C078,D11,Privacy,Consent & Preference Management,"Consentimiento, cookies y preferencias",Market Guide,Alta
+C079,D11,Privacy,Data Subject Rights Automation,Automatización de derechos de interesados,Market Guide,Media
+C080,D11,Privacy,Privacy Enhancing Technologies,"Minimización, anonimización y computación privada",Emerging Market,Media
+C081,D12,AI Security,"AI Trust, Risk & Security Management","Gobierno, riesgo, seguridad y confianza de IA",Market Guide,Alta
+C082,D12,AI Security,AI Security Posture Management,"Inventario y postura de modelos, datos y pipelines",Emerging Market,Alta
+C083,D12,AI Security,AI Runtime Security,Protección de aplicaciones y agentes en ejecución,Emerging Market,Alta
+C084,D12,AI Security,LLM / GenAI Red Teaming,Evaluación adversarial de modelos y aplicaciones,Emerging Market,Alta
+C085,D12,AI Security,AI Governance Platforms,"Inventario, políticas, evidencias y cumplimiento AI Act",Emerging Market,Alta
+C086,D12,AI Security,AI Gateway & Model Firewall,"Control, observabilidad y seguridad de acceso a modelos",Emerging Market,Alta
+C087,D12,AI Security,Model Supply Chain Security,"Integridad de modelos, datasets y artefactos ML",Emerging Market,Media
+C088,D13,OT / IoT / CPS Security,OT Security Platform,"Visibilidad, segmentación y detección industrial",Magic Quadrant,Alta
+C089,D13,OT / IoT / CPS Security,OT Network Detection & Response,Detección de amenazas en redes industriales,Market Guide,Alta
+C090,D13,OT / IoT / CPS Security,IoT Security,Descubrimiento y protección de dispositivos IoT,Market Guide,Alta
+C091,D13,OT / IoT / CPS Security,Medical Device Security,Inventario y riesgo de dispositivos médicos,Market Guide,Media
+C092,D13,OT / IoT / CPS Security,Automotive Cybersecurity,Seguridad de vehículos conectados y software,Market Guide,Media
+C093,D14,Email & Collaboration Security,Email Security,"Protección de correo, phishing y malware",Magic Quadrant,Alta
+C094,D14,Email & Collaboration Security,Integrated Cloud Email Security,Seguridad API para Microsoft 365 y Google Workspace,Market Guide,Alta
+C095,D14,Email & Collaboration Security,DMARC & Domain Protection,Autenticación y protección del dominio de correo,Market Guide,Media
+C096,D14,Email & Collaboration Security,Collaboration Security,"Protección de Teams, Slack, Drive y colaboración",Emerging Market,Media
+C097,D15,Digital Risk & Fraud,Fraud Detection & Prevention,Detección de fraude digital y transaccional,Magic Quadrant,Alta
+C098,D15,Digital Risk & Fraud,Account Takeover Prevention,Protección frente a secuestro de cuentas,Market Guide,Alta
+C099,D15,Digital Risk & Fraud,Bot Management,Detección y mitigación de bots maliciosos,Magic Quadrant,Alta
+C100,D15,Digital Risk & Fraud,Brand Protection,Detección y retirada de abuso de marca,Market Guide,Media
+C101,D16,Managed Security Services,Managed Detection & Response,Detección y respuesta operada 24x7,Magic Quadrant,Alta
+C102,D16,Managed Security Services,Managed SIEM / SOC,Operación gestionada de SIEM y SOC,Market Guide,Alta
+C103,D16,Managed Security Services,Managed Cloud Security,Operación y protección cloud gestionada,Market Guide,Media
+C104,D16,Managed Security Services,Incident Response Retainer,Respuesta a incidentes bajo retainer,Market Guide,Alta
+C105,D17,Hardware Security,Hardware Security Module,Generación y custodia de claves en hardware,Market Guide,Alta
+C106,D17,Hardware Security,Trusted Platform Module,Raíz de confianza de dispositivo,Standards Ecosystem,Media
+C107,D17,Hardware Security,Secure Enclave / TEE,Ejecución aislada y protección de secretos,Emerging Market,Media
+C108,D17,Hardware Security,Smart Cards & Security Tokens,Autenticación y firma mediante hardware,Market Guide,Media
+C109,D18,Enterprise Cryptography,Enterprise Key Management,Gestión centralizada del ciclo de vida de claves,Market Guide,Alta
+C110,D18,Enterprise Cryptography,Public Key Infrastructure,"Emisión, validación y gobierno de certificados",Market Guide,Alta
+C111,D18,Enterprise Cryptography,Certificate Lifecycle Management,Descubrimiento y automatización de certificados,Market Guide,Alta
+C112,D18,Enterprise Cryptography,Secrets Management,Custodia y rotación de secretos,Market Guide,Alta
+C113,D18,Enterprise Cryptography,Code Signing,Firma y protección de software y artefactos,Market Guide,Media
+C114,D18,Enterprise Cryptography,Crypto Agility Management,Inventario criptográfico y migración algorítmica,Emerging Market,Alta
+C115,D19,Post-Quantum Security,Post-Quantum Cryptography Discovery,Descubrimiento de criptografía vulnerable,Emerging Market,Alta
+C116,D19,Post-Quantum Security,PQC Migration & Crypto Agility,Planificación y ejecución de migración poscuántica,Emerging Market,Alta
+C117,D19,Post-Quantum Security,Quantum Key Distribution,Distribución cuántica de claves,Specialized Market,Media
+C118,D19,Post-Quantum Security,Quantum Random Number Generation,Generación cuántica de aleatoriedad,Specialized Market,Media
+C119,D20,Security Consulting & Assurance,Cybersecurity Consulting,"Estrategia, arquitectura y transformación",Market Guide,Alta
+C120,D20,Security Consulting & Assurance,Penetration Testing & Red Teaming,Pruebas ofensivas y validación humana,Market Guide,Alta
+C121,D20,Security Consulting & Assurance,Cybersecurity Audit & Certification,Auditoría y certificación de controles y normas,Standards Ecosystem,Alta
+C122,D20,Security Consulting & Assurance,Digital Forensics,Forense digital y soporte pericial,Market Guide,Media

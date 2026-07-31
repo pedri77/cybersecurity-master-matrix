@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ficha de categoria tecnologica de ciberseguridad con proveedores representativos y datos de analisis.">
+  <title>Categoria — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+      <div id="content" class="loading">Cargando...</div>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('categories');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const el = document.getElementById('content');
+      el.classList.remove('loading');
+
+      const id = location.hash.slice(1);
+      const cat = findCategory(db, id);
+
+      if (!cat) {
+        el.innerHTML =
+          '<div class="empty">Categoria no encontrada. <a href="categories.html">Ver todas las categorias</a></div>';
+        return;
+      }
+
+      document.title = `${cat['Categoría tecnológica']} — CyberMatrix`;
+
+      const domain = findDomain(db, cat['ID dominio']);
+      const providers = providersForCategory(db, id);
+
+      // Find related categories in same domain (excluding self)
+      const related = categoriesForDomain(db, cat['ID dominio'])
+        .filter(c => c['ID categoría'] !== id)
+        .slice(0, 8);
+
+      // Get validation info from map
+      const mapEntries = db.map.filter(m => m['ID categoría'] === id);
+
+      el.innerHTML = `
+        ${renderBreadcrumbs([
+          { href: 'index.html', label: 'Inicio' },
+          { href: 'categories.html', label: 'Categorias' },
+          { href: 'domain.html#' + cat['ID dominio'], label: domain ? domain.Dominio : cat.Dominio },
+          { label: cat['Categoría tecnológica'] }
+        ])}
+
+        <div class="detail-header">
+          <div class="eyebrow">${esc(id)} · ${esc(cat.Dominio)}</div>
+          <h1>${esc(cat['Categoría tecnológica'])}</h1>
+          <p class="subtitle">${esc(cat.Objetivo)}</p>
+        </div>
+
+        <div class="detail-layout">
+          <!-- Main: providers table + related -->
+          <div class="detail-main">
+            <div class="detail-section">
+              <h2>Proveedores representativos</h2>
+              ${providers.length ? `
+                <div class="panel">
+                  <div class="table-wrapper">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Proveedor</th>
+                          <th>Dominios</th>
+                          <th>Categorias</th>
+                          <th>Estado</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${providers.map(pName => {
+                          const prov = findProviderByName(db, pName);
+                          return `
+                            <tr>
+                              <td><a href="provider.html#${slugify(pName)}">${esc(pName)}</a></td>
+                              <td>${prov ? prov['N.º dominios'] : '—'}</td>
+                              <td>${prov ? prov['N.º categorías'] : '—'}</td>
+                              <td><span class="badge">${prov ? esc(prov['Estado análisis']) : 'Pendiente'}</span></td>
+                            </tr>`;
+                        }).join('')}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ` : '<div class="empty panel">Sin proveedores asignados.</div>'}
+            </div>
+
+            ${related.length ? `
+              <div class="detail-section">
+                <h2>Categorias relacionadas en ${esc(domain ? domain.Dominio : cat.Dominio)}</h2>
+                <div class="category-list">
+                  ${related.map(c => `
+                    <a class="category-item" href="category.html#${esc(c['ID categoría'])}">
+                      <div class="cat-top">
+                        <span class="cat-name">${esc(c['Categoría tecnológica'])}</span>
+                        ${priorityBadge(c.Prioridad)}
+                      </div>
+                    </a>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="detail-sidebar">
+            <div class="sidebar-card">
+              <h3>Resumen</h3>
+              <div class="sidebar-stats">
+                <div class="sidebar-stat">
+                  <strong>${providers.length}</strong>
+                  <span>Proveedores</span>
+                </div>
+                <div class="sidebar-stat">
+                  <strong>${related.length}</strong>
+                  <span>Relacionadas</span>
+                </div>
+              </div>
+              <div class="sidebar-row">
+                <span>Dominio</span>
+                <a href="domain.html#${esc(cat['ID dominio'])}">${esc(cat.Dominio)}</a>
+              </div>
+              <div class="sidebar-row">
+                <span>Prioridad</span>
+                ${priorityBadge(cat.Prioridad)}
+              </div>
+              <div class="sidebar-row">
+                <span>Analisis</span>
+                <span class="badge">${esc(cat['Tipo de análisis'])}</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      `;
+    }
+
+    init();
+    window.addEventListener('hashchange', init);
+  </script>
+</body>
+</html>

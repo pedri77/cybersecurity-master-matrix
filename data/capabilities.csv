@@ -1,0 +1,21 @@
+﻿ID,Dimensión,Capacidad,Criterios / valores posibles
+CAP001,Producto y arquitectura,Modelo de despliegue,SaaS; Cloud dedicado; On-prem; Híbrido; Appliance
+CAP002,Producto y arquitectura,Multi-tenancy,Nativa; Parcial; No disponible
+CAP003,Producto y arquitectura,Alta disponibilidad,Activo-activo; Activo-pasivo; Dependiente de plataforma
+CAP004,Producto y arquitectura,Escalabilidad,Vertical; Horizontal; Autoscaling
+CAP005,Integración,API,REST; GraphQL; SDK; Webhooks
+CAP006,Integración,Integraciones nativas,SIEM; SOAR; IAM; ITSM; Data Lake; EDR; Cloud
+CAP007,Integración,Formatos y estándares,STIX/TAXII; Syslog; CEF; LEEF; OpenTelemetry; SCIM; SAML; OIDC
+CAP008,Seguridad,Cifrado,En tránsito; En reposo; BYOK; HYOK; HSM
+CAP009,Seguridad,Identidad y acceso,RBAC; ABAC; MFA; SSO; PAM
+CAP010,Seguridad,Auditoría,Logs inmutables; evidencias; trazabilidad; exportación
+CAP011,Operación,Automatización,Playbooks; workflows; no-code; API
+CAP012,Operación,Analítica e IA,ML; IA generativa; copiloto; recomendaciones
+CAP013,Operación,Observabilidad,Métricas; logs; tracing; SLA
+CAP014,Cumplimiento,Certificaciones,ISO 27001; SOC 2; ENS; FedRAMP; CSA STAR
+CAP015,Cumplimiento,Residencia de datos,UE; España; regiones configurables
+CAP016,Comercial,Licenciamiento,Usuario; activo; volumen; consumo; tenant; appliance
+CAP017,Comercial,Transparencia de precios,Público; bajo oferta; partner
+CAP018,Comercial,Servicios profesionales,Implantación; migración; soporte; formación
+CAP019,Riesgo de proveedor,Viabilidad,Ingresos; financiación; crecimiento; base instalada
+CAP020,Riesgo de proveedor,Dependencia,Lock-in; portabilidad; formatos abiertos; exportación

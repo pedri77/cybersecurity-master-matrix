@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="122 categorias tecnologicas de ciberseguridad con proveedores representativos, prioridad y tipo de analisis.">
+  <title>Categorias tecnologicas — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">Categorias</div>
+        <h1>Categorias tecnologicas</h1>
+        <p>122 categorias que cubren firewall, SIEM, EDR, CNAPP, IAM, PKI, criptografia post-cuantica y mas.</p>
+      </section>
+
+      <section class="panel toolbar">
+        <input id="search" type="search" placeholder="Buscar categoria o proveedor...">
+        <select id="domain"></select>
+        <select id="priority">
+          <option value="">Todas las prioridades</option>
+          <option>Alta</option>
+          <option>Media</option>
+          <option>Baja</option>
+        </select>
+      </section>
+
+      <div class="section-header">
+        <h2>Todas las categorias</h2>
+        <span id="resultCount" class="result-count"></span>
+      </div>
+
+      <div id="content"></div>
+
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('categories');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const searchEl = document.getElementById('search');
+      const domainEl = document.getElementById('domain');
+      const priorityEl = document.getElementById('priority');
+
+      fillDomainSelect(db, domainEl);
+
+      function render() {
+        const q = searchEl.value.toLowerCase().trim();
+        const d = domainEl.value;
+        const p = priorityEl.value;
+
+        let items = db.categories;
+        if (d) items = items.filter(c => c['ID dominio'] === d);
+        if (p) items = items.filter(c => c.Prioridad === p);
+        if (q) {
+          items = items.filter(c => {
+            const text = Object.values(c).join(' ').toLowerCase();
+            const provs = providersForCategory(db, c['ID categoría']).join(' ').toLowerCase();
+            return text.includes(q) || provs.includes(q);
+          });
+        }
+
+        document.getElementById('resultCount').textContent = `${items.length} categorias`;
+
+        if (!items.length) {
+          document.getElementById('content').innerHTML =
+            '<div class="empty panel">No hay resultados.</div>';
+          return;
+        }
+
+        document.getElementById('content').innerHTML = `
+          <div class="panel categories-table has-sticky-header">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Dominio</th>
+                    <th>Categoria</th>
+                    <th>Objetivo</th>
+                    <th>Proveedores</th>
+                    <th>Analisis</th>
+                    <th>Prioridad</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${items.map(c => {
+                    const provs = providersForCategory(db, c['ID categoría']);
+                    return `
+                      <tr>
+                        <td>${esc(c['ID categoría'])}</td>
+                        <td><a href="domain.html#${esc(c['ID dominio'])}">${esc(c.Dominio)}</a></td>
+                        <td><a href="category.html#${esc(c['ID categoría'])}"><strong>${esc(c['Categoría tecnológica'])}</strong></a></td>
+                        <td>${esc(c.Objetivo)}</td>
+                        <td>${provs.map(p =>
+                          `<a class="badge" href="provider.html#${slugify(p)}">${esc(p)}</a>`
+                        ).join(' ')}</td>
+                        <td>${esc(c['Tipo de análisis'])}</td>
+                        <td>${priorityBadge(c.Prioridad)}</td>
+                      </tr>`;
+                  }).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>`;
+      }
+
+      searchEl.addEventListener('input', render);
+      domainEl.addEventListener('change', render);
+      priorityEl.addEventListener('change', render);
+      render();
+    }
+    init();
+  </script>
+</body>
+</html>

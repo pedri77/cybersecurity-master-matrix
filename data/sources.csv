@@ -1,0 +1,16 @@
+﻿Tipo de fuente,Organización,Uso recomendado,URL,Notas
+Analista,Gartner,"Magic Quadrants, Market Guides, Hype Cycles",https://www.gartner.com/en/cybersecurity,Acceso completo normalmente bajo suscripción
+Analista,Forrester,"Waves, landscapes y research de mercado",https://www.forrester.com/security-risk/,Complementar posicionamiento y capacidades
+Analista,IDC,MarketScapes y estudios de cuota,https://www.idc.com/,Útil para tamaño y evolución de mercado
+Analista,Omdia,Market radars y análisis tecnológicos,https://omdia.tech.informa.com/,Cobertura amplia de ciberseguridad
+Analista,GigaOm,Radar reports,https://gigaom.com/,Comparativas técnicas por mercado
+Estándares,NIST,"CSF, SP 800 y criptografía",https://www.nist.gov/cyberframework,Fuente normativa y técnica primaria
+Estándares,ENISA,"Guías, amenazas y cumplimiento europeo",https://www.enisa.europa.eu/,Referencia UE
+Estándares,MITRE,"ATT&CK, D3FEND y evaluaciones",https://www.mitre.org/,Capacidades de detección y defensa
+Estándares,CIS,Controles y benchmarks,https://www.cisecurity.org/,Evaluación de cobertura de controles
+Mercado,CISA,"Catálogos, KEV y guías",https://www.cisa.gov/,Vulnerabilidades explotadas y recomendaciones
+Vulnerabilidades,FIRST EPSS,Probabilidad de explotación,https://www.first.org/epss/,Priorización de vulnerabilidades
+Vulnerabilidades,NVD,CVEs y puntuaciones CVSS,https://nvd.nist.gov/,Fuente pública de vulnerabilidades
+Producto,Sitio oficial del fabricante,"Datasheets, documentación, precios y certificaciones",,Siempre adjuntar URL exacta por producto
+Producto,Repositorios GitHub,"Actividad, licencias, releases y comunidad",https://github.com/,Especialmente relevante para open source
+Finanzas,Crunchbase / Dealroom,Financiación y evolución empresarial,https://www.crunchbase.com/,Validar con fuentes corporativas

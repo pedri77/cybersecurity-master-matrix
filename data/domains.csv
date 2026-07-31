@@ -1,0 +1,21 @@
+﻿ID,Dominio,Alcance,Madurez
+D01,Network Security,"Seguridad de red, perímetro, acceso y tráfico",Consolidado
+D02,Identity Security,"Identidad, autenticación, privilegios y gobierno de acceso",Consolidado
+D03,Endpoint Security,"Protección, detección y respuesta en endpoints",Consolidado
+D04,Cloud Security,"Protección de infraestructura, cargas y configuraciones cloud",Crecimiento
+D05,Data Security,"Descubrimiento, clasificación, protección y cifrado de datos",Crecimiento
+D06,Application Security,Seguridad del ciclo de vida de software y aplicaciones,Crecimiento
+D07,Security Operations,"Operación SOC, detección, respuesta y automatización",Consolidado
+D08,Threat Intelligence,"Inteligencia, fuentes, plataformas y análisis de amenazas",Consolidado
+D09,Exposure Management,Gestión continua de exposición y superficie de ataque,Emergente
+D10,"Governance, Risk & Compliance","Gobierno, riesgo, cumplimiento, auditoría y evidencias",Consolidado
+D11,Privacy,Gobierno de privacidad y protección de datos personales,Consolidado
+D12,AI Security,"Protección, gobierno y evaluación de sistemas de IA",Emergente
+D13,OT / IoT / CPS Security,"Protección de entornos industriales, IoT y sistemas ciberfísicos",Crecimiento
+D14,Email & Collaboration Security,"Protección de correo, colaboración y fraude por mensajería",Consolidado
+D15,Digital Risk & Fraud,"Riesgo digital, fraude, identidad externa y abuso de marca",Crecimiento
+D16,Managed Security Services,"Servicios gestionados de detección, respuesta y operación",Consolidado
+D17,Hardware Security,"Raíces de confianza, módulos seguros y hardware criptográfico",Especializado
+D18,Enterprise Cryptography,"Criptografía empresarial, PKI, claves, secretos y certificados",Crecimiento
+D19,Post-Quantum Security,"Descubrimiento, migración y protección poscuántica",Emergente
+D20,Security Consulting & Assurance,"Consultoría, auditoría, red teaming y respuesta a incidentes",Consolidado

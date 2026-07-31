@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="343 proveedores de ciberseguridad mapeados por dominio, categorias y estado de analisis.">
+  <title>Proveedores — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">Proveedores</div>
+        <h1>Proveedores de ciberseguridad</h1>
+        <p>343 proveedores con su cobertura de categorias, dominios y estado de analisis.</p>
+      </section>
+
+      <section class="panel toolbar two-col">
+        <input id="search" type="search" placeholder="Buscar proveedor...">
+        <select id="domain"></select>
+      </section>
+
+      <div class="section-header">
+        <h2>Todos los proveedores</h2>
+        <span id="resultCount" class="result-count"></span>
+      </div>
+
+      <div id="content" class="grid"></div>
+
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('providers');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const searchEl = document.getElementById('search');
+      const domainEl = document.getElementById('domain');
+
+      fillDomainSelect(db, domainEl);
+
+      function render() {
+        const q = searchEl.value.toLowerCase().trim();
+        const d = domainEl.value;
+
+        let items = db.providers;
+        if (d) {
+          items = items.filter(p =>
+            String(p.Dominios).split(';').map(s => s.trim()).includes(d)
+          );
+        }
+        if (q) {
+          items = items.filter(p =>
+            Object.values(p).join(' ').toLowerCase().includes(q)
+          );
+        }
+
+        document.getElementById('resultCount').textContent = `${items.length} proveedores`;
+
+        document.getElementById('content').innerHTML = items.length
+          ? items.map(p => {
+              const slug = slugify(p.Proveedor);
+              const catCount = p['N.º categorías'];
+              const domCount = p['N.º dominios'];
+              return `
+                <a class="card" href="provider.html#${slug}">
+                  <div class="eyebrow">${catCount} categorias · ${domCount} dominios</div>
+                  <h3>${esc(p.Proveedor)}</h3>
+                  <p>${esc(p.Dominios)}</p>
+                  <div class="card-meta">
+                    <span class="badge">${esc(p['Estado análisis'])}</span>
+                  </div>
+                </a>`;
+            }).join('')
+          : '<div class="empty">No hay resultados.</div>';
+      }
+
+      searchEl.addEventListener('input', render);
+      domainEl.addEventListener('change', render);
+      render();
+    }
+    init();
+  </script>
+</body>
+</html>
