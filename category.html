@@ -50,6 +50,26 @@
       // Get validation info from map
       const mapEntries = db.map.filter(m => m['ID categoría'] === id);
 
+      // Build products HTML separately
+      const prods = productsForCategory(db, id);
+      let productsHtml = '';
+      if (prods.length) {
+        const prodRows = prods.map(p =>
+          '<tr>' +
+          '<td><a href="product.html#' + productSlug(p) + '">' + esc(p.Producto) + '</a></td>' +
+          '<td><a href="provider.html#' + slugify(p.Proveedor) + '">' + esc(p.Proveedor) + '</a></td>' +
+          '<td>' + deployBadge(p.Despliegue) + '</td>' +
+          '<td style="color: var(--text-secondary); font-size: 0.85rem;">' + esc(p.Ediciones) + '</td>' +
+          '</tr>'
+        ).join('');
+
+        productsHtml = '<div class="detail-section">' +
+          '<h2>Productos en esta categoria (' + prods.length + ')</h2>' +
+          '<div class="panel"><div class="table-wrapper"><table>' +
+          '<thead><tr><th>Producto</th><th>Proveedor</th><th>Despliegue</th><th>Ediciones</th></tr></thead>' +
+          '<tbody>' + prodRows + '</tbody></table></div></div></div>';
+      }
+
       el.innerHTML = `
         ${renderBreadcrumbs([
           { href: 'index.html', label: 'Inicio' },
@@ -99,38 +119,7 @@
               ` : '<div class="empty panel">Sin proveedores asignados.</div>'}
             </div>
 
-            ${(() => {
-              const prods = productsForCategory(db, id);
-              if (!prods.length) return '';
-              return `
-                <div class="detail-section">
-                  <h2>Productos en esta categoria (${prods.length})</h2>
-                  <div class="panel">
-                    <div class="table-wrapper">
-                      <table>
-                        <thead>
-                          <tr>
-                            <th>Producto</th>
-                            <th>Proveedor</th>
-                            <th>Despliegue</th>
-                            <th>Ediciones</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          ${prods.map(p => `
-                            <tr>
-                              <td><a href="product.html#${productSlug(p)}">${esc(p.Producto)}</a></td>
-                              <td><a href="provider.html#${slugify(p.Proveedor)}">${esc(p.Proveedor)}</a></td>
-                              <td>${deployBadge(p.Despliegue)}</td>
-                              <td style="color: var(--text-secondary); font-size: 0.85rem;">${esc(p.Ediciones)}</td>
-                            </tr>
-                          `).join('')}
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>`;
-            })()}
+            ${productsHtml}
 
             ${related.length ? `
               <div class="detail-section">
