@@ -94,6 +94,12 @@
             <span class="weight-val" id="wv-provider">3</span>
           </div>
 
+          <div class="weight-row">
+            <label>Confianza (datos evaluados)</label>
+            <input type="range" id="w-confidence" min="0" max="10" value="4">
+            <span class="weight-val" id="wv-confidence">4</span>
+          </div>
+
           <div style="margin-top:12px">
             <button class="btn" id="btn-reset-weights" style="font-size:0.82rem;padding:6px 14px;">Resetear pesos</button>
           </div>
@@ -115,7 +121,7 @@
   <script src="assets/data.js"></script>
   <script>
     let db;
-    const defaultWeights = { cats: 5, doms: 3, priority: 5, niche: 2, provider: 3 };
+    const defaultWeights = { cats: 5, doms: 3, priority: 5, niche: 2, provider: 3, confidence: 4 };
 
     async function init() {
       db = await loadDB();
@@ -131,7 +137,7 @@
         document.getElementById(id).addEventListener('change', render);
       });
 
-      ['w-cats', 'w-doms', 'w-priority', 'w-niche', 'w-provider'].forEach(id => {
+      ['w-cats', 'w-doms', 'w-priority', 'w-niche', 'w-provider', 'w-confidence'].forEach(id => {
         const slider = document.getElementById(id);
         const valEl = document.getElementById('wv-' + id.split('-')[1]);
         slider.addEventListener('input', () => {
@@ -165,7 +171,8 @@
         doms: parseInt(document.getElementById('w-doms').value),
         priority: parseInt(document.getElementById('w-priority').value),
         niche: parseInt(document.getElementById('w-niche').value),
-        provider: parseInt(document.getElementById('w-provider').value)
+        provider: parseInt(document.getElementById('w-provider').value),
+        confidence: parseInt(document.getElementById('w-confidence').value)
       };
     }
 
@@ -220,6 +227,7 @@
           highPriority: highPriority,
           peerCount: peerSet.size,
           providerCats: provider ? parseInt(provider['N.º categorías']) || 0 : 0,
+          capFill: capabilityFillCount(db, p.Proveedor, p.Producto),
           excluded: false,
           reason: ''
         };
@@ -256,7 +264,7 @@
         const maxPeers = Math.max(...eligible.map(e => e.peerCount));
         const maxProvCats = Math.max(...eligible.map(e => e.providerCats));
 
-        const totalWeight = weights.cats + weights.doms + weights.priority + weights.niche + weights.provider;
+        const totalWeight = weights.cats + weights.doms + weights.priority + weights.niche + weights.provider + weights.confidence;
 
         eligible.forEach(e => {
           if (totalWeight === 0) { e.score = 0; return; }
@@ -264,16 +272,17 @@
           const normCats = maxCats ? e.catCount / maxCats : 0;
           const normDoms = maxDoms ? e.domainCount / maxDoms : 0;
           const normHigh = maxHigh ? e.highPriority / maxHigh : 0;
-          // Niche: fewer peers = higher score
           const normNiche = maxPeers ? 1 - (e.peerCount / maxPeers) : 1;
           const normProv = maxProvCats ? e.providerCats / maxProvCats : 0;
+          const normConf = e.capFill / 20; // 0-1 based on 20 total capabilities
 
           e.score = Math.round(
             ((normCats * weights.cats +
               normDoms * weights.doms +
               normHigh * weights.priority +
               normNiche * weights.niche +
-              normProv * weights.provider) / totalWeight) * 100
+              normProv * weights.provider +
+              normConf * weights.confidence) / totalWeight) * 100
           );
         });
 
@@ -309,6 +318,7 @@
           '<td>' + e.catCount + '</td>' +
           '<td>' + e.domainCount + '</td>' +
           '<td>' + e.highPriority + '</td>' +
+          '<td>' + (e.capFill > 0 ? '<strong>' + e.capFill + '</strong>/20' : '<span class="no-match">—</span>') + '</td>' +
           '<td><div class="score-bar-cell">' +
             '<div class="score-bar"><div class="score-bar-fill" style="width:' + e.score + '%;background:' + barColor + '"></div></div>' +
             '<span class="score-value">' + e.score + '</span>' +
@@ -321,7 +331,7 @@
         '<table>' +
         '<thead><tr>' +
         '<th>#</th><th>Producto</th><th>Proveedor</th><th>Despliegue</th>' +
-        '<th>Cats</th><th>Doms</th><th>P.Alta</th><th>Score</th>' +
+        '<th>Cats</th><th>Doms</th><th>P.Alta</th><th>Datos</th><th>Score</th>' +
         '</tr></thead>' +
         '<tbody>' + rows + '</tbody>' +
         '</table></div></div>';

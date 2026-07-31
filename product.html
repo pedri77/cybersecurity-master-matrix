@@ -66,6 +66,43 @@
         .filter(p => p.Producto !== product.Producto)
         .slice(0, 10);
 
+      // Build capabilities HTML outside template literal
+      const caps = getCapabilities(db);
+      const pc = getProductCapabilities(db, product.Proveedor, product.Producto);
+      let capsHtml = '';
+      if (pc) {
+        const capRows = caps.map(c => {
+          const key = c.ID;
+          const value = pc[key] || '';
+          const hasValue = value.trim() !== '';
+          return '<tr>' +
+            '<td><strong>' + esc(c['Dimensión']) + '</strong></td>' +
+            '<td>' + esc(c.Capacidad) + '</td>' +
+            '<td>' + (hasValue
+              ? value.split(';').map(v => '<span class="badge">' + esc(v.trim()) + '</span>').join(' ')
+              : '<span class="no-match">Sin datos</span>') +
+            '</td></tr>';
+        }).join('');
+        const filled = capabilityFillCount(db, product.Proveedor, product.Producto);
+        capsHtml = '<div class="detail-section">' +
+          '<h2>Capacidades evaluadas <span class="badge" style="font-size:0.75rem;margin-left:8px;">' + filled + '/20 pobladas</span></h2>' +
+          '<div class="panel"><div class="table-wrapper"><table>' +
+          '<thead><tr><th>Dimension</th><th>Capacidad</th><th>Valor</th></tr></thead>' +
+          '<tbody>' + capRows + '</tbody></table></div></div></div>';
+      } else {
+        const capRows = caps.map(c =>
+          '<tr><td><strong>' + esc(c['Dimensión']) + '</strong></td>' +
+          '<td>' + esc(c.Capacidad) + '</td>' +
+          '<td style="color:var(--text-secondary);font-size:0.85rem;">' + esc(c['Criterios / valores posibles']) + '</td></tr>'
+        ).join('');
+        capsHtml = '<div class="detail-section">' +
+          '<h2>Capacidades de evaluacion <span class="badge" style="font-size:0.75rem;margin-left:8px;">Sin datos</span></h2>' +
+          '<p style="color:var(--text-secondary);font-size:0.88rem;margin-bottom:12px;">Este producto no tiene capacidades evaluadas. Se muestran los criterios posibles.</p>' +
+          '<div class="panel"><div class="table-wrapper"><table>' +
+          '<thead><tr><th>Dimension</th><th>Capacidad</th><th>Criterios posibles</th></tr></thead>' +
+          '<tbody>' + capRows + '</tbody></table></div></div></div>';
+      }
+
       el.innerHTML = `
         ${renderBreadcrumbs([
           { href: 'index.html', label: 'Inicio' },
@@ -111,31 +148,7 @@
               </div>
             </div>
 
-            <div class="detail-section">
-              <h2>Capacidades de evaluacion</h2>
-              <div class="panel">
-                <div class="table-wrapper">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Dimension</th>
-                        <th>Capacidad</th>
-                        <th>Criterios posibles</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      ${caps.map(c => `
-                        <tr>
-                          <td><strong>${esc(c['Dimensión'])}</strong></td>
-                          <td>${esc(c.Capacidad)}</td>
-                          <td style="color: var(--text-secondary); font-size: 0.85rem;">${esc(c['Criterios / valores posibles'])}</td>
-                        </tr>
-                      `).join('')}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
+            ${capsHtml}
 
             ${peers.length ? `
               <div class="detail-section">
@@ -159,8 +172,8 @@
                   <span>Categorias</span>
                 </div>
                 <div class="sidebar-stat">
-                  <strong>${peers.length}</strong>
-                  <span>Competidores</span>
+                  <strong>${capabilityFillCount(db, product.Proveedor, product.Producto)}/20</strong>
+                  <span>Capacidades</span>
                 </div>
               </div>
               <div class="sidebar-row">

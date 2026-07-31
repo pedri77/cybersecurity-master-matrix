@@ -1,6 +1,6 @@
 /**
  * data.js — Shared data loader and utilities
- * Used by all pages in the Cybersecurity Master Matrix v0.5
+ * Used by all pages in the Cybersecurity Master Matrix v0.5.1
  */
 
 // Singleton DB cache
@@ -117,9 +117,33 @@ function findProviderByName(db, name) {
   return db.providers.find(p => p.Proveedor === name);
 }
 
-/** Get capabilities for a category (by domain) */
-function capabilitiesForCategory(db, category) {
+/** Get capability definitions */
+function getCapabilities(db) {
   return db.capabilities || [];
+}
+
+/** Get product capability values (returns object with CAP001-CAP020 keys, or null) */
+function getProductCapabilities(db, providerName, productName) {
+  return (db.productCapabilities || []).find(
+    pc => pc.Proveedor === providerName && pc.Producto === productName
+  ) || null;
+}
+
+/** Check if product has capability data populated */
+function hasCapabilityData(db, providerName, productName) {
+  return getProductCapabilities(db, providerName, productName) !== null;
+}
+
+/** Count how many capabilities are populated for a product */
+function capabilityFillCount(db, providerName, productName) {
+  const pc = getProductCapabilities(db, providerName, productName);
+  if (!pc) return 0;
+  let count = 0;
+  for (let i = 1; i <= 20; i++) {
+    const key = 'CAP' + String(i).padStart(3, '0');
+    if (pc[key] && pc[key].trim()) count++;
+  }
+  return count;
 }
 
 /** Build domain select options */
@@ -163,7 +187,7 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div class="container">
-        <span>Cybersecurity Master Matrix v0.5</span>
+        <span>Cybersecurity Master Matrix v0.5.1</span>
         <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a></span>
       </div>
     </footer>`;

@@ -239,11 +239,30 @@
           '</tr>';
       }).join('');
 
+      // Capability comparison rows
+      const caps = getCapabilities(db);
+      const capRows2 = caps.map(cap => {
+        return '<tr><td>' + esc(cap.Capacidad) + '</td>' +
+          products.map(p => {
+            const pc = getProductCapabilities(db, p.product.Proveedor, p.product.Producto);
+            if (!pc) return '<td><span class="no-match">—</span></td>';
+            const val = pc[cap.ID] || '';
+            if (!val.trim()) return '<td><span class="no-match">—</span></td>';
+            return '<td>' + val.split(';').map(v => '<span class="badge">' + esc(v.trim()) + '</span>').join(' ') + '</td>';
+          }).join('') +
+          '</tr>';
+      }).join('');
+
+      const sectionSep = function(title) {
+        return '<tr><td colspan="' + (products.length + 1) + '" style="padding:16px 14px;color:var(--accent);font-weight:600;font-size:0.88rem;text-transform:uppercase;letter-spacing:0.06em;">' + title + '</td></tr>';
+      };
+
       container.innerHTML =
         '<div class="panel"><div class="table-wrapper">' +
         '<table class="compare-table">' +
         '<thead><tr><th></th>' + headerCols + '</tr></thead>' +
         '<tbody>' +
+        sectionSep('General') +
         row('Proveedor', p => '<a href="provider.html#' + slugify(p.product.Proveedor) + '">' + esc(p.product.Proveedor) + '</a>') +
         row('Despliegue', p => deployBadge(p.product.Despliegue)) +
         row('Ediciones', p => '<span style="font-size:0.85rem">' + esc(p.product.Ediciones) + '</span>') +
@@ -252,8 +271,13 @@
           '<a class="badge" href="domain.html#' + esc(d.ID) + '">' + esc(d.Dominio) + '</a>'
         ).join(' ')) +
         row('Competidores', p => '<strong>' + p.peerCount + '</strong>') +
-        row('Estado', p => '<span class="badge">' + esc(p.product.Estado) + '</span>') +
-        '<tr><td colspan="' + (products.length + 1) + '" style="padding:16px 14px;color:var(--accent);font-weight:600;font-size:0.88rem;text-transform:uppercase;letter-spacing:0.06em;">Cobertura por categoria</td></tr>' +
+        row('Datos evaluados', p => {
+          const fill = capabilityFillCount(db, p.product.Proveedor, p.product.Producto);
+          return fill > 0 ? '<strong>' + fill + '/20</strong>' : '<span class="no-match">Sin datos</span>';
+        }) +
+        sectionSep('Capacidades') +
+        capRows2 +
+        sectionSep('Cobertura por categoria') +
         catRows +
         '</tbody></table></div></div>';
     }
