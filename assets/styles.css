@@ -236,7 +236,7 @@ a:hover {
 /* --- Entry Cards (homepage) --- */
 .entries {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
   margin: 32px 0;
 }
@@ -429,6 +429,31 @@ a.card {
 .badge.maturity-Especializado {
   background: rgba(200, 160, 255, 0.15);
   color: #c8a0ff;
+}
+
+.badge.deploy-saas {
+  background: rgba(85, 194, 255, 0.15);
+  color: var(--accent);
+}
+
+.badge.deploy-onprem {
+  background: rgba(255, 150, 100, 0.15);
+  color: #ff9664;
+}
+
+.badge.deploy-hybrid {
+  background: rgba(200, 160, 255, 0.15);
+  color: #c8a0ff;
+}
+
+.badge.deploy-cloud {
+  background: rgba(110, 231, 168, 0.15);
+  color: var(--success);
+}
+
+.badge.deploy-appliance {
+  background: rgba(255, 209, 102, 0.15);
+  color: var(--warning);
 }
 
 /* --- Table --- */

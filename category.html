@@ -99,6 +99,39 @@
               ` : '<div class="empty panel">Sin proveedores asignados.</div>'}
             </div>
 
+            ${(() => {
+              const prods = productsForCategory(db, id);
+              if (!prods.length) return '';
+              return `
+                <div class="detail-section">
+                  <h2>Productos en esta categoria (${prods.length})</h2>
+                  <div class="panel">
+                    <div class="table-wrapper">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Producto</th>
+                            <th>Proveedor</th>
+                            <th>Despliegue</th>
+                            <th>Ediciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${prods.map(p => `
+                            <tr>
+                              <td><a href="product.html#${productSlug(p)}">${esc(p.Producto)}</a></td>
+                              <td><a href="provider.html#${slugify(p.Proveedor)}">${esc(p.Proveedor)}</a></td>
+                              <td>${deployBadge(p.Despliegue)}</td>
+                              <td style="color: var(--text-secondary); font-size: 0.85rem;">${esc(p.Ediciones)}</td>
+                            </tr>
+                          `).join('')}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>`;
+            })()}
+
             ${related.length ? `
               <div class="detail-section">
                 <h2>Categorias relacionadas en ${esc(domain ? domain.Dominio : cat.Dominio)}</h2>
@@ -122,8 +155,8 @@
               <h3>Resumen</h3>
               <div class="sidebar-stats">
                 <div class="sidebar-stat">
-                  <strong>${providers.length}</strong>
-                  <span>Proveedores</span>
+                  <strong>${productsForCategory(db, id).length}</strong>
+                  <span>Productos</span>
                 </div>
                 <div class="sidebar-stat">
                   <strong>${related.length}</strong>

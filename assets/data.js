@@ -1,6 +1,6 @@
 /**
  * data.js — Shared data loader and utilities
- * Used by all pages in the Cybersecurity Master Matrix
+ * Used by all pages in the Cybersecurity Master Matrix v0.3
  */
 
 // Singleton DB cache
@@ -8,7 +8,6 @@ let _db = null;
 
 /**
  * Load matrix.json (cached after first call)
- * Handles relative paths for subdirectories
  */
 async function loadDB(basePath = '') {
   if (_db) return _db;
@@ -37,6 +36,13 @@ function slugify(str) {
     .replace(/^-+|-+$/g, '');
 }
 
+/** Product slug: provider-product combined */
+function productSlug(product) {
+  return slugify(product.Proveedor + ' ' + product.Producto);
+}
+
+// --- Lookup functions ---
+
 /** Get providers for a category ID */
 function providersForCategory(db, categoryId) {
   return db.map
@@ -56,6 +62,39 @@ function categoriesForProvider(db, providerName) {
     .map(m => m['ID categoría']);
   const unique = [...new Set(catIds)];
   return unique.map(id => db.categories.find(c => c['ID categoría'] === id)).filter(Boolean);
+}
+
+/** Get products for a category ID */
+function productsForCategory(db, categoryId) {
+  return (db.products || []).filter(p => p['ID categoría'] === categoryId);
+}
+
+/** Get products for a provider name (deduplicated by product name) */
+function productsForProvider(db, providerName) {
+  return (db.products || []).filter(p => p.Proveedor === providerName);
+}
+
+/** Get unique products for a provider (one row per product name) */
+function uniqueProductsForProvider(db, providerName) {
+  const all = productsForProvider(db, providerName);
+  const seen = new Set();
+  return all.filter(p => {
+    if (seen.has(p.Producto)) return false;
+    seen.add(p.Producto);
+    return true;
+  });
+}
+
+/** Find product by slug (first match) */
+function findProductBySlug(db, slug) {
+  return (db.products || []).find(p => productSlug(p) === slug);
+}
+
+/** Get all rows for a product (same provider+name, different categories) */
+function allProductRows(db, product) {
+  return (db.products || []).filter(p =>
+    p.Proveedor === product.Proveedor && p.Producto === product.Producto
+  );
 }
 
 /** Find a domain by ID */
@@ -78,11 +117,18 @@ function findProviderByName(db, name) {
   return db.providers.find(p => p.Proveedor === name);
 }
 
+/** Get capabilities for a category (by domain) */
+function capabilitiesForCategory(db, category) {
+  return db.capabilities || [];
+}
+
 /** Build domain select options */
 function fillDomainSelect(db, selectEl) {
   selectEl.innerHTML = '<option value="">Todos los dominios</option>' +
     db.domains.map(d => `<option value="${esc(d.ID)}">${esc(d.Dominio)}</option>`).join('');
 }
+
+// --- Render shared components ---
 
 /** Render shared nav bar */
 function renderNav(activePage) {
@@ -90,7 +136,8 @@ function renderNav(activePage) {
     { href: 'index.html', label: 'Inicio', id: 'home' },
     { href: 'domains.html', label: 'Dominios', id: 'domains' },
     { href: 'categories.html', label: 'Categorias', id: 'categories' },
-    { href: 'providers.html', label: 'Proveedores', id: 'providers' }
+    { href: 'providers.html', label: 'Proveedores', id: 'providers' },
+    { href: 'products.html', label: 'Productos', id: 'products' }
   ];
 
   return `
@@ -114,7 +161,7 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div class="container">
-        <span>Cybersecurity Master Matrix v0.2</span>
+        <span>Cybersecurity Master Matrix v0.3</span>
         <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a></span>
       </div>
     </footer>`;
@@ -140,7 +187,7 @@ function renderStats(db) {
     ['Dominios', m.domains],
     ['Categorias', m.categories],
     ['Proveedores', m.providers],
-    ['Relaciones', m.relations]
+    ['Productos', m.unique_products || 0]
   ];
   return items.map(([label, value]) =>
     `<div class="stat"><strong>${value}</strong><span>${label}</span></div>`
@@ -155,4 +202,16 @@ function priorityBadge(priority) {
 /** Maturity badge HTML */
 function maturityBadge(maturity) {
   return `<span class="badge maturity-${esc(maturity)}">${esc(maturity)}</span>`;
+}
+
+/** Deployment badge HTML */
+function deployBadge(deploy) {
+  const cls = {
+    'SaaS': 'deploy-saas',
+    'On-prem': 'deploy-onprem',
+    'Híbrido': 'deploy-hybrid',
+    'Cloud': 'deploy-cloud',
+    'Appliance': 'deploy-appliance'
+  }[deploy] || '';
+  return `<span class="badge ${cls}">${esc(deploy)}</span>`;
 }

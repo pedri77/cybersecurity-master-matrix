@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mas de 480 productos de ciberseguridad con proveedor, categoria, modelo de despliegue y ediciones.">
+  <title>Productos — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">Productos</div>
+        <h1>Productos de ciberseguridad</h1>
+        <p>Catalogo de productos concretos mapeados a proveedores, categorias y modelos de despliegue.</p>
+      </section>
+
+      <section class="panel toolbar">
+        <input id="search" type="search" placeholder="Buscar producto o proveedor...">
+        <select id="domain"></select>
+        <select id="deploy">
+          <option value="">Todos los despliegues</option>
+          <option>SaaS</option>
+          <option>On-prem</option>
+          <option>Híbrido</option>
+          <option>Cloud</option>
+          <option>Appliance</option>
+        </select>
+      </section>
+
+      <div class="section-header">
+        <h2>Todos los productos</h2>
+        <span id="resultCount" class="result-count"></span>
+      </div>
+
+      <div id="content"></div>
+
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('products');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const searchEl = document.getElementById('search');
+      const domainEl = document.getElementById('domain');
+      const deployEl = document.getElementById('deploy');
+
+      fillDomainSelect(db, domainEl);
+
+      // Deduplicate: show one row per unique product (first occurrence)
+      function getUniqueProducts() {
+        const seen = new Set();
+        return (db.products || []).filter(p => {
+          const key = p.Proveedor + '|' + p.Producto;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      }
+
+      function render() {
+        const q = searchEl.value.toLowerCase().trim();
+        const d = domainEl.value;
+        const dep = deployEl.value;
+
+        let items = getUniqueProducts();
+
+        if (dep) items = items.filter(p => p.Despliegue === dep);
+
+        if (d) {
+          // Filter by domain: get category IDs for this domain
+          const catIds = new Set(categoriesForDomain(db, d).map(c => c['ID categoría']));
+          // Get products that have at least one row in this domain
+          items = items.filter(p => {
+            const rows = allProductRows(db, p);
+            return rows.some(r => catIds.has(r['ID categoría']));
+          });
+        }
+
+        if (q) {
+          items = items.filter(p => {
+            const cat = findCategory(db, p['ID categoría']);
+            const text = [p.Producto, p.Proveedor, p.Ediciones, p.Despliegue, cat ? cat['Categoría tecnológica'] : ''].join(' ').toLowerCase();
+            return text.includes(q);
+          });
+        }
+
+        document.getElementById('resultCount').textContent = `${items.length} productos`;
+
+        if (!items.length) {
+          document.getElementById('content').innerHTML = '<div class="empty panel">No hay resultados.</div>';
+          return;
+        }
+
+        document.getElementById('content').innerHTML = `
+          <div class="panel categories-table">
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Producto</th>
+                    <th>Proveedor</th>
+                    <th>Categorias</th>
+                    <th>Despliegue</th>
+                    <th>Ediciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${items.map(p => {
+                    const rows = allProductRows(db, p);
+                    const cats = rows.map(r => findCategory(db, r['ID categoría'])).filter(Boolean);
+                    const slug = productSlug(p);
+                    return `
+                      <tr>
+                        <td><a href="product.html#${slug}">${esc(p.Producto)}</a></td>
+                        <td><a href="provider.html#${slugify(p.Proveedor)}">${esc(p.Proveedor)}</a></td>
+                        <td>${cats.map(c =>
+                          `<a class="badge" href="category.html#${esc(c['ID categoría'])}">${esc(c['Categoría tecnológica'])}</a>`
+                        ).join(' ')}</td>
+                        <td>${deployBadge(p.Despliegue)}</td>
+                        <td style="color: var(--text-secondary); font-size: 0.85rem;">${esc(p.Ediciones)}</td>
+                      </tr>`;
+                  }).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>`;
+      }
+
+      searchEl.addEventListener('input', render);
+      domainEl.addEventListener('change', render);
+      deployEl.addEventListener('change', render);
+      render();
+    }
+    init();
+  </script>
+</body>
+</html>

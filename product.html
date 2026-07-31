@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ficha de producto de ciberseguridad con categorias, capacidades y productos relacionados.">
+  <title>Producto — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content">
+    <div class="container">
+      <div id="content" class="loading">Cargando...</div>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      const db = await loadDB();
+      document.getElementById('nav-slot').innerHTML = renderNav('products');
+      document.getElementById('footer-slot').innerHTML = renderFooter();
+
+      const el = document.getElementById('content');
+      el.classList.remove('loading');
+
+      const slug = location.hash.slice(1);
+      const product = findProductBySlug(db, slug);
+
+      if (!product) {
+        el.innerHTML = '<div class="empty">Producto no encontrado. <a href="products.html">Ver todos los productos</a></div>';
+        return;
+      }
+
+      document.title = `${product.Producto} — CyberMatrix`;
+
+      // All rows for this product (different categories)
+      const rows = allProductRows(db, product);
+      const categories = rows.map(r => findCategory(db, r['ID categoría'])).filter(Boolean);
+      const provider = findProviderByName(db, product.Proveedor);
+
+      // Capabilities
+      const caps = db.capabilities || [];
+
+      // Peer products: same categories, different provider
+      const peerSet = new Set();
+      rows.forEach(r => {
+        const catProds = productsForCategory(db, r['ID categoría']);
+        catProds.forEach(cp => {
+          if (cp.Proveedor !== product.Proveedor) {
+            peerSet.add(cp.Proveedor + '|' + cp.Producto);
+          }
+        });
+      });
+      const peers = [...peerSet].slice(0, 15).map(key => {
+        const [prov, name] = key.split('|');
+        return { Proveedor: prov, Producto: name };
+      });
+
+      // Other products from same provider
+      const siblingProducts = uniqueProductsForProvider(db, product.Proveedor)
+        .filter(p => p.Producto !== product.Producto)
+        .slice(0, 10);
+
+      el.innerHTML = `
+        ${renderBreadcrumbs([
+          { href: 'index.html', label: 'Inicio' },
+          { href: 'products.html', label: 'Productos' },
+          { href: 'provider.html#' + slugify(product.Proveedor), label: product.Proveedor },
+          { label: product.Producto }
+        ])}
+
+        <div class="detail-header">
+          <div class="eyebrow">${esc(product.Proveedor)}</div>
+          <h1>${esc(product.Producto)}</h1>
+        </div>
+
+        <div class="detail-layout">
+          <div class="detail-main">
+            <div class="detail-section">
+              <h2>Categorias cubiertas (${categories.length})</h2>
+              <div class="panel">
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Categoria</th>
+                        <th>Dominio</th>
+                        <th>Prioridad</th>
+                        <th>Productos en categoria</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${categories.map(c => {
+                        const catProds = productsForCategory(db, c['ID categoría']);
+                        return `
+                          <tr>
+                            <td><a href="category.html#${esc(c['ID categoría'])}">${esc(c['Categoría tecnológica'])}</a></td>
+                            <td><a href="domain.html#${esc(c['ID dominio'])}">${esc(c.Dominio)}</a></td>
+                            <td>${priorityBadge(c.Prioridad)}</td>
+                            <td><span class="badge">${catProds.length}</span></td>
+                          </tr>`;
+                      }).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-section">
+              <h2>Capacidades de evaluacion</h2>
+              <div class="panel">
+                <div class="table-wrapper">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Dimension</th>
+                        <th>Capacidad</th>
+                        <th>Criterios posibles</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${caps.map(c => `
+                        <tr>
+                          <td><strong>${esc(c['Dimensión'])}</strong></td>
+                          <td>${esc(c.Capacidad)}</td>
+                          <td style="color: var(--text-secondary); font-size: 0.85rem;">${esc(c['Criterios / valores posibles'])}</td>
+                        </tr>
+                      `).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            ${peers.length ? `
+              <div class="detail-section">
+                <h2>Productos competidores</h2>
+                <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 12px;">Productos de otros proveedores en las mismas categorias.</p>
+                <div class="provider-chips">
+                  ${peers.map(p =>
+                    `<a class="provider-chip" href="product.html#${slugify(p.Proveedor + ' ' + p.Producto)}">${esc(p.Proveedor)} — ${esc(p.Producto)}</a>`
+                  ).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+
+          <aside class="detail-sidebar">
+            <div class="sidebar-card">
+              <h3>Ficha del producto</h3>
+              <div class="sidebar-stats">
+                <div class="sidebar-stat">
+                  <strong>${categories.length}</strong>
+                  <span>Categorias</span>
+                </div>
+                <div class="sidebar-stat">
+                  <strong>${peers.length}</strong>
+                  <span>Competidores</span>
+                </div>
+              </div>
+              <div class="sidebar-row">
+                <span>Proveedor</span>
+                <a href="provider.html#${slugify(product.Proveedor)}">${esc(product.Proveedor)}</a>
+              </div>
+              <div class="sidebar-row">
+                <span>Despliegue</span>
+                ${deployBadge(product.Despliegue)}
+              </div>
+              <div class="sidebar-row">
+                <span>Ediciones</span>
+                <span style="font-size: 0.85rem; text-align: right;">${esc(product.Ediciones)}</span>
+              </div>
+              <div class="sidebar-row">
+                <span>Estado</span>
+                <span class="badge">${esc(product.Estado)}</span>
+              </div>
+            </div>
+
+            ${siblingProducts.length ? `
+              <div class="sidebar-card">
+                <h3>Otros productos de ${esc(product.Proveedor)}</h3>
+                <div class="provider-chips">
+                  ${siblingProducts.map(p =>
+                    `<a class="provider-chip" href="product.html#${productSlug(p)}">${esc(p.Producto)}</a>`
+                  ).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </aside>
+        </div>
+      `;
+    }
+
+    init();
+    window.addEventListener('hashchange', init);
+  </script>
+</body>
+</html>

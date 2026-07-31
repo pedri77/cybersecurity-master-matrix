@@ -10215,6 +10215,4960 @@
     "domains": 20,
     "categories": 122,
     "providers": 343,
-    "relations": 668
-  }
+    "relations": 668,
+    "products": 550,
+    "unique_products": 486
+  },
+  "products": [
+    {
+      "ID producto": "P001",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "PA-Series NGFW",
+      "ID categoría": "C001",
+      "Despliegue": "Appliance",
+      "Ediciones": "PA-400, PA-800, PA-3200, PA-5200, PA-7000",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P002",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Access",
+      "ID categoría": "C002",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Business Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P003",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Access",
+      "ID categoría": "C003",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Business Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P004",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Access",
+      "ID categoría": "C004",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Business Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P005",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud",
+      "ID categoría": "C025",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise, Runtime Security",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P006",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud",
+      "ID categoría": "C026",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise, Runtime Security",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P007",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud",
+      "ID categoría": "C027",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise, Runtime Security",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P008",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud",
+      "ID categoría": "C029",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise, Runtime Security",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P009",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex XDR",
+      "ID categoría": "C020",
+      "Despliegue": "SaaS",
+      "Ediciones": "Prevent, Pro",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P010",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex XDR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Prevent, Pro",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P011",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex XSOAR",
+      "ID categoría": "C048",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P012",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex Xpanse",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P013",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "AI Runtime Security",
+      "ID categoría": "C083",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P014",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud DSPM",
+      "ID categoría": "C032",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P015",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud CIEM",
+      "ID categoría": "C028",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P016",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Prisma Cloud CDR",
+      "ID categoría": "C030",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P017",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex XSIAM",
+      "ID categoría": "C049",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P018",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "IoT Security",
+      "ID categoría": "C090",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P019",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "DNS Security",
+      "ID categoría": "C009",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P020",
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "AI-SPM",
+      "ID categoría": "C082",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P021",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiGate",
+      "ID categoría": "C001",
+      "Despliegue": "Appliance",
+      "Ediciones": "FortiGate 40F, 60F, 100F, 200F, 600F, 1000F, 3000F, 4000F",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P022",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiSASE",
+      "ID categoría": "C003",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P023",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiEDR",
+      "ID categoría": "C020",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P024",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiSIEM",
+      "ID categoría": "C047",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P025",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiSOAR",
+      "ID categoría": "C048",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P026",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiNAC",
+      "ID categoría": "C008",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P027",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiGate EPP",
+      "ID categoría": "C019",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P028",
+      "Proveedor": "Fortinet",
+      "Producto": "FortiAnalyzer",
+      "ID categoría": "C049",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P029",
+      "Proveedor": "Check Point",
+      "Producto": "Quantum Security Gateway",
+      "ID categoría": "C001",
+      "Despliegue": "Appliance",
+      "Ediciones": "Quantum Spark, Quantum Maestro",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P030",
+      "Proveedor": "Check Point",
+      "Producto": "CloudGuard CNAPP",
+      "ID categoría": "C025",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P031",
+      "Proveedor": "Check Point",
+      "Producto": "CloudGuard CSPM",
+      "ID categoría": "C026",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P032",
+      "Proveedor": "Check Point",
+      "Producto": "Harmony Email & Collaboration",
+      "ID categoría": "C093",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P033",
+      "Proveedor": "Check Point",
+      "Producto": "Harmony Email & Collaboration",
+      "ID categoría": "C094",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P034",
+      "Proveedor": "Check Point",
+      "Producto": "Infinity XDR/XPR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P035",
+      "Proveedor": "Check Point",
+      "Producto": "Harmony Endpoint",
+      "ID categoría": "C019",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P036",
+      "Proveedor": "Check Point",
+      "Producto": "Harmony Connect",
+      "ID categoría": "C096",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P037",
+      "Proveedor": "Cisco",
+      "Producto": "Secure Firewall",
+      "ID categoría": "C001",
+      "Despliegue": "Appliance",
+      "Ediciones": "1100, 3100, 4200, 9300",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P038",
+      "Proveedor": "Cisco",
+      "Producto": "Umbrella",
+      "ID categoría": "C009",
+      "Despliegue": "SaaS",
+      "Ediciones": "DNS Security Essentials, DNS Security Advantage, SIG Essentials",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P039",
+      "Proveedor": "Cisco",
+      "Producto": "Secure Access",
+      "ID categoría": "C002",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P040",
+      "Proveedor": "Cisco",
+      "Producto": "Secure Access",
+      "ID categoría": "C004",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P041",
+      "Proveedor": "Cisco",
+      "Producto": "Duo Security",
+      "ID categoría": "C016",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Essentials, Advantage, Premier",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P042",
+      "Proveedor": "Cisco",
+      "Producto": "Duo Security",
+      "ID categoría": "C018",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Essentials, Advantage, Premier",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P043",
+      "Proveedor": "Cisco",
+      "Producto": "XDR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Advantage, Premier",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P044",
+      "Proveedor": "Cisco",
+      "Producto": "Talos Intelligence",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P045",
+      "Proveedor": "Cisco",
+      "Producto": "Secure Endpoint",
+      "ID categoría": "C019",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Advantage, Premier",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P046",
+      "Proveedor": "Cisco",
+      "Producto": "Secure Endpoint",
+      "ID categoría": "C020",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Advantage, Premier",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P047",
+      "Proveedor": "Cisco",
+      "Producto": "Stealthwatch / Secure Network Analytics",
+      "ID categoría": "C007",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P048",
+      "Proveedor": "Cisco",
+      "Producto": "Identity Services Engine",
+      "ID categoría": "C008",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P049",
+      "Proveedor": "Cisco",
+      "Producto": "AI Defense",
+      "ID categoría": "C083",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P050",
+      "Proveedor": "Cisco",
+      "Producto": "Microsegmentation (Secure Workload)",
+      "ID categoría": "C010",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P051",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Prevent",
+      "ID categoría": "C019",
+      "Despliegue": "SaaS",
+      "Ediciones": "Falcon Go, Falcon Pro, Falcon Enterprise, Falcon Elite",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P052",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Insight",
+      "ID categoría": "C020",
+      "Despliegue": "SaaS",
+      "Ediciones": "Falcon Pro, Falcon Enterprise, Falcon Elite",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P053",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon XDR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Falcon Enterprise, Falcon Elite",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P054",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Identity Threat Detection",
+      "ID categoría": "C015",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P055",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Cloud Security",
+      "ID categoría": "C025",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P056",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Cloud Security",
+      "ID categoría": "C027",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P057",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Intelligence",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Falcon Intelligence, Falcon Intelligence Premium, Falcon Intelligence Elite",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P058",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Complete",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P059",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Next-Gen SIEM",
+      "ID categoría": "C049",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P060",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Cloud Detection & Response",
+      "ID categoría": "C030",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P061",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Exposure Management",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P062",
+      "Proveedor": "CrowdStrike",
+      "Producto": "CrowdStrike Services",
+      "ID categoría": "C104",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P063",
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Forensics",
+      "ID categoría": "C122",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P064",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Endpoint",
+      "ID categoría": "C019",
+      "Despliegue": "SaaS",
+      "Ediciones": "P1, P2",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P065",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Endpoint",
+      "ID categoría": "C020",
+      "Despliegue": "SaaS",
+      "Ediciones": "P1, P2",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P066",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender XDR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P067",
+      "Proveedor": "Microsoft",
+      "Producto": "Entra ID",
+      "ID categoría": "C011",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, P1, P2, Governance",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P068",
+      "Proveedor": "Microsoft",
+      "Producto": "Entra ID Governance",
+      "ID categoría": "C012",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P069",
+      "Proveedor": "Microsoft",
+      "Producto": "Sentinel",
+      "ID categoría": "C047",
+      "Despliegue": "Cloud",
+      "Ediciones": "Pay-as-you-go, Commitment Tiers",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P070",
+      "Proveedor": "Microsoft",
+      "Producto": "Purview DLP",
+      "ID categoría": "C031",
+      "Despliegue": "SaaS",
+      "Ediciones": "E3, E5",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P071",
+      "Proveedor": "Microsoft",
+      "Producto": "Purview Information Protection",
+      "ID categoría": "C033",
+      "Despliegue": "SaaS",
+      "Ediciones": "E3, E5",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P072",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Cloud",
+      "ID categoría": "C025",
+      "Despliegue": "Cloud",
+      "Ediciones": "Foundational CSPM (Free), Defender CSPM",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P073",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Cloud",
+      "ID categoría": "C026",
+      "Despliegue": "Cloud",
+      "Ediciones": "Foundational CSPM (Free), Defender CSPM",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P074",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Cloud",
+      "ID categoría": "C027",
+      "Despliegue": "Cloud",
+      "Ediciones": "Foundational CSPM (Free), Defender CSPM",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P075",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for IoT",
+      "ID categoría": "C088",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P076",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for IoT",
+      "ID categoría": "C090",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P077",
+      "Proveedor": "Microsoft",
+      "Producto": "Copilot for Security",
+      "ID categoría": "C049",
+      "Despliegue": "SaaS",
+      "Ediciones": "Pay-per-use SCU, Embedded",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P078",
+      "Proveedor": "Microsoft",
+      "Producto": "Intune",
+      "ID categoría": "C022",
+      "Despliegue": "SaaS",
+      "Ediciones": "P1, P2, Suite",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P079",
+      "Proveedor": "Microsoft",
+      "Producto": "Entra Permissions Management",
+      "ID categoría": "C028",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P080",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Cloud CDR",
+      "ID categoría": "C030",
+      "Despliegue": "Cloud",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P081",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Identity",
+      "ID categoría": "C015",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P082",
+      "Proveedor": "Microsoft",
+      "Producto": "Entra ID",
+      "ID categoría": "C014",
+      "Despliegue": "SaaS",
+      "Ediciones": "External Identities, Azure AD B2C",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P083",
+      "Proveedor": "Microsoft",
+      "Producto": "Entra ID",
+      "ID categoría": "C016",
+      "Despliegue": "SaaS",
+      "Ediciones": "P1, P2",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P084",
+      "Proveedor": "Microsoft",
+      "Producto": "Entra ID",
+      "ID categoría": "C018",
+      "Despliegue": "SaaS",
+      "Ediciones": "P1, P2",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P085",
+      "Proveedor": "Microsoft",
+      "Producto": "Sentinel UEBA",
+      "ID categoría": "C052",
+      "Despliegue": "Cloud",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P086",
+      "Proveedor": "Microsoft",
+      "Producto": "App Control for Business",
+      "ID categoría": "C024",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P087",
+      "Proveedor": "Microsoft",
+      "Producto": "Purview Encryption",
+      "ID categoría": "C036",
+      "Despliegue": "SaaS",
+      "Ediciones": "E3, E5",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P088",
+      "Proveedor": "Microsoft",
+      "Producto": "Azure Confidential Computing",
+      "ID categoría": "C037",
+      "Despliegue": "Cloud",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P089",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender Vulnerability Management",
+      "ID categoría": "C063",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standalone, Add-on",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P090",
+      "Proveedor": "Microsoft",
+      "Producto": "Defender EASM",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P091",
+      "Proveedor": "Zscaler",
+      "Producto": "Zscaler Internet Access (ZIA)",
+      "ID categoría": "C002",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Transformation, Unlimited",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P092",
+      "Proveedor": "Zscaler",
+      "Producto": "Zscaler Private Access (ZPA)",
+      "ID categoría": "C004",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Transformation, Unlimited",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P093",
+      "Proveedor": "Zscaler",
+      "Producto": "Zscaler Digital Experience (ZDX)",
+      "ID categoría": "C003",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P094",
+      "Proveedor": "Zscaler",
+      "Producto": "Zscaler Data Protection",
+      "ID categoría": "C031",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P095",
+      "Proveedor": "Netskope",
+      "Producto": "Netskope One SSE",
+      "ID categoría": "C002",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P096",
+      "Proveedor": "Netskope",
+      "Producto": "Netskope ZTNA Next",
+      "ID categoría": "C004",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P097",
+      "Proveedor": "Netskope",
+      "Producto": "Netskope DLP",
+      "ID categoría": "C031",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P098",
+      "Proveedor": "Netskope",
+      "Producto": "Netskope SkopeAI",
+      "ID categoría": "C096",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P099",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare WAF",
+      "ID categoría": "C005",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Pro, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P100",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare DDoS Protection",
+      "ID categoría": "C006",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Pro, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P101",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare Zero Trust",
+      "ID categoría": "C004",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Pay-as-you-go, Contract",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P102",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare AI Gateway",
+      "ID categoría": "C086",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P103",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare Bot Management",
+      "ID categoría": "C099",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P104",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare API Shield",
+      "ID categoría": "C042",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P105",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare DNS Firewall",
+      "ID categoría": "C009",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P106",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare Gateway",
+      "ID categoría": "C002",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P107",
+      "Proveedor": "Cloudflare",
+      "Producto": "Cloudflare AI Firewall",
+      "ID categoría": "C083",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P108",
+      "Proveedor": "Wiz",
+      "Producto": "Wiz CNAPP",
+      "ID categoría": "C025",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P109",
+      "Proveedor": "Wiz",
+      "Producto": "Wiz CSPM",
+      "ID categoría": "C026",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P110",
+      "Proveedor": "Wiz",
+      "Producto": "Wiz DSPM",
+      "ID categoría": "C032",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P111",
+      "Proveedor": "Wiz",
+      "Producto": "Wiz CDR",
+      "ID categoría": "C030",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P112",
+      "Proveedor": "Wiz",
+      "Producto": "Wiz AI-SPM",
+      "ID categoría": "C082",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P113",
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity Endpoint Protection",
+      "ID categoría": "C019",
+      "Despliegue": "SaaS",
+      "Ediciones": "Singularity Core, Control, Complete",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P114",
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity EDR",
+      "ID categoría": "C020",
+      "Despliegue": "SaaS",
+      "Ediciones": "Singularity Control, Complete",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P115",
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity XDR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Singularity Complete, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P116",
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity Cloud Workload Security",
+      "ID categoría": "C027",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P117",
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity Cloud Detection & Response",
+      "ID categoría": "C030",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P118",
+      "Proveedor": "CyberArk",
+      "Producto": "Privileged Access Manager",
+      "ID categoría": "C013",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Self-Hosted, Privilege Cloud",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P119",
+      "Proveedor": "CyberArk",
+      "Producto": "Workforce Identity",
+      "ID categoría": "C011",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P120",
+      "Proveedor": "CyberArk",
+      "Producto": "Endpoint Privilege Manager",
+      "ID categoría": "C023",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, Self-Hosted",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P121",
+      "Proveedor": "CyberArk",
+      "Producto": "Secrets Hub",
+      "ID categoría": "C044",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P122",
+      "Proveedor": "CyberArk",
+      "Producto": "Secrets Hub",
+      "ID categoría": "C112",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P123",
+      "Proveedor": "CyberArk",
+      "Producto": "Machine Identity Security",
+      "ID categoría": "C017",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P124",
+      "Proveedor": "CyberArk",
+      "Producto": "Cloud Entitlements Manager",
+      "ID categoría": "C028",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P125",
+      "Proveedor": "Okta",
+      "Producto": "Workforce Identity Cloud",
+      "ID categoría": "C011",
+      "Despliegue": "SaaS",
+      "Ediciones": "Single Sign-On, Adaptive MFA, Lifecycle Management",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P126",
+      "Proveedor": "Okta",
+      "Producto": "Customer Identity Cloud (Auth0)",
+      "ID categoría": "C014",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Essential, Professional, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P127",
+      "Proveedor": "Okta",
+      "Producto": "Advanced Server Access",
+      "ID categoría": "C013",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P128",
+      "Proveedor": "Okta",
+      "Producto": "Okta Verify Passwordless",
+      "ID categoría": "C016",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P129",
+      "Proveedor": "Okta",
+      "Producto": "Okta Adaptive MFA",
+      "ID categoría": "C018",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P130",
+      "Proveedor": "SailPoint",
+      "Producto": "Identity Security Cloud",
+      "ID categoría": "C012",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Business Plus, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P131",
+      "Proveedor": "SailPoint",
+      "Producto": "IdentityNow",
+      "ID categoría": "C012",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essential, Business, Business Plus",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P132",
+      "Proveedor": "Splunk",
+      "Producto": "Enterprise Security",
+      "ID categoría": "C047",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Splunk Cloud, Splunk Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P133",
+      "Proveedor": "Splunk",
+      "Producto": "SOAR",
+      "ID categoría": "C048",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P134",
+      "Proveedor": "Splunk",
+      "Producto": "User Behavior Analytics",
+      "ID categoría": "C052",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P135",
+      "Proveedor": "Tenable",
+      "Producto": "Nessus Professional",
+      "ID categoría": "C063",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Professional, Expert",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P136",
+      "Proveedor": "Tenable",
+      "Producto": "Tenable One",
+      "ID categoría": "C062",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P137",
+      "Proveedor": "Tenable",
+      "Producto": "Tenable Vulnerability Management",
+      "ID categoría": "C063",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P138",
+      "Proveedor": "Tenable",
+      "Producto": "Tenable Vulnerability Management",
+      "ID categoría": "C064",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P139",
+      "Proveedor": "Tenable",
+      "Producto": "Tenable Identity Exposure",
+      "ID categoría": "C015",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P140",
+      "Proveedor": "Tenable",
+      "Producto": "Tenable Attack Surface Management",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P141",
+      "Proveedor": "Qualys",
+      "Producto": "VMDR",
+      "ID categoría": "C063",
+      "Despliegue": "SaaS",
+      "Ediciones": "VMDR, VMDR with TruRisk",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P142",
+      "Proveedor": "Qualys",
+      "Producto": "VMDR",
+      "ID categoría": "C064",
+      "Despliegue": "SaaS",
+      "Ediciones": "VMDR, VMDR with TruRisk",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P143",
+      "Proveedor": "Qualys",
+      "Producto": "TotalCloud",
+      "ID categoría": "C025",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P144",
+      "Proveedor": "Qualys",
+      "Producto": "Web Application Scanning",
+      "ID categoría": "C046",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P145",
+      "Proveedor": "Qualys",
+      "Producto": "CyberSecurity Asset Management",
+      "ID categoría": "C067",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P146",
+      "Proveedor": "Rapid7",
+      "Producto": "InsightVM",
+      "ID categoría": "C063",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P147",
+      "Proveedor": "Rapid7",
+      "Producto": "InsightIDR",
+      "ID categoría": "C047",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essential, Advanced, Ultimate",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P148",
+      "Proveedor": "Rapid7",
+      "Producto": "InsightConnect",
+      "ID categoría": "C048",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P149",
+      "Proveedor": "Rapid7",
+      "Producto": "Metasploit",
+      "ID categoría": "C066",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Framework (Open Source), Pro",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P150",
+      "Proveedor": "Rapid7",
+      "Producto": "InsightAppSec",
+      "ID categoría": "C039",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P151",
+      "Proveedor": "Rapid7",
+      "Producto": "Managed Detection & Response",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P152",
+      "Proveedor": "Rapid7",
+      "Producto": "InsightVM",
+      "ID categoría": "C064",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P153",
+      "Proveedor": "Rapid7",
+      "Producto": "EASM",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P154",
+      "Proveedor": "Thales",
+      "Producto": "Luna Network HSM",
+      "ID categoría": "C105",
+      "Despliegue": "Appliance",
+      "Ediciones": "Luna Network HSM 7, Luna PCIe HSM 7",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P155",
+      "Proveedor": "Thales",
+      "Producto": "CipherTrust Manager",
+      "ID categoría": "C109",
+      "Despliegue": "Híbrido",
+      "Ediciones": "CipherTrust Cloud, CipherTrust Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P156",
+      "Proveedor": "Thales",
+      "Producto": "SafeNet Trusted Access",
+      "ID categoría": "C018",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P157",
+      "Proveedor": "Thales",
+      "Producto": "payShield 10K",
+      "ID categoría": "C105",
+      "Despliegue": "Appliance",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P158",
+      "Proveedor": "Thales",
+      "Producto": "CipherTrust Tokenization",
+      "ID categoría": "C035",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P159",
+      "Proveedor": "Thales",
+      "Producto": "CipherTrust Transparent Encryption",
+      "ID categoría": "C036",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P160",
+      "Proveedor": "Thales",
+      "Producto": "SafeNet Authentication Service",
+      "ID categoría": "C108",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P161",
+      "Proveedor": "Thales",
+      "Producto": "CipherTrust Data Discovery & Classification",
+      "ID categoría": "C034",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P162",
+      "Proveedor": "Thales",
+      "Producto": "High Speed Encryptor",
+      "ID categoría": "C114",
+      "Despliegue": "Appliance",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P163",
+      "Proveedor": "Thales",
+      "Producto": "PQC Starter Kit",
+      "ID categoría": "C115",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P164",
+      "Proveedor": "Thales",
+      "Producto": "PQC Starter Kit",
+      "ID categoría": "C116",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P165",
+      "Proveedor": "Entrust",
+      "Producto": "nShield HSM",
+      "ID categoría": "C105",
+      "Despliegue": "Appliance",
+      "Ediciones": "nShield Connect, nShield Solo, nShield as a Service",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P166",
+      "Proveedor": "Entrust",
+      "Producto": "PKI as a Service",
+      "ID categoría": "C110",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P167",
+      "Proveedor": "Entrust",
+      "Producto": "Certificate Hub",
+      "ID categoría": "C111",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P168",
+      "Proveedor": "Entrust",
+      "Producto": "Enterprise Encryption",
+      "ID categoría": "C036",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P169",
+      "Proveedor": "Entrust",
+      "Producto": "KeyControl",
+      "ID categoría": "C109",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P170",
+      "Proveedor": "Entrust",
+      "Producto": "PQC Ready Solutions",
+      "ID categoría": "C116",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P171",
+      "Proveedor": "Recorded Future",
+      "Producto": "Intelligence Cloud",
+      "ID categoría": "C055",
+      "Despliegue": "SaaS",
+      "Ediciones": "Intelligence Cloud, Analyst Community (Free)",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P172",
+      "Proveedor": "Recorded Future",
+      "Producto": "Intelligence Cloud",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P173",
+      "Proveedor": "Recorded Future",
+      "Producto": "Brand Intelligence",
+      "ID categoría": "C060",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P174",
+      "Proveedor": "Recorded Future",
+      "Producto": "Digital Risk Protection",
+      "ID categoría": "C058",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P175",
+      "Proveedor": "Recorded Future",
+      "Producto": "Malware Intelligence",
+      "ID categoría": "C059",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P176",
+      "Proveedor": "Mandiant",
+      "Producto": "Advantage Threat Intelligence",
+      "ID categoría": "C055",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P177",
+      "Proveedor": "Mandiant",
+      "Producto": "Advantage Threat Intelligence",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P178",
+      "Proveedor": "Mandiant",
+      "Producto": "Attack Surface Management",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P179",
+      "Proveedor": "Mandiant",
+      "Producto": "Incident Response Retainer",
+      "ID categoría": "C104",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P180",
+      "Proveedor": "Mandiant",
+      "Producto": "Managed Defense",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P181",
+      "Proveedor": "Mandiant",
+      "Producto": "Consulting Services",
+      "ID categoría": "C120",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P182",
+      "Proveedor": "IBM",
+      "Producto": "QRadar SIEM",
+      "ID categoría": "C047",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community Edition, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P183",
+      "Proveedor": "IBM",
+      "Producto": "Guardium Data Protection",
+      "ID categoría": "C034",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P184",
+      "Proveedor": "IBM",
+      "Producto": "OpenPages",
+      "ID categoría": "C069",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, Software",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P185",
+      "Proveedor": "IBM",
+      "Producto": "Verify",
+      "ID categoría": "C011",
+      "Despliegue": "SaaS",
+      "Ediciones": "Verify SaaS, Verify Access",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P186",
+      "Proveedor": "IBM",
+      "Producto": "watsonx.governance",
+      "ID categoría": "C081",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P187",
+      "Proveedor": "IBM",
+      "Producto": "watsonx.governance",
+      "ID categoría": "C085",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P188",
+      "Proveedor": "IBM",
+      "Producto": "Guardium Key Lifecycle Manager",
+      "ID categoría": "C109",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P189",
+      "Proveedor": "IBM",
+      "Producto": "Guardium Encryption",
+      "ID categoría": "C036",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P190",
+      "Proveedor": "IBM",
+      "Producto": "QRadar SOAR",
+      "ID categoría": "C048",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P191",
+      "Proveedor": "IBM",
+      "Producto": "Concert",
+      "ID categoría": "C054",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P192",
+      "Proveedor": "IBM",
+      "Producto": "Quantum Safe",
+      "ID categoría": "C115",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P193",
+      "Proveedor": "IBM",
+      "Producto": "Quantum Safe",
+      "ID categoría": "C116",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P194",
+      "Proveedor": "IBM",
+      "Producto": "z16 Quantum Safe",
+      "ID categoría": "C105",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P195",
+      "Proveedor": "IBM",
+      "Producto": "Crypto Agility Services",
+      "ID categoría": "C114",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P196",
+      "Proveedor": "ServiceNow",
+      "Producto": "Security Operations (SecOps)",
+      "ID categoría": "C054",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Professional, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P197",
+      "Proveedor": "ServiceNow",
+      "Producto": "Integrated Risk Management",
+      "ID categoría": "C070",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Professional, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P198",
+      "Proveedor": "ServiceNow",
+      "Producto": "GRC",
+      "ID categoría": "C069",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Professional, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P199",
+      "Proveedor": "ServiceNow",
+      "Producto": "TPRM",
+      "ID categoría": "C071",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P200",
+      "Proveedor": "ServiceNow",
+      "Producto": "Vulnerability Response",
+      "ID categoría": "C064",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P201",
+      "Proveedor": "OneTrust",
+      "Producto": "Privacy Management",
+      "ID categoría": "C077",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P202",
+      "Proveedor": "OneTrust",
+      "Producto": "Consent & Preferences",
+      "ID categoría": "C078",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P203",
+      "Proveedor": "OneTrust",
+      "Producto": "GRC & Security Assurance",
+      "ID categoría": "C069",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P204",
+      "Proveedor": "OneTrust",
+      "Producto": "IT & Security Risk Management",
+      "ID categoría": "C070",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P205",
+      "Proveedor": "OneTrust",
+      "Producto": "Third-Party Risk Management",
+      "ID categoría": "C071",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P206",
+      "Proveedor": "OneTrust",
+      "Producto": "AI Governance",
+      "ID categoría": "C085",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P207",
+      "Proveedor": "OneTrust",
+      "Producto": "Data Subject Rights",
+      "ID categoría": "C079",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P208",
+      "Proveedor": "Vanta",
+      "Producto": "Trust Management Platform",
+      "ID categoría": "C072",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P209",
+      "Proveedor": "Vanta",
+      "Producto": "Trust Management Platform",
+      "ID categoría": "C076",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P210",
+      "Proveedor": "Drata",
+      "Producto": "Compliance Automation",
+      "ID categoría": "C072",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Growth, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P211",
+      "Proveedor": "Drata",
+      "Producto": "Compliance Automation",
+      "ID categoría": "C076",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Growth, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P212",
+      "Proveedor": "Vectra AI",
+      "Producto": "Vectra NDR",
+      "ID categoría": "C007",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Essentials, Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P213",
+      "Proveedor": "ExtraHop",
+      "Producto": "RevealX",
+      "ID categoría": "C007",
+      "Despliegue": "Híbrido",
+      "Ediciones": "RevealX 360 (SaaS), RevealX Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P214",
+      "Proveedor": "Darktrace",
+      "Producto": "Darktrace DETECT",
+      "ID categoría": "C007",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise, Cloud",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P215",
+      "Proveedor": "Darktrace",
+      "Producto": "Darktrace RESPOND",
+      "ID categoría": "C007",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P216",
+      "Proveedor": "Darktrace",
+      "Producto": "Darktrace DETECT/RESPOND OT",
+      "ID categoría": "C089",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P217",
+      "Proveedor": "Snyk",
+      "Producto": "Snyk Code",
+      "ID categoría": "C038",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Team, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P218",
+      "Proveedor": "Snyk",
+      "Producto": "Snyk Open Source",
+      "ID categoría": "C040",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Team, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P219",
+      "Proveedor": "Snyk",
+      "Producto": "Snyk Container",
+      "ID categoría": "C029",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Team, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P220",
+      "Proveedor": "Snyk",
+      "Producto": "Snyk IaC",
+      "ID categoría": "C041",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Team, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P221",
+      "Proveedor": "Snyk",
+      "Producto": "Snyk Supply Chain",
+      "ID categoría": "C043",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P222",
+      "Proveedor": "Aqua Security",
+      "Producto": "Aqua Platform",
+      "ID categoría": "C029",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Cloud Native, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P223",
+      "Proveedor": "Sysdig",
+      "Producto": "Sysdig Secure",
+      "ID categoría": "C027",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P224",
+      "Proveedor": "Sysdig",
+      "Producto": "Sysdig Secure",
+      "ID categoría": "C029",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P225",
+      "Proveedor": "Arctic Wolf",
+      "Producto": "Managed Detection & Response",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P226",
+      "Proveedor": "Sophos",
+      "Producto": "Intercept X Endpoint",
+      "ID categoría": "C019",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Advanced, Advanced with XDR",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P227",
+      "Proveedor": "Sophos",
+      "Producto": "Intercept X Endpoint",
+      "ID categoría": "C020",
+      "Despliegue": "SaaS",
+      "Ediciones": "Advanced, Advanced with XDR",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P228",
+      "Proveedor": "Sophos",
+      "Producto": "Managed Detection & Response",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Complete",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P229",
+      "Proveedor": "Sophos",
+      "Producto": "Sophos Firewall",
+      "ID categoría": "C001",
+      "Despliegue": "Appliance",
+      "Ediciones": "XGS Series, Virtual",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P230",
+      "Proveedor": "Keyfactor",
+      "Producto": "EJBCA",
+      "ID categoría": "C110",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P231",
+      "Proveedor": "Keyfactor",
+      "Producto": "Command",
+      "ID categoría": "C111",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P232",
+      "Proveedor": "Keyfactor",
+      "Producto": "Signum",
+      "ID categoría": "C113",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P233",
+      "Proveedor": "Keyfactor",
+      "Producto": "Crypto Agility Platform",
+      "ID categoría": "C114",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P234",
+      "Proveedor": "Keyfactor",
+      "Producto": "PQC Lab",
+      "ID categoría": "C115",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P235",
+      "Proveedor": "Keyfactor",
+      "Producto": "PQC Lab",
+      "ID categoría": "C116",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P236",
+      "Proveedor": "Venafi",
+      "Producto": "TLS Protect",
+      "ID categoría": "C111",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Cloud, Datacenter",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P237",
+      "Proveedor": "Venafi",
+      "Producto": "CodeSign Protect",
+      "ID categoría": "C113",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P238",
+      "Proveedor": "Venafi",
+      "Producto": "Machine Identity Security",
+      "ID categoría": "C017",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P239",
+      "Proveedor": "Venafi",
+      "Producto": "Venafi PKI",
+      "ID categoría": "C110",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P240",
+      "Proveedor": "DigiCert",
+      "Producto": "CertCentral",
+      "ID categoría": "C110",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P241",
+      "Proveedor": "DigiCert",
+      "Producto": "CertCentral",
+      "ID categoría": "C111",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P242",
+      "Proveedor": "DigiCert",
+      "Producto": "Software Trust Manager",
+      "ID categoría": "C113",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P243",
+      "Proveedor": "DigiCert",
+      "Producto": "PQC Toolkit",
+      "ID categoría": "C116",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P244",
+      "Proveedor": "Claroty",
+      "Producto": "xDome",
+      "ID categoría": "C088",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P245",
+      "Proveedor": "Claroty",
+      "Producto": "xDome",
+      "ID categoría": "C089",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P246",
+      "Proveedor": "Claroty",
+      "Producto": "Medigate",
+      "ID categoría": "C091",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P247",
+      "Proveedor": "Nozomi Networks",
+      "Producto": "Vantage",
+      "ID categoría": "C088",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Vantage (SaaS), Guardian (On-Prem)",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P248",
+      "Proveedor": "Nozomi Networks",
+      "Producto": "Vantage",
+      "ID categoría": "C089",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Vantage (SaaS), Guardian (On-Prem)",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P249",
+      "Proveedor": "Dragos",
+      "Producto": "Dragos Platform",
+      "ID categoría": "C088",
+      "Despliegue": "On-prem",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P250",
+      "Proveedor": "Dragos",
+      "Producto": "Dragos Platform",
+      "ID categoría": "C089",
+      "Despliegue": "On-prem",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P251",
+      "Proveedor": "Proofpoint",
+      "Producto": "Email Protection",
+      "ID categoría": "C093",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Advanced, Complete",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P252",
+      "Proveedor": "Proofpoint",
+      "Producto": "Targeted Attack Protection (TAP)",
+      "ID categoría": "C093",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P253",
+      "Proveedor": "Proofpoint",
+      "Producto": "Email Fraud Defense (DMARC)",
+      "ID categoría": "C095",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P254",
+      "Proveedor": "Proofpoint",
+      "Producto": "DLP",
+      "ID categoría": "C031",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P255",
+      "Proveedor": "Proofpoint",
+      "Producto": "Brand Protection",
+      "ID categoría": "C060",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P256",
+      "Proveedor": "Proofpoint",
+      "Producto": "Digital Risk Protection",
+      "ID categoría": "C100",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P257",
+      "Proveedor": "Abnormal Security",
+      "Producto": "Abnormal Inbound Email Security",
+      "ID categoría": "C094",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P258",
+      "Proveedor": "SecurityScorecard",
+      "Producto": "Ratings Platform",
+      "ID categoría": "C068",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P259",
+      "Proveedor": "SecurityScorecard",
+      "Producto": "Third-Party Risk Management",
+      "ID categoría": "C071",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P260",
+      "Proveedor": "BitSight",
+      "Producto": "Security Ratings",
+      "ID categoría": "C068",
+      "Despliegue": "SaaS",
+      "Ediciones": "Security Ratings, Third-Party Risk Management",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P261",
+      "Proveedor": "BitSight",
+      "Producto": "Third-Party Risk Management",
+      "ID categoría": "C071",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P262",
+      "Proveedor": "HashiCorp",
+      "Producto": "Vault",
+      "ID categoría": "C044",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Open Source, Enterprise, HCP Vault",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P263",
+      "Proveedor": "HashiCorp",
+      "Producto": "Vault",
+      "ID categoría": "C112",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Open Source, Enterprise, HCP Vault",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P264",
+      "Proveedor": "HashiCorp",
+      "Producto": "Vault Enterprise Key Management",
+      "ID categoría": "C109",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P265",
+      "Proveedor": "Fortanix",
+      "Producto": "Data Security Manager",
+      "ID categoría": "C105",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P266",
+      "Proveedor": "Fortanix",
+      "Producto": "Data Security Manager",
+      "ID categoría": "C109",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P267",
+      "Proveedor": "Fortanix",
+      "Producto": "Confidential Computing Manager",
+      "ID categoría": "C037",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P268",
+      "Proveedor": "Fortanix",
+      "Producto": "Tokenization",
+      "ID categoría": "C036",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P269",
+      "Proveedor": "Fortanix",
+      "Producto": "Privacy Enhancing Computation",
+      "ID categoría": "C080",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P270",
+      "Proveedor": "SandboxAQ",
+      "Producto": "AQtive Guard",
+      "ID categoría": "C115",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P271",
+      "Proveedor": "SandboxAQ",
+      "Producto": "AQtive Guard",
+      "ID categoría": "C116",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P272",
+      "Proveedor": "SandboxAQ",
+      "Producto": "Crypto Agility",
+      "ID categoría": "C114",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P273",
+      "Proveedor": "Feedzai",
+      "Producto": "Feedzai RiskOps Platform",
+      "ID categoría": "C097",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P274",
+      "Proveedor": "BioCatch",
+      "Producto": "Behavioral Biometrics",
+      "ID categoría": "C097",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P275",
+      "Proveedor": "BioCatch",
+      "Producto": "Behavioral Biometrics",
+      "ID categoría": "C098",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P276",
+      "Proveedor": "Checkmarx",
+      "Producto": "Checkmarx One SAST",
+      "ID categoría": "C038",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P277",
+      "Proveedor": "Checkmarx",
+      "Producto": "Checkmarx One ASPM",
+      "ID categoría": "C041",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P278",
+      "Proveedor": "Veracode",
+      "Producto": "Static Analysis",
+      "ID categoría": "C038",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P279",
+      "Proveedor": "Veracode",
+      "Producto": "Dynamic Analysis",
+      "ID categoría": "C039",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P280",
+      "Proveedor": "Veracode",
+      "Producto": "SCA",
+      "ID categoría": "C040",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P281",
+      "Proveedor": "Synopsys",
+      "Producto": "Coverity (SAST)",
+      "ID categoría": "C038",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P282",
+      "Proveedor": "Synopsys",
+      "Producto": "Black Duck (SCA)",
+      "ID categoría": "C040",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P283",
+      "Proveedor": "Synopsys",
+      "Producto": "Polaris (DAST)",
+      "ID categoría": "C039",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P284",
+      "Proveedor": "Sonar",
+      "Producto": "SonarQube / SonarCloud",
+      "ID categoría": "C038",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Developer, Enterprise, Data Center",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P285",
+      "Proveedor": "Sonatype",
+      "Producto": "Nexus Lifecycle (SCA)",
+      "ID categoría": "C040",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Starter, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P286",
+      "Proveedor": "Sonatype",
+      "Producto": "Nexus Repository (Supply Chain)",
+      "ID categoría": "C043",
+      "Despliegue": "Híbrido",
+      "Ediciones": "OSS, Pro",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P287",
+      "Proveedor": "JFrog",
+      "Producto": "Xray (SCA)",
+      "ID categoría": "C040",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Free, Pro, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P288",
+      "Proveedor": "JFrog",
+      "Producto": "Artifactory (Supply Chain)",
+      "ID categoría": "C043",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Pro, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P289",
+      "Proveedor": "JFrog",
+      "Producto": "ML Model Management",
+      "ID categoría": "C087",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P290",
+      "Proveedor": "GitHub",
+      "Producto": "Advanced Security (Dependabot)",
+      "ID categoría": "C040",
+      "Despliegue": "SaaS",
+      "Ediciones": "GitHub Advanced Security, GHAS for Azure DevOps",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P291",
+      "Proveedor": "GitHub",
+      "Producto": "Advanced Security (Code Scanning)",
+      "ID categoría": "C043",
+      "Despliegue": "SaaS",
+      "Ediciones": "GitHub Advanced Security, GHAS for Azure DevOps",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P292",
+      "Proveedor": "Salt Security",
+      "Producto": "Salt Security API Protection",
+      "ID categoría": "C042",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P293",
+      "Proveedor": "Contrast Security",
+      "Producto": "Contrast Protect (RASP)",
+      "ID categoría": "C045",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community, Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P294",
+      "Proveedor": "Akamai",
+      "Producto": "App & API Protector",
+      "ID categoría": "C005",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P295",
+      "Proveedor": "Akamai",
+      "Producto": "Prolexic DDoS Protection",
+      "ID categoría": "C006",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P296",
+      "Proveedor": "Akamai",
+      "Producto": "Enterprise Threat Protector / DNS",
+      "ID categoría": "C009",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P297",
+      "Proveedor": "Akamai",
+      "Producto": "API Security (Noname)",
+      "ID categoría": "C042",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P298",
+      "Proveedor": "Akamai",
+      "Producto": "Bot Manager",
+      "ID categoría": "C099",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P299",
+      "Proveedor": "Akamai",
+      "Producto": "Guardicore Segmentation",
+      "ID categoría": "C010",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P300",
+      "Proveedor": "F5",
+      "Producto": "BIG-IP Advanced WAF",
+      "ID categoría": "C005",
+      "Despliegue": "Appliance",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P301",
+      "Proveedor": "Imperva",
+      "Producto": "Cloud WAF",
+      "ID categoría": "C005",
+      "Despliegue": "SaaS",
+      "Ediciones": "Professional, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P302",
+      "Proveedor": "Imperva",
+      "Producto": "DDoS Protection",
+      "ID categoría": "C006",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P303",
+      "Proveedor": "Imperva",
+      "Producto": "API Security",
+      "ID categoría": "C042",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P304",
+      "Proveedor": "Imperva",
+      "Producto": "Database Activity Monitoring",
+      "ID categoría": "C034",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P305",
+      "Proveedor": "Imperva",
+      "Producto": "Bot Management",
+      "ID categoría": "C099",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P306",
+      "Proveedor": "Imperva",
+      "Producto": "RASP",
+      "ID categoría": "C045",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P307",
+      "Proveedor": "Elastic",
+      "Producto": "Elastic Security (SIEM)",
+      "ID categoría": "C047",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Basic (Free), Gold, Platinum, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P308",
+      "Proveedor": "Exabeam",
+      "Producto": "New-Scale SIEM",
+      "ID categoría": "C047",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P309",
+      "Proveedor": "Exabeam",
+      "Producto": "New-Scale UEBA",
+      "ID categoría": "C052",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P310",
+      "Proveedor": "Tines",
+      "Producto": "Tines Automation Platform",
+      "ID categoría": "C048",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community (Free), Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P311",
+      "Proveedor": "Tines",
+      "Producto": "Tines Automation Platform",
+      "ID categoría": "C051",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community (Free), Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P312",
+      "Proveedor": "Swimlane",
+      "Producto": "Turbine",
+      "ID categoría": "C048",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Starter, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P313",
+      "Proveedor": "Swimlane",
+      "Producto": "Turbine",
+      "ID categoría": "C051",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Starter, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P314",
+      "Proveedor": "Torq",
+      "Producto": "Torq Hyperautomation",
+      "ID categoría": "C048",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P315",
+      "Proveedor": "Torq",
+      "Producto": "Torq Hyperautomation",
+      "ID categoría": "C051",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P316",
+      "Proveedor": "SOC Prime",
+      "Producto": "SOC Prime Platform",
+      "ID categoría": "C050",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community (Free), Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P317",
+      "Proveedor": "Cymulate",
+      "Producto": "Cymulate BAS",
+      "ID categoría": "C065",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P318",
+      "Proveedor": "Cymulate",
+      "Producto": "Cymulate Exposure Management",
+      "ID categoría": "C062",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P319",
+      "Proveedor": "Cymulate",
+      "Producto": "Cymulate Security Validation",
+      "ID categoría": "C066",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P320",
+      "Proveedor": "Picus",
+      "Producto": "Picus Security Validation",
+      "ID categoría": "C065",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Complete, Standard",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P321",
+      "Proveedor": "Picus",
+      "Producto": "Picus Security Validation",
+      "ID categoría": "C066",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Complete, Standard",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P322",
+      "Proveedor": "Pentera",
+      "Producto": "Pentera Core",
+      "ID categoría": "C066",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Core, Surface",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P323",
+      "Proveedor": "Pentera",
+      "Producto": "Pentera Surface",
+      "ID categoría": "C046",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P324",
+      "Proveedor": "Pentera",
+      "Producto": "Pentera Core",
+      "ID categoría": "C065",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P325",
+      "Proveedor": "AttackIQ",
+      "Producto": "AttackIQ Platform",
+      "ID categoría": "C065",
+      "Despliegue": "SaaS",
+      "Ediciones": "Ready! (Free), Enterprise, Flex",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P326",
+      "Proveedor": "SafeBreach",
+      "Producto": "SafeBreach BAS Platform",
+      "ID categoría": "C065",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P327",
+      "Proveedor": "SafeBreach",
+      "Producto": "SafeBreach BAS Platform",
+      "ID categoría": "C066",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P328",
+      "Proveedor": "Axonius",
+      "Producto": "Axonius Cybersecurity Asset Management",
+      "ID categoría": "C067",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P329",
+      "Proveedor": "Armis",
+      "Producto": "Armis Centrix",
+      "ID categoría": "C067",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P330",
+      "Proveedor": "Armis",
+      "Producto": "Armis Centrix for OT",
+      "ID categoría": "C088",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P331",
+      "Proveedor": "Armis",
+      "Producto": "Armis Centrix for Medical",
+      "ID categoría": "C091",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P332",
+      "Proveedor": "Armis",
+      "Producto": "Armis Centrix for IoT",
+      "ID categoría": "C090",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P333",
+      "Proveedor": "runZero",
+      "Producto": "runZero Platform",
+      "ID categoría": "C067",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P334",
+      "Proveedor": "Forescout",
+      "Producto": "Forescout eyeSight",
+      "ID categoría": "C008",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P335",
+      "Proveedor": "Forescout",
+      "Producto": "Forescout eyeInspect",
+      "ID categoría": "C088",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P336",
+      "Proveedor": "Forescout",
+      "Producto": "Forescout Continuum",
+      "ID categoría": "C090",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P337",
+      "Proveedor": "Forescout",
+      "Producto": "Forescout eyeInspect for Medical",
+      "ID categoría": "C091",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P338",
+      "Proveedor": "Ping Identity",
+      "Producto": "PingOne for Workforce",
+      "ID categoría": "C011",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essential, Plus, Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P339",
+      "Proveedor": "Ping Identity",
+      "Producto": "PingOne for Customers",
+      "ID categoría": "C014",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essential, Plus, Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P340",
+      "Proveedor": "BeyondTrust",
+      "Producto": "Privilege Management",
+      "ID categoría": "C013",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P341",
+      "Proveedor": "BeyondTrust",
+      "Producto": "Endpoint Privilege Management",
+      "ID categoría": "C023",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P342",
+      "Proveedor": "Delinea",
+      "Producto": "Secret Server",
+      "ID categoría": "C013",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Free (25 secrets), Professional, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P343",
+      "Proveedor": "Delinea",
+      "Producto": "Privilege Manager",
+      "ID categoría": "C023",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P344",
+      "Proveedor": "Saviynt",
+      "Producto": "Enterprise IGA",
+      "ID categoría": "C012",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P345",
+      "Proveedor": "One Identity",
+      "Producto": "Identity Manager",
+      "ID categoría": "C012",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P346",
+      "Proveedor": "One Identity",
+      "Producto": "Safeguard",
+      "ID categoría": "C013",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P347",
+      "Proveedor": "Silverfort",
+      "Producto": "Unified Identity Protection",
+      "ID categoría": "C015",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P348",
+      "Proveedor": "Semperis",
+      "Producto": "Directory Services Protector",
+      "ID categoría": "C015",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P349",
+      "Proveedor": "Varonis",
+      "Producto": "DatAdvantage Cloud",
+      "ID categoría": "C015",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P350",
+      "Proveedor": "Varonis",
+      "Producto": "Data Security Platform",
+      "ID categoría": "C032",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P351",
+      "Proveedor": "Varonis",
+      "Producto": "Data Classification Engine",
+      "ID categoría": "C033",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P352",
+      "Proveedor": "Lookout",
+      "Producto": "Lookout Mobile Endpoint Security",
+      "ID categoría": "C022",
+      "Despliegue": "SaaS",
+      "Ediciones": "Basic, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P353",
+      "Proveedor": "Zimperium",
+      "Producto": "MAPS",
+      "ID categoría": "C022",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P354",
+      "Proveedor": "Trend Micro",
+      "Producto": "Trend Vision One Endpoint",
+      "ID categoría": "C019",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P355",
+      "Proveedor": "Trend Micro",
+      "Producto": "Trend Vision One XDR",
+      "ID categoría": "C021",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P356",
+      "Proveedor": "Trend Micro",
+      "Producto": "Trend Vision One Cloud Security",
+      "ID categoría": "C027",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P357",
+      "Proveedor": "Trellix",
+      "Producto": "Trellix Endpoint Security",
+      "ID categoría": "C019",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P358",
+      "Proveedor": "Trellix",
+      "Producto": "Trellix DLP",
+      "ID categoría": "C031",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Endpoint, Network, Cloud",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P359",
+      "Proveedor": "Broadcom Symantec",
+      "Producto": "Symantec DLP",
+      "ID categoría": "C031",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Endpoint, Network, Cloud, Storage",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P360",
+      "Proveedor": "Forcepoint",
+      "Producto": "Forcepoint DLP",
+      "ID categoría": "C031",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Cloud, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P361",
+      "Proveedor": "Cyera",
+      "Producto": "Cyera Data Security Platform",
+      "ID categoría": "C032",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P362",
+      "Proveedor": "BigID",
+      "Producto": "BigID Data Intelligence Platform",
+      "ID categoría": "C032",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P363",
+      "Proveedor": "BigID",
+      "Producto": "BigID Data Discovery & Classification",
+      "ID categoría": "C033",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P364",
+      "Proveedor": "BigID",
+      "Producto": "BigID Privacy Suite",
+      "ID categoría": "C077",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P365",
+      "Proveedor": "Fortra",
+      "Producto": "Fortra Data Classification Suite",
+      "ID categoría": "C033",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P366",
+      "Proveedor": "ThreatConnect",
+      "Producto": "ThreatConnect Platform",
+      "ID categoría": "C055",
+      "Despliegue": "SaaS",
+      "Ediciones": "TC Identify, TC Complete",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P367",
+      "Proveedor": "Anomali",
+      "Producto": "Anomali ThreatStream",
+      "ID categoría": "C055",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P368",
+      "Proveedor": "EclecticIQ",
+      "Producto": "EclecticIQ Intelligence Center",
+      "ID categoría": "C055",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P369",
+      "Proveedor": "Flashpoint",
+      "Producto": "Flashpoint Intelligence Platform",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P370",
+      "Proveedor": "Flashpoint",
+      "Producto": "Flashpoint Digital Risk Protection",
+      "ID categoría": "C058",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P371",
+      "Proveedor": "Intel 471",
+      "Producto": "TITAN Intelligence Platform",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P372",
+      "Proveedor": "KELA",
+      "Producto": "KELA Cyber Intelligence Platform",
+      "ID categoría": "C056",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P373",
+      "Proveedor": "KELA",
+      "Producto": "KELA Digital Risk Protection",
+      "ID categoría": "C058",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P374",
+      "Proveedor": "VirusTotal",
+      "Producto": "VirusTotal Enterprise",
+      "ID categoría": "C059",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Premium, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P375",
+      "Proveedor": "ANY.RUN",
+      "Producto": "ANY.RUN Interactive Sandbox",
+      "ID categoría": "C059",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Hunter, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P376",
+      "Proveedor": "ReversingLabs",
+      "Producto": "TitaniumPlatform",
+      "ID categoría": "C059",
+      "Despliegue": "Híbrido",
+      "Ediciones": "A1000, TitaniumCloud",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P377",
+      "Proveedor": "Intezer",
+      "Producto": "Intezer Analyze",
+      "ID categoría": "C059",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P378",
+      "Proveedor": "MISP",
+      "Producto": "MISP Threat Sharing Platform",
+      "ID categoría": "C057",
+      "Despliegue": "On-prem",
+      "Ediciones": "Community (Free)",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P379",
+      "Proveedor": "OpenCTI",
+      "Producto": "OpenCTI Platform",
+      "ID categoría": "C055",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P380",
+      "Proveedor": "OpenCTI",
+      "Producto": "OpenCTI Platform",
+      "ID categoría": "C057",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P381",
+      "Proveedor": "SOCRadar",
+      "Producto": "SOCRadar Extended Threat Intelligence",
+      "ID categoría": "C058",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Advanced, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P382",
+      "Proveedor": "Cybersixgill",
+      "Producto": "Cybersixgill DVE Intelligence",
+      "ID categoría": "C058",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P383",
+      "Proveedor": "Group-IB",
+      "Producto": "Threat Intelligence Platform",
+      "ID categoría": "C058",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P384",
+      "Proveedor": "ZeroFox",
+      "Producto": "ZeroFox Platform",
+      "ID categoría": "C060",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P385",
+      "Proveedor": "ZeroFox",
+      "Producto": "Brand Protection",
+      "ID categoría": "C100",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P386",
+      "Proveedor": "Bolster",
+      "Producto": "Bolster Platform",
+      "ID categoría": "C060",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P387",
+      "Proveedor": "Bolster",
+      "Producto": "Brand Protection",
+      "ID categoría": "C100",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P388",
+      "Proveedor": "CyCognito",
+      "Producto": "CyCognito Attack Surface Management",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P389",
+      "Proveedor": "Censys",
+      "Producto": "Censys Attack Surface Management",
+      "ID categoría": "C061",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P390",
+      "Proveedor": "XM Cyber",
+      "Producto": "XM Cyber Continuous Exposure Management",
+      "ID categoría": "C062",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P391",
+      "Proveedor": "Greenbone",
+      "Producto": "OpenVAS / Greenbone Enterprise",
+      "ID categoría": "C063",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P392",
+      "Proveedor": "Nucleus Security",
+      "Producto": "Nucleus Platform",
+      "ID categoría": "C064",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P393",
+      "Proveedor": "Vulcan Cyber",
+      "Producto": "Vulcan Cyber ExposureOS",
+      "ID categoría": "C064",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P394",
+      "Proveedor": "JupiterOne",
+      "Producto": "JupiterOne CAASM",
+      "ID categoría": "C067",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P395",
+      "Proveedor": "Archer",
+      "Producto": "Archer IRM",
+      "ID categoría": "C069",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P396",
+      "Proveedor": "Archer",
+      "Producto": "Archer IRM",
+      "ID categoría": "C070",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, On-Prem",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P397",
+      "Proveedor": "MetricStream",
+      "Producto": "MetricStream GRC Platform",
+      "ID categoría": "C069",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P398",
+      "Proveedor": "MetricStream",
+      "Producto": "MetricStream Audit Management",
+      "ID categoría": "C074",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P399",
+      "Proveedor": "LogicGate",
+      "Producto": "Risk Cloud",
+      "ID categoría": "C070",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P400",
+      "Proveedor": "AuditBoard",
+      "Producto": "AuditBoard IT Risk",
+      "ID categoría": "C070",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P401",
+      "Proveedor": "AuditBoard",
+      "Producto": "AuditBoard Audit Management",
+      "ID categoría": "C074",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P402",
+      "Proveedor": "Secureframe",
+      "Producto": "Secureframe Compliance",
+      "ID categoría": "C072",
+      "Despliegue": "SaaS",
+      "Ediciones": "Growth, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P403",
+      "Proveedor": "Secureframe",
+      "Producto": "Secureframe Compliance",
+      "ID categoría": "C076",
+      "Despliegue": "SaaS",
+      "Ediciones": "Growth, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P404",
+      "Proveedor": "Sprinto",
+      "Producto": "Sprinto Compliance Automation",
+      "ID categoría": "C076",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Growth, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P405",
+      "Proveedor": "ProcessUnity",
+      "Producto": "ProcessUnity TPRM",
+      "ID categoría": "C071",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P406",
+      "Proveedor": "UpGuard",
+      "Producto": "UpGuard BreachSight",
+      "ID categoría": "C068",
+      "Despliegue": "SaaS",
+      "Ediciones": "Starter, Professional, Corporate, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P407",
+      "Proveedor": "UpGuard",
+      "Producto": "UpGuard Vendor Risk",
+      "ID categoría": "C071",
+      "Despliegue": "SaaS",
+      "Ediciones": "Starter, Professional, Corporate, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P408",
+      "Proveedor": "Safe Security",
+      "Producto": "SAFE One Platform",
+      "ID categoría": "C073",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P409",
+      "Proveedor": "Kovrr",
+      "Producto": "Kovrr CRQ Platform",
+      "ID categoría": "C073",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P410",
+      "Proveedor": "TrustArc",
+      "Producto": "TrustArc Privacy Management",
+      "ID categoría": "C077",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P411",
+      "Proveedor": "TrustArc",
+      "Producto": "TrustArc Consent Manager",
+      "ID categoría": "C078",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P412",
+      "Proveedor": "Securiti",
+      "Producto": "Securiti Data Command Center",
+      "ID categoría": "C077",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P413",
+      "Proveedor": "Securiti",
+      "Producto": "Securiti DSR Automation",
+      "ID categoría": "C079",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P414",
+      "Proveedor": "Transcend",
+      "Producto": "Transcend Privacy Platform",
+      "ID categoría": "C077",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P415",
+      "Proveedor": "Transcend",
+      "Producto": "Transcend DSR Automation",
+      "ID categoría": "C079",
+      "Despliegue": "SaaS",
+      "Ediciones": "Startup, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P416",
+      "Proveedor": "Usercentrics",
+      "Producto": "Usercentrics CMP",
+      "ID categoría": "C078",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P417",
+      "Proveedor": "Didomi",
+      "Producto": "Didomi CMP",
+      "ID categoría": "C078",
+      "Despliegue": "SaaS",
+      "Ediciones": "Self-Service, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P418",
+      "Proveedor": "Credo AI",
+      "Producto": "Credo AI Governance Platform",
+      "ID categoría": "C081",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P419",
+      "Proveedor": "Credo AI",
+      "Producto": "Credo AI Governance Platform",
+      "ID categoría": "C085",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P420",
+      "Proveedor": "Holistic AI",
+      "Producto": "Holistic AI Platform",
+      "ID categoría": "C081",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P421",
+      "Proveedor": "Holistic AI",
+      "Producto": "Holistic AI Platform",
+      "ID categoría": "C085",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P422",
+      "Proveedor": "Protect AI",
+      "Producto": "Guardian",
+      "ID categoría": "C082",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P423",
+      "Proveedor": "Protect AI",
+      "Producto": "Guardian",
+      "ID categoría": "C083",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P424",
+      "Proveedor": "Protect AI",
+      "Producto": "ModelScan",
+      "ID categoría": "C087",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Open Source, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P425",
+      "Proveedor": "Protect AI",
+      "Producto": "Guardian",
+      "ID categoría": "C086",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P426",
+      "Proveedor": "HiddenLayer",
+      "Producto": "MLDR",
+      "ID categoría": "C082",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P427",
+      "Proveedor": "HiddenLayer",
+      "Producto": "MLDR",
+      "ID categoría": "C083",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P428",
+      "Proveedor": "HiddenLayer",
+      "Producto": "Model Scanner",
+      "ID categoría": "C087",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P429",
+      "Proveedor": "Lakera",
+      "Producto": "Lakera Guard",
+      "ID categoría": "C083",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Pro, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P430",
+      "Proveedor": "Lakera",
+      "Producto": "Lakera Red",
+      "ID categoría": "C084",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P431",
+      "Proveedor": "Lakera",
+      "Producto": "Lakera Guard",
+      "ID categoría": "C086",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P432",
+      "Proveedor": "Kong",
+      "Producto": "Kong AI Gateway",
+      "ID categoría": "C086",
+      "Despliegue": "Híbrido",
+      "Ediciones": "OSS (Free), Enterprise, Konnect",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P433",
+      "Proveedor": "Mimecast",
+      "Producto": "Mimecast Email Security",
+      "ID categoría": "C093",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essentials, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P434",
+      "Proveedor": "Barracuda",
+      "Producto": "Barracuda Email Protection",
+      "ID categoría": "C093",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essential, Complete, Premium",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P435",
+      "Proveedor": "Material Security",
+      "Producto": "Material Security Platform",
+      "ID categoría": "C094",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P436",
+      "Proveedor": "Sublime Security",
+      "Producto": "Sublime Platform",
+      "ID categoría": "C094",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Free, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P437",
+      "Proveedor": "Valimail",
+      "Producto": "Valimail Enforce",
+      "ID categoría": "C095",
+      "Despliegue": "SaaS",
+      "Ediciones": "Monitor (Free), Enforce",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P438",
+      "Proveedor": "EasyDMARC",
+      "Producto": "EasyDMARC Platform",
+      "ID categoría": "C095",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Plus, Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P439",
+      "Proveedor": "Red Sift",
+      "Producto": "OnDMARC",
+      "ID categoría": "C095",
+      "Despliegue": "SaaS",
+      "Ediciones": "Essential, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P440",
+      "Proveedor": "Featurespace",
+      "Producto": "ARIC Risk Hub",
+      "ID categoría": "C097",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P441",
+      "Proveedor": "NICE Actimize",
+      "Producto": "X-Sight Platform",
+      "ID categoría": "C097",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P442",
+      "Proveedor": "HUMAN",
+      "Producto": "HUMAN Bot Defender",
+      "ID categoría": "C099",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P443",
+      "Proveedor": "HUMAN",
+      "Producto": "HUMAN Account Defender",
+      "ID categoría": "C098",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P444",
+      "Proveedor": "DataDome",
+      "Producto": "DataDome Bot Protection",
+      "ID categoría": "C099",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Corporate, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P445",
+      "Proveedor": "Sift",
+      "Producto": "Sift Digital Trust & Safety",
+      "ID categoría": "C098",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P446",
+      "Proveedor": "Arkose Labs",
+      "Producto": "Arkose Bot Manager",
+      "ID categoría": "C098",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P447",
+      "Proveedor": "Transmit Security",
+      "Producto": "Transmit Security Detection & Response",
+      "ID categoría": "C098",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P448",
+      "Proveedor": "Secureworks",
+      "Producto": "Taegis ManagedXDR",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P449",
+      "Proveedor": "ReliaQuest",
+      "Producto": "GreyMatter",
+      "ID categoría": "C101",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P450",
+      "Proveedor": "Magnet Forensics",
+      "Producto": "Magnet AXIOM",
+      "ID categoría": "C053",
+      "Despliegue": "Híbrido",
+      "Ediciones": "AXIOM Examine, AXIOM Cyber",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P451",
+      "Proveedor": "Magnet Forensics",
+      "Producto": "Magnet AXIOM",
+      "ID categoría": "C122",
+      "Despliegue": "Híbrido",
+      "Ediciones": "AXIOM Examine, AXIOM Cyber",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P452",
+      "Proveedor": "Cellebrite",
+      "Producto": "Cellebrite UFED",
+      "ID categoría": "C053",
+      "Despliegue": "Híbrido",
+      "Ediciones": "UFED Touch2, UFED 4PC",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P453",
+      "Proveedor": "Cellebrite",
+      "Producto": "Cellebrite UFED",
+      "ID categoría": "C122",
+      "Despliegue": "Híbrido",
+      "Ediciones": "UFED Touch2, UFED 4PC",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P454",
+      "Proveedor": "Orca Security",
+      "Producto": "Orca Cloud Security Platform",
+      "ID categoría": "C025",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P455",
+      "Proveedor": "Orca Security",
+      "Producto": "Orca CSPM",
+      "ID categoría": "C026",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P456",
+      "Proveedor": "Red Hat",
+      "Producto": "Red Hat Advanced Cluster Security",
+      "ID categoría": "C029",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P457",
+      "Proveedor": "Illumio",
+      "Producto": "Illumio Core",
+      "ID categoría": "C010",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Core, Endpoint, CloudSecure",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P458",
+      "Proveedor": "Skyhigh Security",
+      "Producto": "Skyhigh SSE",
+      "ID categoría": "C002",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P459",
+      "Proveedor": "Cato Networks",
+      "Producto": "Cato SASE Cloud",
+      "ID categoría": "C003",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P460",
+      "Proveedor": "Appgate",
+      "Producto": "Appgate SDP",
+      "ID categoría": "C004",
+      "Despliegue": "Híbrido",
+      "Ediciones": "SaaS, Self-Hosted",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P461",
+      "Proveedor": "HPE Aruba",
+      "Producto": "EdgeConnect SD-WAN / SASE",
+      "ID categoría": "C003",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P462",
+      "Proveedor": "HPE Aruba",
+      "Producto": "ClearPass",
+      "ID categoría": "C008",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P463",
+      "Proveedor": "Infoblox",
+      "Producto": "BloxOne Threat Defense",
+      "ID categoría": "C009",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business Essential, Business Cloud, Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P464",
+      "Proveedor": "Juniper",
+      "Producto": "SRX Series Firewall",
+      "ID categoría": "C001",
+      "Despliegue": "Appliance",
+      "Ediciones": "SRX300, SRX1500, SRX4600, SRX5800",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P465",
+      "Proveedor": "Radware",
+      "Producto": "DefensePro DDoS Protection",
+      "ID categoría": "C006",
+      "Despliegue": "Appliance",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P466",
+      "Proveedor": "Radware",
+      "Producto": "Cloud WAF",
+      "ID categoría": "C005",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P467",
+      "Proveedor": "Fastly",
+      "Producto": "Next-Gen WAF (Signal Sciences)",
+      "ID categoría": "C005",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P468",
+      "Proveedor": "Netscout",
+      "Producto": "Arbor DDoS Protection",
+      "ID categoría": "C006",
+      "Despliegue": "Appliance",
+      "Ediciones": "Arbor Edge Defense, Arbor Sightline",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P469",
+      "Proveedor": "Corelight",
+      "Producto": "Corelight Open NDR Platform",
+      "ID categoría": "C007",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Cloud, Enterprise, Free",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P470",
+      "Proveedor": "Portnox",
+      "Producto": "Portnox Cloud NAC",
+      "ID categoría": "C008",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P471",
+      "Proveedor": "Yubico",
+      "Producto": "YubiKey",
+      "ID categoría": "C016",
+      "Despliegue": "Appliance",
+      "Ediciones": "YubiKey 5 NFC, YubiKey 5C, YubiKey Bio",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P472",
+      "Proveedor": "Yubico",
+      "Producto": "YubiKey",
+      "ID categoría": "C108",
+      "Despliegue": "Appliance",
+      "Ediciones": "YubiKey 5 NFC, YubiKey 5C, YubiKey Bio",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P473",
+      "Proveedor": "RSA",
+      "Producto": "RSA SecurID",
+      "ID categoría": "C018",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Cloud Authentication Service, Access Manager",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P474",
+      "Proveedor": "Horizon3.ai",
+      "Producto": "NodeZero",
+      "ID categoría": "C066",
+      "Despliegue": "SaaS",
+      "Ediciones": "NodeZero, NodeZero Federal",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P475",
+      "Proveedor": "Horizon3.ai",
+      "Producto": "NodeZero",
+      "ID categoría": "C046",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P476",
+      "Proveedor": "Oracle",
+      "Producto": "Oracle IAM",
+      "ID categoría": "C011",
+      "Despliegue": "Cloud",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P477",
+      "Proveedor": "Oracle",
+      "Producto": "Oracle Audit Vault & Database Firewall",
+      "ID categoría": "C034",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P478",
+      "Proveedor": "Utimaco",
+      "Producto": "CryptoServer HSM",
+      "ID categoría": "C105",
+      "Despliegue": "Appliance",
+      "Ediciones": "General Purpose, Payment",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P479",
+      "Proveedor": "Futurex",
+      "Producto": "Vectera Plus HSM",
+      "ID categoría": "C105",
+      "Despliegue": "Appliance",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P480",
+      "Proveedor": "Sectigo",
+      "Producto": "Sectigo Certificate Manager",
+      "ID categoría": "C110",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P481",
+      "Proveedor": "Sectigo",
+      "Producto": "Sectigo Certificate Manager",
+      "ID categoría": "C111",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P482",
+      "Proveedor": "Sectigo",
+      "Producto": "Sectigo Code Signing",
+      "ID categoría": "C113",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P483",
+      "Proveedor": "AppViewX",
+      "Producto": "CERT+ PKI",
+      "ID categoría": "C110",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P484",
+      "Proveedor": "AppViewX",
+      "Producto": "CERT+ CLM",
+      "ID categoría": "C111",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P485",
+      "Proveedor": "AppViewX",
+      "Producto": "Crypto Agility",
+      "ID categoría": "C114",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P486",
+      "Proveedor": "Akeyless",
+      "Producto": "Akeyless Vault Platform",
+      "ID categoría": "C044",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P487",
+      "Proveedor": "Akeyless",
+      "Producto": "Akeyless Vault Platform",
+      "ID categoría": "C112",
+      "Despliegue": "SaaS",
+      "Ediciones": "Community, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P488",
+      "Proveedor": "Akeyless",
+      "Producto": "Akeyless Machine Identity",
+      "ID categoría": "C017",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P489",
+      "Proveedor": "SignPath",
+      "Producto": "SignPath Code Signing",
+      "ID categoría": "C113",
+      "Despliegue": "SaaS",
+      "Ediciones": "Starter, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P490",
+      "Proveedor": "Upstream Security",
+      "Producto": "Upstream V-XDR Platform",
+      "ID categoría": "C092",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P491",
+      "Proveedor": "VicOne",
+      "Producto": "xZETA Automotive Security",
+      "ID categoría": "C092",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P492",
+      "Proveedor": "Phosphorus",
+      "Producto": "Phosphorus xIoT Security",
+      "ID categoría": "C090",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P493",
+      "Proveedor": "ID Quantique",
+      "Producto": "Cerberis QKD",
+      "ID categoría": "C117",
+      "Despliegue": "Appliance",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P494",
+      "Proveedor": "ID Quantique",
+      "Producto": "Quantis QRNG",
+      "ID categoría": "C118",
+      "Despliegue": "Appliance",
+      "Ediciones": "PCIe, USB",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P495",
+      "Proveedor": "Quantum Xchange",
+      "Producto": "Phio TX",
+      "ID categoría": "C117",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P496",
+      "Proveedor": "Quantum Xchange",
+      "Producto": "Phio TX",
+      "ID categoría": "C115",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P497",
+      "Proveedor": "InfoSec Global",
+      "Producto": "AgileSec Analytics",
+      "ID categoría": "C114",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P498",
+      "Proveedor": "InfoSec Global",
+      "Producto": "AgileSec Analytics",
+      "ID categoría": "C115",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P499",
+      "Proveedor": "Fusion Risk Management",
+      "Producto": "Fusion Framework System",
+      "ID categoría": "C075",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P500",
+      "Proveedor": "Diligent",
+      "Producto": "Diligent One HighBond",
+      "ID categoría": "C074",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P501",
+      "Proveedor": "Kroll",
+      "Producto": "Kroll Incident Response",
+      "ID categoría": "C104",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P502",
+      "Proveedor": "Kroll",
+      "Producto": "Kroll Cyber Due Diligence",
+      "ID categoría": "C120",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P503",
+      "Proveedor": "Kroll",
+      "Producto": "Kroll Digital Forensics",
+      "ID categoría": "C122",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P504",
+      "Proveedor": "NCC Group",
+      "Producto": "NCC Group Penetration Testing",
+      "ID categoría": "C120",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P505",
+      "Proveedor": "NCC Group",
+      "Producto": "NCC Group IR Retainer",
+      "ID categoría": "C104",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P506",
+      "Proveedor": "Invicti",
+      "Producto": "Invicti / Acunetix (DAST)",
+      "ID categoría": "C039",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P507",
+      "Proveedor": "OpenText Fortify",
+      "Producto": "Fortify on Demand SAST",
+      "ID categoría": "C038",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P508",
+      "Proveedor": "OpenText Fortify",
+      "Producto": "Fortify WebInspect DAST",
+      "ID categoría": "C039",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P509",
+      "Proveedor": "Mend.io",
+      "Producto": "Mend SCA",
+      "ID categoría": "C040",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P510",
+      "Proveedor": "Chainguard",
+      "Producto": "Chainguard Images",
+      "ID categoría": "C043",
+      "Despliegue": "SaaS",
+      "Ediciones": "Developer, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P511",
+      "Proveedor": "Traceable",
+      "Producto": "Traceable AI API Security",
+      "ID categoría": "C042",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P512",
+      "Proveedor": "Detectify",
+      "Producto": "Detectify Surface Monitoring",
+      "ID categoría": "C046",
+      "Despliegue": "SaaS",
+      "Ediciones": "Starter, Professional",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P513",
+      "Proveedor": "AWS",
+      "Producto": "AWS Shield",
+      "ID categoría": "C006",
+      "Despliegue": "Cloud",
+      "Ediciones": "Standard (Free), Advanced",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P514",
+      "Proveedor": "AWS",
+      "Producto": "AWS Secrets Manager",
+      "ID categoría": "C044",
+      "Despliegue": "Cloud",
+      "Ediciones": "Pay-as-you-go",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P515",
+      "Proveedor": "AWS",
+      "Producto": "AWS KMS",
+      "ID categoría": "C109",
+      "Despliegue": "Cloud",
+      "Ediciones": "Pay-as-you-go",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P516",
+      "Proveedor": "AWS",
+      "Producto": "AWS CloudHSM",
+      "ID categoría": "C105",
+      "Despliegue": "Cloud",
+      "Ediciones": "Pay-as-you-go",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P517",
+      "Proveedor": "Google Cloud",
+      "Producto": "Google Cloud KMS",
+      "ID categoría": "C044",
+      "Despliegue": "Cloud",
+      "Ediciones": "Pay-as-you-go",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P518",
+      "Proveedor": "Google Cloud",
+      "Producto": "Google Cloud Confidential Computing",
+      "ID categoría": "C037",
+      "Despliegue": "Cloud",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P519",
+      "Proveedor": "Google Security Operations",
+      "Producto": "Google SecOps (Chronicle)",
+      "ID categoría": "C047",
+      "Despliegue": "SaaS",
+      "Ediciones": "Standard, Enterprise, Enterprise Plus",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P520",
+      "Proveedor": "Google",
+      "Producto": "Google Security Command Center",
+      "ID categoría": "C049",
+      "Despliegue": "Cloud",
+      "Ediciones": "Standard (Free), Premium, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P521",
+      "Proveedor": "Panther",
+      "Producto": "Panther SIEM",
+      "ID categoría": "C050",
+      "Despliegue": "SaaS",
+      "Ediciones": "Team, Professional, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P522",
+      "Proveedor": "Hunters",
+      "Producto": "Hunters SOC Platform",
+      "ID categoría": "C050",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P523",
+      "Proveedor": "Anvilogic",
+      "Producto": "Anvilogic Detection Engineering",
+      "ID categoría": "C050",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P524",
+      "Proveedor": "Blink Ops",
+      "Producto": "Blink Security Automation",
+      "ID categoría": "C051",
+      "Despliegue": "SaaS",
+      "Ediciones": "Free, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P525",
+      "Proveedor": "Shuffle",
+      "Producto": "Shuffle Automation",
+      "ID categoría": "C051",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P526",
+      "Proveedor": "TheHive",
+      "Producto": "TheHive Project",
+      "ID categoría": "C054",
+      "Despliegue": "On-prem",
+      "Ediciones": "Community (Free), Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P527",
+      "Proveedor": "Robust Intelligence",
+      "Producto": "RIME AI Firewall",
+      "ID categoría": "C082",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P528",
+      "Proveedor": "ModelOp",
+      "Producto": "ModelOp Center",
+      "ID categoría": "C081",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P529",
+      "Proveedor": "ModelOp",
+      "Producto": "ModelOp Center",
+      "ID categoría": "C085",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P530",
+      "Proveedor": "Securonix",
+      "Producto": "Securonix UEBA",
+      "ID categoría": "C052",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P531",
+      "Proveedor": "Gurucul",
+      "Producto": "Gurucul UEBA",
+      "ID categoría": "C052",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P532",
+      "Proveedor": "LexisNexis",
+      "Producto": "LexisNexis ThreatMetrix",
+      "ID categoría": "C097",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P533",
+      "Proveedor": "SAS",
+      "Producto": "SAS Fraud Management",
+      "ID categoría": "C097",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P534",
+      "Proveedor": "Kasada",
+      "Producto": "Kasada Bot Defense",
+      "ID categoría": "C099",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P535",
+      "Proveedor": "Black Kite",
+      "Producto": "Black Kite Cyber Ratings",
+      "ID categoría": "C068",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P536",
+      "Proveedor": "RiskRecon",
+      "Producto": "RiskRecon (Mastercard)",
+      "ID categoría": "C068",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P537",
+      "Proveedor": "Privitar",
+      "Producto": "Privitar PET Platform",
+      "ID categoría": "C080",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P538",
+      "Proveedor": "Protegrity",
+      "Producto": "Protegrity Data Protection",
+      "ID categoría": "C035",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P539",
+      "Proveedor": "Protegrity",
+      "Producto": "Protegrity Encryption",
+      "ID categoría": "C036",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P540",
+      "Proveedor": "Protegrity",
+      "Producto": "Protegrity PET",
+      "ID categoría": "C080",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P541",
+      "Proveedor": "Spin.AI",
+      "Producto": "SpinOne SaaS Security",
+      "ID categoría": "C096",
+      "Despliegue": "SaaS",
+      "Ediciones": "Business, Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P542",
+      "Proveedor": "WALLIX",
+      "Producto": "WALLIX PAM",
+      "ID categoría": "C013",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P543",
+      "Proveedor": "ColorTokens",
+      "Producto": "Xshield Microsegmentation",
+      "ID categoría": "C010",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P544",
+      "Proveedor": "VMware",
+      "Producto": "NSX Distributed Firewall",
+      "ID categoría": "C010",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P545",
+      "Proveedor": "VMware Carbon Black",
+      "Producto": "Carbon Black App Control",
+      "ID categoría": "C024",
+      "Despliegue": "Híbrido",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P546",
+      "Proveedor": "ThreatLocker",
+      "Producto": "ThreatLocker Protect",
+      "ID categoría": "C024",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P547",
+      "Proveedor": "ThreatLocker",
+      "Producto": "ThreatLocker Elevation Control",
+      "ID categoría": "C023",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P548",
+      "Proveedor": "Ivanti",
+      "Producto": "Ivanti Neurons for MTD",
+      "ID categoría": "C022",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P549",
+      "Proveedor": "Ivanti",
+      "Producto": "Ivanti Application Control",
+      "ID categoría": "C024",
+      "Despliegue": "On-prem",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    },
+    {
+      "ID producto": "P550",
+      "Proveedor": "Jamf",
+      "Producto": "Jamf Protect",
+      "ID categoría": "C022",
+      "Despliegue": "SaaS",
+      "Ediciones": "Enterprise",
+      "Estado": "Pendiente"
+    }
+  ]
 }

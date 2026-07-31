@@ -20,6 +20,8 @@ async function init() {
     `${db.meta.categories} categorias tecnologicas`;
   document.getElementById('count-providers').textContent =
     `${db.meta.providers} proveedores`;
+  document.getElementById('count-products').textContent =
+    `${db.meta.unique_products || 0} productos`;
 
   // Recent / highlight: top 5 high-priority categories
   const highlights = db.categories

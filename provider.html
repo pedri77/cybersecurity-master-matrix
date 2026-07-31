@@ -97,6 +97,44 @@
               </div>
             </div>
 
+            ${(() => {
+              const prods = uniqueProductsForProvider(db, provider.Proveedor);
+              if (!prods.length) return '';
+              return `
+                <div class="detail-section">
+                  <h2>Productos (${prods.length})</h2>
+                  <div class="panel">
+                    <div class="table-wrapper">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Producto</th>
+                            <th>Categorias</th>
+                            <th>Despliegue</th>
+                            <th>Ediciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${prods.map(p => {
+                            const pRows = allProductRows(db, p);
+                            const pCats = pRows.map(r => findCategory(db, r['ID categoría'])).filter(Boolean);
+                            return \`
+                              <tr>
+                                <td><a href="product.html#\${productSlug(p)}">\${esc(p.Producto)}</a></td>
+                                <td>\${pCats.map(c =>
+                                  \`<a class="badge" href="category.html#\${esc(c['ID categoría'])}">\${esc(c['Categoría tecnológica'])}</a>\`
+                                ).join(' ')}</td>
+                                <td>\${deployBadge(p.Despliegue)}</td>
+                                <td style="color: var(--text-secondary); font-size: 0.85rem;">\${esc(p.Ediciones)}</td>
+                              </tr>\`;
+                          }).join('')}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>`;
+            })()}
+
             ${peers.length ? `
               <div class="detail-section">
                 <h2>Proveedores relacionados</h2>
@@ -116,13 +154,17 @@
               <h3>Resumen</h3>
               <div class="sidebar-stats">
                 <div class="sidebar-stat">
+                  <strong>${uniqueProductsForProvider(db, provider.Proveedor).length}</strong>
+                  <span>Productos</span>
+                </div>
+                <div class="sidebar-stat">
                   <strong>${cats.length}</strong>
                   <span>Categorias</span>
                 </div>
-                <div class="sidebar-stat">
-                  <strong>${domains.length}</strong>
-                  <span>Dominios</span>
-                </div>
+              </div>
+              <div class="sidebar-row">
+                <span>Dominios</span>
+                <strong>${domains.length}</strong>
               </div>
               <div class="sidebar-row">
                 <span>Estado</span>
