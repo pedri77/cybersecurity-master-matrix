@@ -187,8 +187,11 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div class="container">
-        <span>Cybersecurity Master Matrix v1.0</span>
-        <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a> · <a href="https://github.com/pedri77/cybersecurity-master-matrix">GitHub</a></span>
+        <div class="footer-disclaimer">Los datos de esta matriz son orientativos y estan pendientes de validacion independiente. No sustituyen la evaluacion directa de cada producto. <a href="https://github.com/pedri77/cybersecurity-master-matrix/blob/main/CONTRIBUTING.md">Contribuir con correcciones</a>.</div>
+        <div class="footer-bottom">
+          <span>Cybersecurity Master Matrix v1.0</span>
+          <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a> · <a href="https://github.com/pedri77/cybersecurity-master-matrix">GitHub</a></span>
+        </div>
       </div>
     </footer>
     <button class="back-to-top" id="btt" onclick="window.scrollTo({top:0})" aria-label="Volver arriba">&#8593;</button>`;

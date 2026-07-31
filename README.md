@@ -17,7 +17,7 @@ Taxonomia abierta para clasificar mercados, analizar proveedores y construir com
 | Proveedores | 343 |
 | Productos | 486 |
 | Relaciones categoria-proveedor | 668 |
-| Productos con capacidades evaluadas | 80 |
+| Productos con capacidades evaluadas | 493 |
 | Capacidades de evaluacion | 20 |
 
 ## Funcionalidades
