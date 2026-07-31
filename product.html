@@ -51,9 +51,6 @@
       const categories = rows.map(r => findCategory(db, r['ID categoría'])).filter(Boolean);
       const provider = findProviderByName(db, product.Proveedor);
 
-      // Capabilities
-      const caps = db.capabilities || [];
-
       // Peer products: same categories, different provider
       const peerSet = new Set();
       rows.forEach(r => {
