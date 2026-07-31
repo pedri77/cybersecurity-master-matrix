@@ -1,6 +1,6 @@
 /**
  * data.js — Shared data loader and utilities
- * Used by all pages in the Cybersecurity Master Matrix v0.3
+ * Used by all pages in the Cybersecurity Master Matrix v0.4
  */
 
 // Singleton DB cache
@@ -137,7 +137,8 @@ function renderNav(activePage) {
     { href: 'domains.html', label: 'Dominios', id: 'domains' },
     { href: 'categories.html', label: 'Categorias', id: 'categories' },
     { href: 'providers.html', label: 'Proveedores', id: 'providers' },
-    { href: 'products.html', label: 'Productos', id: 'products' }
+    { href: 'products.html', label: 'Productos', id: 'products' },
+    { href: 'compare.html', label: 'Comparar', id: 'compare' }
   ];
 
   return `
@@ -161,7 +162,7 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div class="container">
-        <span>Cybersecurity Master Matrix v0.3</span>
+        <span>Cybersecurity Master Matrix v0.4</span>
         <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a></span>
       </div>
     </footer>`;
