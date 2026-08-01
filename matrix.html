@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mapa de cobertura de ciberseguridad: proveedores x dominios. Visualizacion heatmap interactiva.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CyberMatrix">
+  <meta property="og:url" content="https://pedri77.github.io/cybersecurity-master-matrix/matrix.html">
+  <meta property="og:title" content="La Matrix — CyberMatrix">
+  <meta property="og:description" content="Mapa de cobertura de ciberseguridad: proveedores x dominios">
+  <link rel="canonical" href="https://pedri77.github.io/cybersecurity-master-matrix/matrix.html">
+  <title>La Matrix — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .matrix-controls {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+    .matrix-controls select, .matrix-controls input {
+      max-width: 200px;
+    }
+    .matrix-controls .matrix-legend {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+    .matrix-legend .leg-box {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    .matrix-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--panel);
+    }
+    .matrix-table {
+      border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+    .matrix-table th {
+      position: sticky;
+      background: #0d1a2a;
+      z-index: 5;
+      padding: 0;
+      border: none;
+    }
+    .matrix-table th.corner {
+      left: 0;
+      z-index: 10;
+      min-width: 180px;
+    }
+    .matrix-table th.domain-header {
+      top: 0;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      transform: rotate(180deg);
+      padding: 10px 6px;
+      font-size: 0.72rem;
+      letter-spacing: 0.03em;
+      text-transform: none;
+      font-weight: 600;
+      color: var(--accent);
+      min-width: 38px;
+      max-width: 38px;
+      height: 160px;
+      white-space: nowrap;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+    }
+    .matrix-table th.domain-header:hover {
+      color: var(--accent-hover);
+      background: #112238;
+    }
+    .matrix-table th.row-header {
+      left: 0;
+      position: sticky;
+      text-align: left;
+      padding: 6px 12px;
+      font-weight: 600;
+      color: var(--text);
+      background: #0d1a2a;
+      border-bottom: 1px solid rgba(38,59,80,0.4);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      max-width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      font-size: 0.8rem;
+    }
+    .matrix-table th.row-header:hover {
+      color: var(--accent);
+    }
+    .matrix-table th.row-header .tier-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    .tier-dot.t1 { background: var(--warning); }
+    .tier-dot.t2 { background: var(--accent); }
+    .tier-dot.t3 { background: #9b9baf; }
+    .matrix-cell {
+      padding: 0;
+      border-bottom: 1px solid rgba(38,59,80,0.3);
+      text-align: center;
+      min-width: 38px;
+      max-width: 38px;
+      height: 32px;
+      cursor: pointer;
+      transition: outline 0.15s;
+      position: relative;
+    }
+    .matrix-cell:hover {
+      outline: 2px solid var(--accent);
+      outline-offset: -2px;
+      z-index: 2;
+    }
+    .matrix-cell .cell-count {
+      font-size: 0.72rem;
+      font-weight: 700;
+      line-height: 32px;
+    }
+    .matrix-tooltip {
+      display: none;
+      position: fixed;
+      z-index: 500;
+      background: #0d1a2a;
+      border: 1px solid var(--accent);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      max-width: 280px;
+      box-shadow: var(--shadow);
+      pointer-events: none;
+    }
+    .matrix-tooltip.visible { display: block; }
+    .matrix-tooltip .tt-title {
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+    }
+    .matrix-tooltip .tt-domain {
+      color: var(--accent);
+      font-size: 0.78rem;
+      margin-bottom: 6px;
+    }
+    .matrix-tooltip .tt-products {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .matrix-summary {
+      display: flex;
+      gap: 20px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+    .matrix-summary strong {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content" id="main-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">La Matrix</div>
+        <h1>Mapa de cobertura</h1>
+        <p>Que proveedor cubre que dominio. Intensidad = numero de productos en la interseccion.</p>
+      </section>
+
+      <div class="matrix-controls">
+        <select id="f-tier">
+          <option value="">Todos los tiers</option>
+          <option value="Tier 1">Tier 1</option>
+          <option value="Tier 2">Tier 2</option>
+          <option value="Tier 3">Tier 3</option>
+        </select>
+        <select id="f-min-coverage">
+          <option value="1">1+ dominio</option>
+          <option value="2" selected>2+ dominios</option>
+          <option value="3">3+ dominios</option>
+          <option value="5">5+ dominios</option>
+        </select>
+        <select id="f-sort">
+          <option value="coverage">Ordenar: cobertura total</option>
+          <option value="name">Ordenar: nombre</option>
+          <option value="tier">Ordenar: tier</option>
+        </select>
+        <div class="matrix-legend">
+          <span class="leg-box" style="background:rgba(85,194,255,0.15)"></span> 1
+          <span class="leg-box" style="background:rgba(85,194,255,0.35)"></span> 2-3
+          <span class="leg-box" style="background:rgba(85,194,255,0.55)"></span> 4-6
+          <span class="leg-box" style="background:rgba(85,194,255,0.8)"></span> 7+
+        </div>
+      </div>
+
+      <div id="matrix-container" class="matrix-wrap"></div>
+      <div id="matrix-summary" class="matrix-summary"></div>
+
+      <div id="tooltip" class="matrix-tooltip"></div>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    let db;
+
+    async function init() {
+      try {
+        db = await loadDB();
+        document.getElementById('nav-slot').innerHTML = renderNav('matrix');
+        document.getElementById('footer-slot').innerHTML = renderFooter();
+
+        document.getElementById('f-tier').addEventListener('change', render);
+        document.getElementById('f-min-coverage').addEventListener('change', render);
+        document.getElementById('f-sort').addEventListener('change', render);
+
+        render();
+        setupTooltip();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('matrix-container').innerHTML =
+          '<div class="empty">Error: ' + err.message + '</div>';
+      }
+    }
+
+    function render() {
+      var tierFilter = document.getElementById('f-tier').value;
+      var minCov = parseInt(document.getElementById('f-min-coverage').value);
+      var sortBy = document.getElementById('f-sort').value;
+      var domains = db.domains;
+
+      // Build coverage map: provider -> { domainId -> [products] }
+      var provMap = {};
+      var seen = {};
+      db.products.forEach(function(p) {
+        var key = p.Proveedor + '|' + p.Producto + '|' + p['ID categoría'];
+        if (seen[key]) return;
+        seen[key] = true;
+
+        var cat = findCategory(db, p['ID categoría']);
+        if (!cat) return;
+        var domId = cat['ID dominio'];
+
+        if (!provMap[p.Proveedor]) provMap[p.Proveedor] = {};
+        if (!provMap[p.Proveedor][domId]) provMap[p.Proveedor][domId] = [];
+        provMap[p.Proveedor][domId].push(p.Producto);
+      });
+
+      // Filter providers
+      var provs = db.providers.filter(function(p) {
+        if (tierFilter && p.Tier !== tierFilter) return false;
+        var coverage = provMap[p.Proveedor] ? Object.keys(provMap[p.Proveedor]).length : 0;
+        return coverage >= minCov;
+      });
+
+      // Sort
+      if (sortBy === 'coverage') {
+        provs.sort(function(a, b) {
+          var ca = provMap[a.Proveedor] ? Object.keys(provMap[a.Proveedor]).length : 0;
+          var cb = provMap[b.Proveedor] ? Object.keys(provMap[b.Proveedor]).length : 0;
+          return cb - ca;
+        });
+      } else if (sortBy === 'name') {
+        provs.sort(function(a, b) { return a.Proveedor.localeCompare(b.Proveedor); });
+      } else if (sortBy === 'tier') {
+        provs.sort(function(a, b) {
+          var ta = (a.Tier || 'Tier 9'), tb = (b.Tier || 'Tier 9');
+          if (ta !== tb) return ta.localeCompare(tb);
+          var ca = provMap[a.Proveedor] ? Object.keys(provMap[a.Proveedor]).length : 0;
+          var cb = provMap[b.Proveedor] ? Object.keys(provMap[b.Proveedor]).length : 0;
+          return cb - ca;
+        });
+      }
+
+      // Build HTML table
+      var html = '<table class="matrix-table">';
+
+      // Header row
+      html += '<thead><tr><th class="corner domain-header" style="writing-mode:horizontal-tb;transform:none;height:auto;padding:8px 12px;text-align:left;color:var(--text-secondary);font-size:0.78rem;">' + provs.length + ' proveedores</th>';
+      domains.forEach(function(d) {
+        html += '<th class="domain-header" title="' + esc(d.Dominio) + '" onclick="location.href=\'domain.html#' + d.ID + '\'">' + esc(d.Dominio) + '</th>';
+      });
+      html += '</tr></thead>';
+
+      // Body rows
+      html += '<tbody>';
+      provs.forEach(function(prov) {
+        var pm = provMap[prov.Proveedor] || {};
+        var tierClass = prov.Tier === 'Tier 1' ? 't1' : prov.Tier === 'Tier 2' ? 't2' : 't3';
+        html += '<tr>';
+        html += '<th class="row-header" title="' + esc(prov.Proveedor) + ' (' + esc(prov.Tier || '') + ')" onclick="location.href=\'provider.html#' + slugify(prov.Proveedor) + '\'">';
+        html += '<span class="tier-dot ' + tierClass + '"></span>' + esc(prov.Proveedor) + '</th>';
+
+        domains.forEach(function(d) {
+          var products = pm[d.ID] || [];
+          var count = products.length;
+          var bg, color;
+          if (count === 0) {
+            bg = 'transparent';
+            color = 'transparent';
+          } else if (count === 1) {
+            bg = 'rgba(85,194,255,0.15)';
+            color = 'var(--accent)';
+          } else if (count <= 3) {
+            bg = 'rgba(85,194,255,0.35)';
+            color = '#fff';
+          } else if (count <= 6) {
+            bg = 'rgba(85,194,255,0.55)';
+            color = '#fff';
+          } else {
+            bg = 'rgba(85,194,255,0.8)';
+            color = '#062034';
+          }
+          html += '<td class="matrix-cell" style="background:' + bg + '" data-prov="' + esc(prov.Proveedor) + '" data-dom="' + d.ID + '" data-count="' + count + '">';
+          if (count > 0) {
+            html += '<span class="cell-count" style="color:' + color + '">' + count + '</span>';
+          }
+          html += '</td>';
+        });
+        html += '</tr>';
+      });
+      html += '</tbody></table>';
+
+      document.getElementById('matrix-container').innerHTML = html;
+
+      // Summary
+      var totalCells = provs.length * domains.length;
+      var filledCells = 0;
+      provs.forEach(function(p) {
+        var pm = provMap[p.Proveedor] || {};
+        filledCells += Object.keys(pm).length;
+      });
+      var density = totalCells > 0 ? Math.round(filledCells / totalCells * 100) : 0;
+      document.getElementById('matrix-summary').innerHTML =
+        '<span><strong>' + provs.length + '</strong> proveedores</span>' +
+        '<span><strong>' + domains.length + '</strong> dominios</span>' +
+        '<span><strong>' + filledCells + '</strong> intersecciones con productos</span>' +
+        '<span>Densidad: <strong>' + density + '%</strong></span>';
+    }
+
+    function setupTooltip() {
+      var tooltip = document.getElementById('tooltip');
+      var container = document.getElementById('matrix-container');
+
+      container.addEventListener('mouseover', function(e) {
+        var cell = e.target.closest('.matrix-cell');
+        if (!cell) return;
+        var prov = cell.dataset.prov;
+        var domId = cell.dataset.dom;
+        var count = parseInt(cell.dataset.count);
+        if (count === 0) { tooltip.classList.remove('visible'); return; }
+
+        var domain = findDomain(db, domId);
+        // Get product names
+        var products = [];
+        var seen2 = {};
+        db.products.forEach(function(p) {
+          if (p.Proveedor !== prov) return;
+          var cat = findCategory(db, p['ID categoría']);
+          if (!cat || cat['ID dominio'] !== domId) return;
+          if (seen2[p.Producto]) return;
+          seen2[p.Producto] = true;
+          products.push(p.Producto);
+        });
+
+        tooltip.innerHTML =
+          '<div class="tt-title">' + esc(prov) + '</div>' +
+          '<div class="tt-domain">' + esc(domain ? domain.Dominio : domId) + ' — ' + count + ' productos</div>' +
+          '<div class="tt-products">' + products.map(function(p) { return '• ' + esc(p); }).join('<br>') + '</div>';
+        tooltip.classList.add('visible');
+      });
+
+      container.addEventListener('mousemove', function(e) {
+        tooltip.style.left = (e.clientX + 16) + 'px';
+        tooltip.style.top = (e.clientY - 10) + 'px';
+      });
+
+      container.addEventListener('mouseout', function(e) {
+        if (!e.target.closest('.matrix-cell')) tooltip.classList.remove('visible');
+      });
+
+      // Click cell -> navigate to provider filtered
+      container.addEventListener('click', function(e) {
+        var cell = e.target.closest('.matrix-cell');
+        if (!cell || parseInt(cell.dataset.count) === 0) return;
+        location.href = 'provider.html#' + slugify(cell.dataset.prov);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>

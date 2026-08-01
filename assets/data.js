@@ -166,6 +166,7 @@ function fillDomainSelect(db, selectEl) {
 function renderNav(activePage) {
   const pages = [
     { href: 'index.html', label: 'Inicio', id: 'home' },
+    { href: 'matrix.html', label: 'Matrix', id: 'matrix' },
     { href: 'domains.html', label: 'Dominios', id: 'domains' },
     { href: 'categories.html', label: 'Categorias', id: 'categories' },
     { href: 'providers.html', label: 'Proveedores', id: 'providers' },
