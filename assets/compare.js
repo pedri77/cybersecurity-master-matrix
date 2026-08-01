@@ -118,8 +118,10 @@
     function renderSelected() {
       const container = document.getElementById('selected');
       const clearBtn = document.getElementById('btn-clear');
+      const exportBtn = document.getElementById('btn-export');
 
       clearBtn.style.display = selected.length > 0 ? 'inline-block' : 'none';
+      if (exportBtn) exportBtn.style.display = selected.length >= 2 ? 'inline-block' : 'none';
 
       container.innerHTML = selected.map(slug => {
         const p = findProductBySlug(db, slug);
@@ -246,6 +248,34 @@
         sectionSep('Cobertura por categoria') +
         catRows +
         '</tbody></table></div></div>';
+
+      // Store for export
+      window._compareProducts = products;
+      window._compareCaps = caps;
+    }
+
+    function exportComparison() {
+      const products = window._compareProducts || [];
+      const caps = window._compareCaps || [];
+      if (products.length < 2) return;
+
+      const headers = ['Dimension'].concat(products.map(p => p.product.Proveedor + ' - ' + p.product.Producto));
+      const rows = [];
+
+      rows.push(['Despliegue'].concat(products.map(p => p.product.Despliegue)));
+      rows.push(['Ediciones'].concat(products.map(p => p.product.Ediciones)));
+      rows.push(['Categorias'].concat(products.map(p => p.categories.length)));
+      rows.push(['Dominios'].concat(products.map(p => p.domains.map(d => d.Dominio).join('; '))));
+      rows.push(['Competidores'].concat(products.map(p => p.peerCount)));
+
+      caps.forEach(cap => {
+        rows.push([cap.Capacidad].concat(products.map(p => {
+          const pc = getProductCapabilities(db, p.product.Proveedor, p.product.Producto);
+          return pc ? (pc[cap.ID] || '') : '';
+        })));
+      });
+
+      exportCSV('cybermatrix-comparacion.csv', headers, rows);
     }
 
     init();

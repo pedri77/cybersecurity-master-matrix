@@ -210,7 +210,11 @@
           '</tr>';
       }).join('');
 
+      // Store for export
+      window._rankingExport = top;
+
       document.getElementById('ranking').innerHTML =
+        '<div style="margin-bottom:12px;text-align:right"><button class="btn" onclick="exportRanking()">Exportar CSV</button></div>' +
         '<div class="panel"><div class="table-wrapper">' +
         '<table>' +
         '<thead><tr>' +
@@ -219,6 +223,16 @@
         '</tr></thead>' +
         '<tbody>' + rows + '</tbody>' +
         '</table></div></div>';
+    }
+
+    function exportRanking() {
+      const data = window._rankingExport || [];
+      const headers = ['Rank', 'Producto', 'Proveedor', 'Despliegue', 'Categorias', 'Dominios', 'Prioridad Alta', 'Datos', 'Score'];
+      const rows = data.map((e, i) => [
+        i + 1, e.product.Producto, e.product.Proveedor, e.product.Despliegue,
+        e.catCount, e.domainCount, e.highPriority, e.capFill + '/20', e.score
+      ]);
+      exportCSV('cybermatrix-ranking.csv', headers, rows);
     }
 
     init();

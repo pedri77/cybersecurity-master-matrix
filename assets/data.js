@@ -173,6 +173,10 @@ function renderNav(activePage) {
         <a href="index.html" class="nav-brand">
           <span class="icon">&#x1f6e1;</span> CyberMatrix
         </a>
+        <div class="nav-search-wrapper">
+          <input type="search" id="global-search" class="nav-search" placeholder="Buscar..." autocomplete="off">
+          <div id="global-search-results" class="global-search-results"></div>
+        </div>
         <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
         <div class="nav-links">
           ${pages.map(p =>
@@ -198,12 +202,122 @@ function renderFooter() {
     <button class="back-to-top" id="btt" onclick="window.scrollTo({top:0})" aria-label="Volver arriba">&#8593;</button>`;
 }
 
-// Back-to-top visibility
+// Back-to-top visibility + global search init
 if (typeof window !== 'undefined') {
   window.addEventListener('scroll', () => {
     const btn = document.getElementById('btt');
     if (btn) btn.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
+
+  // Init global search once DOM is ready and data loaded
+  window.addEventListener('DOMContentLoaded', () => {
+    // Wait for init() to complete (which loads DB and renders nav)
+    const check = setInterval(() => {
+      if (_db && document.getElementById('global-search')) {
+        clearInterval(check);
+        initGlobalSearch();
+      }
+    }, 100);
+  });
+}
+
+/** Global search across all entities */
+function initGlobalSearch() {
+  const input = document.getElementById('global-search');
+  const results = document.getElementById('global-search-results');
+  if (!input || !results || !_db) return;
+
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    if (q.length < 2) { results.innerHTML = ''; results.style.display = 'none'; return; }
+
+    const hits = [];
+    const max = 12;
+
+    // Search products (unique)
+    const seenP = new Set();
+    for (const p of _db.products) {
+      if (hits.length >= max) break;
+      const key = p.Proveedor + '|' + p.Producto;
+      if (seenP.has(key)) continue;
+      seenP.add(key);
+      if ((p.Producto + ' ' + p.Proveedor).toLowerCase().includes(q)) {
+        hits.push({ type: 'Producto', label: p.Producto, sub: p.Proveedor, href: 'product.html#' + productSlug(p) });
+      }
+    }
+
+    // Search providers
+    for (const p of _db.providers) {
+      if (hits.length >= max) break;
+      if (p.Proveedor.toLowerCase().includes(q)) {
+        hits.push({ type: 'Proveedor', label: p.Proveedor, sub: (p.Tier || '') + ' · ' + p['N.º categorías'] + ' cats', href: 'provider.html#' + slugify(p.Proveedor) });
+      }
+    }
+
+    // Search categories
+    for (const c of _db.categories) {
+      if (hits.length >= max) break;
+      if ((c['Categoría tecnológica'] + ' ' + c.Dominio).toLowerCase().includes(q)) {
+        hits.push({ type: 'Categoria', label: c['Categoría tecnológica'], sub: c.Dominio, href: 'category.html#' + c['ID categoría'] });
+      }
+    }
+
+    // Search domains
+    for (const d of _db.domains) {
+      if (hits.length >= max) break;
+      if ((d.Dominio + ' ' + d.Alcance).toLowerCase().includes(q)) {
+        hits.push({ type: 'Dominio', label: d.Dominio, sub: d.Alcance, href: 'domain.html#' + d.ID });
+      }
+    }
+
+    if (!hits.length) {
+      results.innerHTML = '<div class="gs-empty">Sin resultados</div>';
+      results.style.display = 'block';
+      return;
+    }
+
+    results.innerHTML = hits.map(h =>
+      '<a class="gs-item" href="' + h.href + '">' +
+      '<span class="gs-type">' + h.type + '</span>' +
+      '<span class="gs-label">' + esc(h.label) + '</span>' +
+      '<span class="gs-sub">' + esc(h.sub) + '</span>' +
+      '</a>'
+    ).join('');
+    results.style.display = 'block';
+  });
+
+  // Close on click outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav-search-wrapper')) {
+      results.style.display = 'none';
+    }
+  });
+
+  // Close on Escape
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { results.style.display = 'none'; input.blur(); }
+  });
+}
+
+/** Export data as CSV file download */
+function exportCSV(filename, headers, rows) {
+  const csvContent = [headers.join(',')]
+    .concat(rows.map(row =>
+      row.map(cell => {
+        const s = String(cell ?? '');
+        return s.includes(',') || s.includes('"') || s.includes('\n')
+          ? '"' + s.replace(/"/g, '""') + '"'
+          : s;
+      }).join(',')
+    )).join('\n');
+
+  const blob = new Blob(['\ufeff' + csvContent], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 /** Render breadcrumbs */

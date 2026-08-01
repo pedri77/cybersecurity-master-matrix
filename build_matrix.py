@@ -223,8 +223,9 @@ def main():
     db = build(domains, categories, providers, products, cat_prov_map,
                capabilities, product_caps, product_sources)
 
+    # Write compact JSON (no indent) to reduce file size
     with open(OUTPUT, 'w', encoding='utf-8') as f:
-        json.dump(db, f, ensure_ascii=False, indent=2)
+        json.dump(db, f, ensure_ascii=False, separators=(',', ':'))
 
     size_kb = os.path.getsize(OUTPUT) / 1024
     print(f"\n  Written: {OUTPUT} ({size_kb:.0f} KB)")
