@@ -8,7 +8,7 @@
     "products": 550,
     "unique_products": 486,
     "products_with_capabilities": 493,
-    "product_sources": 195,
+    "product_sources": 229,
     "products_with_url": 234,
     "tiers": {
       "Tier 2": 88,
@@ -29545,6 +29545,312 @@
       "URL fuente": "https://securityscorecard.com/product/",
       "Tipo fuente": "Documentacion oficial",
       "Fecha verificacion": "2026-07-31"
+    },
+    {
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Insight",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "CrowdStrike",
+      "Producto": "Falcon Insight",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Endpoint",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Microsoft",
+      "Producto": "Defender for Endpoint",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity EDR",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "SentinelOne",
+      "Producto": "Singularity EDR",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex XDR",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "Cortex XDR",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Cisco",
+      "Producto": "Secure Endpoint",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Cisco",
+      "Producto": "Secure Endpoint",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Sophos",
+      "Producto": "Intercept X Endpoint",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Sophos",
+      "Producto": "Intercept X Endpoint",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Trend Micro",
+      "Producto": "Trend Vision One Endpoint",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Trend Micro",
+      "Producto": "Trend Vision One Endpoint",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Check Point",
+      "Producto": "Harmony Endpoint",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Check Point",
+      "Producto": "Harmony Endpoint",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Fortinet",
+      "Producto": "FortiEDR",
+      "Capacidad": "CAP012",
+      "Valor": "MITRE ATT&CK Evaluation participant (Enterprise)",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Fortinet",
+      "Producto": "FortiEDR",
+      "Capacidad": "CAP010",
+      "Valor": "MITRE ATT&CK detection and visibility telemetry",
+      "URL fuente": "https://attackevals.mitre-engenuity.org/enterprise/",
+      "Tipo fuente": "Tercero independiente",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Thales",
+      "Producto": "Luna Network HSM",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 3 validated / FIPS 140-3 Level 3 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Thales",
+      "Producto": "payShield 10K",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 3 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Entrust",
+      "Producto": "nShield HSM",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 3 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Utimaco",
+      "Producto": "CryptoServer HSM",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 3 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Futurex",
+      "Producto": "Vectera Plus HSM",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 3 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Fortinet",
+      "Producto": "FortiGate",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 2 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Cisco",
+      "Producto": "Secure Firewall",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "PA-Series NGFW",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Yubico",
+      "Producto": "YubiKey",
+      "Capacidad": "CAP014",
+      "Valor": "FIPS 140-2 Level 2 validated",
+      "URL fuente": "https://csrc.nist.gov/projects/cryptographic-module-validation-program",
+      "Tipo fuente": "Tercero independiente (certificacion NIST)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Thales",
+      "Producto": "Luna Network HSM",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Entrust",
+      "Producto": "nShield HSM",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Fortinet",
+      "Producto": "FortiGate",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Check Point",
+      "Producto": "Quantum Security Gateway",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Palo Alto Networks",
+      "Producto": "PA-Series NGFW",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Cisco",
+      "Producto": "Secure Firewall",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
+    },
+    {
+      "Proveedor": "Juniper",
+      "Producto": "SRX Series Firewall",
+      "Capacidad": "CAP014",
+      "Valor": "Common Criteria EAL4+ certified",
+      "URL fuente": "https://www.commoncriteriaportal.org/products/",
+      "Tipo fuente": "Tercero independiente (Common Criteria)",
+      "Fecha verificacion": "2026-08-01"
     }
   ]
 }

@@ -194,3 +194,37 @@ Delinea,Secret Server,CAP009,PAM / RBAC / MFA / session management / discovery,h
 SecurityScorecard,Ratings Platform,CAP014,SOC 2 Type II / ISO 27001,https://securityscorecard.com/company/trust-center/,Certificacion,2026-07-31
 SecurityScorecard,Ratings Platform,CAP005,REST API / SDK / webhooks / integrations,https://securityscorecard.com/product/api-integrations/,Documentacion oficial,2026-07-31
 SecurityScorecard,Ratings Platform,CAP001,SaaS (Free / Business / Enterprise),https://securityscorecard.com/product/,Documentacion oficial,2026-07-31
+CrowdStrike,Falcon Insight,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+CrowdStrike,Falcon Insight,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Microsoft,Defender for Endpoint,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Microsoft,Defender for Endpoint,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+SentinelOne,Singularity EDR,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+SentinelOne,Singularity EDR,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Palo Alto Networks,Cortex XDR,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Palo Alto Networks,Cortex XDR,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Cisco,Secure Endpoint,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Cisco,Secure Endpoint,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Sophos,Intercept X Endpoint,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Sophos,Intercept X Endpoint,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Trend Micro,Trend Vision One Endpoint,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Trend Micro,Trend Vision One Endpoint,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Check Point,Harmony Endpoint,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Check Point,Harmony Endpoint,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Fortinet,FortiEDR,CAP012,MITRE ATT&CK Evaluation participant (Enterprise),https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Fortinet,FortiEDR,CAP010,MITRE ATT&CK detection and visibility telemetry,https://attackevals.mitre-engenuity.org/enterprise/,Tercero independiente,2026-08-01
+Thales,Luna Network HSM,CAP014,FIPS 140-2 Level 3 validated / FIPS 140-3 Level 3 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Thales,payShield 10K,CAP014,FIPS 140-2 Level 3 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Entrust,nShield HSM,CAP014,FIPS 140-2 Level 3 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Utimaco,CryptoServer HSM,CAP014,FIPS 140-2 Level 3 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Futurex,Vectera Plus HSM,CAP014,FIPS 140-2 Level 3 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Fortinet,FortiGate,CAP014,FIPS 140-2 Level 2 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Cisco,Secure Firewall,CAP014,FIPS 140-2 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Palo Alto Networks,PA-Series NGFW,CAP014,FIPS 140-2 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Yubico,YubiKey,CAP014,FIPS 140-2 Level 2 validated,https://csrc.nist.gov/projects/cryptographic-module-validation-program,Tercero independiente (certificacion NIST),2026-08-01
+Thales,Luna Network HSM,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
+Entrust,nShield HSM,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
+Fortinet,FortiGate,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
+Check Point,Quantum Security Gateway,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
+Palo Alto Networks,PA-Series NGFW,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
+Cisco,Secure Firewall,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
+Juniper,SRX Series Firewall,CAP014,Common Criteria EAL4+ certified,https://www.commoncriteriaportal.org/products/,Tercero independiente (Common Criteria),2026-08-01
