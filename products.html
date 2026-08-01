@@ -57,6 +57,7 @@
     async function init() {
       try {
       const db = await loadDB();
+      let currentPage = 1;
       document.getElementById('nav-slot').innerHTML = renderNav('products');
       document.getElementById('footer-slot').innerHTML = renderFooter();
 
@@ -104,9 +105,10 @@
           });
         }
 
-        document.getElementById('resultCount').textContent = `${items.length} productos`;
+        const paged = paginate(items, currentPage, 30);
+        document.getElementById('resultCount').textContent = paged.total + ' productos · Pagina ' + paged.page + ' de ' + paged.totalPages;
 
-        if (!items.length) {
+        if (!paged.total) {
           document.getElementById('content').innerHTML = '<div class="empty panel">No hay resultados.</div>';
           return;
         }
@@ -126,7 +128,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  ${items.map(p => {
+                  ${paged.items.map(p => {
                     const rows = allProductRows(db, p);
                     const cats = rows.map(r => findCategory(db, r['ID categoría'])).filter(Boolean);
                     const slug = productSlug(p);
@@ -145,12 +147,13 @@
                 </tbody>
               </table>
             </div>
-          </div>`;
+          </div>`
+          + renderPagination(paged.page, paged.totalPages, p => { currentPage = p; render(); window.scrollTo({top: 200}); });
       }
 
-      searchEl.addEventListener('input', render);
-      domainEl.addEventListener('change', render);
-      deployEl.addEventListener('change', render);
+      searchEl.addEventListener('input', () => { currentPage = 1; render(); });
+      domainEl.addEventListener('change', () => { currentPage = 1; render(); });
+      deployEl.addEventListener('change', () => { currentPage = 1; render(); });
       render();
       } catch (err) {
         console.error('Init error:', err);

@@ -55,6 +55,7 @@
     async function init() {
       try {
       const db = await loadDB();
+      let currentPage = 1;
       document.getElementById('nav-slot').innerHTML = renderNav('categories');
       document.getElementById('footer-slot').innerHTML = renderFooter();
 
@@ -80,9 +81,10 @@
           });
         }
 
-        document.getElementById('resultCount').textContent = `${items.length} categorias`;
+        const paged = paginate(items, currentPage, 25);
+        document.getElementById('resultCount').textContent = paged.total + ' categorias · Pagina ' + paged.page + ' de ' + paged.totalPages;
 
-        if (!items.length) {
+        if (!paged.total) {
           document.getElementById('content').innerHTML =
             '<div class="empty panel">No hay resultados.</div>';
           return;
@@ -104,7 +106,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  ${items.map(c => {
+                  ${paged.items.map(c => {
                     const provs = providersForCategory(db, c['ID categoría']);
                     return `
                       <tr>
@@ -122,12 +124,13 @@
                 </tbody>
               </table>
             </div>
-          </div>`;
+          </div>`
+          + renderPagination(paged.page, paged.totalPages, p => { currentPage = p; render(); window.scrollTo({top: 200}); });
       }
 
-      searchEl.addEventListener('input', render);
-      domainEl.addEventListener('change', render);
-      priorityEl.addEventListener('change', render);
+      searchEl.addEventListener('input', () => { currentPage = 1; render(); });
+      domainEl.addEventListener('change', () => { currentPage = 1; render(); });
+      priorityEl.addEventListener('change', () => { currentPage = 1; render(); });
       render();
       } catch (err) {
         console.error('Init error:', err);

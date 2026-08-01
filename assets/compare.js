@@ -122,6 +122,8 @@
 
       clearBtn.style.display = selected.length > 0 ? 'inline-block' : 'none';
       if (exportBtn) exportBtn.style.display = selected.length >= 2 ? 'inline-block' : 'none';
+      const copyBtn = document.getElementById('btn-copy');
+      if (copyBtn) copyBtn.style.display = selected.length >= 2 ? 'inline-block' : 'none';
 
       container.innerHTML = selected.map(slug => {
         const p = findProductBySlug(db, slug);

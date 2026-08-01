@@ -327,6 +327,58 @@ function exportCSV(filename, headers, rows) {
   URL.revokeObjectURL(url);
 }
 
+/** Pagination helper */
+function paginate(items, page, perPage) {
+  const total = items.length;
+  const totalPages = Math.ceil(total / perPage);
+  const p = Math.max(1, Math.min(page, totalPages));
+  const start = (p - 1) * perPage;
+  return {
+    items: items.slice(start, start + perPage),
+    page: p,
+    totalPages: totalPages,
+    total: total
+  };
+}
+
+/** Render pagination controls */
+function renderPagination(page, totalPages, onPageChange) {
+  if (totalPages <= 1) return '';
+
+  const buttons = [];
+  buttons.push('<button class="page-btn' + (page <= 1 ? ' disabled' : '') + '" data-page="' + (page - 1) + '">&laquo;</button>');
+
+  // Show max 7 page buttons
+  let start = Math.max(1, page - 3);
+  let end = Math.min(totalPages, start + 6);
+  if (end - start < 6) start = Math.max(1, end - 6);
+
+  for (let i = start; i <= end; i++) {
+    buttons.push('<button class="page-btn' + (i === page ? ' active' : '') + '" data-page="' + i + '">' + i + '</button>');
+  }
+
+  buttons.push('<button class="page-btn' + (page >= totalPages ? ' disabled' : '') + '" data-page="' + (page + 1) + '">&raquo;</button>');
+
+  const id = 'pagination-' + Math.random().toString(36).slice(2, 8);
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if (el) el.querySelectorAll('.page-btn:not(.disabled)').forEach(btn => {
+      btn.onclick = () => onPageChange(parseInt(btn.dataset.page));
+    });
+  }, 0);
+
+  return '<div class="pagination" id="' + id + '">' + buttons.join('') + '</div>';
+}
+
+/** Copy text to clipboard with feedback */
+function copyToClipboard(text, btnEl) {
+  navigator.clipboard.writeText(text).then(() => {
+    const orig = btnEl.textContent;
+    btnEl.textContent = 'Copiado';
+    setTimeout(() => { btnEl.textContent = orig; }, 1500);
+  });
+}
+
 /** Render breadcrumbs */
 function renderBreadcrumbs(items) {
   return `

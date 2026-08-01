@@ -204,7 +204,7 @@
           '<td>' + e.highPriority + '</td>' +
           '<td>' + (e.capFill > 0 ? '<strong>' + e.capFill + '</strong>/20' : '<span class="no-match">—</span>') + '</td>' +
           '<td><div class="score-bar-cell">' +
-            '<div class="score-bar"><div class="score-bar-fill" style="width:' + e.score + '%;background:' + barColor + '"></div></div>' +
+            '<div class="score-bar" role="progressbar" aria-valuenow="' + e.score + '" aria-valuemin="0" aria-valuemax="100" aria-label="Score ' + e.score + ' de 100"><div class="score-bar-fill" style="width:' + e.score + '%;background:' + barColor + '"></div></div>' +
             '<span class="score-value">' + e.score + '</span>' +
           '</div></td>' +
           '</tr>';
