@@ -5,19 +5,19 @@
 
 /* --- Custom Properties --- */
 :root {
-  --bg: #07111f;
-  --bg-gradient: linear-gradient(180deg, #07111f, #0a1625 45%, #07111f);
-  --panel: rgba(15, 29, 46, 0.88);
-  --panel-solid: #0f1d2e;
-  --panel-hover: #13263b;
-  --text: #e8f0f8;
-  --text-secondary: #9db0c4;
-  --accent: #55c2ff;
-  --accent-hover: #7dd3ff;
-  --border: #263b50;
+  --bg: #003049;
+  --bg-gradient: linear-gradient(180deg, #003049, #002438 45%, #003049);
+  --panel: rgba(0, 36, 56, 0.88);
+  --panel-solid: #00283f;
+  --panel-hover: #003d5c;
+  --text: #EAE2B7;
+  --text-secondary: #c4bfa0;
+  --accent: #F77F00;
+  --accent-hover: #FCBF49;
+  --border: #0a4a6e;
   --success: #6ee7a8;
-  --warning: #ffd166;
-  --danger: #ff6b6b;
+  --warning: #FCBF49;
+  --danger: #D62828;
   --radius: 14px;
   --radius-sm: 8px;
   --radius-pill: 999px;
@@ -115,7 +115,7 @@ a.category-item:focus-visible {
 
 .lang-toggle:hover {
   background: var(--accent);
-  color: #062034;
+  color: #001a2e;
   border-color: var(--accent);
 }
 
@@ -125,7 +125,7 @@ a.category-item:focus-visible {
   left: 16px;
   padding: 8px 16px;
   background: var(--accent);
-  color: #062034;
+  color: #001a2e;
   font-weight: 700;
   font-size: 0.88rem;
   border-radius: var(--radius-sm);
@@ -210,7 +210,7 @@ a.category-item:focus-visible {
 
 .nav-links a:hover,
 .nav-links a.active {
-  background: rgba(85, 194, 255, 0.1);
+  background: rgba(247, 127, 0, 0.1);
   color: var(--accent);
 }
 
@@ -235,7 +235,7 @@ a.category-item:focus-visible {
   padding: 7px 12px;
   border-radius: var(--radius-pill);
   border: 1px solid var(--border);
-  background: #0a1726;
+  background: #001f33;
   color: var(--text);
   font-size: 0.85rem;
   font-family: var(--font);
@@ -496,7 +496,7 @@ select {
   padding: 11px 14px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
-  background: #0a1726;
+  background: #001f33;
   color: var(--text);
   font-size: 0.92rem;
   font-family: var(--font);
@@ -527,7 +527,7 @@ select:focus {
 }
 
 .card:hover {
-  border-color: rgba(85, 194, 255, 0.4);
+  border-color: rgba(247, 127, 0, 0.4);
   transform: translateY(-1px);
 }
 
@@ -563,8 +563,8 @@ a.card {
   display: inline-block;
   padding: 4px 10px;
   border-radius: var(--radius-pill);
-  background: #17304a;
-  color: #bfe8ff;
+  background: #004468;
+  color: #EAE2B7;
   font-size: 0.76rem;
   font-weight: 500;
   white-space: nowrap;
@@ -574,7 +574,7 @@ a.card {
 
 .badge.priority-Alta {
   background: var(--warning);
-  color: #07111f;
+  color: #003049;
 }
 
 .badge.priority-Media {
@@ -593,7 +593,7 @@ a.card {
 }
 
 .badge.maturity-Crecimiento {
-  background: rgba(85, 194, 255, 0.15);
+  background: rgba(247, 127, 0, 0.15);
   color: var(--accent);
 }
 
@@ -608,7 +608,7 @@ a.card {
 }
 
 .badge.deploy-saas {
-  background: rgba(85, 194, 255, 0.15);
+  background: rgba(247, 127, 0, 0.15);
   color: var(--accent);
 }
 
@@ -629,7 +629,7 @@ a.card {
 }
 
 .badge.tier-2 {
-  background: rgba(85, 194, 255, 0.15);
+  background: rgba(247, 127, 0, 0.15);
   color: var(--accent);
 }
 
@@ -675,8 +675,8 @@ td {
 }
 
 th {
-  background: #102238;
-  color: #cdeafa;
+  background: #003050;
+  color: #EAE2B7;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -696,7 +696,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-  background: #10243a;
+  background: #003a58;
 }
 
 td a {
@@ -872,7 +872,7 @@ td a {
   display: inline-flex;
   align-items: center;
   padding: 6px 14px;
-  background: #17304a;
+  background: #004468;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   color: var(--text);
@@ -883,7 +883,7 @@ td a {
 
 a.provider-chip:hover {
   border-color: var(--accent);
-  background: rgba(85, 194, 255, 0.1);
+  background: rgba(247, 127, 0, 0.1);
   color: var(--accent);
 }
 
@@ -971,7 +971,7 @@ a.category-item:hover {
 
 .compare-selector .btn:hover {
   background: var(--accent);
-  color: #062034;
+  color: #001a2e;
 }
 
 .compare-selector .btn.btn-danger {
@@ -1038,7 +1038,7 @@ a.category-item:hover {
   align-items: center;
   gap: 8px;
   padding: 8px 14px;
-  background: rgba(85, 194, 255, 0.1);
+  background: rgba(247, 127, 0, 0.1);
   border: 1px solid var(--accent);
   border-radius: var(--radius-pill);
   color: var(--text);
@@ -1073,7 +1073,7 @@ a.category-item:hover {
 .compare-table th {
   position: static;
   text-align: left;
-  background: #102238;
+  background: #003050;
 }
 
 .compare-table th:first-child {
@@ -1109,7 +1109,7 @@ a.category-item:hover {
 }
 
 .compare-table tbody tr:hover {
-  background: #10243a;
+  background: #003a58;
 }
 
 .compare-table .match {
@@ -1288,7 +1288,7 @@ a.category-item:hover {
 
 .disclaimer-banner button:hover {
   background: var(--accent);
-  color: #062034;
+  color: #001a2e;
 }
 
 @keyframes slideUp {
@@ -1362,7 +1362,7 @@ a.category-item:hover {
 
 .page-btn.active {
   background: var(--accent);
-  color: #062034;
+  color: #001a2e;
   border-color: var(--accent);
   font-weight: 700;
 }
@@ -1374,7 +1374,7 @@ a.category-item:hover {
 
 /* --- Skeleton loading --- */
 .skeleton {
-  background: linear-gradient(90deg, var(--panel-hover) 25%, rgba(85, 194, 255, 0.05) 50%, var(--panel-hover) 75%);
+  background: linear-gradient(90deg, var(--panel-hover) 25%, rgba(247, 127, 0, 0.05) 50%, var(--panel-hover) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: var(--radius-sm);
@@ -1455,7 +1455,7 @@ a.category-item:hover {
 
 .back-to-top:hover {
   background: var(--accent);
-  color: #062034;
+  color: #001a2e;
   border-color: var(--accent);
 }
 

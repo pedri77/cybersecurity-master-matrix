@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Mapa de cobertura de ciberseguridad: proveedores x dominios. Visualizacion heatmap interactiva.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#07111f">
+  <meta name="theme-color" content="#003049">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="CyberMatrix">
   <meta property="og:url" content="https://pedri77.github.io/cybersecurity-master-matrix/matrix.html">
@@ -208,10 +208,10 @@
           <option value="tier">Ordenar: tier</option>
         </select>
         <div class="matrix-legend">
-          <span class="leg-box" style="background:rgba(85,194,255,0.15)"></span> 1
-          <span class="leg-box" style="background:rgba(85,194,255,0.35)"></span> 2-3
-          <span class="leg-box" style="background:rgba(85,194,255,0.55)"></span> 4-6
-          <span class="leg-box" style="background:rgba(85,194,255,0.8)"></span> 7+
+          <span class="leg-box" style="background:rgba(247,127,0,0.15)"></span> 1
+          <span class="leg-box" style="background:rgba(247,127,0,0.35)"></span> 2-3
+          <span class="leg-box" style="background:rgba(247,127,0,0.55)"></span> 4-6
+          <span class="leg-box" style="background:rgba(247,127,0,0.8)"></span> 7+
         </div>
       </div>
 
@@ -323,16 +323,16 @@
             bg = 'transparent';
             color = 'transparent';
           } else if (count === 1) {
-            bg = 'rgba(85,194,255,0.15)';
+            bg = 'rgba(247,127,0,0.15)';
             color = 'var(--accent)';
           } else if (count <= 3) {
-            bg = 'rgba(85,194,255,0.35)';
+            bg = 'rgba(247,127,0,0.35)';
             color = '#fff';
           } else if (count <= 6) {
-            bg = 'rgba(85,194,255,0.55)';
+            bg = 'rgba(247,127,0,0.55)';
             color = '#fff';
           } else {
-            bg = 'rgba(85,194,255,0.8)';
+            bg = 'rgba(247,127,0,0.8)';
             color = '#062034';
           }
           html += '<td class="matrix-cell" style="background:' + bg + '" data-prov="' + esc(prov.Proveedor) + '" data-dom="' + d.ID + '" data-count="' + count + '">';
