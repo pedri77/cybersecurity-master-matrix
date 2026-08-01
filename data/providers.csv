@@ -297,7 +297,7 @@ Swimlane,1,3,D07,C048; C051; C054,Pendiente,Tier 3
 Synopsys,1,3,D06,C038; C039; C040,Pendiente,Tier 2
 Sysdig,1,2,D04,C027; C029,Pendiente,Tier 3
 TeamMate,1,1,D10,C074,Pendiente,Tier 3
-Telefónica Tech,1,1,D16,C102,Pendiente,Tier 1
+Telefónica Tech,2,3,D09; D16,C061; C101; C102,Pendiente,Tier 1
 Tenable,2,5,D02; D09,C015; C061; C062; C063; C064,Pendiente,Tier 2
 Thales,5,10,D02; D05; D17; D18; D19,C018; C034; C035; C036; C105; C108; C109; C114; C115; C116,Pendiente,Tier 2
 TheHive,1,1,D07,C054,Pendiente,Tier 3
@@ -350,7 +350,6 @@ Tarlogic,1,1,D20,C120,Pendiente,Tier 3
 CounterCraft,1,1,D08,C055,Pendiente,Tier 3
 Aiuken,2,2,D16,C101; C102,Pendiente,Tier 3
 Hispasec,2,2,D08; D09,C055; C063,Pendiente,Tier 3
-ElevenPaths,2,2,D09; D16,C061; C101,Pendiente,Tier 2
 GlobalSuite Solutions,1,2,D10,C069; C076,Pendiente,Tier 3
 ESET,1,2,D03,C019; C020,Pendiente,Tier 1
 Bitdefender,2,3,D03; D16,C019; C020; C101,Pendiente,Tier 1
@@ -370,3 +369,4 @@ Deep Instinct,1,1,D03,C019,Pendiente,Tier 3
 Huntress,1,1,D16,C101,Pendiente,Tier 3
 Menlo Security,1,1,D01,C002,Pendiente,Tier 3
 Cynet,2,2,D03; D16,C021; C101,Pendiente,Tier 3
+Telefónica Tech,2,3,D09; D16,C061; C101; C102,Pendiente,Tier 1
