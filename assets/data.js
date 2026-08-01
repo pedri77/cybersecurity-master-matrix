@@ -147,6 +147,13 @@ function capabilityFillCount(db, providerName, productName) {
   return count;
 }
 
+/** Get product details (granular data) */
+function getProductDetails(db, providerName, productName) {
+  return (db.productDetails || []).filter(
+    d => d.Proveedor === providerName && d.Producto === productName
+  );
+}
+
 /** Build domain select options */
 function fillDomainSelect(db, selectEl) {
   selectEl.innerHTML = '<option value="">Todos los dominios</option>' +

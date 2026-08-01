@@ -141,7 +141,7 @@ def validate(domains, categories, providers, products, cat_prov_map,
 
 
 def build(domains, categories, providers, products, cat_prov_map,
-          capabilities, product_caps, product_sources):
+          capabilities, product_caps, product_sources, product_details):
     """Build matrix.json from CSV data."""
 
     # Count unique products
@@ -186,7 +186,8 @@ def build(domains, categories, providers, products, cat_prov_map,
         'products': products,
         'capabilities': capabilities,
         'productCapabilities': product_caps,
-        'productSources': product_sources
+        'productSources': product_sources,
+        'productDetails': product_details
     }
 
     return db
@@ -204,6 +205,7 @@ def main():
     capabilities = read_csv('capabilities.csv')
     product_caps = read_csv('product-capabilities.csv')
     product_sources = read_csv('product-sources.csv')
+    product_details = read_csv('product-details.csv')
 
     ok = validate(domains, categories, providers, products, cat_prov_map,
                   capabilities, product_caps, product_sources)
@@ -221,7 +223,7 @@ def main():
         sys.exit(0)
 
     db = build(domains, categories, providers, products, cat_prov_map,
-               capabilities, product_caps, product_sources)
+               capabilities, product_caps, product_sources, product_details)
 
     # Write compact JSON (no indent) to reduce file size
     with open(OUTPUT, 'w', encoding='utf-8') as f:

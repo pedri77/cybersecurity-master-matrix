@@ -74,6 +74,37 @@
 
       const productURL = getProductURL(db, product.Proveedor, product.Producto);
       const sources = getProductSources(db, product.Proveedor, product.Producto);
+      const details = getProductDetails(db, product.Proveedor, product.Producto);
+
+      // Build details HTML
+      let detailsHtml = '';
+      if (details.length) {
+        const fieldLabels = {
+          pricing_model: 'Modelo de precio',
+          pricing_range: 'Rango de precio',
+          encryption_algorithms: 'Algoritmos de cifrado',
+          api_docs_url: 'Documentacion API',
+          supported_clouds: 'Clouds soportados',
+          min_deployment_size: 'Despliegue minimo',
+          free_trial: 'Prueba gratuita',
+          support_languages: 'Idiomas de soporte',
+          founded_year: 'Fundacion (proveedor)',
+          hq_location: 'Sede (proveedor)'
+        };
+        const detailRows = details.map(d => {
+          const label = fieldLabels[d.Campo] || d.Campo;
+          let val = esc(d.Valor);
+          if (d.Campo === 'api_docs_url' && d.Valor) {
+            val = '<a href="' + esc(d.Valor) + '" target="_blank" rel="noopener">' + esc(d.Valor.replace('https://', '').substring(0, 50)) + '</a>';
+          }
+          return '<tr><td>' + esc(label) + '</td><td>' + val + '</td></tr>';
+        }).join('');
+        detailsHtml = '<div class="detail-section">' +
+          '<h2>Detalles del producto</h2>' +
+          '<div class="panel"><div class="table-wrapper"><table>' +
+          '<thead><tr><th>Campo</th><th>Valor</th></tr></thead>' +
+          '<tbody>' + detailRows + '</tbody></table></div></div></div>';
+      }
 
       // Build capabilities HTML outside template literal
       const caps = getCapabilities(db);
@@ -173,6 +204,8 @@
                 </div>
               </div>
             </div>
+
+            ${detailsHtml}
 
             ${capsHtml}
 

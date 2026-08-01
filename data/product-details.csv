@@ -1,0 +1,501 @@
+Proveedor,Producto,Campo,Valor
+Palo Alto Networks,PA-Series NGFW,pricing_model,Per appliance + subscription/year
+Palo Alto Networks,PA-Series NGFW,pricing_range,Contact sales ($5K-$500K+ depending on model)
+Palo Alto Networks,PA-Series NGFW,encryption_algorithms,"AES-256-CBC, AES-256-GCM, 3DES, ChaCha20-Poly1305"
+Palo Alto Networks,PA-Series NGFW,api_docs_url,https://docs.paloaltonetworks.com/pan-os/11-1/pan-os-panorama-api
+Palo Alto Networks,PA-Series NGFW,supported_clouds,N/A (on-prem appliance)
+Palo Alto Networks,PA-Series NGFW,min_deployment_size,1 appliance (PA-400 series)
+Palo Alto Networks,PA-Series NGFW,free_trial,No
+Palo Alto Networks,PA-Series NGFW,support_languages,"EN, ES, FR, DE, JP, KO, ZH"
+Palo Alto Networks,PA-Series NGFW,founded_year,2005
+Palo Alto Networks,PA-Series NGFW,hq_location,"Santa Clara, CA, USA"
+Palo Alto Networks,Prisma Cloud,pricing_model,Per cloud resource/workload credits
+Palo Alto Networks,Prisma Cloud,pricing_range,Contact sales (~$1-3 per resource/month)
+Palo Alto Networks,Prisma Cloud,encryption_algorithms,"AES-256-GCM, TLS 1.3"
+Palo Alto Networks,Prisma Cloud,api_docs_url,https://pan.dev/prisma-cloud/api/
+Palo Alto Networks,Prisma Cloud,supported_clouds,"AWS, Azure, GCP, OCI, Alibaba Cloud"
+Palo Alto Networks,Prisma Cloud,min_deployment_size,1 cloud account
+Palo Alto Networks,Prisma Cloud,free_trial,Yes (30 days)
+Palo Alto Networks,Prisma Cloud,support_languages,"EN, JP, KO"
+Palo Alto Networks,Prisma Cloud,founded_year,2005
+Palo Alto Networks,Prisma Cloud,hq_location,"Santa Clara, CA, USA"
+Palo Alto Networks,Cortex XDR,pricing_model,Per endpoint/year
+Palo Alto Networks,Cortex XDR,pricing_range,Contact sales (~$50-80/endpoint/year)
+Palo Alto Networks,Cortex XDR,encryption_algorithms,"AES-256-GCM, TLS 1.3"
+Palo Alto Networks,Cortex XDR,api_docs_url,https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR-REST-API
+Palo Alto Networks,Cortex XDR,supported_clouds,"AWS, Azure, GCP"
+Palo Alto Networks,Cortex XDR,min_deployment_size,200 endpoints (typical minimum)
+Palo Alto Networks,Cortex XDR,free_trial,Yes (30 days)
+Palo Alto Networks,Cortex XDR,support_languages,"EN, JP, KO"
+Palo Alto Networks,Cortex XDR,founded_year,2005
+Palo Alto Networks,Cortex XDR,hq_location,"Santa Clara, CA, USA"
+CrowdStrike,Falcon Insight,pricing_model,Per endpoint/year
+CrowdStrike,Falcon Insight,pricing_range,$8-15/endpoint/month
+CrowdStrike,Falcon Insight,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+CrowdStrike,Falcon Insight,api_docs_url,https://falcon.crowdstrike.com/documentation/46/crowdstrike-oauth2-based-apis
+CrowdStrike,Falcon Insight,supported_clouds,"AWS, Azure, GCP"
+CrowdStrike,Falcon Insight,min_deployment_size,5 endpoints (Falcon Go)
+CrowdStrike,Falcon Insight,free_trial,Yes (15 days)
+CrowdStrike,Falcon Insight,support_languages,"EN, DE, FR, JP, ES"
+CrowdStrike,Falcon Insight,founded_year,2011
+CrowdStrike,Falcon Insight,hq_location,"Austin, TX, USA"
+CrowdStrike,Falcon Cloud Security,pricing_model,Per cloud workload/year
+CrowdStrike,Falcon Cloud Security,pricing_range,Contact sales
+CrowdStrike,Falcon Cloud Security,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+CrowdStrike,Falcon Cloud Security,api_docs_url,https://falcon.crowdstrike.com/documentation/46/crowdstrike-oauth2-based-apis
+CrowdStrike,Falcon Cloud Security,supported_clouds,"AWS, Azure, GCP"
+CrowdStrike,Falcon Cloud Security,min_deployment_size,1 cloud account
+CrowdStrike,Falcon Cloud Security,free_trial,Yes (15 days)
+CrowdStrike,Falcon Cloud Security,support_languages,"EN, DE, FR, JP, ES"
+CrowdStrike,Falcon Cloud Security,founded_year,2011
+CrowdStrike,Falcon Cloud Security,hq_location,"Austin, TX, USA"
+Microsoft,Defender for Endpoint,pricing_model,Per user/month (Microsoft 365 license)
+Microsoft,Defender for Endpoint,pricing_range,$2.50-5.20/user/month (P1-P2 standalone)
+Microsoft,Defender for Endpoint,encryption_algorithms,"AES-256, RSA-2048, TLS 1.2/1.3"
+Microsoft,Defender for Endpoint,api_docs_url,https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/api/apis-intro
+Microsoft,Defender for Endpoint,supported_clouds,"Azure, AWS, GCP (via onboarding)"
+Microsoft,Defender for Endpoint,min_deployment_size,1 user
+Microsoft,Defender for Endpoint,free_trial,Yes (90 days)
+Microsoft,Defender for Endpoint,support_languages,"EN, ES, FR, DE, IT, PT, JP, KO, ZH, AR, HE, NL, PL, RU, SV, TR"
+Microsoft,Defender for Endpoint,founded_year,1975
+Microsoft,Defender for Endpoint,hq_location,"Redmond, WA, USA"
+Microsoft,Entra ID,pricing_model,Per user/month
+Microsoft,Entra ID,pricing_range,"Free tier available; P1 $6/user/month, P2 $9/user/month"
+Microsoft,Entra ID,encryption_algorithms,"AES-256, RSA-2048, TLS 1.2/1.3"
+Microsoft,Entra ID,api_docs_url,https://learn.microsoft.com/en-us/graph/api/resources/identity-network-access-overview
+Microsoft,Entra ID,supported_clouds,"Azure, AWS, GCP, Any (SAML/OIDC)"
+Microsoft,Entra ID,min_deployment_size,1 user
+Microsoft,Entra ID,free_trial,Free tier
+Microsoft,Entra ID,support_languages,"EN, ES, FR, DE, IT, PT, JP, KO, ZH, AR, HE, NL, PL, RU, SV, TR"
+Microsoft,Entra ID,founded_year,1975
+Microsoft,Entra ID,hq_location,"Redmond, WA, USA"
+Microsoft,Sentinel,pricing_model,Per GB ingested/day
+Microsoft,Sentinel,pricing_range,"$2.46/GB (pay-as-you-go), commitment tiers from $100/day"
+Microsoft,Sentinel,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Microsoft,Sentinel,api_docs_url,https://learn.microsoft.com/en-us/rest/api/securityinsights/
+Microsoft,Sentinel,supported_clouds,"Azure, AWS, GCP (via connectors)"
+Microsoft,Sentinel,min_deployment_size,1 Log Analytics workspace
+Microsoft,Sentinel,free_trial,Free tier (10 GB/day free with Azure)
+Microsoft,Sentinel,support_languages,"EN, ES, FR, DE, IT, PT, JP, KO, ZH"
+Microsoft,Sentinel,founded_year,1975
+Microsoft,Sentinel,hq_location,"Redmond, WA, USA"
+Cisco,Secure Firewall,pricing_model,Per appliance + subscription/year
+Cisco,Secure Firewall,pricing_range,Contact sales ($3K-$300K+ depending on model)
+Cisco,Secure Firewall,encryption_algorithms,"AES-256-GCM, AES-256-CBC, 3DES, ChaCha20-Poly1305"
+Cisco,Secure Firewall,api_docs_url,https://developer.cisco.com/docs/fmc-api/
+Cisco,Secure Firewall,supported_clouds,"AWS, Azure, GCP (virtual appliance)"
+Cisco,Secure Firewall,min_deployment_size,1 appliance (1100 series)
+Cisco,Secure Firewall,free_trial,No (demo available)
+Cisco,Secure Firewall,support_languages,"EN, ES, FR, DE, JP, KO, ZH"
+Cisco,Secure Firewall,founded_year,1984
+Cisco,Secure Firewall,hq_location,"San Jose, CA, USA"
+Cisco,Duo Security,pricing_model,Per user/month
+Cisco,Duo Security,pricing_range,"Free (up to 10 users); $3-9/user/month (Essentials-Premier)"
+Cisco,Duo Security,encryption_algorithms,"AES-256, RSA-2048, TLS 1.2/1.3"
+Cisco,Duo Security,api_docs_url,https://duo.com/docs/adminapi
+Cisco,Duo Security,supported_clouds,Any (cloud-agnostic SaaS)
+Cisco,Duo Security,min_deployment_size,1 user (Free tier: 10 users)
+Cisco,Duo Security,free_trial,Free tier
+Cisco,Duo Security,support_languages,"EN, ES, FR, DE, IT, JP, KO, ZH, PT, NL"
+Cisco,Duo Security,founded_year,1984
+Cisco,Duo Security,hq_location,"San Jose, CA, USA"
+Zscaler,Zscaler Internet Access (ZIA),pricing_model,Per user/year
+Zscaler,Zscaler Internet Access (ZIA),pricing_range,Contact sales (~$80-150/user/year)
+Zscaler,Zscaler Internet Access (ZIA),encryption_algorithms,"AES-256-GCM, TLS 1.3, ChaCha20-Poly1305"
+Zscaler,Zscaler Internet Access (ZIA),api_docs_url,https://help.zscaler.com/zia/getting-started-zia-api
+Zscaler,Zscaler Internet Access (ZIA),supported_clouds,"AWS, Azure, GCP (agentless)"
+Zscaler,Zscaler Internet Access (ZIA),min_deployment_size,100 users (typical)
+Zscaler,Zscaler Internet Access (ZIA),free_trial,No (PoC available)
+Zscaler,Zscaler Internet Access (ZIA),support_languages,"EN, DE, FR, JP, ES"
+Zscaler,Zscaler Internet Access (ZIA),founded_year,2007
+Zscaler,Zscaler Internet Access (ZIA),hq_location,"San Jose, CA, USA"
+Cloudflare,Cloudflare WAF,pricing_model,"Per zone/month, enterprise custom"
+Cloudflare,Cloudflare WAF,pricing_range,"Free tier available; Pro $20/month, Business $200/month, Enterprise custom"
+Cloudflare,Cloudflare WAF,encryption_algorithms,"AES-256-GCM, ChaCha20-Poly1305, TLS 1.3, ECDSA P-256"
+Cloudflare,Cloudflare WAF,api_docs_url,https://developers.cloudflare.com/api/
+Cloudflare,Cloudflare WAF,supported_clouds,Any (reverse proxy)
+Cloudflare,Cloudflare WAF,min_deployment_size,1 domain
+Cloudflare,Cloudflare WAF,free_trial,Free tier
+Cloudflare,Cloudflare WAF,support_languages,"EN, ES, FR, DE, PT, JP, KO, ZH"
+Cloudflare,Cloudflare WAF,founded_year,2009
+Cloudflare,Cloudflare WAF,hq_location,"San Francisco, CA, USA"
+Wiz,Wiz CNAPP,pricing_model,Per cloud resource/year
+Wiz,Wiz CNAPP,pricing_range,Contact sales
+Wiz,Wiz CNAPP,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Wiz,Wiz CNAPP,api_docs_url,https://docs.wiz.io/wiz-docs/reference/api-overview
+Wiz,Wiz CNAPP,supported_clouds,"AWS, Azure, GCP, OCI, Alibaba Cloud, VMware"
+Wiz,Wiz CNAPP,min_deployment_size,1 cloud account
+Wiz,Wiz CNAPP,free_trial,No (PoC available)
+Wiz,Wiz CNAPP,support_languages,"EN, JP"
+Wiz,Wiz CNAPP,founded_year,2020
+Wiz,Wiz CNAPP,hq_location,"New York, NY, USA"
+Fortinet,FortiGate,pricing_model,Per appliance + FortiGuard subscription/year
+Fortinet,FortiGate,pricing_range,Contact sales ($500-$500K+ depending on model)
+Fortinet,FortiGate,encryption_algorithms,"AES-256-GCM, AES-256-CBC, 3DES, ChaCha20-Poly1305, ARIA-256"
+Fortinet,FortiGate,api_docs_url,https://fndn.fortinet.net/index.php?/fortiapi/1-fortios/
+Fortinet,FortiGate,supported_clouds,"AWS, Azure, GCP, OCI (FortiGate-VM)"
+Fortinet,FortiGate,min_deployment_size,1 appliance (FortiGate 40F)
+Fortinet,FortiGate,free_trial,No (demo available)
+Fortinet,FortiGate,support_languages,"EN, ES, FR, DE, JP, KO, ZH, PT"
+Fortinet,FortiGate,founded_year,2000
+Fortinet,FortiGate,hq_location,"Sunnyvale, CA, USA"
+Splunk,Enterprise Security,pricing_model,Per GB ingested/day or per workload
+Splunk,Enterprise Security,pricing_range,"$2K-$150K+/year, workload pricing from Splunk Cloud"
+Splunk,Enterprise Security,encryption_algorithms,"AES-256-CBC, TLS 1.2/1.3, RSA-2048"
+Splunk,Enterprise Security,api_docs_url,https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTprolog
+Splunk,Enterprise Security,supported_clouds,"AWS, Azure, GCP (Splunk Cloud)"
+Splunk,Enterprise Security,min_deployment_size,1 GB/day ingestion
+Splunk,Enterprise Security,free_trial,Yes (60 days Splunk Cloud)
+Splunk,Enterprise Security,support_languages,"EN, JP, KO, ZH, DE, FR"
+Splunk,Enterprise Security,founded_year,2003
+Splunk,Enterprise Security,hq_location,"San Francisco, CA, USA"
+Thales,Luna Network HSM,pricing_model,Per appliance (perpetual + support)
+Thales,Luna Network HSM,pricing_range,"$20K-$80K per appliance, annual support ~18%"
+Thales,Luna Network HSM,encryption_algorithms,"AES-256, RSA-4096, ECC P-521, 3DES, HMAC-SHA-512, Ed25519"
+Thales,Luna Network HSM,api_docs_url,https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Home_Luna.htm
+Thales,Luna Network HSM,supported_clouds,"AWS CloudHSM (compatible), Azure, Any (network-attached)"
+Thales,Luna Network HSM,min_deployment_size,1 HSM appliance
+Thales,Luna Network HSM,free_trial,No (DPoD cloud HSM trial available)
+Thales,Luna Network HSM,support_languages,"EN, FR, DE, JP"
+Thales,Luna Network HSM,founded_year,2000
+Thales,Luna Network HSM,hq_location,"Paris, France"
+CyberArk,Privileged Access Manager,pricing_model,Per user/year (self-hosted) or per user/month (Privilege Cloud)
+CyberArk,Privileged Access Manager,pricing_range,Contact sales (~$50-100/user/month)
+CyberArk,Privileged Access Manager,encryption_algorithms,"AES-256, RSA-2048, TLS 1.2/1.3"
+CyberArk,Privileged Access Manager,api_docs_url,https://docs.cyberark.com/pam-self-hosted/latest/en/Content/WebServices/Implementing%20Privileged%20Account%20Security%20Web%20Services%20.htm
+CyberArk,Privileged Access Manager,supported_clouds,"AWS, Azure, GCP"
+CyberArk,Privileged Access Manager,min_deployment_size,50 privileged accounts (typical)
+CyberArk,Privileged Access Manager,free_trial,Yes (30 days Privilege Cloud)
+CyberArk,Privileged Access Manager,support_languages,"EN, DE, FR, JP, ES, KO, ZH"
+CyberArk,Privileged Access Manager,founded_year,1999
+CyberArk,Privileged Access Manager,hq_location,"Newton, MA, USA (HQ); Petah Tikva, Israel (founded)"
+Okta,Workforce Identity Cloud,pricing_model,Per user/month
+Okta,Workforce Identity Cloud,pricing_range,"$2-6/user/month (SSO); $3-9/user/month (Adaptive MFA), bundles available"
+Okta,Workforce Identity Cloud,encryption_algorithms,"AES-256, RSA-2048, TLS 1.2/1.3"
+Okta,Workforce Identity Cloud,api_docs_url,https://developer.okta.com/docs/reference/
+Okta,Workforce Identity Cloud,supported_clouds,"AWS, Azure, GCP, Any (SAML/OIDC)"
+Okta,Workforce Identity Cloud,min_deployment_size,1 user
+Okta,Workforce Identity Cloud,free_trial,Yes (30 days)
+Okta,Workforce Identity Cloud,support_languages,"EN, DE, FR, JP, ES, NL, IT, KO, ZH, PT"
+Okta,Workforce Identity Cloud,founded_year,2009
+Okta,Workforce Identity Cloud,hq_location,"San Francisco, CA, USA"
+SailPoint,Identity Security Cloud,pricing_model,Per identity/year
+SailPoint,Identity Security Cloud,pricing_range,Contact sales (~$12-25/identity/year)
+SailPoint,Identity Security Cloud,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+SailPoint,Identity Security Cloud,api_docs_url,https://developer.sailpoint.com/docs/
+SailPoint,Identity Security Cloud,supported_clouds,"AWS, Azure, GCP, Any"
+SailPoint,Identity Security Cloud,min_deployment_size,500 identities (typical minimum)
+SailPoint,Identity Security Cloud,free_trial,No (PoC available)
+SailPoint,Identity Security Cloud,support_languages,"EN, DE, FR, ES, JP, PT"
+SailPoint,Identity Security Cloud,founded_year,2005
+SailPoint,Identity Security Cloud,hq_location,"Austin, TX, USA"
+Netskope,Netskope One SSE,pricing_model,Per user/year
+Netskope,Netskope One SSE,pricing_range,Contact sales (~$80-150/user/year)
+Netskope,Netskope One SSE,encryption_algorithms,"AES-256-GCM, TLS 1.3, ChaCha20-Poly1305"
+Netskope,Netskope One SSE,api_docs_url,https://docs.netskope.com/en/netskope-help/admin-console/rest-api/rest-api-v2-overview/
+Netskope,Netskope One SSE,supported_clouds,"AWS, Azure, GCP"
+Netskope,Netskope One SSE,min_deployment_size,100 users (typical)
+Netskope,Netskope One SSE,free_trial,No (PoC available)
+Netskope,Netskope One SSE,support_languages,"EN, JP, FR, DE, ES"
+Netskope,Netskope One SSE,founded_year,2012
+Netskope,Netskope One SSE,hq_location,"Santa Clara, CA, USA"
+Tenable,Nessus Professional,pricing_model,Per scanner/year
+Tenable,Nessus Professional,pricing_range,"$3,990/year (Professional), $5,990/year (Expert)"
+Tenable,Nessus Professional,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Tenable,Nessus Professional,api_docs_url,https://developer.tenable.com/reference/nessus-api
+Tenable,Nessus Professional,supported_clouds,"Any (scanner deploys anywhere)"
+Tenable,Nessus Professional,min_deployment_size,1 scanner (16 IPs free for Essentials)
+Tenable,Nessus Professional,free_trial,Yes (7 days Professional)
+Tenable,Nessus Professional,support_languages,"EN, JP, ZH, KO, DE, FR"
+Tenable,Nessus Professional,founded_year,2002
+Tenable,Nessus Professional,hq_location,"Columbia, MD, USA"
+Qualys,VMDR,pricing_model,Per asset/year
+Qualys,VMDR,pricing_range,Contact sales (~$2-8/asset/year depending on volume)
+Qualys,VMDR,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Qualys,VMDR,api_docs_url,https://www.qualys.com/docs/qualys-api-vmpc-user-guide.pdf
+Qualys,VMDR,supported_clouds,"AWS, Azure, GCP, Any"
+Qualys,VMDR,min_deployment_size,1 asset (cloud agents)
+Qualys,VMDR,free_trial,Yes (30 days Community Edition for small environments)
+Qualys,VMDR,support_languages,"EN, DE, FR, ES, JP, KO, ZH"
+Qualys,VMDR,founded_year,1999
+Qualys,VMDR,hq_location,"Foster City, CA, USA"
+Rapid7,InsightVM,pricing_model,Per asset/year
+Rapid7,InsightVM,pricing_range,$2-14/asset/month (volume-dependent)
+Rapid7,InsightVM,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Rapid7,InsightVM,api_docs_url,https://help.rapid7.com/insightvm/en-us/api/index.html
+Rapid7,InsightVM,supported_clouds,"AWS, Azure, GCP"
+Rapid7,InsightVM,min_deployment_size,250 assets (typical minimum)
+Rapid7,InsightVM,free_trial,Yes (30 days)
+Rapid7,InsightVM,support_languages,"EN, JP, DE"
+Rapid7,InsightVM,founded_year,2000
+Rapid7,InsightVM,hq_location,"Boston, MA, USA"
+IBM,QRadar SIEM,pricing_model,Per EPS (events per second) / per FPM (flows per minute)
+IBM,QRadar SIEM,pricing_range,Contact sales (~$20K-$500K+/year depending on EPS)
+IBM,QRadar SIEM,encryption_algorithms,"AES-256, TLS 1.2/1.3, RSA-2048"
+IBM,QRadar SIEM,api_docs_url,https://www.ibm.com/docs/en/qsip/7.5?topic=api-restful-overview
+IBM,QRadar SIEM,supported_clouds,"AWS, Azure, IBM Cloud (QRadar on Cloud)"
+IBM,QRadar SIEM,min_deployment_size,1 appliance or VM (Community Edition free up to 50 EPS)
+IBM,QRadar SIEM,free_trial,Community edition (free up to 50 EPS)
+IBM,QRadar SIEM,support_languages,"EN, ES, FR, DE, IT, PT, JP, KO, ZH"
+IBM,QRadar SIEM,founded_year,1911
+IBM,QRadar SIEM,hq_location,"Armonk, NY, USA"
+HashiCorp,Vault,pricing_model,"Open source free; Enterprise per node/year; HCP Vault per hour"
+HashiCorp,Vault,pricing_range,"Free (OSS); HCP Vault from $0.03/hr; Enterprise contact sales"
+HashiCorp,Vault,encryption_algorithms,"AES-256-GCM, ChaCha20-Poly1305, RSA-4096, Ed25519, ECDSA P-256"
+HashiCorp,Vault,api_docs_url,https://developer.hashicorp.com/vault/api-docs
+HashiCorp,Vault,supported_clouds,"AWS, Azure, GCP, Any"
+HashiCorp,Vault,min_deployment_size,1 instance (dev mode)
+HashiCorp,Vault,free_trial,Free (open source); HCP Vault free tier available
+HashiCorp,Vault,support_languages,EN
+HashiCorp,Vault,founded_year,2012
+HashiCorp,Vault,hq_location,"San Francisco, CA, USA"
+Recorded Future,Intelligence Cloud,pricing_model,Per module/year
+Recorded Future,Intelligence Cloud,pricing_range,"Contact sales (~$50K-$500K+/year), free Analyst Community"
+Recorded Future,Intelligence Cloud,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Recorded Future,Intelligence Cloud,api_docs_url,https://api.recordedfuture.com/index.html
+Recorded Future,Intelligence Cloud,supported_clouds,Any (SaaS)
+Recorded Future,Intelligence Cloud,min_deployment_size,1 module subscription
+Recorded Future,Intelligence Cloud,free_trial,Free tier (Analyst Community)
+Recorded Future,Intelligence Cloud,support_languages,"EN, JP"
+Recorded Future,Intelligence Cloud,founded_year,2009
+Recorded Future,Intelligence Cloud,hq_location,"Boston, MA, USA"
+ServiceNow,Security Operations (SecOps),pricing_model,Per subscription unit/year
+ServiceNow,Security Operations (SecOps),pricing_range,Contact sales (~$50K-$500K+/year)
+ServiceNow,Security Operations (SecOps),encryption_algorithms,"AES-256, TLS 1.2/1.3, RSA-2048"
+ServiceNow,Security Operations (SecOps),api_docs_url,https://developer.servicenow.com/dev.do#!/reference
+ServiceNow,Security Operations (SecOps),supported_clouds,Any (SaaS platform)
+ServiceNow,Security Operations (SecOps),min_deployment_size,1 ServiceNow instance
+ServiceNow,Security Operations (SecOps),free_trial,Yes (Personal Developer Instance)
+ServiceNow,Security Operations (SecOps),support_languages,"EN, ES, FR, DE, IT, PT, JP, KO, ZH, NL"
+ServiceNow,Security Operations (SecOps),founded_year,2004
+ServiceNow,Security Operations (SecOps),hq_location,"Santa Clara, CA, USA"
+OneTrust,Privacy Management,pricing_model,Per module/year
+OneTrust,Privacy Management,pricing_range,Contact sales (~$30K-$200K+/year)
+OneTrust,Privacy Management,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+OneTrust,Privacy Management,api_docs_url,https://developer.onetrust.com/
+OneTrust,Privacy Management,supported_clouds,Any (SaaS)
+OneTrust,Privacy Management,min_deployment_size,1 organization
+OneTrust,Privacy Management,free_trial,No (demo available)
+OneTrust,Privacy Management,support_languages,"EN, ES, FR, DE, IT, PT, JP, NL, SV, DA, PL"
+OneTrust,Privacy Management,founded_year,2016
+OneTrust,Privacy Management,hq_location,"Atlanta, GA, USA"
+Snyk,Snyk Code,pricing_model,Per developer/month
+Snyk,Snyk Code,pricing_range,"Free (limited scans); Team $25/developer/month; Enterprise contact sales"
+Snyk,Snyk Code,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Snyk,Snyk Code,api_docs_url,https://docs.snyk.io/snyk-api
+Snyk,Snyk Code,supported_clouds,"AWS, Azure, GCP, Any (CI/CD integration)"
+Snyk,Snyk Code,min_deployment_size,1 developer
+Snyk,Snyk Code,free_trial,Free tier (up to 200 tests/month)
+Snyk,Snyk Code,support_languages,"EN"
+Snyk,Snyk Code,founded_year,2015
+Snyk,Snyk Code,hq_location,"Boston, MA, USA"
+Drata,Compliance Automation,pricing_model,Per framework/year
+Drata,Compliance Automation,pricing_range,"Starting ~$10K/year (Startup), up to $50K+ (Enterprise)"
+Drata,Compliance Automation,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Drata,Compliance Automation,api_docs_url,https://developers.drata.com/docs/
+Drata,Compliance Automation,supported_clouds,"AWS, Azure, GCP"
+Drata,Compliance Automation,min_deployment_size,1 organization
+Drata,Compliance Automation,free_trial,No (demo available)
+Drata,Compliance Automation,support_languages,"EN"
+Drata,Compliance Automation,founded_year,2020
+Drata,Compliance Automation,hq_location,"San Diego, CA, USA"
+Aqua Security,Aqua Platform,pricing_model,Per workload/year
+Aqua Security,Aqua Platform,pricing_range,Contact sales (~$5-15/workload/month)
+Aqua Security,Aqua Platform,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Aqua Security,Aqua Platform,api_docs_url,https://docs.aquasec.com/reference/
+Aqua Security,Aqua Platform,supported_clouds,"AWS, Azure, GCP, Any (Kubernetes)"
+Aqua Security,Aqua Platform,min_deployment_size,1 Kubernetes cluster
+Aqua Security,Aqua Platform,free_trial,Yes (30 days)
+Aqua Security,Aqua Platform,support_languages,"EN, JP"
+Aqua Security,Aqua Platform,founded_year,2015
+Aqua Security,Aqua Platform,hq_location,"Ramat Gan, Israel"
+Sysdig,Sysdig Secure,pricing_model,Per node/month
+Sysdig,Sysdig Secure,pricing_range,$20-55/node/month (volume-dependent)
+Sysdig,Sysdig Secure,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Sysdig,Sysdig Secure,api_docs_url,https://docs.sysdig.com/en/docs/developer-tools/sysdig-api/
+Sysdig,Sysdig Secure,supported_clouds,"AWS, Azure, GCP, Any (Kubernetes)"
+Sysdig,Sysdig Secure,min_deployment_size,1 node
+Sysdig,Sysdig Secure,free_trial,Yes (30 days)
+Sysdig,Sysdig Secure,support_languages,"EN, JP"
+Sysdig,Sysdig Secure,founded_year,2013
+Sysdig,Sysdig Secure,hq_location,"San Francisco, CA, USA"
+Darktrace,Darktrace DETECT,pricing_model,Per device or per user/year
+Darktrace,Darktrace DETECT,pricing_range,Contact sales (~$30K-$300K+/year)
+Darktrace,Darktrace DETECT,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Darktrace,Darktrace DETECT,api_docs_url,https://customerportal.darktrace.com/product-guides/main/api-intro
+Darktrace,Darktrace DETECT,supported_clouds,"AWS, Azure, GCP"
+Darktrace,Darktrace DETECT,min_deployment_size,1 appliance or virtual sensor
+Darktrace,Darktrace DETECT,free_trial,Yes (30 days PoV)
+Darktrace,Darktrace DETECT,support_languages,"EN, DE, FR, ES, JP"
+Darktrace,Darktrace DETECT,founded_year,2013
+Darktrace,Darktrace DETECT,hq_location,"Cambridge, United Kingdom"
+Vectra AI,Vectra NDR,pricing_model,Per IP address/year
+Vectra AI,Vectra NDR,pricing_range,Contact sales (~$30-60/IP/year)
+Vectra AI,Vectra NDR,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Vectra AI,Vectra NDR,api_docs_url,https://support.vectra.ai/s/article/KB-VS-1565
+Vectra AI,Vectra NDR,supported_clouds,"AWS, Azure, GCP"
+Vectra AI,Vectra NDR,min_deployment_size,1 sensor (virtual or physical)
+Vectra AI,Vectra NDR,free_trial,No (PoC available)
+Vectra AI,Vectra NDR,support_languages,"EN, DE, FR"
+Vectra AI,Vectra NDR,founded_year,2012
+Vectra AI,Vectra NDR,hq_location,"San Jose, CA, USA"
+Arctic Wolf,Managed Detection & Response,pricing_model,Per user/year (managed service)
+Arctic Wolf,Managed Detection & Response,pricing_range,Contact sales (~$25-50/user/month)
+Arctic Wolf,Managed Detection & Response,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Arctic Wolf,Managed Detection & Response,api_docs_url,
+Arctic Wolf,Managed Detection & Response,supported_clouds,"AWS, Azure, GCP"
+Arctic Wolf,Managed Detection & Response,min_deployment_size,100 users (typical minimum)
+Arctic Wolf,Managed Detection & Response,free_trial,No (PoC available)
+Arctic Wolf,Managed Detection & Response,support_languages,"EN"
+Arctic Wolf,Managed Detection & Response,founded_year,2012
+Arctic Wolf,Managed Detection & Response,hq_location,"Eden Prairie, MN, USA"
+Proofpoint,Email Protection,pricing_model,Per user/year
+Proofpoint,Email Protection,pricing_range,Contact sales (~$30-60/user/year)
+Proofpoint,Email Protection,encryption_algorithms,"AES-256-GCM, TLS 1.2/1.3, S/MIME"
+Proofpoint,Email Protection,api_docs_url,https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
+Proofpoint,Email Protection,supported_clouds,"Microsoft 365, Google Workspace, Any (MX relay)"
+Proofpoint,Email Protection,min_deployment_size,100 users (typical)
+Proofpoint,Email Protection,free_trial,No (demo available)
+Proofpoint,Email Protection,support_languages,"EN, DE, FR, ES, JP, IT, PT, KO, ZH"
+Proofpoint,Email Protection,founded_year,2002
+Proofpoint,Email Protection,hq_location,"Sunnyvale, CA, USA"
+Akamai,App & API Protector,pricing_model,Per site/application/year
+Akamai,App & API Protector,pricing_range,Contact sales (~$30K-$200K+/year)
+Akamai,App & API Protector,encryption_algorithms,"AES-256-GCM, TLS 1.2/1.3, ChaCha20-Poly1305"
+Akamai,App & API Protector,api_docs_url,https://techdocs.akamai.com/application-security/reference/api
+Akamai,App & API Protector,supported_clouds,Any (CDN/reverse proxy)
+Akamai,App & API Protector,min_deployment_size,1 web property
+Akamai,App & API Protector,free_trial,No (trial available upon request)
+Akamai,App & API Protector,support_languages,"EN, JP, KO, ZH"
+Akamai,App & API Protector,founded_year,1998
+Akamai,App & API Protector,hq_location,"Cambridge, MA, USA"
+Imperva,Cloud WAF,pricing_model,Per site/year
+Imperva,Cloud WAF,pricing_range,"$59/site/month (Pro), $229/site/month (Business), Enterprise custom"
+Imperva,Cloud WAF,encryption_algorithms,"AES-256-GCM, TLS 1.2/1.3, RSA-2048"
+Imperva,Cloud WAF,api_docs_url,https://docs.imperva.com/bundle/cloud-application-security/page/api/api.htm
+Imperva,Cloud WAF,supported_clouds,Any (reverse proxy)
+Imperva,Cloud WAF,min_deployment_size,1 web application
+Imperva,Cloud WAF,free_trial,Yes (30 days)
+Imperva,Cloud WAF,support_languages,"EN, JP, DE"
+Imperva,Cloud WAF,founded_year,2002
+Imperva,Cloud WAF,hq_location,"San Mateo, CA, USA"
+Mandiant,Advantage Threat Intelligence,pricing_model,Per subscription tier/year
+Mandiant,Advantage Threat Intelligence,pricing_range,"Free (limited access); Standard and Enterprise contact sales"
+Mandiant,Advantage Threat Intelligence,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Mandiant,Advantage Threat Intelligence,api_docs_url,https://docs.mandiant.com/home/mati-api-v4-overview
+Mandiant,Advantage Threat Intelligence,supported_clouds,Any (SaaS)
+Mandiant,Advantage Threat Intelligence,min_deployment_size,1 subscription
+Mandiant,Advantage Threat Intelligence,free_trial,Free tier (limited)
+Mandiant,Advantage Threat Intelligence,support_languages,"EN, JP"
+Mandiant,Advantage Threat Intelligence,founded_year,2004
+Mandiant,Advantage Threat Intelligence,hq_location,"Reston, VA, USA (now part of Google Cloud)"
+Sophos,Intercept X Endpoint,pricing_model,Per endpoint/year
+Sophos,Intercept X Endpoint,pricing_range,$20-50/endpoint/year (volume-dependent)
+Sophos,Intercept X Endpoint,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Sophos,Intercept X Endpoint,api_docs_url,https://developer.sophos.com/
+Sophos,Intercept X Endpoint,supported_clouds,Any (SaaS-managed)
+Sophos,Intercept X Endpoint,min_deployment_size,1 endpoint
+Sophos,Intercept X Endpoint,free_trial,Yes (30 days)
+Sophos,Intercept X Endpoint,support_languages,"EN, DE, FR, ES, IT, JP, PT, KO, ZH"
+Sophos,Intercept X Endpoint,founded_year,1985
+Sophos,Intercept X Endpoint,hq_location,"Abingdon, Oxfordshire, United Kingdom"
+Keyfactor,EJBCA,pricing_model,Per certificate or per instance/year
+Keyfactor,EJBCA,pricing_range,"Free (Community); Enterprise contact sales (~$50K-$200K/year)"
+Keyfactor,EJBCA,encryption_algorithms,"RSA-4096, ECC P-256/P-384, Ed25519, AES-256, SHA-384/512"
+Keyfactor,EJBCA,api_docs_url,https://doc.primekey.com/ejbca/ejbca-operations/ejbca-ca-concept-guide/protocols/ejbca-rest-interface
+Keyfactor,EJBCA,supported_clouds,"AWS, Azure, GCP, Any (self-hosted or SaaS)"
+Keyfactor,EJBCA,min_deployment_size,1 CA instance
+Keyfactor,EJBCA,free_trial,Community edition (free open source)
+Keyfactor,EJBCA,support_languages,"EN"
+Keyfactor,EJBCA,founded_year,2001
+Keyfactor,EJBCA,hq_location,"Independence, OH, USA"
+Venafi,TLS Protect,pricing_model,Per certificate/year
+Venafi,TLS Protect,pricing_range,Contact sales (~$30K-$150K+/year)
+Venafi,TLS Protect,encryption_algorithms,"RSA-4096, ECC P-256/P-384, AES-256, TLS 1.2/1.3"
+Venafi,TLS Protect,api_docs_url,https://docs.venafi.com/Docs/current/TopNav/Content/SDK/WebSDK/c-sdk-overview.php
+Venafi,TLS Protect,supported_clouds,"AWS, Azure, GCP, Any"
+Venafi,TLS Protect,min_deployment_size,100 certificates (typical)
+Venafi,TLS Protect,free_trial,No (PoC available)
+Venafi,TLS Protect,support_languages,"EN"
+Venafi,TLS Protect,founded_year,2004
+Venafi,TLS Protect,hq_location,"Salt Lake City, UT, USA"
+DigiCert,CertCentral,pricing_model,Per certificate/year
+DigiCert,CertCentral,pricing_range,"$268-$995/year per DV/OV/EV cert, volume discounts available"
+DigiCert,CertCentral,encryption_algorithms,"RSA-4096, ECC P-256/P-384, Ed25519, SHA-256/384"
+DigiCert,CertCentral,api_docs_url,https://dev.digicert.com/en/certcentral-apis.html
+DigiCert,CertCentral,supported_clouds,"AWS, Azure, GCP, Any"
+DigiCert,CertCentral,min_deployment_size,1 certificate
+DigiCert,CertCentral,free_trial,No (30-day money-back guarantee)
+DigiCert,CertCentral,support_languages,"EN, ES, FR, DE, JP, KO, ZH, PT"
+DigiCert,CertCentral,founded_year,2003
+DigiCert,CertCentral,hq_location,"Lehi, UT, USA"
+Entrust,nShield HSM,pricing_model,Per appliance (perpetual + support) or as-a-Service subscription
+Entrust,nShield HSM,pricing_range,"$15K-$80K per appliance; nShield as a Service from $800/month"
+Entrust,nShield HSM,encryption_algorithms,"AES-256, RSA-4096, ECC P-521, 3DES, HMAC-SHA-512, Ed25519"
+Entrust,nShield HSM,api_docs_url,https://nshielddocs.entrust.com/api/
+Entrust,nShield HSM,supported_clouds,"AWS, Azure, GCP (nSaaS), Any (network-attached)"
+Entrust,nShield HSM,min_deployment_size,1 HSM (Solo or Connect)
+Entrust,nShield HSM,free_trial,No (nShield trial program available)
+Entrust,nShield HSM,support_languages,"EN, DE, FR, JP"
+Entrust,nShield HSM,founded_year,1969
+Entrust,nShield HSM,hq_location,"Shakopee, MN, USA"
+Claroty,xDome,pricing_model,Per asset/year
+Claroty,xDome,pricing_range,Contact sales
+Claroty,xDome,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Claroty,xDome,api_docs_url,https://claroty.com/resources/api-documentation
+Claroty,xDome,supported_clouds,"AWS, Azure (SaaS platform)"
+Claroty,xDome,min_deployment_size,1 OT site/network
+Claroty,xDome,free_trial,No (PoC available)
+Claroty,xDome,support_languages,"EN, DE, JP"
+Claroty,xDome,founded_year,2015
+Claroty,xDome,hq_location,"New York, NY, USA"
+Vanta,Compliance Automation,pricing_model,Per framework/year
+Vanta,Compliance Automation,pricing_range,"Starting ~$6K/year (Startup), up to $50K+ (Enterprise)"
+Vanta,Compliance Automation,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+Vanta,Compliance Automation,api_docs_url,https://developer.vanta.com/
+Vanta,Compliance Automation,supported_clouds,"AWS, Azure, GCP"
+Vanta,Compliance Automation,min_deployment_size,1 organization
+Vanta,Compliance Automation,free_trial,No (demo available)
+Vanta,Compliance Automation,support_languages,"EN"
+Vanta,Compliance Automation,founded_year,2018
+Vanta,Compliance Automation,hq_location,"San Francisco, CA, USA"
+BeyondTrust,Privileged Remote Access,pricing_model,Per named user or concurrent user/year
+BeyondTrust,Privileged Remote Access,pricing_range,Contact sales (~$30-100/user/month)
+BeyondTrust,Privileged Remote Access,encryption_algorithms,"AES-256, TLS 1.2/1.3, RSA-2048"
+BeyondTrust,Privileged Remote Access,api_docs_url,https://www.beyondtrust.com/docs/privileged-remote-access/how-to/integrations/api/index.htm
+BeyondTrust,Privileged Remote Access,supported_clouds,"AWS, Azure, GCP, Any"
+BeyondTrust,Privileged Remote Access,min_deployment_size,1 appliance or SaaS instance
+BeyondTrust,Privileged Remote Access,free_trial,Yes (trial available)
+BeyondTrust,Privileged Remote Access,support_languages,"EN, DE, FR, ES, JP"
+BeyondTrust,Privileged Remote Access,founded_year,1985
+BeyondTrust,Privileged Remote Access,hq_location,"Atlanta, GA, USA"
+Delinea,Secret Server,pricing_model,Per user/year (named or concurrent)
+Delinea,Secret Server,pricing_range,"Free (up to 25 secrets); Professional from $10K/year; Enterprise contact sales"
+Delinea,Secret Server,encryption_algorithms,"AES-256, RSA-2048, TLS 1.2/1.3"
+Delinea,Secret Server,api_docs_url,https://docs.delinea.com/online-help/secret-server/api-scripting/rest-api-reference-download/index.htm
+Delinea,Secret Server,supported_clouds,"AWS, Azure, GCP, Any"
+Delinea,Secret Server,min_deployment_size,1 instance (Free: 25 secrets)
+Delinea,Secret Server,free_trial,Free tier (25 secrets)
+Delinea,Secret Server,support_languages,"EN, DE, FR, JP"
+Delinea,Secret Server,founded_year,1996
+Delinea,Secret Server,hq_location,"San Francisco, CA, USA"
+SecurityScorecard,Ratings Platform,pricing_model,Per rated entity/year
+SecurityScorecard,Ratings Platform,pricing_range,"Free (self-rating); Business and Enterprise contact sales"
+SecurityScorecard,Ratings Platform,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+SecurityScorecard,Ratings Platform,api_docs_url,https://securityscorecard.readme.io/reference
+SecurityScorecard,Ratings Platform,supported_clouds,Any (SaaS)
+SecurityScorecard,Ratings Platform,min_deployment_size,1 organization (free self-rating)
+SecurityScorecard,Ratings Platform,free_trial,Free tier (own scorecard)
+SecurityScorecard,Ratings Platform,support_languages,"EN, DE, JP"
+SecurityScorecard,Ratings Platform,founded_year,2013
+SecurityScorecard,Ratings Platform,hq_location,"New York, NY, USA"
+SentinelOne,Singularity Endpoint Protection,pricing_model,Per endpoint/year
+SentinelOne,Singularity Endpoint Protection,pricing_range,$6-12/endpoint/month (Core to Complete)
+SentinelOne,Singularity Endpoint Protection,encryption_algorithms,"AES-256, TLS 1.2/1.3"
+SentinelOne,Singularity Endpoint Protection,api_docs_url,https://usea1-partners.sentinelone.net/api-doc/overview
+SentinelOne,Singularity Endpoint Protection,supported_clouds,"AWS, Azure, GCP"
+SentinelOne,Singularity Endpoint Protection,min_deployment_size,5 endpoints (Singularity Core)
+SentinelOne,Singularity Endpoint Protection,free_trial,Yes (30 days)
+SentinelOne,Singularity Endpoint Protection,support_languages,"EN, DE, FR, ES, JP, KO, ZH, IT"
+SentinelOne,Singularity Endpoint Protection,founded_year,2013
+SentinelOne,Singularity Endpoint Protection,hq_location,"Mountain View, CA, USA"
