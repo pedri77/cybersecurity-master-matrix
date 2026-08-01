@@ -284,16 +284,46 @@ if (typeof window !== 'undefined') {
     if (btn) btn.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
 
-  // Init global search once DOM is ready and data loaded
+  // Init global search + scroll reveal once DOM is ready
   window.addEventListener('DOMContentLoaded', () => {
-    // Wait for init() to complete (which loads DB and renders nav)
     const check = setInterval(() => {
       if (_db && document.getElementById('global-search')) {
         clearInterval(check);
         initGlobalSearch();
+        initScrollReveal();
       }
     }, 100);
   });
+}
+
+/** Scroll reveal: observe .reveal and .reveal-stagger elements */
+function initScrollReveal() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal, .reveal-stagger').forEach(el => observer.observe(el));
+
+  // Animate score bars when visible
+  const barObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.score-bar-fill').forEach(bar => {
+          bar.classList.add('animate-in');
+        });
+        barObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.score-bar-cell').forEach(el => barObserver.observe(el));
 }
 
 /** Global search across all entities */
