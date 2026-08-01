@@ -1185,6 +1185,51 @@ a.category-item:hover {
   margin-top: 48px;
 }
 
+/* --- Disclaimer banner (first visit) --- */
+.disclaimer-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: rgba(255, 209, 102, 0.12);
+  border-top: 1px solid rgba(255, 209, 102, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 0.88rem;
+  color: var(--text);
+  animation: slideUp 0.3s ease-out;
+}
+
+.disclaimer-banner button {
+  padding: 6px 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+
+.disclaimer-banner button:hover {
+  background: var(--accent);
+  color: #062034;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
 .footer .container {
   display: flex;
   flex-direction: column;

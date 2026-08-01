@@ -379,6 +379,34 @@ function copyToClipboard(text, btnEl) {
   });
 }
 
+/** Animate counter from 0 to target */
+function animateCounters() {
+  document.querySelectorAll('.stat strong').forEach(el => {
+    const target = parseInt(el.textContent.replace(/\D/g, ''));
+    if (isNaN(target) || target === 0) return;
+    const duration = 800;
+    const start = performance.now();
+    el.textContent = '0';
+    function step(now) {
+      const progress = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+      el.textContent = Math.round(target * ease);
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+}
+
+/** Show disclaimer banner on first visit */
+function showDisclaimerBanner() {
+  if (sessionStorage.getItem('disclaimer-seen')) return;
+  const banner = document.createElement('div');
+  banner.className = 'disclaimer-banner';
+  banner.innerHTML = '<span>Los datos de esta matriz son orientativos y pendientes de validacion independiente.</span>' +
+    '<button onclick="this.parentElement.remove();sessionStorage.setItem(\'disclaimer-seen\',\'1\')">Entendido</button>';
+  document.body.prepend(banner);
+}
+
 /** Render breadcrumbs */
 function renderBreadcrumbs(items) {
   return `

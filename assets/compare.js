@@ -202,8 +202,9 @@
         return '<tr><td>' + esc(cat['Categoría tecnológica']) + '</td>' +
           products.map(p => {
             const has = p.categories.some(c => c['ID categoría'] === cat['ID categoría']);
-            return '<td style="text-align:center">' +
-              (has ? '<span class="match">&#10003;</span>' : '<span class="no-match">—</span>') +
+            return '<td style="text-align:center;background:' +
+              (has ? 'rgba(110,231,168,0.1)' : 'rgba(255,107,107,0.05)') + '">' +
+              (has ? '<span class="match">&#10003;</span>' : '<span class="no-match">&#10007;</span>') +
               '</td>';
           }).join('') +
           '</tr>';
@@ -215,10 +216,10 @@
         return '<tr><td>' + esc(cap.Capacidad) + '</td>' +
           products.map(p => {
             const pc = getProductCapabilities(db, p.product.Proveedor, p.product.Producto);
-            if (!pc) return '<td><span class="no-match">—</span></td>';
+            if (!pc) return '<td style="background:rgba(255,107,107,0.05)"><span class="no-match">—</span></td>';
             const val = pc[cap.ID] || '';
-            if (!val.trim()) return '<td><span class="no-match">—</span></td>';
-            return '<td>' + val.split(';').map(v => '<span class="badge">' + esc(v.trim()) + '</span>').join(' ') + '</td>';
+            if (!val.trim()) return '<td style="background:rgba(255,107,107,0.05)"><span class="no-match">—</span></td>';
+            return '<td style="background:rgba(110,231,168,0.06)">' + val.split(';').map(v => '<span class="badge">' + esc(v.trim()) + '</span>').join(' ') + '</td>';
           }).join('') +
           '</tr>';
       }).join('');

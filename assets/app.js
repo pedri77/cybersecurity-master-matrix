@@ -44,6 +44,12 @@ async function init() {
           </a>`;
       }).join('')}
     </div>`;
+
+  // Animate stat counters
+  animateCounters();
+
+  // Show disclaimer on first visit
+  showDisclaimerBanner();
 }
 
 init();
