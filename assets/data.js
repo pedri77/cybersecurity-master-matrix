@@ -178,7 +178,7 @@ function renderNav(activePage) {
     <nav class="nav">
       <div class="container">
         <a href="index.html" class="nav-brand">
-          <span class="icon">&#x1f6e1;</span> CyberMatrix
+          <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> CyberMatrix
         </a>
         <div class="nav-search-wrapper">
           <input type="search" id="global-search" class="nav-search" placeholder="Buscar..." autocomplete="off">

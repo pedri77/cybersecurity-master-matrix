@@ -61,6 +61,18 @@ a:hover {
   color: var(--accent-hover);
 }
 
+/* Clickable elements */
+a.card,
+a.entry-card,
+a.provider-chip,
+a.category-item,
+.badge[href],
+a.badge,
+.btn,
+button {
+  cursor: pointer;
+}
+
 /* --- Layout --- */
 .container {
   max-width: var(--max-width);
@@ -110,6 +122,11 @@ a:hover {
 
 .nav-brand:hover {
   color: var(--text);
+}
+
+.nav-icon {
+  flex-shrink: 0;
+  color: var(--accent);
 }
 
 .nav-links {
@@ -226,13 +243,13 @@ a:hover {
 
 @media (max-width: 768px) {
   .nav-search-wrapper {
-    flex: 1 1 100%;
-    order: 10;
-    display: none;
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
-  .nav-links.open ~ .nav-search-wrapper {
-    display: block;
+  .nav-search {
+    font-size: 0.82rem;
+    padding: 6px 10px;
   }
 }
 
@@ -1270,6 +1287,28 @@ a.category-item:hover {
 }
 
 /* --- Responsive --- */
+/* --- Reduced motion --- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .page-content {
+    animation: none;
+  }
+
+  .card:hover,
+  .entry-card:hover,
+  .category-item:hover {
+    transform: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .entries {
     grid-template-columns: repeat(2, 1fr);
