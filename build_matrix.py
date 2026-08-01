@@ -95,7 +95,7 @@ def validate(domains, categories, providers, products, cat_prov_map,
         cap_products.add(key)
         # Check column count
         cap_count = sum(1 for i in range(1, 21)
-                        if pc.get(f'CAP{i:03d}', '').strip())
+                        if (pc.get(f'CAP{i:03d}') or '').strip())
         if cap_count == 0:
             warn(f"Product {pc['Proveedor']} - {pc['Producto']} has 0 capabilities filled")
 

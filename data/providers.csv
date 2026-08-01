@@ -341,3 +341,32 @@ Zimperium,1,1,D03,C022,Pendiente,Tier 3
 Zscaler,1,2,D01,C002; C004,Pendiente,Tier 1
 comforte,1,1,D05,C035,Pendiente,Tier 3
 runZero,1,1,D09,C067,Pendiente,Tier 3
+Govertis,2,2,D10; D11,C076; C077,Pendiente,Tier 3
+S21sec,2,2,D16; D20,C101; C120,Pendiente,Tier 2
+S2 Grupo,3,3,D07; D13; D16,C088; C102; C049,Pendiente,Tier 2
+Indra,3,3,D13; D16; D20,C088; C102; C119,Pendiente,Tier 1
+GMV,3,3,D07; D13; D20,C088; C049; C119,Pendiente,Tier 2
+Tarlogic,1,1,D20,C120,Pendiente,Tier 3
+CounterCraft,1,1,D08,C055,Pendiente,Tier 3
+Aiuken,2,2,D16,C101; C102,Pendiente,Tier 3
+Hispasec,2,2,D08; D09,C055; C063,Pendiente,Tier 3
+ElevenPaths,2,2,D09; D16,C061; C101,Pendiente,Tier 2
+GlobalSuite Solutions,1,2,D10,C069; C076,Pendiente,Tier 3
+ESET,1,2,D03,C019; C020,Pendiente,Tier 1
+Bitdefender,2,3,D03; D16,C019; C020; C101,Pendiente,Tier 1
+Kaspersky,2,3,D03; D08,C019; C020; C055,Pendiente,Tier 1
+WithSecure,2,2,D03; D04,C019; C020,Pendiente,Tier 2
+G DATA,1,1,D03,C019,Pendiente,Tier 3
+Airbus CyberSecurity,3,2,D07; D13; D16,C088; C102,Pendiente,Tier 2
+Atos,2,3,D16; D20,C101; C102; C119,Pendiente,Tier 1
+BT Security,1,2,D16,C101; C102,Pendiente,Tier 2
+Leonardo,2,2,D13; D16,C088; C102,Pendiente,Tier 2
+Tanium,2,2,D03; D09,C019; C063,Pendiente,Tier 1
+WatchGuard,2,2,D01; D03,C001; C019,Pendiente,Tier 2
+SonicWall,2,2,D01; D14,C001; C093,Pendiente,Tier 2
+LogRhythm,1,1,D07,C047,Pendiente,Tier 2
+Sumo Logic,1,1,D07,C047,Pendiente,Tier 2
+Deep Instinct,1,1,D03,C019,Pendiente,Tier 3
+Huntress,1,1,D16,C101,Pendiente,Tier 3
+Menlo Security,1,1,D01,C002,Pendiente,Tier 3
+Cynet,2,2,D03; D16,C021; C101,Pendiente,Tier 3
