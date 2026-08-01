@@ -118,6 +118,7 @@
                   <tr>
                     <th>Producto</th>
                     <th>Proveedor</th>
+                    <th>Tier</th>
                     <th>Categorias</th>
                     <th>Despliegue</th>
                     <th>Ediciones</th>
@@ -132,6 +133,7 @@
                       <tr>
                         <td><a href="product.html#${slug}">${esc(p.Producto)}</a></td>
                         <td><a href="provider.html#${slugify(p.Proveedor)}">${esc(p.Proveedor)}</a></td>
+                        <td>${tierBadge((findProviderByName(db, p.Proveedor) || {}).Tier || '')}</td>
                         <td>${cats.map(c =>
                           `<a class="badge" href="category.html#${esc(c['ID categoría'])}">${esc(c['Categoría tecnológica'])}</a>`
                         ).join(' ')}</td>

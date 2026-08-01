@@ -1,0 +1,196 @@
+Proveedor,Producto,Capacidad,Valor,URL fuente,Tipo fuente,Fecha verificacion
+Palo Alto Networks,PA-Series NGFW,CAP014,Common Criteria EAL4+ / FIPS 140-2 / ICSA Labs,https://www.paloaltonetworks.com/company/certifications,Certificacion,2026-07-31
+Palo Alto Networks,PA-Series NGFW,CAP001,Appliance (PA-400 a PA-7000),https://docs.paloaltonetworks.com/hardware,Documentacion oficial,2026-07-31
+Palo Alto Networks,PA-Series NGFW,CAP005,REST API / XML API / SDK Python,https://pan.dev/panos/docs/,Documentacion oficial,2026-07-31
+Palo Alto Networks,PA-Series NGFW,CAP008,TLS 1.3 inspeccion / IPsec / cifrado en reposo,https://docs.paloaltonetworks.com/pan-os,Documentacion oficial,2026-07-31
+Palo Alto Networks,Prisma Cloud,CAP014,SOC 2 Type II / ISO 27001 / CSA STAR,https://www.paloaltonetworks.com/company/certifications,Certificacion,2026-07-31
+Palo Alto Networks,Prisma Cloud,CAP005,REST API v2 / SDK Python / Terraform Provider,https://pan.dev/prisma-cloud/api/,Documentacion oficial,2026-07-31
+Palo Alto Networks,Prisma Cloud,CAP001,SaaS multi-cloud (AWS/Azure/GCP/OCI),https://docs.prismacloud.io/en/enterprise-edition,Documentacion oficial,2026-07-31
+Palo Alto Networks,Prisma Cloud,CAP008,AES-256 en reposo / TLS 1.2+ en transito,https://docs.prismacloud.io/en/enterprise-edition/content-collections/runtime-security,Documentacion oficial,2026-07-31
+Palo Alto Networks,Cortex XDR,CAP014,SOC 2 Type II / ISO 27001,https://www.paloaltonetworks.com/company/certifications,Certificacion,2026-07-31
+Palo Alto Networks,Cortex XDR,CAP005,REST API / SDK Python,https://cortex.pan.dev/docs/apis/xdr/,Documentacion oficial,2026-07-31
+Palo Alto Networks,Cortex XDR,CAP001,SaaS (Prevent y Pro),https://docs.paloaltonetworks.com/cortex/cortex-xdr,Documentacion oficial,2026-07-31
+Palo Alto Networks,Cortex XDR,CAP012,ML behavioral analysis / Cortex Copilot IA generativa,https://www.paloaltonetworks.com/cortex/cortex-xdr,Documentacion oficial,2026-07-31
+CrowdStrike,Falcon Insight,CAP014,SOC 2 Type II / FedRAMP Moderate / ISO 27001 / PCI DSS,https://www.crowdstrike.com/why-crowdstrike/crowdstrike-certifications/,Certificacion,2026-07-31
+CrowdStrike,Falcon Insight,CAP005,REST API / OAuth2 / Falcon SDK Python,https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis,Documentacion oficial,2026-07-31
+CrowdStrike,Falcon Insight,CAP001,SaaS nativo cloud,https://www.crowdstrike.com/platform/endpoint-security/falcon-insight-edr/,Documentacion oficial,2026-07-31
+CrowdStrike,Falcon Insight,CAP012,Charlotte AI / ML deteccion comportamental,https://www.crowdstrike.com/platform/charlotte-ai/,Documentacion oficial,2026-07-31
+CrowdStrike,Falcon Cloud Security,CAP014,SOC 2 Type II / FedRAMP / ISO 27001,https://www.crowdstrike.com/why-crowdstrike/crowdstrike-certifications/,Certificacion,2026-07-31
+CrowdStrike,Falcon Cloud Security,CAP005,REST API / Terraform Provider,https://falcon.crowdstrike.com/documentation/page/a2a7fc0e/crowdstrike-oauth2-based-apis,Documentacion oficial,2026-07-31
+CrowdStrike,Falcon Cloud Security,CAP001,SaaS (CNAPP multi-cloud),https://www.crowdstrike.com/platform/cloud-security/,Documentacion oficial,2026-07-31
+Microsoft,Defender for Endpoint,CAP014,SOC 2 / ISO 27001 / ISO 27018 / FedRAMP High,https://learn.microsoft.com/en-us/compliance/regulatory/offering-home,Certificacion,2026-07-31
+Microsoft,Defender for Endpoint,CAP005,REST API / Microsoft Graph API / SDK .NET/Python,https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/apis-intro,Documentacion oficial,2026-07-31
+Microsoft,Defender for Endpoint,CAP001,SaaS (P1 y P2),https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint,Documentacion oficial,2026-07-31
+Microsoft,Defender for Endpoint,CAP008,TLS 1.2+ / datos cifrados en reposo Azure,https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/data-storage-privacy,Documentacion oficial,2026-07-31
+Microsoft,Entra ID,CAP014,SOC 2 Type II / ISO 27001 / ISO 27017 / ISO 27018 / FedRAMP High / ENS Alto,https://learn.microsoft.com/en-us/entra/fundamentals/entra-security-compliance,Certificacion,2026-07-31
+Microsoft,Entra ID,CAP005,Microsoft Graph API / REST / SCIM / SDK multi-lenguaje,https://learn.microsoft.com/en-us/graph/api/resources/identity-overview,Documentacion oficial,2026-07-31
+Microsoft,Entra ID,CAP001,SaaS (Free / P1 / P2 / Governance),https://learn.microsoft.com/en-us/entra/fundamentals/whatis,Documentacion oficial,2026-07-31
+Microsoft,Entra ID,CAP009,RBAC / Conditional Access / MFA / SSO / SAML / OIDC,https://learn.microsoft.com/en-us/entra/identity/,Documentacion oficial,2026-07-31
+Microsoft,Sentinel,CAP014,SOC 2 / ISO 27001 / FedRAMP High,https://learn.microsoft.com/en-us/compliance/regulatory/offering-home,Certificacion,2026-07-31
+Microsoft,Sentinel,CAP005,REST API / Log Analytics API / Kusto / ARM Templates,https://learn.microsoft.com/en-us/azure/sentinel/automation,Documentacion oficial,2026-07-31
+Microsoft,Sentinel,CAP001,Cloud nativo Azure (Pay-as-you-go / Commitment Tiers),https://learn.microsoft.com/en-us/azure/sentinel/overview,Documentacion oficial,2026-07-31
+Microsoft,Sentinel,CAP012,Fusion ML / Microsoft Copilot for Security / UEBA,https://learn.microsoft.com/en-us/azure/sentinel/fusion,Documentacion oficial,2026-07-31
+Cisco,Secure Firewall,CAP014,Common Criteria / FIPS 140-2 / USGv6,https://www.cisco.com/c/en/us/solutions/industries/government/global-government-certifications.html,Certificacion,2026-07-31
+Cisco,Secure Firewall,CAP001,Appliance (1100/3100/4200/9300) y virtual,https://www.cisco.com/site/us/en/products/security/firewalls/index.html,Documentacion oficial,2026-07-31
+Cisco,Secure Firewall,CAP005,REST API / FMC API / FTD API,https://developer.cisco.com/docs/fmc/api-reference/,Documentacion oficial,2026-07-31
+Cisco,Secure Firewall,CAP008,TLS 1.3 / IPsec VPN / cifrado disco,https://www.cisco.com/c/en/us/products/security/firewalls/secure-firewall-management-center/index.html,Documentacion oficial,2026-07-31
+Fortinet,FortiGate,CAP014,Common Criteria EAL4+ / FIPS 140-2 / ICSA Labs / NSS Labs,https://www.fortinet.com/corporate/about-us/product-certifications,Certificacion,2026-07-31
+Fortinet,FortiGate,CAP001,Appliance (FortiGate 40F a 4000F) y VM,https://www.fortinet.com/products/next-generation-firewall,Documentacion oficial,2026-07-31
+Fortinet,FortiGate,CAP005,REST API / FortiOS API / Terraform Provider / Ansible,https://docs.fortinet.com/document/fortigate/7.4.0/administration-guide/940602/rest-api,Documentacion oficial,2026-07-31
+Fortinet,FortiGate,CAP008,IPsec/SSL VPN / ASIC acelerado / TLS inspection,https://docs.fortinet.com/product/fortigate/,Documentacion oficial,2026-07-31
+Zscaler,Zscaler Internet Access (ZIA),CAP014,SOC 2 Type II / ISO 27001 / FedRAMP High / CSA STAR,https://www.zscaler.com/company/compliance,Certificacion,2026-07-31
+Zscaler,Zscaler Internet Access (ZIA),CAP005,REST API / SDK Python / Terraform Provider,https://help.zscaler.com/zscaler-api,Documentacion oficial,2026-07-31
+Zscaler,Zscaler Internet Access (ZIA),CAP001,SaaS 100% cloud (150+ data centers),https://www.zscaler.com/products/zscaler-internet-access,Documentacion oficial,2026-07-31
+Zscaler,Zscaler Internet Access (ZIA),CAP015,Residencia datos EU / regiones configurables,https://www.zscaler.com/company/compliance,Documentacion oficial,2026-07-31
+Cloudflare,Cloudflare WAF,CAP014,SOC 2 Type II / ISO 27001 / PCI DSS Level 1,https://www.cloudflare.com/trust-hub/compliance-resources/,Certificacion,2026-07-31
+Cloudflare,Cloudflare WAF,CAP005,REST API v4 / Terraform Provider / SDK Go/Python,https://developers.cloudflare.com/api/,Documentacion oficial,2026-07-31
+Cloudflare,Cloudflare WAF,CAP001,SaaS (Free/Pro/Business/Enterprise),https://www.cloudflare.com/application-services/products/waf/,Documentacion oficial,2026-07-31
+Cloudflare,Cloudflare WAF,CAP008,TLS 1.3 / cifrado en transito obligatorio,https://developers.cloudflare.com/ssl/,Documentacion oficial,2026-07-31
+Wiz,Wiz CNAPP,CAP014,SOC 2 Type II / ISO 27001,https://www.wiz.io/trust,Certificacion,2026-07-31
+Wiz,Wiz CNAPP,CAP005,REST API / Terraform / SDK,https://docs.wiz.io/wiz-docs/reference/api-overview,Documentacion oficial,2026-07-31
+Wiz,Wiz CNAPP,CAP001,SaaS agentless multi-cloud,https://www.wiz.io/product,Documentacion oficial,2026-07-31
+Wiz,Wiz CNAPP,CAP012,Wiz AI copilot / graph-based correlation,https://www.wiz.io/product,Documentacion oficial,2026-07-31
+SentinelOne,Singularity Endpoint Protection,CAP014,SOC 2 Type II / FedRAMP / ISO 27001,https://www.sentinelone.com/trust-center/,Certificacion,2026-07-31
+SentinelOne,Singularity Endpoint Protection,CAP005,REST API v2.1 / SDK Python,https://www.sentinelone.com/platform/singularity-marketplace/,Documentacion oficial,2026-07-31
+SentinelOne,Singularity Endpoint Protection,CAP001,SaaS (Core/Control/Complete),https://www.sentinelone.com/platform/endpoint-security/,Documentacion oficial,2026-07-31
+SentinelOne,Singularity Endpoint Protection,CAP012,Purple AI / Storyline auto-correlation,https://www.sentinelone.com/platform/purple-ai/,Documentacion oficial,2026-07-31
+CyberArk,Privileged Access Manager,CAP014,SOC 2 Type II / ISO 27001 / Common Criteria,https://www.cyberark.com/company/compliance-certifications/,Certificacion,2026-07-31
+CyberArk,Privileged Access Manager,CAP005,REST API / SDK / Terraform / Ansible,https://docs.cyberark.com/pam-self-hosted/latest/en/Content/SDK/rest-api-reference.htm,Documentacion oficial,2026-07-31
+CyberArk,Privileged Access Manager,CAP001,Hibrido (Self-Hosted y Privilege Cloud SaaS),https://www.cyberark.com/products/privileged-access-manager/,Documentacion oficial,2026-07-31
+CyberArk,Privileged Access Manager,CAP009,RBAC / MFA / SSO / session recording / PAM,https://docs.cyberark.com/pam-self-hosted/latest/en/Content/PAS%20SysReq/System-Requirements.htm,Documentacion oficial,2026-07-31
+Okta,Workforce Identity Cloud,CAP014,SOC 2 Type II / ISO 27001 / ISO 27018 / FedRAMP High / CSA STAR,https://trust.okta.com/compliance/,Certificacion,2026-07-31
+Okta,Workforce Identity Cloud,CAP005,REST API / SCIM / SDK multi-lenguaje / Terraform,https://developer.okta.com/docs/reference/,Documentacion oficial,2026-07-31
+Okta,Workforce Identity Cloud,CAP001,SaaS (SSO / Adaptive MFA / Lifecycle Management),https://www.okta.com/workforce-identity/,Documentacion oficial,2026-07-31
+Okta,Workforce Identity Cloud,CAP009,RBAC / MFA / SSO / SAML / OIDC / SCIM,https://developer.okta.com/docs/concepts/,Documentacion oficial,2026-07-31
+SailPoint,Identity Security Cloud,CAP014,SOC 2 Type II / ISO 27001,https://www.sailpoint.com/company/trust-center/,Certificacion,2026-07-31
+SailPoint,Identity Security Cloud,CAP005,REST API v3 / SDK Java/Python / SaaS Connectivity,https://developer.sailpoint.com/docs/api/v3/,Documentacion oficial,2026-07-31
+SailPoint,Identity Security Cloud,CAP001,SaaS (Business / Business Plus / Enterprise),https://www.sailpoint.com/products/identity-security-cloud/,Documentacion oficial,2026-07-31
+SailPoint,Identity Security Cloud,CAP012,AI-driven access recommendations / SailPoint AI,https://www.sailpoint.com/platform/sailpoint-ai/,Documentacion oficial,2026-07-31
+Splunk,Enterprise Security,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP Moderate / PCI DSS,https://www.splunk.com/en_us/about-splunk/splunk-data-security-and-privacy.html,Certificacion,2026-07-31
+Splunk,Enterprise Security,CAP005,REST API / SDK Python/Java / SPL / Splunkbase Apps,https://docs.splunk.com/Documentation/Splunk/latest/RESTAPI/RESTlist,Documentacion oficial,2026-07-31
+Splunk,Enterprise Security,CAP001,Hibrido (Splunk Cloud SaaS y Splunk Enterprise on-prem),https://www.splunk.com/en_us/products/enterprise-security.html,Documentacion oficial,2026-07-31
+Splunk,Enterprise Security,CAP008,TLS 1.2+ / AES-256 en reposo / BYOK en Splunk Cloud,https://docs.splunk.com/Documentation/SplunkCloud/latest/Security/Aboutencryption,Documentacion oficial,2026-07-31
+Check Point,Quantum Security Gateway,CAP014,Common Criteria EAL4+ / FIPS 140-2 / ICSA Labs,https://www.checkpoint.com/about-us/company/certifications/,Certificacion,2026-07-31
+Check Point,Quantum Security Gateway,CAP001,Appliance (Quantum Spark / Maestro),https://www.checkpoint.com/quantum/next-generation-firewall/,Documentacion oficial,2026-07-31
+Check Point,Quantum Security Gateway,CAP005,REST API / SmartConsole API / SDK Python,https://sc1.checkpoint.com/documents/latest/APIs/index.html,Documentacion oficial,2026-07-31
+Check Point,Quantum Security Gateway,CAP008,IPsec VPN / TLS inspection / cifrado SIC,https://sc1.checkpoint.com/documents/R81.20/WebAdminGuides/EN/CP_R81.20_VPN_AdminGuide/Default.htm,Documentacion oficial,2026-07-31
+Netskope,Netskope One SSE,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP Moderate / CSA STAR,https://www.netskope.com/company/security-compliance-assurance,Certificacion,2026-07-31
+Netskope,Netskope One SSE,CAP005,REST API v2 / Terraform Provider,https://docs.netskope.com/en/rest-api-v2-overview/,Documentacion oficial,2026-07-31
+Netskope,Netskope One SSE,CAP001,SaaS (Standard / Advanced),https://www.netskope.com/products/security-service-edge,Documentacion oficial,2026-07-31
+Netskope,Netskope One SSE,CAP015,NewEdge global / regiones UE / residencia datos,https://www.netskope.com/products/newedge,Documentacion oficial,2026-07-31
+Tenable,Nessus Professional,CAP014,Common Criteria / DISA STIG,https://www.tenable.com/certifications,Certificacion,2026-07-31
+Tenable,Nessus Professional,CAP005,REST API / SDK Python (pyTenable),https://developer.tenable.com/reference/navigate,Documentacion oficial,2026-07-31
+Tenable,Nessus Professional,CAP001,Hibrido (on-prem scanner / cloud managed),https://www.tenable.com/products/nessus,Documentacion oficial,2026-07-31
+Tenable,Nessus Professional,CAP012,Predictive prioritization / VPR scoring,https://www.tenable.com/products/nessus/nessus-professional,Documentacion oficial,2026-07-31
+Qualys,VMDR,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP Ready / PCI DSS ASV,https://www.qualys.com/company/security/,Certificacion,2026-07-31
+Qualys,VMDR,CAP005,REST API v2 / SDK Python / XML API,https://qualysapi.qualys.com/,Documentacion oficial,2026-07-31
+Qualys,VMDR,CAP001,SaaS (VMDR / VMDR with TruRisk),https://www.qualys.com/apps/vulnerability-management-detection-response/,Documentacion oficial,2026-07-31
+Qualys,VMDR,CAP012,TruRisk scoring / ML prioritization,https://www.qualys.com/apps/vulnerability-management-detection-response/,Documentacion oficial,2026-07-31
+Rapid7,InsightVM,CAP014,SOC 2 Type II / ISO 27001,https://www.rapid7.com/trust/,Certificacion,2026-07-31
+Rapid7,InsightVM,CAP005,REST API v3 / SDK Python,https://docs.rapid7.com/insightvm/api-overview/,Documentacion oficial,2026-07-31
+Rapid7,InsightVM,CAP001,Hibrido (SaaS console / on-prem scan engines),https://www.rapid7.com/products/insightvm/,Documentacion oficial,2026-07-31
+Rapid7,InsightVM,CAP012,Real Risk Score / predictive analytics,https://www.rapid7.com/products/insightvm/features/,Documentacion oficial,2026-07-31
+IBM,QRadar SIEM,CAP014,Common Criteria / FIPS 140-2 / DISA STIG,https://www.ibm.com/products/qradar-siem,Certificacion,2026-07-31
+IBM,QRadar SIEM,CAP005,REST API / Ariel Query Language / SDK Python,https://www.ibm.com/docs/en/qradar-common?topic=api-restful-overview,Documentacion oficial,2026-07-31
+IBM,QRadar SIEM,CAP001,Hibrido (on-prem / SaaS / Cloud Pak for Security),https://www.ibm.com/products/qradar-siem,Documentacion oficial,2026-07-31
+IBM,QRadar SIEM,CAP008,TLS 1.2+ / AES-256 en reposo / encriptacion disco,https://www.ibm.com/docs/en/qradar-common?topic=security-data-encryption,Documentacion oficial,2026-07-31
+Thales,Luna Network HSM,CAP014,FIPS 140-3 Level 3 / Common Criteria EAL4+ / eIDAS,https://cpl.thalesgroup.com/encryption/hardware-security-modules/luna-network-hsm,Certificacion,2026-07-31
+Thales,Luna Network HSM,CAP005,PKCS#11 / JCA/JCE / Microsoft CAPI/CNG / OpenSSL,https://cpl.thalesgroup.com/encryption/hardware-security-modules/luna-network-hsm,Documentacion oficial,2026-07-31
+Thales,Luna Network HSM,CAP001,Appliance dedicado (Luna Network HSM 7),https://cpl.thalesgroup.com/encryption/hardware-security-modules/luna-network-hsm,Datasheet,2026-07-31
+Thales,Luna Network HSM,CAP008,HSM FIPS 140-3 / claves nunca salen del hardware / partition isolation,https://cpl.thalesgroup.com/encryption/hardware-security-modules/luna-network-hsm,Documentacion oficial,2026-07-31
+HashiCorp,Vault,CAP014,SOC 2 Type II (HCP Vault),https://www.hashicorp.com/trust,Certificacion,2026-07-31
+HashiCorp,Vault,CAP005,REST API / CLI / SDK Go/Python/Ruby / Terraform,https://developer.hashicorp.com/vault/api-docs,Documentacion oficial,2026-07-31
+HashiCorp,Vault,CAP001,Hibrido (OSS / Enterprise on-prem / HCP Vault SaaS),https://www.hashicorp.com/products/vault,Documentacion oficial,2026-07-31
+HashiCorp,Vault,CAP008,AES-256-GCM / Transit secrets engine / auto-unseal / BYOK,https://developer.hashicorp.com/vault/docs/internals/security,Documentacion oficial,2026-07-31
+Recorded Future,Intelligence Cloud,CAP014,SOC 2 Type II / ISO 27001,https://www.recordedfuture.com/trust,Certificacion,2026-07-31
+Recorded Future,Intelligence Cloud,CAP005,REST API / Connect API / SDK Python,https://api.recordedfuture.com/index.html,Documentacion oficial,2026-07-31
+Recorded Future,Intelligence Cloud,CAP001,SaaS (Intelligence Cloud / Analyst Community Free),https://www.recordedfuture.com/platform,Documentacion oficial,2026-07-31
+Recorded Future,Intelligence Cloud,CAP007,STIX/TAXII / Syslog / CEF / integraciones SIEM,https://www.recordedfuture.com/integrations,Documentacion oficial,2026-07-31
+ServiceNow,Security Operations (SecOps),CAP014,SOC 2 Type II / ISO 27001 / FedRAMP High,https://www.servicenow.com/company/trust/compliance.html,Certificacion,2026-07-31
+ServiceNow,Security Operations (SecOps),CAP005,REST API / Table API / SDK / IntegrationHub,https://developer.servicenow.com/dev.do#!/reference/api/,Documentacion oficial,2026-07-31
+ServiceNow,Security Operations (SecOps),CAP001,SaaS (Standard / Professional / Enterprise),https://www.servicenow.com/products/security-operations.html,Documentacion oficial,2026-07-31
+ServiceNow,Security Operations (SecOps),CAP011,Playbooks / Flow Designer / no-code workflows,https://docs.servicenow.com/bundle/yokohama-security-management/page/product/security-operations/concept/security-operations-landing-page.html,Documentacion oficial,2026-07-31
+OneTrust,Privacy Management,CAP014,SOC 2 Type II / ISO 27001 / ISO 27701,https://www.onetrust.com/trust-center/,Certificacion,2026-07-31
+OneTrust,Privacy Management,CAP005,REST API / SDK / webhooks,https://developer.onetrust.com/,Documentacion oficial,2026-07-31
+OneTrust,Privacy Management,CAP001,SaaS Enterprise,https://www.onetrust.com/products/privacy-management/,Documentacion oficial,2026-07-31
+OneTrust,Privacy Management,CAP015,Residencia datos EU / regiones configurables,https://www.onetrust.com/trust-center/,Documentacion oficial,2026-07-31
+Snyk,Snyk Code,CAP014,SOC 2 Type II / ISO 27001,https://snyk.io/trust/,Certificacion,2026-07-31
+Snyk,Snyk Code,CAP005,REST API / CLI / SDK / IDE plugins / CI/CD integrations,https://docs.snyk.io/snyk-api-info,Documentacion oficial,2026-07-31
+Snyk,Snyk Code,CAP001,SaaS (Free / Team / Enterprise),https://snyk.io/product/snyk-code/,Documentacion oficial,2026-07-31
+Snyk,Snyk Code,CAP008,TLS en transito / AES-256 en reposo / SOC 2,https://snyk.io/trust/,Documentacion oficial,2026-07-31
+Aqua Security,Aqua Platform,CAP014,SOC 2 Type II,https://www.aquasec.com/trust-center/,Certificacion,2026-07-31
+Aqua Security,Aqua Platform,CAP005,REST API / CLI / Terraform / SDK,https://docs.aquasec.com/reference/,Documentacion oficial,2026-07-31
+Aqua Security,Aqua Platform,CAP001,Hibrido (Cloud Native / Enterprise on-prem),https://www.aquasec.com/products/container-security/,Documentacion oficial,2026-07-31
+Sysdig,Sysdig Secure,CAP014,SOC 2 Type II / ISO 27001,https://sysdig.com/company/trust-center/,Certificacion,2026-07-31
+Sysdig,Sysdig Secure,CAP005,REST API / SDK Python / Terraform,https://docs.sysdig.com/en/docs/developer-tools/sysdig-rest-api/,Documentacion oficial,2026-07-31
+Sysdig,Sysdig Secure,CAP001,SaaS Enterprise,https://sysdig.com/products/secure/,Documentacion oficial,2026-07-31
+Sysdig,Sysdig Secure,CAP012,ML runtime detection / drift detection,https://sysdig.com/products/secure/,Documentacion oficial,2026-07-31
+Darktrace,Darktrace DETECT,CAP014,SOC 2 Type II / ISO 27001,https://darktrace.com/trust,Certificacion,2026-07-31
+Darktrace,Darktrace DETECT,CAP005,REST API / STIX/TAXII / Syslog integrations,https://customerportal.darktrace.com/,Documentacion oficial,2026-07-31
+Darktrace,Darktrace DETECT,CAP001,Hibrido (Enterprise appliance / Cloud),https://darktrace.com/products/detect,Documentacion oficial,2026-07-31
+Darktrace,Darktrace DETECT,CAP012,Self-Learning AI / unsupervised ML / Cyber AI Analyst,https://darktrace.com/cyber-ai,Documentacion oficial,2026-07-31
+Vectra AI,Vectra NDR,CAP014,SOC 2 Type II,https://www.vectra.ai/trust,Certificacion,2026-07-31
+Vectra AI,Vectra NDR,CAP005,REST API / SDK Python / STIX/TAXII,https://support.vectra.ai/s/article/KB-VS-1666,Documentacion oficial,2026-07-31
+Vectra AI,Vectra NDR,CAP001,Hibrido (SaaS / on-prem appliance),https://www.vectra.ai/products/ndr,Documentacion oficial,2026-07-31
+Vectra AI,Vectra NDR,CAP012,Attack Signal Intelligence AI / ML behavioral,https://www.vectra.ai/products/attack-signal-intelligence,Documentacion oficial,2026-07-31
+Arctic Wolf,Managed Detection & Response,CAP014,SOC 2 Type II / ISO 27001,https://arcticwolf.com/trust-center/,Certificacion,2026-07-31
+Arctic Wolf,Managed Detection & Response,CAP001,SaaS MDR gestionado,https://arcticwolf.com/solutions/managed-detection-and-response/,Documentacion oficial,2026-07-31
+Arctic Wolf,Managed Detection & Response,CAP005,REST API / integraciones nativas SIEM/EDR,https://arcticwolf.com/solutions/,Documentacion oficial,2026-07-31
+Proofpoint,Email Protection,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP,https://www.proofpoint.com/us/company/trust,Certificacion,2026-07-31
+Proofpoint,Email Protection,CAP005,REST API / Syslog / integraciones SIEM,https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation,Documentacion oficial,2026-07-31
+Proofpoint,Email Protection,CAP001,SaaS (Essentials / Advanced / Complete),https://www.proofpoint.com/us/products/email-security-and-protection,Documentacion oficial,2026-07-31
+Proofpoint,Email Protection,CAP008,TLS enforcement / S/MIME / cifrado email E2E,https://www.proofpoint.com/us/products/email-security-and-protection/email-encryption,Documentacion oficial,2026-07-31
+Akamai,App & API Protector,CAP014,SOC 2 Type II / ISO 27001 / PCI DSS Level 1,https://www.akamai.com/company/compliance,Certificacion,2026-07-31
+Akamai,App & API Protector,CAP005,REST API / CLI / Terraform Provider,https://techdocs.akamai.com/application-security/reference/api,Documentacion oficial,2026-07-31
+Akamai,App & API Protector,CAP001,SaaS Enterprise (edge platform global),https://www.akamai.com/products/app-and-api-protector,Documentacion oficial,2026-07-31
+Akamai,App & API Protector,CAP008,TLS 1.3 / mTLS / DV/EV certificates,https://techdocs.akamai.com/property-manager/docs/https-tls,Documentacion oficial,2026-07-31
+Imperva,Cloud WAF,CAP014,SOC 2 Type II / ISO 27001 / PCI DSS,https://www.imperva.com/trust-center/,Certificacion,2026-07-31
+Imperva,Cloud WAF,CAP005,REST API / SDK / Terraform Provider,https://docs.imperva.com/bundle/cloud-application-security/page/api/api.htm,Documentacion oficial,2026-07-31
+Imperva,Cloud WAF,CAP001,SaaS (Professional / Business / Enterprise),https://www.imperva.com/products/web-application-firewall-waf/,Documentacion oficial,2026-07-31
+Imperva,Cloud WAF,CAP008,TLS 1.3 / cifrado en transito / PFS,https://docs.imperva.com/bundle/cloud-application-security/page/ssl.htm,Documentacion oficial,2026-07-31
+Mandiant,Advantage Threat Intelligence,CAP014,SOC 2 Type II (Google Cloud),https://cloud.google.com/security/compliance,Certificacion,2026-07-31
+Mandiant,Advantage Threat Intelligence,CAP005,REST API / STIX/TAXII / integraciones SIEM,https://www.mandiant.com/advantage/threat-intelligence/integrations,Documentacion oficial,2026-07-31
+Mandiant,Advantage Threat Intelligence,CAP001,SaaS (Free / Standard / Enterprise),https://www.mandiant.com/advantage/threat-intelligence,Documentacion oficial,2026-07-31
+Mandiant,Advantage Threat Intelligence,CAP007,STIX 2.1 / TAXII / CEF / Syslog / JSON,https://www.mandiant.com/advantage/threat-intelligence,Documentacion oficial,2026-07-31
+Sophos,Intercept X Endpoint,CAP014,SOC 2 Type II / ISO 27001 / Common Criteria,https://www.sophos.com/en-us/trust,Certificacion,2026-07-31
+Sophos,Intercept X Endpoint,CAP005,REST API / Sophos Central API,https://developer.sophos.com/,Documentacion oficial,2026-07-31
+Sophos,Intercept X Endpoint,CAP001,SaaS (Standard / Advanced / Advanced with XDR),https://www.sophos.com/en-us/products/endpoint-antivirus,Documentacion oficial,2026-07-31
+Sophos,Intercept X Endpoint,CAP012,Deep learning AI / CryptoGuard / anti-ransomware,https://www.sophos.com/en-us/products/endpoint-antivirus,Documentacion oficial,2026-07-31
+Keyfactor,EJBCA,CAP014,Common Criteria EAL4+ / eIDAS qualified,https://www.keyfactor.com/products/ejbca-enterprise/,Certificacion,2026-07-31
+Keyfactor,EJBCA,CAP005,REST API / ACME / EST / SCEP / CMP / SDK Java,https://doc.primekey.com/ejbca/ejbca-operations/ejbca-rest-interface,Documentacion oficial,2026-07-31
+Keyfactor,EJBCA,CAP001,Hibrido (Community OSS / Enterprise / SaaS),https://www.keyfactor.com/products/ejbca-enterprise/,Documentacion oficial,2026-07-31
+Keyfactor,EJBCA,CAP008,HSM integration / FIPS 140-2 / PKI CA hierarchy,https://doc.primekey.com/ejbca,Documentacion oficial,2026-07-31
+Venafi,TLS Protect,CAP014,SOC 2 Type II / ISO 27001,https://venafi.com/trust-center/,Certificacion,2026-07-31
+Venafi,TLS Protect,CAP005,REST API / SDK / Terraform / Ansible / ServiceNow,https://docs.venafi.com/Docs/current/TopNav/Content/SDK/t-SDKs.php,Documentacion oficial,2026-07-31
+Venafi,TLS Protect,CAP001,Hibrido (Cloud / Datacenter on-prem),https://venafi.com/tls-protect/,Documentacion oficial,2026-07-31
+DigiCert,CertCentral,CAP014,WebTrust / ISO 27001 / SOC 2 Type II / eIDAS,https://www.digicert.com/trust/compliance-certifications,Certificacion,2026-07-31
+DigiCert,CertCentral,CAP005,REST API v2 / ACME / SDK / CertCentral API,https://dev.digicert.com/reference/,Documentacion oficial,2026-07-31
+DigiCert,CertCentral,CAP001,SaaS Enterprise,https://www.digicert.com/tls-ssl/certcentral,Documentacion oficial,2026-07-31
+DigiCert,CertCentral,CAP008,Certificate lifecycle / CT logs / OCSP/CRL,https://www.digicert.com/tls-ssl/certcentral,Documentacion oficial,2026-07-31
+Entrust,nShield HSM,CAP014,FIPS 140-2 Level 3 / Common Criteria EAL4+ / eIDAS,https://www.entrust.com/digital-security/hsm/nshield-connect,Certificacion,2026-07-31
+Entrust,nShield HSM,CAP005,PKCS#11 / JCE / CAPI/CNG / OpenSSL / REST API (nShield as a Service),https://www.entrust.com/digital-security/hsm/nshield-connect,Documentacion oficial,2026-07-31
+Entrust,nShield HSM,CAP001,Appliance (Connect / Solo / as a Service),https://www.entrust.com/digital-security/hsm/nshield-connect,Datasheet,2026-07-31
+Entrust,nShield HSM,CAP008,HSM tamper-resistant / claves hardware-protected / BYOK cloud,https://www.entrust.com/digital-security/hsm/nshield-connect,Documentacion oficial,2026-07-31
+Claroty,xDome,CAP014,SOC 2 Type II / ISO 27001,https://claroty.com/trust-center,Certificacion,2026-07-31
+Claroty,xDome,CAP005,REST API / integraciones SIEM/SOAR nativas,https://claroty.com/industrial-cybersecurity/xdome,Documentacion oficial,2026-07-31
+Claroty,xDome,CAP001,Hibrido (SaaS / on-prem),https://claroty.com/industrial-cybersecurity/xdome,Documentacion oficial,2026-07-31
+Claroty,xDome,CAP012,ML asset discovery / anomaly detection OT/IoT,https://claroty.com/industrial-cybersecurity/xdome,Documentacion oficial,2026-07-31
+Drata,Compliance Automation,CAP014,SOC 2 Type II / ISO 27001,https://drata.com/trust,Certificacion,2026-07-31
+Drata,Compliance Automation,CAP005,REST API / 85+ integraciones nativas / webhooks,https://drata.com/product/integrations,Documentacion oficial,2026-07-31
+Drata,Compliance Automation,CAP001,SaaS (Startup / Growth / Enterprise),https://drata.com/product,Documentacion oficial,2026-07-31
+Drata,Compliance Automation,CAP011,Automated evidence collection / continuous monitoring,https://drata.com/product,Documentacion oficial,2026-07-31
+Vanta,Trust Management Platform,CAP014,SOC 2 Type II / ISO 27001,https://www.vanta.com/trust,Certificacion,2026-07-31
+Vanta,Trust Management Platform,CAP005,REST API / 300+ integraciones / webhooks,https://developer.vanta.com/,Documentacion oficial,2026-07-31
+Vanta,Trust Management Platform,CAP001,SaaS (Startup / Business / Enterprise),https://www.vanta.com/products/trust-management,Documentacion oficial,2026-07-31
+Vanta,Trust Management Platform,CAP011,Automated compliance / continuous monitoring / AI remediation,https://www.vanta.com/products/trust-management,Documentacion oficial,2026-07-31
+BeyondTrust,Privilege Management,CAP014,Common Criteria / FIPS 140-2 / SOC 2,https://www.beyondtrust.com/company/compliance-certifications,Certificacion,2026-07-31
+BeyondTrust,Privilege Management,CAP005,REST API / SDK / PowerShell / Terraform,https://www.beyondtrust.com/docs/privilege-management/,Documentacion oficial,2026-07-31
+BeyondTrust,Privilege Management,CAP001,Hibrido (SaaS / On-Prem),https://www.beyondtrust.com/privilege-management,Documentacion oficial,2026-07-31
+BeyondTrust,Privilege Management,CAP009,PAM / RBAC / MFA / session recording / just-in-time access,https://www.beyondtrust.com/privilege-management,Documentacion oficial,2026-07-31
+Delinea,Secret Server,CAP014,SOC 2 Type II / FIPS 140-2,https://delinea.com/company/trust-center,Certificacion,2026-07-31
+Delinea,Secret Server,CAP005,REST API / SDK .NET/PowerShell,https://docs.delinea.com/online-help/secret-server/api-scripting/,Documentacion oficial,2026-07-31
+Delinea,Secret Server,CAP001,Hibrido (Free 25 secrets / Professional / Enterprise),https://delinea.com/products/secret-server,Documentacion oficial,2026-07-31
+Delinea,Secret Server,CAP009,PAM / RBAC / MFA / session management / discovery,https://delinea.com/products/secret-server,Documentacion oficial,2026-07-31
+SecurityScorecard,Ratings Platform,CAP014,SOC 2 Type II / ISO 27001,https://securityscorecard.com/company/trust-center/,Certificacion,2026-07-31
+SecurityScorecard,Ratings Platform,CAP005,REST API / SDK / webhooks / integrations,https://securityscorecard.com/product/api-integrations/,Documentacion oficial,2026-07-31
+SecurityScorecard,Ratings Platform,CAP001,SaaS (Free / Business / Enterprise),https://securityscorecard.com/product/,Documentacion oficial,2026-07-31

@@ -242,6 +242,31 @@ function maturityBadge(maturity) {
   return `<span class="badge maturity-${esc(maturity)}">${esc(maturity)}</span>`;
 }
 
+/** Tier badge HTML */
+function tierBadge(tier) {
+  const cls = {
+    'Tier 1': 'tier-1',
+    'Tier 2': 'tier-2',
+    'Tier 3': 'tier-3'
+  }[tier] || '';
+  return `<span class="badge ${cls}">${esc(tier)}</span>`;
+}
+
+/** Get sources for a product */
+function getProductSources(db, providerName, productName) {
+  return (db.productSources || []).filter(
+    s => s.Proveedor === providerName && s.Producto === productName
+  );
+}
+
+/** Get product URL (from first matching row) */
+function getProductURL(db, providerName, productName) {
+  const p = (db.products || []).find(
+    p => p.Proveedor === providerName && p.Producto === productName && p.URL && p.URL.trim()
+  );
+  return p ? p.URL.trim() : '';
+}
+
 /** Deployment badge HTML */
 function deployBadge(deploy) {
   const cls = {

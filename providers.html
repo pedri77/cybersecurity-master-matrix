@@ -27,9 +27,15 @@
         <p>343 proveedores con su cobertura de categorias, dominios y estado de analisis.</p>
       </section>
 
-      <section class="panel toolbar two-col">
+      <section class="panel toolbar">
         <input id="search" type="search" placeholder="Buscar proveedor...">
         <select id="domain"></select>
+        <select id="tier">
+          <option value="">Todos los tiers</option>
+          <option>Tier 1</option>
+          <option>Tier 2</option>
+          <option>Tier 3</option>
+        </select>
       </section>
 
       <div class="section-header">
@@ -53,14 +59,17 @@
 
       const searchEl = document.getElementById('search');
       const domainEl = document.getElementById('domain');
+      const tierEl = document.getElementById('tier');
 
       fillDomainSelect(db, domainEl);
 
       function render() {
         const q = searchEl.value.toLowerCase().trim();
         const d = domainEl.value;
+        const tier = tierEl.value;
 
         let items = db.providers;
+        if (tier) items = items.filter(p => p.Tier === tier);
         if (d) {
           items = items.filter(p =>
             String(p.Dominios).split(';').map(s => s.trim()).includes(d)
@@ -86,6 +95,7 @@
                   <p>${esc(p.Dominios)}</p>
                   <div class="card-meta">
                     <span class="badge">${esc(p['Estado análisis'])}</span>
+                    ${p.Tier ? tierBadge(p.Tier) : ''}
                   </div>
                 </a>`;
             }).join('')
@@ -94,6 +104,7 @@
 
       searchEl.addEventListener('input', render);
       domainEl.addEventListener('change', render);
+      tierEl.addEventListener('change', render);
       render();
     }
     init();

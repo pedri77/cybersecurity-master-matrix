@@ -71,6 +71,9 @@
         .filter(p => p.Producto !== product.Producto)
         .slice(0, 10);
 
+      const productURL = getProductURL(db, product.Proveedor, product.Producto);
+      const sources = getProductSources(db, product.Proveedor, product.Producto);
+
       // Build capabilities HTML outside template literal
       const caps = getCapabilities(db);
       const pc = getProductCapabilities(db, product.Proveedor, product.Producto);
@@ -106,6 +109,23 @@
           '<div class="panel"><div class="table-wrapper"><table>' +
           '<thead><tr><th>Dimension</th><th>Capacidad</th><th>Criterios posibles</th></tr></thead>' +
           '<tbody>' + capRows + '</tbody></table></div></div></div>';
+      }
+
+      let sourcesHtml = '';
+      if (sources.length) {
+        const sourceRows = sources.map(s =>
+          '<tr>' +
+          '<td>' + esc(s.Capacidad) + '</td>' +
+          '<td>' + esc(s.Valor) + '</td>' +
+          '<td><a href="' + esc(s['URL fuente']) + '" target="_blank" rel="noopener">' + esc(s['Tipo fuente']) + '</a></td>' +
+          '<td style="color:var(--text-secondary);font-size:0.82rem;">' + esc(s['Fecha verificacion']) + '</td>' +
+          '</tr>'
+        ).join('');
+        sourcesHtml = '<div class="detail-section">' +
+          '<h2>Fuentes de evidencia <span class="badge" style="font-size:0.75rem;margin-left:8px;">' + sources.length + ' fuentes</span></h2>' +
+          '<div class="panel"><div class="table-wrapper"><table>' +
+          '<thead><tr><th>Capacidad</th><th>Valor</th><th>Fuente</th><th>Verificado</th></tr></thead>' +
+          '<tbody>' + sourceRows + '</tbody></table></div></div></div>';
       }
 
       el.innerHTML = `
@@ -155,6 +175,8 @@
 
             ${capsHtml}
 
+            ${sourcesHtml}
+
             ${peers.length ? `
               <div class="detail-section">
                 <h2>Productos competidores</h2>
@@ -185,6 +207,10 @@
                 <span>Proveedor</span>
                 <a href="provider.html#${slugify(product.Proveedor)}">${esc(product.Proveedor)}</a>
               </div>
+              ${productURL ? `<div class="sidebar-row">
+                <span>Web oficial</span>
+                <a href="${productURL}" target="_blank" rel="noopener" style="font-size:0.85rem;">Visitar</a>
+              </div>` : ''}
               <div class="sidebar-row">
                 <span>Despliegue</span>
                 ${deployBadge(product.Despliegue)}

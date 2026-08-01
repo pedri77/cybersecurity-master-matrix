@@ -1,551 +1,551 @@
-ID producto,Proveedor,Producto,ID categoría,Despliegue,Ediciones,Estado
-P001,Palo Alto Networks,PA-Series NGFW,C001,Appliance,"PA-400, PA-800, PA-3200, PA-5200, PA-7000",Pendiente
-P002,Palo Alto Networks,Prisma Access,C002,SaaS,"Business, Business Premium",Pendiente
-P003,Palo Alto Networks,Prisma Access,C003,SaaS,"Business, Business Premium",Pendiente
-P004,Palo Alto Networks,Prisma Access,C004,SaaS,"Business, Business Premium",Pendiente
-P005,Palo Alto Networks,Prisma Cloud,C025,SaaS,"Enterprise, Runtime Security",Pendiente
-P006,Palo Alto Networks,Prisma Cloud,C026,SaaS,"Enterprise, Runtime Security",Pendiente
-P007,Palo Alto Networks,Prisma Cloud,C027,SaaS,"Enterprise, Runtime Security",Pendiente
-P008,Palo Alto Networks,Prisma Cloud,C029,SaaS,"Enterprise, Runtime Security",Pendiente
-P009,Palo Alto Networks,Cortex XDR,C020,SaaS,"Prevent, Pro",Pendiente
-P010,Palo Alto Networks,Cortex XDR,C021,SaaS,"Prevent, Pro",Pendiente
-P011,Palo Alto Networks,Cortex XSOAR,C048,Híbrido,"Community, Enterprise",Pendiente
-P012,Palo Alto Networks,Cortex Xpanse,C061,SaaS,Enterprise,Pendiente
-P013,Palo Alto Networks,AI Runtime Security,C083,SaaS,Enterprise,Pendiente
-P014,Palo Alto Networks,Prisma Cloud DSPM,C032,SaaS,Enterprise,Pendiente
-P015,Palo Alto Networks,Prisma Cloud CIEM,C028,SaaS,Enterprise,Pendiente
-P016,Palo Alto Networks,Prisma Cloud CDR,C030,SaaS,Enterprise,Pendiente
-P017,Palo Alto Networks,Cortex XSIAM,C049,SaaS,Enterprise,Pendiente
-P018,Palo Alto Networks,IoT Security,C090,SaaS,Enterprise,Pendiente
-P019,Palo Alto Networks,DNS Security,C009,SaaS,Enterprise,Pendiente
-P020,Palo Alto Networks,AI-SPM,C082,SaaS,Enterprise,Pendiente
-P021,Fortinet,FortiGate,C001,Appliance,"FortiGate 40F, 60F, 100F, 200F, 600F, 1000F, 3000F, 4000F",Pendiente
-P022,Fortinet,FortiSASE,C003,SaaS,Enterprise,Pendiente
-P023,Fortinet,FortiEDR,C020,Híbrido,Enterprise,Pendiente
-P024,Fortinet,FortiSIEM,C047,Híbrido,Enterprise,Pendiente
-P025,Fortinet,FortiSOAR,C048,Híbrido,Enterprise,Pendiente
-P026,Fortinet,FortiNAC,C008,Híbrido,Enterprise,Pendiente
-P027,Fortinet,FortiGate EPP,C019,Híbrido,Enterprise,Pendiente
-P028,Fortinet,FortiAnalyzer,C049,Híbrido,Enterprise,Pendiente
-P029,Check Point,Quantum Security Gateway,C001,Appliance,"Quantum Spark, Quantum Maestro",Pendiente
-P030,Check Point,CloudGuard CNAPP,C025,SaaS,Enterprise,Pendiente
-P031,Check Point,CloudGuard CSPM,C026,SaaS,Enterprise,Pendiente
-P032,Check Point,Harmony Email & Collaboration,C093,SaaS,Enterprise,Pendiente
-P033,Check Point,Harmony Email & Collaboration,C094,SaaS,Enterprise,Pendiente
-P034,Check Point,Infinity XDR/XPR,C021,SaaS,Enterprise,Pendiente
-P035,Check Point,Harmony Endpoint,C019,Híbrido,Enterprise,Pendiente
-P036,Check Point,Harmony Connect,C096,SaaS,Enterprise,Pendiente
-P037,Cisco,Secure Firewall,C001,Appliance,"1100, 3100, 4200, 9300",Pendiente
-P038,Cisco,Umbrella,C009,SaaS,"DNS Security Essentials, DNS Security Advantage, SIG Essentials",Pendiente
-P039,Cisco,Secure Access,C002,SaaS,Enterprise,Pendiente
-P040,Cisco,Secure Access,C004,SaaS,Enterprise,Pendiente
-P041,Cisco,Duo Security,C016,SaaS,"Free, Essentials, Advantage, Premier",Pendiente
-P042,Cisco,Duo Security,C018,SaaS,"Free, Essentials, Advantage, Premier",Pendiente
-P043,Cisco,XDR,C021,SaaS,"Essentials, Advantage, Premier",Pendiente
-P044,Cisco,Talos Intelligence,C056,SaaS,Enterprise,Pendiente
-P045,Cisco,Secure Endpoint,C019,SaaS,"Essentials, Advantage, Premier",Pendiente
-P046,Cisco,Secure Endpoint,C020,SaaS,"Essentials, Advantage, Premier",Pendiente
-P047,Cisco,Stealthwatch / Secure Network Analytics,C007,Híbrido,Enterprise,Pendiente
-P048,Cisco,Identity Services Engine,C008,Híbrido,Enterprise,Pendiente
-P049,Cisco,AI Defense,C083,SaaS,Enterprise,Pendiente
-P050,Cisco,Microsegmentation (Secure Workload),C010,Híbrido,Enterprise,Pendiente
-P051,CrowdStrike,Falcon Prevent,C019,SaaS,"Falcon Go, Falcon Pro, Falcon Enterprise, Falcon Elite",Pendiente
-P052,CrowdStrike,Falcon Insight,C020,SaaS,"Falcon Pro, Falcon Enterprise, Falcon Elite",Pendiente
-P053,CrowdStrike,Falcon XDR,C021,SaaS,"Falcon Enterprise, Falcon Elite",Pendiente
-P054,CrowdStrike,Falcon Identity Threat Detection,C015,SaaS,Enterprise,Pendiente
-P055,CrowdStrike,Falcon Cloud Security,C025,SaaS,Enterprise,Pendiente
-P056,CrowdStrike,Falcon Cloud Security,C027,SaaS,Enterprise,Pendiente
-P057,CrowdStrike,Falcon Intelligence,C056,SaaS,"Falcon Intelligence, Falcon Intelligence Premium, Falcon Intelligence Elite",Pendiente
-P058,CrowdStrike,Falcon Complete,C101,SaaS,Enterprise,Pendiente
-P059,CrowdStrike,Falcon Next-Gen SIEM,C049,SaaS,Enterprise,Pendiente
-P060,CrowdStrike,Falcon Cloud Detection & Response,C030,SaaS,Enterprise,Pendiente
-P061,CrowdStrike,Falcon Exposure Management,C061,SaaS,Enterprise,Pendiente
-P062,CrowdStrike,CrowdStrike Services,C104,SaaS,Enterprise,Pendiente
-P063,CrowdStrike,Falcon Forensics,C122,SaaS,Enterprise,Pendiente
-P064,Microsoft,Defender for Endpoint,C019,SaaS,"P1, P2",Pendiente
-P065,Microsoft,Defender for Endpoint,C020,SaaS,"P1, P2",Pendiente
-P066,Microsoft,Defender XDR,C021,SaaS,Enterprise,Pendiente
-P067,Microsoft,Entra ID,C011,SaaS,"Free, P1, P2, Governance",Pendiente
-P068,Microsoft,Entra ID Governance,C012,SaaS,Enterprise,Pendiente
-P069,Microsoft,Sentinel,C047,Cloud,"Pay-as-you-go, Commitment Tiers",Pendiente
-P070,Microsoft,Purview DLP,C031,SaaS,"E3, E5",Pendiente
-P071,Microsoft,Purview Information Protection,C033,SaaS,"E3, E5",Pendiente
-P072,Microsoft,Defender for Cloud,C025,Cloud,"Foundational CSPM (Free), Defender CSPM",Pendiente
-P073,Microsoft,Defender for Cloud,C026,Cloud,"Foundational CSPM (Free), Defender CSPM",Pendiente
-P074,Microsoft,Defender for Cloud,C027,Cloud,"Foundational CSPM (Free), Defender CSPM",Pendiente
-P075,Microsoft,Defender for IoT,C088,Híbrido,Enterprise,Pendiente
-P076,Microsoft,Defender for IoT,C090,Híbrido,Enterprise,Pendiente
-P077,Microsoft,Copilot for Security,C049,SaaS,"Pay-per-use SCU, Embedded",Pendiente
-P078,Microsoft,Intune,C022,SaaS,"P1, P2, Suite",Pendiente
-P079,Microsoft,Entra Permissions Management,C028,SaaS,Enterprise,Pendiente
-P080,Microsoft,Defender for Cloud CDR,C030,Cloud,Enterprise,Pendiente
-P081,Microsoft,Defender for Identity,C015,SaaS,Enterprise,Pendiente
-P082,Microsoft,Entra ID,C014,SaaS,"External Identities, Azure AD B2C",Pendiente
-P083,Microsoft,Entra ID,C016,SaaS,"P1, P2",Pendiente
-P084,Microsoft,Entra ID,C018,SaaS,"P1, P2",Pendiente
-P085,Microsoft,Sentinel UEBA,C052,Cloud,Enterprise,Pendiente
-P086,Microsoft,App Control for Business,C024,On-prem,Enterprise,Pendiente
-P087,Microsoft,Purview Encryption,C036,SaaS,"E3, E5",Pendiente
-P088,Microsoft,Azure Confidential Computing,C037,Cloud,Enterprise,Pendiente
-P089,Microsoft,Defender Vulnerability Management,C063,SaaS,"Standalone, Add-on",Pendiente
-P090,Microsoft,Defender EASM,C061,SaaS,Enterprise,Pendiente
-P091,Zscaler,Zscaler Internet Access (ZIA),C002,SaaS,"Business, Transformation, Unlimited",Pendiente
-P092,Zscaler,Zscaler Private Access (ZPA),C004,SaaS,"Business, Transformation, Unlimited",Pendiente
-P093,Zscaler,Zscaler Digital Experience (ZDX),C003,SaaS,"Standard, Advanced",Pendiente
-P094,Zscaler,Zscaler Data Protection,C031,SaaS,Enterprise,Pendiente
-P095,Netskope,Netskope One SSE,C002,SaaS,"Standard, Advanced",Pendiente
-P096,Netskope,Netskope ZTNA Next,C004,SaaS,Enterprise,Pendiente
-P097,Netskope,Netskope DLP,C031,SaaS,Enterprise,Pendiente
-P098,Netskope,Netskope SkopeAI,C096,SaaS,Enterprise,Pendiente
-P099,Cloudflare,Cloudflare WAF,C005,SaaS,"Free, Pro, Business, Enterprise",Pendiente
-P100,Cloudflare,Cloudflare DDoS Protection,C006,SaaS,"Free, Pro, Business, Enterprise",Pendiente
-P101,Cloudflare,Cloudflare Zero Trust,C004,SaaS,"Free, Pay-as-you-go, Contract",Pendiente
-P102,Cloudflare,Cloudflare AI Gateway,C086,SaaS,"Free, Enterprise",Pendiente
-P103,Cloudflare,Cloudflare Bot Management,C099,SaaS,Enterprise,Pendiente
-P104,Cloudflare,Cloudflare API Shield,C042,SaaS,Enterprise,Pendiente
-P105,Cloudflare,Cloudflare DNS Firewall,C009,SaaS,Enterprise,Pendiente
-P106,Cloudflare,Cloudflare Gateway,C002,SaaS,Enterprise,Pendiente
-P107,Cloudflare,Cloudflare AI Firewall,C083,SaaS,Enterprise,Pendiente
-P108,Wiz,Wiz CNAPP,C025,SaaS,Enterprise,Pendiente
-P109,Wiz,Wiz CSPM,C026,SaaS,Enterprise,Pendiente
-P110,Wiz,Wiz DSPM,C032,SaaS,Enterprise,Pendiente
-P111,Wiz,Wiz CDR,C030,SaaS,Enterprise,Pendiente
-P112,Wiz,Wiz AI-SPM,C082,SaaS,Enterprise,Pendiente
-P113,SentinelOne,Singularity Endpoint Protection,C019,SaaS,"Singularity Core, Control, Complete",Pendiente
-P114,SentinelOne,Singularity EDR,C020,SaaS,"Singularity Control, Complete",Pendiente
-P115,SentinelOne,Singularity XDR,C021,SaaS,"Singularity Complete, Enterprise",Pendiente
-P116,SentinelOne,Singularity Cloud Workload Security,C027,SaaS,Enterprise,Pendiente
-P117,SentinelOne,Singularity Cloud Detection & Response,C030,SaaS,Enterprise,Pendiente
-P118,CyberArk,Privileged Access Manager,C013,Híbrido,"Self-Hosted, Privilege Cloud",Pendiente
-P119,CyberArk,Workforce Identity,C011,SaaS,Enterprise,Pendiente
-P120,CyberArk,Endpoint Privilege Manager,C023,Híbrido,"SaaS, Self-Hosted",Pendiente
-P121,CyberArk,Secrets Hub,C044,SaaS,Enterprise,Pendiente
-P122,CyberArk,Secrets Hub,C112,SaaS,Enterprise,Pendiente
-P123,CyberArk,Machine Identity Security,C017,SaaS,Enterprise,Pendiente
-P124,CyberArk,Cloud Entitlements Manager,C028,SaaS,Enterprise,Pendiente
-P125,Okta,Workforce Identity Cloud,C011,SaaS,"Single Sign-On, Adaptive MFA, Lifecycle Management",Pendiente
-P126,Okta,Customer Identity Cloud (Auth0),C014,SaaS,"Free, Essential, Professional, Enterprise",Pendiente
-P127,Okta,Advanced Server Access,C013,SaaS,Enterprise,Pendiente
-P128,Okta,Okta Verify Passwordless,C016,SaaS,Enterprise,Pendiente
-P129,Okta,Okta Adaptive MFA,C018,SaaS,Enterprise,Pendiente
-P130,SailPoint,Identity Security Cloud,C012,SaaS,"Business, Business Plus, Enterprise",Pendiente
-P131,SailPoint,IdentityNow,C012,SaaS,"Essential, Business, Business Plus",Pendiente
-P132,Splunk,Enterprise Security,C047,Híbrido,"Splunk Cloud, Splunk Enterprise",Pendiente
-P133,Splunk,SOAR,C048,Híbrido,"Community, Enterprise",Pendiente
-P134,Splunk,User Behavior Analytics,C052,Híbrido,Enterprise,Pendiente
-P135,Tenable,Nessus Professional,C063,Híbrido,"Professional, Expert",Pendiente
-P136,Tenable,Tenable One,C062,SaaS,Enterprise,Pendiente
-P137,Tenable,Tenable Vulnerability Management,C063,SaaS,Enterprise,Pendiente
-P138,Tenable,Tenable Vulnerability Management,C064,SaaS,Enterprise,Pendiente
-P139,Tenable,Tenable Identity Exposure,C015,SaaS,Enterprise,Pendiente
-P140,Tenable,Tenable Attack Surface Management,C061,SaaS,Enterprise,Pendiente
-P141,Qualys,VMDR,C063,SaaS,"VMDR, VMDR with TruRisk",Pendiente
-P142,Qualys,VMDR,C064,SaaS,"VMDR, VMDR with TruRisk",Pendiente
-P143,Qualys,TotalCloud,C025,SaaS,Enterprise,Pendiente
-P144,Qualys,Web Application Scanning,C046,SaaS,Enterprise,Pendiente
-P145,Qualys,CyberSecurity Asset Management,C067,SaaS,Enterprise,Pendiente
-P146,Rapid7,InsightVM,C063,Híbrido,Enterprise,Pendiente
-P147,Rapid7,InsightIDR,C047,SaaS,"Essential, Advanced, Ultimate",Pendiente
-P148,Rapid7,InsightConnect,C048,SaaS,Enterprise,Pendiente
-P149,Rapid7,Metasploit,C066,Híbrido,"Framework (Open Source), Pro",Pendiente
-P150,Rapid7,InsightAppSec,C039,SaaS,Enterprise,Pendiente
-P151,Rapid7,Managed Detection & Response,C101,SaaS,Enterprise,Pendiente
-P152,Rapid7,InsightVM,C064,SaaS,Enterprise,Pendiente
-P153,Rapid7,EASM,C061,SaaS,Enterprise,Pendiente
-P154,Thales,Luna Network HSM,C105,Appliance,"Luna Network HSM 7, Luna PCIe HSM 7",Pendiente
-P155,Thales,CipherTrust Manager,C109,Híbrido,"CipherTrust Cloud, CipherTrust Enterprise",Pendiente
-P156,Thales,SafeNet Trusted Access,C018,SaaS,Enterprise,Pendiente
-P157,Thales,payShield 10K,C105,Appliance,Enterprise,Pendiente
-P158,Thales,CipherTrust Tokenization,C035,Híbrido,Enterprise,Pendiente
-P159,Thales,CipherTrust Transparent Encryption,C036,Híbrido,Enterprise,Pendiente
-P160,Thales,SafeNet Authentication Service,C108,SaaS,Enterprise,Pendiente
-P161,Thales,CipherTrust Data Discovery & Classification,C034,Híbrido,Enterprise,Pendiente
-P162,Thales,High Speed Encryptor,C114,Appliance,Enterprise,Pendiente
-P163,Thales,PQC Starter Kit,C115,Híbrido,Enterprise,Pendiente
-P164,Thales,PQC Starter Kit,C116,Híbrido,Enterprise,Pendiente
-P165,Entrust,nShield HSM,C105,Appliance,"nShield Connect, nShield Solo, nShield as a Service",Pendiente
-P166,Entrust,PKI as a Service,C110,SaaS,Enterprise,Pendiente
-P167,Entrust,Certificate Hub,C111,SaaS,Enterprise,Pendiente
-P168,Entrust,Enterprise Encryption,C036,Híbrido,Enterprise,Pendiente
-P169,Entrust,KeyControl,C109,Híbrido,Enterprise,Pendiente
-P170,Entrust,PQC Ready Solutions,C116,Híbrido,Enterprise,Pendiente
-P171,Recorded Future,Intelligence Cloud,C055,SaaS,"Intelligence Cloud, Analyst Community (Free)",Pendiente
-P172,Recorded Future,Intelligence Cloud,C056,SaaS,Enterprise,Pendiente
-P173,Recorded Future,Brand Intelligence,C060,SaaS,Enterprise,Pendiente
-P174,Recorded Future,Digital Risk Protection,C058,SaaS,Enterprise,Pendiente
-P175,Recorded Future,Malware Intelligence,C059,SaaS,Enterprise,Pendiente
-P176,Mandiant,Advantage Threat Intelligence,C055,SaaS,"Free, Standard, Enterprise",Pendiente
-P177,Mandiant,Advantage Threat Intelligence,C056,SaaS,"Free, Standard, Enterprise",Pendiente
-P178,Mandiant,Attack Surface Management,C061,SaaS,Enterprise,Pendiente
-P179,Mandiant,Incident Response Retainer,C104,SaaS,Enterprise,Pendiente
-P180,Mandiant,Managed Defense,C101,SaaS,Enterprise,Pendiente
-P181,Mandiant,Consulting Services,C120,SaaS,Enterprise,Pendiente
-P182,IBM,QRadar SIEM,C047,Híbrido,"Community Edition, Enterprise",Pendiente
-P183,IBM,Guardium Data Protection,C034,Híbrido,Enterprise,Pendiente
-P184,IBM,OpenPages,C069,Híbrido,"SaaS, Software",Pendiente
-P185,IBM,Verify,C011,SaaS,"Verify SaaS, Verify Access",Pendiente
-P186,IBM,watsonx.governance,C081,SaaS,Enterprise,Pendiente
-P187,IBM,watsonx.governance,C085,SaaS,Enterprise,Pendiente
-P188,IBM,Guardium Key Lifecycle Manager,C109,Híbrido,Enterprise,Pendiente
-P189,IBM,Guardium Encryption,C036,Híbrido,Enterprise,Pendiente
-P190,IBM,QRadar SOAR,C048,Híbrido,Enterprise,Pendiente
-P191,IBM,Concert,C054,SaaS,Enterprise,Pendiente
-P192,IBM,Quantum Safe,C115,SaaS,Enterprise,Pendiente
-P193,IBM,Quantum Safe,C116,SaaS,Enterprise,Pendiente
-P194,IBM,z16 Quantum Safe,C105,On-prem,Enterprise,Pendiente
-P195,IBM,Crypto Agility Services,C114,SaaS,Enterprise,Pendiente
-P196,ServiceNow,Security Operations (SecOps),C054,SaaS,"Standard, Professional, Enterprise",Pendiente
-P197,ServiceNow,Integrated Risk Management,C070,SaaS,"Standard, Professional, Enterprise",Pendiente
-P198,ServiceNow,GRC,C069,SaaS,"Standard, Professional, Enterprise",Pendiente
-P199,ServiceNow,TPRM,C071,SaaS,Enterprise,Pendiente
-P200,ServiceNow,Vulnerability Response,C064,SaaS,Enterprise,Pendiente
-P201,OneTrust,Privacy Management,C077,SaaS,Enterprise,Pendiente
-P202,OneTrust,Consent & Preferences,C078,SaaS,Enterprise,Pendiente
-P203,OneTrust,GRC & Security Assurance,C069,SaaS,Enterprise,Pendiente
-P204,OneTrust,IT & Security Risk Management,C070,SaaS,Enterprise,Pendiente
-P205,OneTrust,Third-Party Risk Management,C071,SaaS,Enterprise,Pendiente
-P206,OneTrust,AI Governance,C085,SaaS,Enterprise,Pendiente
-P207,OneTrust,Data Subject Rights,C079,SaaS,Enterprise,Pendiente
-P208,Vanta,Trust Management Platform,C072,SaaS,"Startup, Business, Enterprise",Pendiente
-P209,Vanta,Trust Management Platform,C076,SaaS,"Startup, Business, Enterprise",Pendiente
-P210,Drata,Compliance Automation,C072,SaaS,"Startup, Growth, Enterprise",Pendiente
-P211,Drata,Compliance Automation,C076,SaaS,"Startup, Growth, Enterprise",Pendiente
-P212,Vectra AI,Vectra NDR,C007,Híbrido,"Essentials, Premium",Pendiente
-P213,ExtraHop,RevealX,C007,Híbrido,"RevealX 360 (SaaS), RevealX Enterprise",Pendiente
-P214,Darktrace,Darktrace DETECT,C007,Híbrido,"Enterprise, Cloud",Pendiente
-P215,Darktrace,Darktrace RESPOND,C007,Híbrido,Enterprise,Pendiente
-P216,Darktrace,Darktrace DETECT/RESPOND OT,C089,Híbrido,Enterprise,Pendiente
-P217,Snyk,Snyk Code,C038,SaaS,"Free, Team, Enterprise",Pendiente
-P218,Snyk,Snyk Open Source,C040,SaaS,"Free, Team, Enterprise",Pendiente
-P219,Snyk,Snyk Container,C029,SaaS,"Free, Team, Enterprise",Pendiente
-P220,Snyk,Snyk IaC,C041,SaaS,"Free, Team, Enterprise",Pendiente
-P221,Snyk,Snyk Supply Chain,C043,SaaS,Enterprise,Pendiente
-P222,Aqua Security,Aqua Platform,C029,Híbrido,"Cloud Native, Enterprise",Pendiente
-P223,Sysdig,Sysdig Secure,C027,SaaS,Enterprise,Pendiente
-P224,Sysdig,Sysdig Secure,C029,SaaS,Enterprise,Pendiente
-P225,Arctic Wolf,Managed Detection & Response,C101,SaaS,Enterprise,Pendiente
-P226,Sophos,Intercept X Endpoint,C019,SaaS,"Standard, Advanced, Advanced with XDR",Pendiente
-P227,Sophos,Intercept X Endpoint,C020,SaaS,"Advanced, Advanced with XDR",Pendiente
-P228,Sophos,Managed Detection & Response,C101,SaaS,"Essentials, Complete",Pendiente
-P229,Sophos,Sophos Firewall,C001,Appliance,"XGS Series, Virtual",Pendiente
-P230,Keyfactor,EJBCA,C110,Híbrido,"Community, Enterprise",Pendiente
-P231,Keyfactor,Command,C111,Híbrido,"SaaS, On-Prem",Pendiente
-P232,Keyfactor,Signum,C113,SaaS,Enterprise,Pendiente
-P233,Keyfactor,Crypto Agility Platform,C114,SaaS,Enterprise,Pendiente
-P234,Keyfactor,PQC Lab,C115,SaaS,Enterprise,Pendiente
-P235,Keyfactor,PQC Lab,C116,SaaS,Enterprise,Pendiente
-P236,Venafi,TLS Protect,C111,Híbrido,"Cloud, Datacenter",Pendiente
-P237,Venafi,CodeSign Protect,C113,SaaS,Enterprise,Pendiente
-P238,Venafi,Machine Identity Security,C017,SaaS,Enterprise,Pendiente
-P239,Venafi,Venafi PKI,C110,Híbrido,Enterprise,Pendiente
-P240,DigiCert,CertCentral,C110,SaaS,Enterprise,Pendiente
-P241,DigiCert,CertCentral,C111,SaaS,Enterprise,Pendiente
-P242,DigiCert,Software Trust Manager,C113,SaaS,Enterprise,Pendiente
-P243,DigiCert,PQC Toolkit,C116,SaaS,Enterprise,Pendiente
-P244,Claroty,xDome,C088,Híbrido,Enterprise,Pendiente
-P245,Claroty,xDome,C089,Híbrido,Enterprise,Pendiente
-P246,Claroty,Medigate,C091,SaaS,Enterprise,Pendiente
-P247,Nozomi Networks,Vantage,C088,Híbrido,"Vantage (SaaS), Guardian (On-Prem)",Pendiente
-P248,Nozomi Networks,Vantage,C089,Híbrido,"Vantage (SaaS), Guardian (On-Prem)",Pendiente
-P249,Dragos,Dragos Platform,C088,On-prem,"Community, Enterprise",Pendiente
-P250,Dragos,Dragos Platform,C089,On-prem,"Community, Enterprise",Pendiente
-P251,Proofpoint,Email Protection,C093,SaaS,"Essentials, Advanced, Complete",Pendiente
-P252,Proofpoint,Targeted Attack Protection (TAP),C093,SaaS,Enterprise,Pendiente
-P253,Proofpoint,Email Fraud Defense (DMARC),C095,SaaS,Enterprise,Pendiente
-P254,Proofpoint,DLP,C031,SaaS,Enterprise,Pendiente
-P255,Proofpoint,Brand Protection,C060,SaaS,Enterprise,Pendiente
-P256,Proofpoint,Digital Risk Protection,C100,SaaS,Enterprise,Pendiente
-P257,Abnormal Security,Abnormal Inbound Email Security,C094,SaaS,Enterprise,Pendiente
-P258,SecurityScorecard,Ratings Platform,C068,SaaS,"Free, Business, Enterprise",Pendiente
-P259,SecurityScorecard,Third-Party Risk Management,C071,SaaS,Enterprise,Pendiente
-P260,BitSight,Security Ratings,C068,SaaS,"Security Ratings, Third-Party Risk Management",Pendiente
-P261,BitSight,Third-Party Risk Management,C071,SaaS,Enterprise,Pendiente
-P262,HashiCorp,Vault,C044,Híbrido,"Open Source, Enterprise, HCP Vault",Pendiente
-P263,HashiCorp,Vault,C112,Híbrido,"Open Source, Enterprise, HCP Vault",Pendiente
-P264,HashiCorp,Vault Enterprise Key Management,C109,Híbrido,Enterprise,Pendiente
-P265,Fortanix,Data Security Manager,C105,Híbrido,"SaaS, On-Prem",Pendiente
-P266,Fortanix,Data Security Manager,C109,Híbrido,"SaaS, On-Prem",Pendiente
-P267,Fortanix,Confidential Computing Manager,C037,SaaS,Enterprise,Pendiente
-P268,Fortanix,Tokenization,C036,SaaS,Enterprise,Pendiente
-P269,Fortanix,Privacy Enhancing Computation,C080,SaaS,Enterprise,Pendiente
-P270,SandboxAQ,AQtive Guard,C115,SaaS,Enterprise,Pendiente
-P271,SandboxAQ,AQtive Guard,C116,SaaS,Enterprise,Pendiente
-P272,SandboxAQ,Crypto Agility,C114,SaaS,Enterprise,Pendiente
-P273,Feedzai,Feedzai RiskOps Platform,C097,SaaS,Enterprise,Pendiente
-P274,BioCatch,Behavioral Biometrics,C097,SaaS,Enterprise,Pendiente
-P275,BioCatch,Behavioral Biometrics,C098,SaaS,Enterprise,Pendiente
-P276,Checkmarx,Checkmarx One SAST,C038,SaaS,"Essentials, Enterprise",Pendiente
-P277,Checkmarx,Checkmarx One ASPM,C041,SaaS,Enterprise,Pendiente
-P278,Veracode,Static Analysis,C038,SaaS,"Standard, Enterprise",Pendiente
-P279,Veracode,Dynamic Analysis,C039,SaaS,"Standard, Enterprise",Pendiente
-P280,Veracode,SCA,C040,SaaS,Enterprise,Pendiente
-P281,Synopsys,Coverity (SAST),C038,Híbrido,"Standard, Enterprise",Pendiente
-P282,Synopsys,Black Duck (SCA),C040,Híbrido,"Standard, Enterprise",Pendiente
-P283,Synopsys,Polaris (DAST),C039,SaaS,Enterprise,Pendiente
-P284,Sonar,SonarQube / SonarCloud,C038,Híbrido,"Community (Free), Developer, Enterprise, Data Center",Pendiente
-P285,Sonatype,Nexus Lifecycle (SCA),C040,Híbrido,"Starter, Enterprise",Pendiente
-P286,Sonatype,Nexus Repository (Supply Chain),C043,Híbrido,"OSS, Pro",Pendiente
-P287,JFrog,Xray (SCA),C040,Híbrido,"Free, Pro, Enterprise",Pendiente
-P288,JFrog,Artifactory (Supply Chain),C043,Híbrido,"Community (Free), Pro, Enterprise",Pendiente
-P289,JFrog,ML Model Management,C087,Híbrido,Enterprise,Pendiente
-P290,GitHub,Advanced Security (Dependabot),C040,SaaS,"GitHub Advanced Security, GHAS for Azure DevOps",Pendiente
-P291,GitHub,Advanced Security (Code Scanning),C043,SaaS,"GitHub Advanced Security, GHAS for Azure DevOps",Pendiente
-P292,Salt Security,Salt Security API Protection,C042,SaaS,Enterprise,Pendiente
-P293,Contrast Security,Contrast Protect (RASP),C045,SaaS,"Community, Standard, Enterprise",Pendiente
-P294,Akamai,App & API Protector,C005,SaaS,Enterprise,Pendiente
-P295,Akamai,Prolexic DDoS Protection,C006,SaaS,Enterprise,Pendiente
-P296,Akamai,Enterprise Threat Protector / DNS,C009,SaaS,Enterprise,Pendiente
-P297,Akamai,API Security (Noname),C042,SaaS,Enterprise,Pendiente
-P298,Akamai,Bot Manager,C099,SaaS,Enterprise,Pendiente
-P299,Akamai,Guardicore Segmentation,C010,Híbrido,Enterprise,Pendiente
-P300,F5,BIG-IP Advanced WAF,C005,Appliance,Enterprise,Pendiente
-P301,Imperva,Cloud WAF,C005,SaaS,"Professional, Business, Enterprise",Pendiente
-P302,Imperva,DDoS Protection,C006,SaaS,Enterprise,Pendiente
-P303,Imperva,API Security,C042,SaaS,Enterprise,Pendiente
-P304,Imperva,Database Activity Monitoring,C034,Híbrido,Enterprise,Pendiente
-P305,Imperva,Bot Management,C099,SaaS,Enterprise,Pendiente
-P306,Imperva,RASP,C045,On-prem,Enterprise,Pendiente
-P307,Elastic,Elastic Security (SIEM),C047,Híbrido,"Basic (Free), Gold, Platinum, Enterprise",Pendiente
-P308,Exabeam,New-Scale SIEM,C047,SaaS,Enterprise,Pendiente
-P309,Exabeam,New-Scale UEBA,C052,SaaS,Enterprise,Pendiente
-P310,Tines,Tines Automation Platform,C048,SaaS,"Community (Free), Business, Enterprise",Pendiente
-P311,Tines,Tines Automation Platform,C051,SaaS,"Community (Free), Business, Enterprise",Pendiente
-P312,Swimlane,Turbine,C048,Híbrido,"Starter, Enterprise",Pendiente
-P313,Swimlane,Turbine,C051,Híbrido,"Starter, Enterprise",Pendiente
-P314,Torq,Torq Hyperautomation,C048,SaaS,Enterprise,Pendiente
-P315,Torq,Torq Hyperautomation,C051,SaaS,Enterprise,Pendiente
-P316,SOC Prime,SOC Prime Platform,C050,SaaS,"Community (Free), Business, Enterprise",Pendiente
-P317,Cymulate,Cymulate BAS,C065,SaaS,Enterprise,Pendiente
-P318,Cymulate,Cymulate Exposure Management,C062,SaaS,Enterprise,Pendiente
-P319,Cymulate,Cymulate Security Validation,C066,SaaS,Enterprise,Pendiente
-P320,Picus,Picus Security Validation,C065,Híbrido,"Complete, Standard",Pendiente
-P321,Picus,Picus Security Validation,C066,Híbrido,"Complete, Standard",Pendiente
-P322,Pentera,Pentera Core,C066,Híbrido,"Core, Surface",Pendiente
-P323,Pentera,Pentera Surface,C046,SaaS,Enterprise,Pendiente
-P324,Pentera,Pentera Core,C065,Híbrido,Enterprise,Pendiente
-P325,AttackIQ,AttackIQ Platform,C065,SaaS,"Ready! (Free), Enterprise, Flex",Pendiente
-P326,SafeBreach,SafeBreach BAS Platform,C065,SaaS,Enterprise,Pendiente
-P327,SafeBreach,SafeBreach BAS Platform,C066,SaaS,Enterprise,Pendiente
-P328,Axonius,Axonius Cybersecurity Asset Management,C067,SaaS,Enterprise,Pendiente
-P329,Armis,Armis Centrix,C067,SaaS,Enterprise,Pendiente
-P330,Armis,Armis Centrix for OT,C088,SaaS,Enterprise,Pendiente
-P331,Armis,Armis Centrix for Medical,C091,SaaS,Enterprise,Pendiente
-P332,Armis,Armis Centrix for IoT,C090,SaaS,Enterprise,Pendiente
-P333,runZero,runZero Platform,C067,Híbrido,"Community (Free), Enterprise",Pendiente
-P334,Forescout,Forescout eyeSight,C008,Híbrido,Enterprise,Pendiente
-P335,Forescout,Forescout eyeInspect,C088,On-prem,Enterprise,Pendiente
-P336,Forescout,Forescout Continuum,C090,Híbrido,Enterprise,Pendiente
-P337,Forescout,Forescout eyeInspect for Medical,C091,On-prem,Enterprise,Pendiente
-P338,Ping Identity,PingOne for Workforce,C011,SaaS,"Essential, Plus, Premium",Pendiente
-P339,Ping Identity,PingOne for Customers,C014,SaaS,"Essential, Plus, Premium",Pendiente
-P340,BeyondTrust,Privilege Management,C013,Híbrido,"SaaS, On-Prem",Pendiente
-P341,BeyondTrust,Endpoint Privilege Management,C023,Híbrido,"SaaS, On-Prem",Pendiente
-P342,Delinea,Secret Server,C013,Híbrido,"Free (25 secrets), Professional, Enterprise",Pendiente
-P343,Delinea,Privilege Manager,C023,Híbrido,Enterprise,Pendiente
-P344,Saviynt,Enterprise IGA,C012,SaaS,Enterprise,Pendiente
-P345,One Identity,Identity Manager,C012,Híbrido,Enterprise,Pendiente
-P346,One Identity,Safeguard,C013,Híbrido,Enterprise,Pendiente
-P347,Silverfort,Unified Identity Protection,C015,Híbrido,Enterprise,Pendiente
-P348,Semperis,Directory Services Protector,C015,Híbrido,Enterprise,Pendiente
-P349,Varonis,DatAdvantage Cloud,C015,SaaS,Enterprise,Pendiente
-P350,Varonis,Data Security Platform,C032,SaaS,Enterprise,Pendiente
-P351,Varonis,Data Classification Engine,C033,Híbrido,Enterprise,Pendiente
-P352,Lookout,Lookout Mobile Endpoint Security,C022,SaaS,"Basic, Advanced",Pendiente
-P353,Zimperium,MAPS,C022,SaaS,Enterprise,Pendiente
-P354,Trend Micro,Trend Vision One Endpoint,C019,SaaS,"Standard, Advanced",Pendiente
-P355,Trend Micro,Trend Vision One XDR,C021,SaaS,Enterprise,Pendiente
-P356,Trend Micro,Trend Vision One Cloud Security,C027,SaaS,Enterprise,Pendiente
-P357,Trellix,Trellix Endpoint Security,C019,Híbrido,Enterprise,Pendiente
-P358,Trellix,Trellix DLP,C031,Híbrido,"Endpoint, Network, Cloud",Pendiente
-P359,Broadcom Symantec,Symantec DLP,C031,Híbrido,"Endpoint, Network, Cloud, Storage",Pendiente
-P360,Forcepoint,Forcepoint DLP,C031,Híbrido,"Cloud, Enterprise",Pendiente
-P361,Cyera,Cyera Data Security Platform,C032,SaaS,Enterprise,Pendiente
-P362,BigID,BigID Data Intelligence Platform,C032,SaaS,Enterprise,Pendiente
-P363,BigID,BigID Data Discovery & Classification,C033,SaaS,Enterprise,Pendiente
-P364,BigID,BigID Privacy Suite,C077,SaaS,Enterprise,Pendiente
-P365,Fortra,Fortra Data Classification Suite,C033,Híbrido,Enterprise,Pendiente
-P366,ThreatConnect,ThreatConnect Platform,C055,SaaS,"TC Identify, TC Complete",Pendiente
-P367,Anomali,Anomali ThreatStream,C055,SaaS,Enterprise,Pendiente
-P368,EclecticIQ,EclecticIQ Intelligence Center,C055,Híbrido,"Community, Enterprise",Pendiente
-P369,Flashpoint,Flashpoint Intelligence Platform,C056,SaaS,Enterprise,Pendiente
-P370,Flashpoint,Flashpoint Digital Risk Protection,C058,SaaS,Enterprise,Pendiente
-P371,Intel 471,TITAN Intelligence Platform,C056,SaaS,Enterprise,Pendiente
-P372,KELA,KELA Cyber Intelligence Platform,C056,SaaS,Enterprise,Pendiente
-P373,KELA,KELA Digital Risk Protection,C058,SaaS,Enterprise,Pendiente
-P374,VirusTotal,VirusTotal Enterprise,C059,SaaS,"Free, Premium, Enterprise",Pendiente
-P375,ANY.RUN,ANY.RUN Interactive Sandbox,C059,SaaS,"Free, Hunter, Enterprise",Pendiente
-P376,ReversingLabs,TitaniumPlatform,C059,Híbrido,"A1000, TitaniumCloud",Pendiente
-P377,Intezer,Intezer Analyze,C059,SaaS,"Community, Enterprise",Pendiente
-P378,MISP,MISP Threat Sharing Platform,C057,On-prem,Community (Free),Pendiente
-P379,OpenCTI,OpenCTI Platform,C055,Híbrido,"Community (Free), Enterprise",Pendiente
-P380,OpenCTI,OpenCTI Platform,C057,Híbrido,"Community (Free), Enterprise",Pendiente
-P381,SOCRadar,SOCRadar Extended Threat Intelligence,C058,SaaS,"Free, Advanced, Enterprise",Pendiente
-P382,Cybersixgill,Cybersixgill DVE Intelligence,C058,SaaS,Enterprise,Pendiente
-P383,Group-IB,Threat Intelligence Platform,C058,SaaS,Enterprise,Pendiente
-P384,ZeroFox,ZeroFox Platform,C060,SaaS,Enterprise,Pendiente
-P385,ZeroFox,Brand Protection,C100,SaaS,Enterprise,Pendiente
-P386,Bolster,Bolster Platform,C060,SaaS,Enterprise,Pendiente
-P387,Bolster,Brand Protection,C100,SaaS,Enterprise,Pendiente
-P388,CyCognito,CyCognito Attack Surface Management,C061,SaaS,Enterprise,Pendiente
-P389,Censys,Censys Attack Surface Management,C061,SaaS,Enterprise,Pendiente
-P390,XM Cyber,XM Cyber Continuous Exposure Management,C062,SaaS,Enterprise,Pendiente
-P391,Greenbone,OpenVAS / Greenbone Enterprise,C063,Híbrido,"Community (Free), Enterprise",Pendiente
-P392,Nucleus Security,Nucleus Platform,C064,SaaS,Enterprise,Pendiente
-P393,Vulcan Cyber,Vulcan Cyber ExposureOS,C064,SaaS,Enterprise,Pendiente
-P394,JupiterOne,JupiterOne CAASM,C067,SaaS,"Community (Free), Enterprise",Pendiente
-P395,Archer,Archer IRM,C069,Híbrido,"SaaS, On-Prem",Pendiente
-P396,Archer,Archer IRM,C070,Híbrido,"SaaS, On-Prem",Pendiente
-P397,MetricStream,MetricStream GRC Platform,C069,SaaS,Enterprise,Pendiente
-P398,MetricStream,MetricStream Audit Management,C074,SaaS,Enterprise,Pendiente
-P399,LogicGate,Risk Cloud,C070,SaaS,Enterprise,Pendiente
-P400,AuditBoard,AuditBoard IT Risk,C070,SaaS,Enterprise,Pendiente
-P401,AuditBoard,AuditBoard Audit Management,C074,SaaS,Enterprise,Pendiente
-P402,Secureframe,Secureframe Compliance,C072,SaaS,"Growth, Enterprise",Pendiente
-P403,Secureframe,Secureframe Compliance,C076,SaaS,"Growth, Enterprise",Pendiente
-P404,Sprinto,Sprinto Compliance Automation,C076,SaaS,"Startup, Growth, Enterprise",Pendiente
-P405,ProcessUnity,ProcessUnity TPRM,C071,SaaS,Enterprise,Pendiente
-P406,UpGuard,UpGuard BreachSight,C068,SaaS,"Starter, Professional, Corporate, Enterprise",Pendiente
-P407,UpGuard,UpGuard Vendor Risk,C071,SaaS,"Starter, Professional, Corporate, Enterprise",Pendiente
-P408,Safe Security,SAFE One Platform,C073,SaaS,Enterprise,Pendiente
-P409,Kovrr,Kovrr CRQ Platform,C073,SaaS,Enterprise,Pendiente
-P410,TrustArc,TrustArc Privacy Management,C077,SaaS,Enterprise,Pendiente
-P411,TrustArc,TrustArc Consent Manager,C078,SaaS,Enterprise,Pendiente
-P412,Securiti,Securiti Data Command Center,C077,SaaS,Enterprise,Pendiente
-P413,Securiti,Securiti DSR Automation,C079,SaaS,Enterprise,Pendiente
-P414,Transcend,Transcend Privacy Platform,C077,SaaS,"Startup, Enterprise",Pendiente
-P415,Transcend,Transcend DSR Automation,C079,SaaS,"Startup, Enterprise",Pendiente
-P416,Usercentrics,Usercentrics CMP,C078,SaaS,"Free, Standard, Enterprise",Pendiente
-P417,Didomi,Didomi CMP,C078,SaaS,"Self-Service, Enterprise",Pendiente
-P418,Credo AI,Credo AI Governance Platform,C081,SaaS,Enterprise,Pendiente
-P419,Credo AI,Credo AI Governance Platform,C085,SaaS,Enterprise,Pendiente
-P420,Holistic AI,Holistic AI Platform,C081,SaaS,Enterprise,Pendiente
-P421,Holistic AI,Holistic AI Platform,C085,SaaS,Enterprise,Pendiente
-P422,Protect AI,Guardian,C082,SaaS,Enterprise,Pendiente
-P423,Protect AI,Guardian,C083,SaaS,Enterprise,Pendiente
-P424,Protect AI,ModelScan,C087,Híbrido,"Open Source, Enterprise",Pendiente
-P425,Protect AI,Guardian,C086,SaaS,Enterprise,Pendiente
-P426,HiddenLayer,MLDR,C082,SaaS,Enterprise,Pendiente
-P427,HiddenLayer,MLDR,C083,SaaS,Enterprise,Pendiente
-P428,HiddenLayer,Model Scanner,C087,SaaS,Enterprise,Pendiente
-P429,Lakera,Lakera Guard,C083,SaaS,"Free, Pro, Enterprise",Pendiente
-P430,Lakera,Lakera Red,C084,SaaS,Enterprise,Pendiente
-P431,Lakera,Lakera Guard,C086,SaaS,Enterprise,Pendiente
-P432,Kong,Kong AI Gateway,C086,Híbrido,"OSS (Free), Enterprise, Konnect",Pendiente
-P433,Mimecast,Mimecast Email Security,C093,SaaS,"Essentials, Advanced",Pendiente
-P434,Barracuda,Barracuda Email Protection,C093,SaaS,"Essential, Complete, Premium",Pendiente
-P435,Material Security,Material Security Platform,C094,SaaS,Enterprise,Pendiente
-P436,Sublime Security,Sublime Platform,C094,Híbrido,"Free, Enterprise",Pendiente
-P437,Valimail,Valimail Enforce,C095,SaaS,"Monitor (Free), Enforce",Pendiente
-P438,EasyDMARC,EasyDMARC Platform,C095,SaaS,"Free, Plus, Business, Enterprise",Pendiente
-P439,Red Sift,OnDMARC,C095,SaaS,"Essential, Advanced",Pendiente
-P440,Featurespace,ARIC Risk Hub,C097,SaaS,Enterprise,Pendiente
-P441,NICE Actimize,X-Sight Platform,C097,SaaS,Enterprise,Pendiente
-P442,HUMAN,HUMAN Bot Defender,C099,SaaS,Enterprise,Pendiente
-P443,HUMAN,HUMAN Account Defender,C098,SaaS,Enterprise,Pendiente
-P444,DataDome,DataDome Bot Protection,C099,SaaS,"Business, Corporate, Enterprise",Pendiente
-P445,Sift,Sift Digital Trust & Safety,C098,SaaS,Enterprise,Pendiente
-P446,Arkose Labs,Arkose Bot Manager,C098,SaaS,Enterprise,Pendiente
-P447,Transmit Security,Transmit Security Detection & Response,C098,SaaS,Enterprise,Pendiente
-P448,Secureworks,Taegis ManagedXDR,C101,SaaS,Enterprise,Pendiente
-P449,ReliaQuest,GreyMatter,C101,SaaS,Enterprise,Pendiente
-P450,Magnet Forensics,Magnet AXIOM,C053,Híbrido,"AXIOM Examine, AXIOM Cyber",Pendiente
-P451,Magnet Forensics,Magnet AXIOM,C122,Híbrido,"AXIOM Examine, AXIOM Cyber",Pendiente
-P452,Cellebrite,Cellebrite UFED,C053,Híbrido,"UFED Touch2, UFED 4PC",Pendiente
-P453,Cellebrite,Cellebrite UFED,C122,Híbrido,"UFED Touch2, UFED 4PC",Pendiente
-P454,Orca Security,Orca Cloud Security Platform,C025,SaaS,Enterprise,Pendiente
-P455,Orca Security,Orca CSPM,C026,SaaS,Enterprise,Pendiente
-P456,Red Hat,Red Hat Advanced Cluster Security,C029,Híbrido,Enterprise,Pendiente
-P457,Illumio,Illumio Core,C010,Híbrido,"Core, Endpoint, CloudSecure",Pendiente
-P458,Skyhigh Security,Skyhigh SSE,C002,SaaS,Enterprise,Pendiente
-P459,Cato Networks,Cato SASE Cloud,C003,SaaS,Enterprise,Pendiente
-P460,Appgate,Appgate SDP,C004,Híbrido,"SaaS, Self-Hosted",Pendiente
-P461,HPE Aruba,EdgeConnect SD-WAN / SASE,C003,Híbrido,Enterprise,Pendiente
-P462,HPE Aruba,ClearPass,C008,On-prem,Enterprise,Pendiente
-P463,Infoblox,BloxOne Threat Defense,C009,SaaS,"Business Essential, Business Cloud, Advanced",Pendiente
-P464,Juniper,SRX Series Firewall,C001,Appliance,"SRX300, SRX1500, SRX4600, SRX5800",Pendiente
-P465,Radware,DefensePro DDoS Protection,C006,Appliance,Enterprise,Pendiente
-P466,Radware,Cloud WAF,C005,SaaS,Enterprise,Pendiente
-P467,Fastly,Next-Gen WAF (Signal Sciences),C005,SaaS,Enterprise,Pendiente
-P468,Netscout,Arbor DDoS Protection,C006,Appliance,"Arbor Edge Defense, Arbor Sightline",Pendiente
-P469,Corelight,Corelight Open NDR Platform,C007,Híbrido,"Cloud, Enterprise, Free",Pendiente
-P470,Portnox,Portnox Cloud NAC,C008,SaaS,Enterprise,Pendiente
-P471,Yubico,YubiKey,C016,Appliance,"YubiKey 5 NFC, YubiKey 5C, YubiKey Bio",Pendiente
-P472,Yubico,YubiKey,C108,Appliance,"YubiKey 5 NFC, YubiKey 5C, YubiKey Bio",Pendiente
-P473,RSA,RSA SecurID,C018,Híbrido,"Cloud Authentication Service, Access Manager",Pendiente
-P474,Horizon3.ai,NodeZero,C066,SaaS,"NodeZero, NodeZero Federal",Pendiente
-P475,Horizon3.ai,NodeZero,C046,SaaS,Enterprise,Pendiente
-P476,Oracle,Oracle IAM,C011,Cloud,Enterprise,Pendiente
-P477,Oracle,Oracle Audit Vault & Database Firewall,C034,On-prem,Enterprise,Pendiente
-P478,Utimaco,CryptoServer HSM,C105,Appliance,"General Purpose, Payment",Pendiente
-P479,Futurex,Vectera Plus HSM,C105,Appliance,Enterprise,Pendiente
-P480,Sectigo,Sectigo Certificate Manager,C110,SaaS,Enterprise,Pendiente
-P481,Sectigo,Sectigo Certificate Manager,C111,SaaS,Enterprise,Pendiente
-P482,Sectigo,Sectigo Code Signing,C113,SaaS,Enterprise,Pendiente
-P483,AppViewX,CERT+ PKI,C110,Híbrido,Enterprise,Pendiente
-P484,AppViewX,CERT+ CLM,C111,Híbrido,Enterprise,Pendiente
-P485,AppViewX,Crypto Agility,C114,Híbrido,Enterprise,Pendiente
-P486,Akeyless,Akeyless Vault Platform,C044,SaaS,"Community, Enterprise",Pendiente
-P487,Akeyless,Akeyless Vault Platform,C112,SaaS,"Community, Enterprise",Pendiente
-P488,Akeyless,Akeyless Machine Identity,C017,SaaS,Enterprise,Pendiente
-P489,SignPath,SignPath Code Signing,C113,SaaS,"Starter, Enterprise",Pendiente
-P490,Upstream Security,Upstream V-XDR Platform,C092,SaaS,Enterprise,Pendiente
-P491,VicOne,xZETA Automotive Security,C092,SaaS,Enterprise,Pendiente
-P492,Phosphorus,Phosphorus xIoT Security,C090,SaaS,Enterprise,Pendiente
-P493,ID Quantique,Cerberis QKD,C117,Appliance,Enterprise,Pendiente
-P494,ID Quantique,Quantis QRNG,C118,Appliance,"PCIe, USB",Pendiente
-P495,Quantum Xchange,Phio TX,C117,Híbrido,Enterprise,Pendiente
-P496,Quantum Xchange,Phio TX,C115,Híbrido,Enterprise,Pendiente
-P497,InfoSec Global,AgileSec Analytics,C114,SaaS,Enterprise,Pendiente
-P498,InfoSec Global,AgileSec Analytics,C115,SaaS,Enterprise,Pendiente
-P499,Fusion Risk Management,Fusion Framework System,C075,SaaS,Enterprise,Pendiente
-P500,Diligent,Diligent One HighBond,C074,SaaS,Enterprise,Pendiente
-P501,Kroll,Kroll Incident Response,C104,SaaS,Enterprise,Pendiente
-P502,Kroll,Kroll Cyber Due Diligence,C120,SaaS,Enterprise,Pendiente
-P503,Kroll,Kroll Digital Forensics,C122,SaaS,Enterprise,Pendiente
-P504,NCC Group,NCC Group Penetration Testing,C120,SaaS,Enterprise,Pendiente
-P505,NCC Group,NCC Group IR Retainer,C104,SaaS,Enterprise,Pendiente
-P506,Invicti,Invicti / Acunetix (DAST),C039,SaaS,"Standard, Enterprise",Pendiente
-P507,OpenText Fortify,Fortify on Demand SAST,C038,SaaS,Enterprise,Pendiente
-P508,OpenText Fortify,Fortify WebInspect DAST,C039,Híbrido,Enterprise,Pendiente
-P509,Mend.io,Mend SCA,C040,SaaS,"Free, Enterprise",Pendiente
-P510,Chainguard,Chainguard Images,C043,SaaS,"Developer, Enterprise",Pendiente
-P511,Traceable,Traceable AI API Security,C042,SaaS,Enterprise,Pendiente
-P512,Detectify,Detectify Surface Monitoring,C046,SaaS,"Starter, Professional",Pendiente
-P513,AWS,AWS Shield,C006,Cloud,"Standard (Free), Advanced",Pendiente
-P514,AWS,AWS Secrets Manager,C044,Cloud,Pay-as-you-go,Pendiente
-P515,AWS,AWS KMS,C109,Cloud,Pay-as-you-go,Pendiente
-P516,AWS,AWS CloudHSM,C105,Cloud,Pay-as-you-go,Pendiente
-P517,Google Cloud,Google Cloud KMS,C044,Cloud,Pay-as-you-go,Pendiente
-P518,Google Cloud,Google Cloud Confidential Computing,C037,Cloud,Enterprise,Pendiente
-P519,Google Security Operations,Google SecOps (Chronicle),C047,SaaS,"Standard, Enterprise, Enterprise Plus",Pendiente
-P520,Google,Google Security Command Center,C049,Cloud,"Standard (Free), Premium, Enterprise",Pendiente
-P521,Panther,Panther SIEM,C050,SaaS,"Team, Professional, Enterprise",Pendiente
-P522,Hunters,Hunters SOC Platform,C050,Híbrido,Enterprise,Pendiente
-P523,Anvilogic,Anvilogic Detection Engineering,C050,SaaS,Enterprise,Pendiente
-P524,Blink Ops,Blink Security Automation,C051,SaaS,"Free, Enterprise",Pendiente
-P525,Shuffle,Shuffle Automation,C051,Híbrido,"Community (Free), Enterprise",Pendiente
-P526,TheHive,TheHive Project,C054,On-prem,"Community (Free), Enterprise",Pendiente
-P527,Robust Intelligence,RIME AI Firewall,C082,SaaS,Enterprise,Pendiente
-P528,ModelOp,ModelOp Center,C081,SaaS,Enterprise,Pendiente
-P529,ModelOp,ModelOp Center,C085,SaaS,Enterprise,Pendiente
-P530,Securonix,Securonix UEBA,C052,SaaS,Enterprise,Pendiente
-P531,Gurucul,Gurucul UEBA,C052,SaaS,Enterprise,Pendiente
-P532,LexisNexis,LexisNexis ThreatMetrix,C097,SaaS,Enterprise,Pendiente
-P533,SAS,SAS Fraud Management,C097,Híbrido,Enterprise,Pendiente
-P534,Kasada,Kasada Bot Defense,C099,SaaS,Enterprise,Pendiente
-P535,Black Kite,Black Kite Cyber Ratings,C068,SaaS,Enterprise,Pendiente
-P536,RiskRecon,RiskRecon (Mastercard),C068,SaaS,Enterprise,Pendiente
-P537,Privitar,Privitar PET Platform,C080,Híbrido,Enterprise,Pendiente
-P538,Protegrity,Protegrity Data Protection,C035,Híbrido,Enterprise,Pendiente
-P539,Protegrity,Protegrity Encryption,C036,Híbrido,Enterprise,Pendiente
-P540,Protegrity,Protegrity PET,C080,Híbrido,Enterprise,Pendiente
-P541,Spin.AI,SpinOne SaaS Security,C096,SaaS,"Business, Enterprise",Pendiente
-P542,WALLIX,WALLIX PAM,C013,Híbrido,Enterprise,Pendiente
-P543,ColorTokens,Xshield Microsegmentation,C010,SaaS,Enterprise,Pendiente
-P544,VMware,NSX Distributed Firewall,C010,On-prem,Enterprise,Pendiente
-P545,VMware Carbon Black,Carbon Black App Control,C024,Híbrido,Enterprise,Pendiente
-P546,ThreatLocker,ThreatLocker Protect,C024,SaaS,Enterprise,Pendiente
-P547,ThreatLocker,ThreatLocker Elevation Control,C023,SaaS,Enterprise,Pendiente
-P548,Ivanti,Ivanti Neurons for MTD,C022,SaaS,Enterprise,Pendiente
-P549,Ivanti,Ivanti Application Control,C024,On-prem,Enterprise,Pendiente
-P550,Jamf,Jamf Protect,C022,SaaS,Enterprise,Pendiente
+ID producto,Proveedor,Producto,ID categoría,Despliegue,Ediciones,Estado,URL
+P001,Palo Alto Networks,PA-Series NGFW,C001,Appliance,"PA-400, PA-800, PA-3200, PA-5200, PA-7000",Pendiente,https://www.paloaltonetworks.com/network-security/next-generation-firewall
+P002,Palo Alto Networks,Prisma Access,C002,SaaS,"Business, Business Premium",Pendiente,https://www.paloaltonetworks.com/sase/access
+P003,Palo Alto Networks,Prisma Access,C003,SaaS,"Business, Business Premium",Pendiente,https://www.paloaltonetworks.com/sase/access
+P004,Palo Alto Networks,Prisma Access,C004,SaaS,"Business, Business Premium",Pendiente,https://www.paloaltonetworks.com/sase/access
+P005,Palo Alto Networks,Prisma Cloud,C025,SaaS,"Enterprise, Runtime Security",Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P006,Palo Alto Networks,Prisma Cloud,C026,SaaS,"Enterprise, Runtime Security",Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P007,Palo Alto Networks,Prisma Cloud,C027,SaaS,"Enterprise, Runtime Security",Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P008,Palo Alto Networks,Prisma Cloud,C029,SaaS,"Enterprise, Runtime Security",Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P009,Palo Alto Networks,Cortex XDR,C020,SaaS,"Prevent, Pro",Pendiente,https://www.paloaltonetworks.com/cortex/cortex-xdr
+P010,Palo Alto Networks,Cortex XDR,C021,SaaS,"Prevent, Pro",Pendiente,https://www.paloaltonetworks.com/cortex/cortex-xdr
+P011,Palo Alto Networks,Cortex XSOAR,C048,Híbrido,"Community, Enterprise",Pendiente,https://www.paloaltonetworks.com/cortex/cortex-xsoar
+P012,Palo Alto Networks,Cortex Xpanse,C061,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/cortex/cortex-xpanse
+P013,Palo Alto Networks,AI Runtime Security,C083,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/ai-security
+P014,Palo Alto Networks,Prisma Cloud DSPM,C032,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P015,Palo Alto Networks,Prisma Cloud CIEM,C028,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P016,Palo Alto Networks,Prisma Cloud CDR,C030,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P017,Palo Alto Networks,Cortex XSIAM,C049,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/cortex/cortex-xsiam
+P018,Palo Alto Networks,IoT Security,C090,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/network-security/iot-security
+P019,Palo Alto Networks,DNS Security,C009,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/network-security/dns-security
+P020,Palo Alto Networks,AI-SPM,C082,SaaS,Enterprise,Pendiente,https://www.paloaltonetworks.com/prisma/cloud
+P021,Fortinet,FortiGate,C001,Appliance,"FortiGate 40F, 60F, 100F, 200F, 600F, 1000F, 3000F, 4000F",Pendiente,https://www.fortinet.com/products/next-generation-firewall
+P022,Fortinet,FortiSASE,C003,SaaS,Enterprise,Pendiente,https://www.fortinet.com/products/sase
+P023,Fortinet,FortiEDR,C020,Híbrido,Enterprise,Pendiente,https://www.fortinet.com/products/endpoint-security/fortiedr
+P024,Fortinet,FortiSIEM,C047,Híbrido,Enterprise,Pendiente,https://www.fortinet.com/products/siem/fortisiem
+P025,Fortinet,FortiSOAR,C048,Híbrido,Enterprise,Pendiente,https://www.fortinet.com/products/fortisoar
+P026,Fortinet,FortiNAC,C008,Híbrido,Enterprise,Pendiente,https://www.fortinet.com/products/network-access-control
+P027,Fortinet,FortiGate EPP,C019,Híbrido,Enterprise,Pendiente,https://www.fortinet.com/products/endpoint-security
+P028,Fortinet,FortiAnalyzer,C049,Híbrido,Enterprise,Pendiente,https://www.fortinet.com/products/management/fortianalyzer
+P029,Check Point,Quantum Security Gateway,C001,Appliance,"Quantum Spark, Quantum Maestro",Pendiente,https://www.checkpoint.com/quantum/next-generation-firewall/
+P030,Check Point,CloudGuard CNAPP,C025,SaaS,Enterprise,Pendiente,https://www.checkpoint.com/cloudguard/cnapp/
+P031,Check Point,CloudGuard CSPM,C026,SaaS,Enterprise,Pendiente,https://www.checkpoint.com/cloudguard/cspm/
+P032,Check Point,Harmony Email & Collaboration,C093,SaaS,Enterprise,Pendiente,https://www.checkpoint.com/harmony/email-collaboration/
+P033,Check Point,Harmony Email & Collaboration,C094,SaaS,Enterprise,Pendiente,https://www.checkpoint.com/harmony/email-collaboration/
+P034,Check Point,Infinity XDR/XPR,C021,SaaS,Enterprise,Pendiente,https://www.checkpoint.com/infinity/xdr-xpr/
+P035,Check Point,Harmony Endpoint,C019,Híbrido,Enterprise,Pendiente,https://www.checkpoint.com/harmony/endpoint/
+P036,Check Point,Harmony Connect,C096,SaaS,Enterprise,Pendiente,https://www.checkpoint.com/harmony/connect-sase/
+P037,Cisco,Secure Firewall,C001,Appliance,"1100, 3100, 4200, 9300",Pendiente,https://www.cisco.com/site/us/en/products/security/firewalls/index.html
+P038,Cisco,Umbrella,C009,SaaS,"DNS Security Essentials, DNS Security Advantage, SIG Essentials",Pendiente,https://umbrella.cisco.com/
+P039,Cisco,Secure Access,C002,SaaS,Enterprise,Pendiente,https://www.cisco.com/site/us/en/products/security/secure-access/index.html
+P040,Cisco,Secure Access,C004,SaaS,Enterprise,Pendiente,https://www.cisco.com/site/us/en/products/security/secure-access/index.html
+P041,Cisco,Duo Security,C016,SaaS,"Free, Essentials, Advantage, Premier",Pendiente,https://duo.com/
+P042,Cisco,Duo Security,C018,SaaS,"Free, Essentials, Advantage, Premier",Pendiente,https://duo.com/
+P043,Cisco,XDR,C021,SaaS,"Essentials, Advantage, Premier",Pendiente,https://www.cisco.com/site/us/en/products/security/xdr/index.html
+P044,Cisco,Talos Intelligence,C056,SaaS,Enterprise,Pendiente,https://talosintelligence.com/
+P045,Cisco,Secure Endpoint,C019,SaaS,"Essentials, Advantage, Premier",Pendiente,https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html
+P046,Cisco,Secure Endpoint,C020,SaaS,"Essentials, Advantage, Premier",Pendiente,https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html
+P047,Cisco,Stealthwatch / Secure Network Analytics,C007,Híbrido,Enterprise,Pendiente,https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html
+P048,Cisco,Identity Services Engine,C008,Híbrido,Enterprise,Pendiente,https://www.cisco.com/site/us/en/products/security/identity-services-engine/index.html
+P049,Cisco,AI Defense,C083,SaaS,Enterprise,Pendiente,https://www.cisco.com/site/us/en/products/security/ai-defense/index.html
+P050,Cisco,Microsegmentation (Secure Workload),C010,Híbrido,Enterprise,Pendiente,https://www.cisco.com/site/us/en/products/security/secure-workload/index.html
+P051,CrowdStrike,Falcon Prevent,C019,SaaS,"Falcon Go, Falcon Pro, Falcon Enterprise, Falcon Elite",Pendiente,https://www.crowdstrike.com/platform/endpoint-security/falcon-prevent/
+P052,CrowdStrike,Falcon Insight,C020,SaaS,"Falcon Pro, Falcon Enterprise, Falcon Elite",Pendiente,https://www.crowdstrike.com/platform/endpoint-security/falcon-insight-edr/
+P053,CrowdStrike,Falcon XDR,C021,SaaS,"Falcon Enterprise, Falcon Elite",Pendiente,https://www.crowdstrike.com/platform/endpoint-security/falcon-insight-xdr/
+P054,CrowdStrike,Falcon Identity Threat Detection,C015,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/identity-protection/
+P055,CrowdStrike,Falcon Cloud Security,C025,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/cloud-security/
+P056,CrowdStrike,Falcon Cloud Security,C027,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/cloud-security/
+P057,CrowdStrike,Falcon Intelligence,C056,SaaS,"Falcon Intelligence, Falcon Intelligence Premium, Falcon Intelligence Elite",Pendiente,https://www.crowdstrike.com/platform/threat-intelligence/
+P058,CrowdStrike,Falcon Complete,C101,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/managed-services/falcon-complete/
+P059,CrowdStrike,Falcon Next-Gen SIEM,C049,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/next-gen-siem/
+P060,CrowdStrike,Falcon Cloud Detection & Response,C030,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/cloud-security/
+P061,CrowdStrike,Falcon Exposure Management,C061,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/exposure-management/
+P062,CrowdStrike,CrowdStrike Services,C104,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/services/
+P063,CrowdStrike,Falcon Forensics,C122,SaaS,Enterprise,Pendiente,https://www.crowdstrike.com/platform/endpoint-security/falcon-forensics/
+P064,Microsoft,Defender for Endpoint,C019,SaaS,"P1, P2",Pendiente,https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint
+P065,Microsoft,Defender for Endpoint,C020,SaaS,"P1, P2",Pendiente,https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-endpoint
+P066,Microsoft,Defender XDR,C021,SaaS,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-xdr
+P067,Microsoft,Entra ID,C011,SaaS,"Free, P1, P2, Governance",Pendiente,https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
+P068,Microsoft,Entra ID Governance,C012,SaaS,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id-governance
+P069,Microsoft,Sentinel,C047,Cloud,"Pay-as-you-go, Commitment Tiers",Pendiente,https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel
+P070,Microsoft,Purview DLP,C031,SaaS,"E3, E5",Pendiente,https://www.microsoft.com/en-us/security/business/information-protection/microsoft-purview-data-loss-prevention
+P071,Microsoft,Purview Information Protection,C033,SaaS,"E3, E5",Pendiente,https://www.microsoft.com/en-us/security/business/information-protection/microsoft-purview-information-protection
+P072,Microsoft,Defender for Cloud,C025,Cloud,"Foundational CSPM (Free), Defender CSPM",Pendiente,https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-cloud
+P073,Microsoft,Defender for Cloud,C026,Cloud,"Foundational CSPM (Free), Defender CSPM",Pendiente,https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-cloud
+P074,Microsoft,Defender for Cloud,C027,Cloud,"Foundational CSPM (Free), Defender CSPM",Pendiente,https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-cloud
+P075,Microsoft,Defender for IoT,C088,Híbrido,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-iot
+P076,Microsoft,Defender for IoT,C090,Híbrido,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-iot
+P077,Microsoft,Copilot for Security,C049,SaaS,"Pay-per-use SCU, Embedded",Pendiente,https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-copilot-security
+P078,Microsoft,Intune,C022,SaaS,"P1, P2, Suite",Pendiente,https://www.microsoft.com/en-us/security/business/endpoint-management/microsoft-intune
+P079,Microsoft,Entra Permissions Management,C028,SaaS,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-permissions-management
+P080,Microsoft,Defender for Cloud CDR,C030,Cloud,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-cloud
+P081,Microsoft,Defender for Identity,C015,SaaS,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-for-identity
+P082,Microsoft,Entra ID,C014,SaaS,"External Identities, Azure AD B2C",Pendiente,https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
+P083,Microsoft,Entra ID,C016,SaaS,"P1, P2",Pendiente,https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
+P084,Microsoft,Entra ID,C018,SaaS,"P1, P2",Pendiente,https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
+P085,Microsoft,Sentinel UEBA,C052,Cloud,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel
+P086,Microsoft,App Control for Business,C024,On-prem,Enterprise,Pendiente,https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/
+P087,Microsoft,Purview Encryption,C036,SaaS,"E3, E5",Pendiente,https://www.microsoft.com/en-us/security/business/information-protection/microsoft-purview-information-protection
+P088,Microsoft,Azure Confidential Computing,C037,Cloud,Enterprise,Pendiente,https://azure.microsoft.com/en-us/solutions/confidential-compute/
+P089,Microsoft,Defender Vulnerability Management,C063,SaaS,"Standalone, Add-on",Pendiente,https://www.microsoft.com/en-us/security/business/threat-protection/microsoft-defender-vulnerability-management
+P090,Microsoft,Defender EASM,C061,SaaS,Enterprise,Pendiente,https://www.microsoft.com/en-us/security/business/cloud-security/microsoft-defender-external-attack-surface-management
+P091,Zscaler,Zscaler Internet Access (ZIA),C002,SaaS,"Business, Transformation, Unlimited",Pendiente,https://www.zscaler.com/products/zscaler-internet-access
+P092,Zscaler,Zscaler Private Access (ZPA),C004,SaaS,"Business, Transformation, Unlimited",Pendiente,https://www.zscaler.com/products/zscaler-private-access
+P093,Zscaler,Zscaler Digital Experience (ZDX),C003,SaaS,"Standard, Advanced",Pendiente,https://www.zscaler.com/products/zscaler-digital-experience
+P094,Zscaler,Zscaler Data Protection,C031,SaaS,Enterprise,Pendiente,https://www.zscaler.com/products/data-protection
+P095,Netskope,Netskope One SSE,C002,SaaS,"Standard, Advanced",Pendiente,https://www.netskope.com/products/security-service-edge
+P096,Netskope,Netskope ZTNA Next,C004,SaaS,Enterprise,Pendiente,https://www.netskope.com/products/ztna-next
+P097,Netskope,Netskope DLP,C031,SaaS,Enterprise,Pendiente,https://www.netskope.com/products/data-loss-prevention
+P098,Netskope,Netskope SkopeAI,C096,SaaS,Enterprise,Pendiente,https://www.netskope.com/products/skopeai
+P099,Cloudflare,Cloudflare WAF,C005,SaaS,"Free, Pro, Business, Enterprise",Pendiente,https://www.cloudflare.com/application-services/products/waf/
+P100,Cloudflare,Cloudflare DDoS Protection,C006,SaaS,"Free, Pro, Business, Enterprise",Pendiente,https://www.cloudflare.com/ddos/
+P101,Cloudflare,Cloudflare Zero Trust,C004,SaaS,"Free, Pay-as-you-go, Contract",Pendiente,https://www.cloudflare.com/zero-trust/
+P102,Cloudflare,Cloudflare AI Gateway,C086,SaaS,"Free, Enterprise",Pendiente,https://www.cloudflare.com/developer-platform/products/ai-gateway/
+P103,Cloudflare,Cloudflare Bot Management,C099,SaaS,Enterprise,Pendiente,https://www.cloudflare.com/application-services/products/bot-management/
+P104,Cloudflare,Cloudflare API Shield,C042,SaaS,Enterprise,Pendiente,https://www.cloudflare.com/application-services/products/api-gateway/
+P105,Cloudflare,Cloudflare DNS Firewall,C009,SaaS,Enterprise,Pendiente,https://www.cloudflare.com/dns/dns-firewall/
+P106,Cloudflare,Cloudflare Gateway,C002,SaaS,Enterprise,Pendiente,https://www.cloudflare.com/zero-trust/products/gateway/
+P107,Cloudflare,Cloudflare AI Firewall,C083,SaaS,Enterprise,Pendiente,https://www.cloudflare.com/zero-trust/products/ai-security/
+P108,Wiz,Wiz CNAPP,C025,SaaS,Enterprise,Pendiente,https://www.wiz.io/product
+P109,Wiz,Wiz CSPM,C026,SaaS,Enterprise,Pendiente,https://www.wiz.io/product
+P110,Wiz,Wiz DSPM,C032,SaaS,Enterprise,Pendiente,https://www.wiz.io/product/dspm
+P111,Wiz,Wiz CDR,C030,SaaS,Enterprise,Pendiente,https://www.wiz.io/product/cloud-detection-and-response
+P112,Wiz,Wiz AI-SPM,C082,SaaS,Enterprise,Pendiente,https://www.wiz.io/product/ai-spm
+P113,SentinelOne,Singularity Endpoint Protection,C019,SaaS,"Singularity Core, Control, Complete",Pendiente,https://www.sentinelone.com/platform/endpoint-security/
+P114,SentinelOne,Singularity EDR,C020,SaaS,"Singularity Control, Complete",Pendiente,https://www.sentinelone.com/platform/endpoint-security/
+P115,SentinelOne,Singularity XDR,C021,SaaS,"Singularity Complete, Enterprise",Pendiente,https://www.sentinelone.com/platform/xdr/
+P116,SentinelOne,Singularity Cloud Workload Security,C027,SaaS,Enterprise,Pendiente,https://www.sentinelone.com/platform/cloud-security/
+P117,SentinelOne,Singularity Cloud Detection & Response,C030,SaaS,Enterprise,Pendiente,https://www.sentinelone.com/platform/cloud-security/
+P118,CyberArk,Privileged Access Manager,C013,Híbrido,"Self-Hosted, Privilege Cloud",Pendiente,https://www.cyberark.com/products/privileged-access-manager/
+P119,CyberArk,Workforce Identity,C011,SaaS,Enterprise,Pendiente,https://www.cyberark.com/products/workforce-identity/
+P120,CyberArk,Endpoint Privilege Manager,C023,Híbrido,"SaaS, Self-Hosted",Pendiente,https://www.cyberark.com/products/endpoint-privilege-manager/
+P121,CyberArk,Secrets Hub,C044,SaaS,Enterprise,Pendiente,https://www.cyberark.com/products/secrets-management/
+P122,CyberArk,Secrets Hub,C112,SaaS,Enterprise,Pendiente,https://www.cyberark.com/products/secrets-management/
+P123,CyberArk,Machine Identity Security,C017,SaaS,Enterprise,Pendiente,https://www.cyberark.com/products/machine-identity-management/
+P124,CyberArk,Cloud Entitlements Manager,C028,SaaS,Enterprise,Pendiente,https://www.cyberark.com/products/cloud-entitlements-manager/
+P125,Okta,Workforce Identity Cloud,C011,SaaS,"Single Sign-On, Adaptive MFA, Lifecycle Management",Pendiente,https://www.okta.com/workforce-identity/
+P126,Okta,Customer Identity Cloud (Auth0),C014,SaaS,"Free, Essential, Professional, Enterprise",Pendiente,https://www.okta.com/customer-identity/
+P127,Okta,Advanced Server Access,C013,SaaS,Enterprise,Pendiente,https://www.okta.com/products/advanced-server-access/
+P128,Okta,Okta Verify Passwordless,C016,SaaS,Enterprise,Pendiente,https://www.okta.com/products/adaptive-multi-factor-authentication/
+P129,Okta,Okta Adaptive MFA,C018,SaaS,Enterprise,Pendiente,https://www.okta.com/products/adaptive-multi-factor-authentication/
+P130,SailPoint,Identity Security Cloud,C012,SaaS,"Business, Business Plus, Enterprise",Pendiente,https://www.sailpoint.com/products/identity-security-cloud/
+P131,SailPoint,IdentityNow,C012,SaaS,"Essential, Business, Business Plus",Pendiente,https://www.sailpoint.com/products/identity-security-cloud/
+P132,Splunk,Enterprise Security,C047,Híbrido,"Splunk Cloud, Splunk Enterprise",Pendiente,https://www.splunk.com/en_us/products/enterprise-security.html
+P133,Splunk,SOAR,C048,Híbrido,"Community, Enterprise",Pendiente,https://www.splunk.com/en_us/products/splunk-soar.html
+P134,Splunk,User Behavior Analytics,C052,Híbrido,Enterprise,Pendiente,https://www.splunk.com/en_us/products/user-behavior-analytics.html
+P135,Tenable,Nessus Professional,C063,Híbrido,"Professional, Expert",Pendiente,https://www.tenable.com/products/nessus
+P136,Tenable,Tenable One,C062,SaaS,Enterprise,Pendiente,https://www.tenable.com/products/tenable-one
+P137,Tenable,Tenable Vulnerability Management,C063,SaaS,Enterprise,Pendiente,https://www.tenable.com/products/vulnerability-management
+P138,Tenable,Tenable Vulnerability Management,C064,SaaS,Enterprise,Pendiente,https://www.tenable.com/products/vulnerability-management
+P139,Tenable,Tenable Identity Exposure,C015,SaaS,Enterprise,Pendiente,https://www.tenable.com/products/identity-exposure
+P140,Tenable,Tenable Attack Surface Management,C061,SaaS,Enterprise,Pendiente,https://www.tenable.com/products/attack-surface-management
+P141,Qualys,VMDR,C063,SaaS,"VMDR, VMDR with TruRisk",Pendiente,https://www.qualys.com/apps/vulnerability-management-detection-response/
+P142,Qualys,VMDR,C064,SaaS,"VMDR, VMDR with TruRisk",Pendiente,https://www.qualys.com/apps/vulnerability-management-detection-response/
+P143,Qualys,TotalCloud,C025,SaaS,Enterprise,Pendiente,https://www.qualys.com/apps/totalcloud/
+P144,Qualys,Web Application Scanning,C046,SaaS,Enterprise,Pendiente,https://www.qualys.com/apps/web-app-scanning/
+P145,Qualys,CyberSecurity Asset Management,C067,SaaS,Enterprise,Pendiente,https://www.qualys.com/apps/cybersecurity-asset-management/
+P146,Rapid7,InsightVM,C063,Híbrido,Enterprise,Pendiente,https://www.rapid7.com/products/insightvm/
+P147,Rapid7,InsightIDR,C047,SaaS,"Essential, Advanced, Ultimate",Pendiente,https://www.rapid7.com/products/insightidr/
+P148,Rapid7,InsightConnect,C048,SaaS,Enterprise,Pendiente,https://www.rapid7.com/products/insightconnect/
+P149,Rapid7,Metasploit,C066,Híbrido,"Framework (Open Source), Pro",Pendiente,https://www.rapid7.com/products/metasploit/
+P150,Rapid7,InsightAppSec,C039,SaaS,Enterprise,Pendiente,https://www.rapid7.com/products/insightappsec/
+P151,Rapid7,Managed Detection & Response,C101,SaaS,Enterprise,Pendiente,https://www.rapid7.com/products/managed-detection-and-response/
+P152,Rapid7,InsightVM,C064,SaaS,Enterprise,Pendiente,https://www.rapid7.com/products/insightvm/
+P153,Rapid7,EASM,C061,SaaS,Enterprise,Pendiente,https://www.rapid7.com/products/
+P154,Thales,Luna Network HSM,C105,Appliance,"Luna Network HSM 7, Luna PCIe HSM 7",Pendiente,https://cpl.thalesgroup.com/encryption/hardware-security-modules/luna-network-hsm
+P155,Thales,CipherTrust Manager,C109,Híbrido,"CipherTrust Cloud, CipherTrust Enterprise",Pendiente,https://cpl.thalesgroup.com/encryption/ciphertrust-manager
+P156,Thales,SafeNet Trusted Access,C018,SaaS,Enterprise,Pendiente,https://cpl.thalesgroup.com/access-management/safenet-trusted-access
+P157,Thales,payShield 10K,C105,Appliance,Enterprise,Pendiente,https://cpl.thalesgroup.com/encryption/hardware-security-modules/payment-hsms/payshield-10k
+P158,Thales,CipherTrust Tokenization,C035,Híbrido,Enterprise,Pendiente,https://cpl.thalesgroup.com/encryption/ciphertrust-tokenization
+P159,Thales,CipherTrust Transparent Encryption,C036,Híbrido,Enterprise,Pendiente,https://cpl.thalesgroup.com/encryption/transparent-encryption
+P160,Thales,SafeNet Authentication Service,C108,SaaS,Enterprise,Pendiente,https://cpl.thalesgroup.com/access-management/safenet-authentication-service
+P161,Thales,CipherTrust Data Discovery & Classification,C034,Híbrido,Enterprise,Pendiente,https://cpl.thalesgroup.com/encryption/data-discovery-and-classification
+P162,Thales,High Speed Encryptor,C114,Appliance,Enterprise,Pendiente,https://cpl.thalesgroup.com/encryption/network-encryption
+P163,Thales,PQC Starter Kit,C115,Híbrido,Enterprise,Pendiente,""
+P164,Thales,PQC Starter Kit,C116,Híbrido,Enterprise,Pendiente,""
+P165,Entrust,nShield HSM,C105,Appliance,"nShield Connect, nShield Solo, nShield as a Service",Pendiente,https://www.entrust.com/digital-security/hsm/nshield-connect
+P166,Entrust,PKI as a Service,C110,SaaS,Enterprise,Pendiente,https://www.entrust.com/digital-security/certificate-solutions/pki
+P167,Entrust,Certificate Hub,C111,SaaS,Enterprise,Pendiente,https://www.entrust.com/digital-security/certificate-solutions/certificate-hub
+P168,Entrust,Enterprise Encryption,C036,Híbrido,Enterprise,Pendiente,""
+P169,Entrust,KeyControl,C109,Híbrido,Enterprise,Pendiente,https://www.entrust.com/digital-security/key-management/keycontrol
+P170,Entrust,PQC Ready Solutions,C116,Híbrido,Enterprise,Pendiente,""
+P171,Recorded Future,Intelligence Cloud,C055,SaaS,"Intelligence Cloud, Analyst Community (Free)",Pendiente,https://www.recordedfuture.com/platform
+P172,Recorded Future,Intelligence Cloud,C056,SaaS,Enterprise,Pendiente,https://www.recordedfuture.com/platform
+P173,Recorded Future,Brand Intelligence,C060,SaaS,Enterprise,Pendiente,https://www.recordedfuture.com/platform/brand-intelligence
+P174,Recorded Future,Digital Risk Protection,C058,SaaS,Enterprise,Pendiente,https://www.recordedfuture.com/platform
+P175,Recorded Future,Malware Intelligence,C059,SaaS,Enterprise,Pendiente,https://www.recordedfuture.com/platform
+P176,Mandiant,Advantage Threat Intelligence,C055,SaaS,"Free, Standard, Enterprise",Pendiente,https://www.mandiant.com/advantage/threat-intelligence
+P177,Mandiant,Advantage Threat Intelligence,C056,SaaS,"Free, Standard, Enterprise",Pendiente,https://www.mandiant.com/advantage/threat-intelligence
+P178,Mandiant,Attack Surface Management,C061,SaaS,Enterprise,Pendiente,https://www.mandiant.com/advantage/attack-surface-management
+P179,Mandiant,Incident Response Retainer,C104,SaaS,Enterprise,Pendiente,https://www.mandiant.com/services/incident-response
+P180,Mandiant,Managed Defense,C101,SaaS,Enterprise,Pendiente,https://www.mandiant.com/advantage/managed-defense
+P181,Mandiant,Consulting Services,C120,SaaS,Enterprise,Pendiente,https://www.mandiant.com/services
+P182,IBM,QRadar SIEM,C047,Híbrido,"Community Edition, Enterprise",Pendiente,https://www.ibm.com/products/qradar-siem
+P183,IBM,Guardium Data Protection,C034,Híbrido,Enterprise,Pendiente,https://www.ibm.com/products/guardium-data-protection
+P184,IBM,OpenPages,C069,Híbrido,"SaaS, Software",Pendiente,https://www.ibm.com/products/openpages
+P185,IBM,Verify,C011,SaaS,"Verify SaaS, Verify Access",Pendiente,https://www.ibm.com/products/verify-identity
+P186,IBM,watsonx.governance,C081,SaaS,Enterprise,Pendiente,https://www.ibm.com/products/watsonx-governance
+P187,IBM,watsonx.governance,C085,SaaS,Enterprise,Pendiente,https://www.ibm.com/products/watsonx-governance
+P188,IBM,Guardium Key Lifecycle Manager,C109,Híbrido,Enterprise,Pendiente,https://www.ibm.com/products/guardium-key-lifecycle-manager
+P189,IBM,Guardium Encryption,C036,Híbrido,Enterprise,Pendiente,https://www.ibm.com/products/guardium-data-encryption
+P190,IBM,QRadar SOAR,C048,Híbrido,Enterprise,Pendiente,https://www.ibm.com/products/qradar-soar
+P191,IBM,Concert,C054,SaaS,Enterprise,Pendiente,https://www.ibm.com/products/concert
+P192,IBM,Quantum Safe,C115,SaaS,Enterprise,Pendiente,https://www.ibm.com/quantum/quantum-safe
+P193,IBM,Quantum Safe,C116,SaaS,Enterprise,Pendiente,https://www.ibm.com/quantum/quantum-safe
+P194,IBM,z16 Quantum Safe,C105,On-prem,Enterprise,Pendiente,""
+P195,IBM,Crypto Agility Services,C114,SaaS,Enterprise,Pendiente,""
+P196,ServiceNow,Security Operations (SecOps),C054,SaaS,"Standard, Professional, Enterprise",Pendiente,https://www.servicenow.com/products/security-operations.html
+P197,ServiceNow,Integrated Risk Management,C070,SaaS,"Standard, Professional, Enterprise",Pendiente,https://www.servicenow.com/products/integrated-risk-management.html
+P198,ServiceNow,GRC,C069,SaaS,"Standard, Professional, Enterprise",Pendiente,https://www.servicenow.com/products/governance-risk-and-compliance.html
+P199,ServiceNow,TPRM,C071,SaaS,Enterprise,Pendiente,https://www.servicenow.com/products/third-party-risk-management.html
+P200,ServiceNow,Vulnerability Response,C064,SaaS,Enterprise,Pendiente,https://www.servicenow.com/products/vulnerability-response.html
+P201,OneTrust,Privacy Management,C077,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/privacy-management/
+P202,OneTrust,Consent & Preferences,C078,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/consent-management/
+P203,OneTrust,GRC & Security Assurance,C069,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/grc-security-assurance/
+P204,OneTrust,IT & Security Risk Management,C070,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/it-security-risk-management/
+P205,OneTrust,Third-Party Risk Management,C071,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/third-party-risk-management/
+P206,OneTrust,AI Governance,C085,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/ai-governance/
+P207,OneTrust,Data Subject Rights,C079,SaaS,Enterprise,Pendiente,https://www.onetrust.com/products/data-subject-rights/
+P208,Vanta,Trust Management Platform,C072,SaaS,"Startup, Business, Enterprise",Pendiente,https://www.vanta.com/products/trust-management
+P209,Vanta,Trust Management Platform,C076,SaaS,"Startup, Business, Enterprise",Pendiente,https://www.vanta.com/products/trust-management
+P210,Drata,Compliance Automation,C072,SaaS,"Startup, Growth, Enterprise",Pendiente,https://drata.com/product
+P211,Drata,Compliance Automation,C076,SaaS,"Startup, Growth, Enterprise",Pendiente,https://drata.com/product
+P212,Vectra AI,Vectra NDR,C007,Híbrido,"Essentials, Premium",Pendiente,https://www.vectra.ai/products/ndr
+P213,ExtraHop,RevealX,C007,Híbrido,"RevealX 360 (SaaS), RevealX Enterprise",Pendiente,""
+P214,Darktrace,Darktrace DETECT,C007,Híbrido,"Enterprise, Cloud",Pendiente,https://darktrace.com/products/detect
+P215,Darktrace,Darktrace RESPOND,C007,Híbrido,Enterprise,Pendiente,https://darktrace.com/products/respond
+P216,Darktrace,Darktrace DETECT/RESPOND OT,C089,Híbrido,Enterprise,Pendiente,https://darktrace.com/products/ot
+P217,Snyk,Snyk Code,C038,SaaS,"Free, Team, Enterprise",Pendiente,https://snyk.io/product/snyk-code/
+P218,Snyk,Snyk Open Source,C040,SaaS,"Free, Team, Enterprise",Pendiente,https://snyk.io/product/open-source-security-management/
+P219,Snyk,Snyk Container,C029,SaaS,"Free, Team, Enterprise",Pendiente,https://snyk.io/product/container-vulnerability-management/
+P220,Snyk,Snyk IaC,C041,SaaS,"Free, Team, Enterprise",Pendiente,https://snyk.io/product/infrastructure-as-code-security/
+P221,Snyk,Snyk Supply Chain,C043,SaaS,Enterprise,Pendiente,https://snyk.io/product/
+P222,Aqua Security,Aqua Platform,C029,Híbrido,"Cloud Native, Enterprise",Pendiente,https://www.aquasec.com/products/container-security/
+P223,Sysdig,Sysdig Secure,C027,SaaS,Enterprise,Pendiente,https://sysdig.com/products/secure/
+P224,Sysdig,Sysdig Secure,C029,SaaS,Enterprise,Pendiente,https://sysdig.com/products/secure/
+P225,Arctic Wolf,Managed Detection & Response,C101,SaaS,Enterprise,Pendiente,https://arcticwolf.com/solutions/managed-detection-and-response/
+P226,Sophos,Intercept X Endpoint,C019,SaaS,"Standard, Advanced, Advanced with XDR",Pendiente,https://www.sophos.com/en-us/products/endpoint-antivirus
+P227,Sophos,Intercept X Endpoint,C020,SaaS,"Advanced, Advanced with XDR",Pendiente,https://www.sophos.com/en-us/products/endpoint-antivirus
+P228,Sophos,Managed Detection & Response,C101,SaaS,"Essentials, Complete",Pendiente,https://www.sophos.com/en-us/products/managed-detection-and-response
+P229,Sophos,Sophos Firewall,C001,Appliance,"XGS Series, Virtual",Pendiente,https://www.sophos.com/en-us/products/next-gen-firewall
+P230,Keyfactor,EJBCA,C110,Híbrido,"Community, Enterprise",Pendiente,https://www.keyfactor.com/products/ejbca-enterprise/
+P231,Keyfactor,Command,C111,Híbrido,"SaaS, On-Prem",Pendiente,https://www.keyfactor.com/products/command/
+P232,Keyfactor,Signum,C113,SaaS,Enterprise,Pendiente,https://www.keyfactor.com/products/signum/
+P233,Keyfactor,Crypto Agility Platform,C114,SaaS,Enterprise,Pendiente,""
+P234,Keyfactor,PQC Lab,C115,SaaS,Enterprise,Pendiente,""
+P235,Keyfactor,PQC Lab,C116,SaaS,Enterprise,Pendiente,""
+P236,Venafi,TLS Protect,C111,Híbrido,"Cloud, Datacenter",Pendiente,https://venafi.com/tls-protect/
+P237,Venafi,CodeSign Protect,C113,SaaS,Enterprise,Pendiente,https://venafi.com/codesign-protect/
+P238,Venafi,Machine Identity Security,C017,SaaS,Enterprise,Pendiente,https://venafi.com/machine-identity-management/
+P239,Venafi,Venafi PKI,C110,Híbrido,Enterprise,Pendiente,""
+P240,DigiCert,CertCentral,C110,SaaS,Enterprise,Pendiente,https://www.digicert.com/tls-ssl/certcentral
+P241,DigiCert,CertCentral,C111,SaaS,Enterprise,Pendiente,https://www.digicert.com/tls-ssl/certcentral
+P242,DigiCert,Software Trust Manager,C113,SaaS,Enterprise,Pendiente,https://www.digicert.com/software-trust-manager
+P243,DigiCert,PQC Toolkit,C116,SaaS,Enterprise,Pendiente,""
+P244,Claroty,xDome,C088,Híbrido,Enterprise,Pendiente,https://claroty.com/industrial-cybersecurity/xdome
+P245,Claroty,xDome,C089,Híbrido,Enterprise,Pendiente,https://claroty.com/industrial-cybersecurity/xdome
+P246,Claroty,Medigate,C091,SaaS,Enterprise,Pendiente,https://claroty.com/healthcare-cybersecurity
+P247,Nozomi Networks,Vantage,C088,Híbrido,"Vantage (SaaS), Guardian (On-Prem)",Pendiente,https://www.nozominetworks.com/products/vantage
+P248,Nozomi Networks,Vantage,C089,Híbrido,"Vantage (SaaS), Guardian (On-Prem)",Pendiente,https://www.nozominetworks.com/products/vantage
+P249,Dragos,Dragos Platform,C088,On-prem,"Community, Enterprise",Pendiente,https://www.dragos.com/platform/
+P250,Dragos,Dragos Platform,C089,On-prem,"Community, Enterprise",Pendiente,https://www.dragos.com/platform/
+P251,Proofpoint,Email Protection,C093,SaaS,"Essentials, Advanced, Complete",Pendiente,https://www.proofpoint.com/us/products/email-security-and-protection
+P252,Proofpoint,Targeted Attack Protection (TAP),C093,SaaS,Enterprise,Pendiente,https://www.proofpoint.com/us/products/advanced-threat-protection
+P253,Proofpoint,Email Fraud Defense (DMARC),C095,SaaS,Enterprise,Pendiente,https://www.proofpoint.com/us/products/email-fraud-defense
+P254,Proofpoint,DLP,C031,SaaS,Enterprise,Pendiente,https://www.proofpoint.com/us/products/information-protection/data-loss-prevention
+P255,Proofpoint,Brand Protection,C060,SaaS,Enterprise,Pendiente,https://www.proofpoint.com/us/products/digital-risk-protection
+P256,Proofpoint,Digital Risk Protection,C100,SaaS,Enterprise,Pendiente,https://www.proofpoint.com/us/products/digital-risk-protection
+P257,Abnormal Security,Abnormal Inbound Email Security,C094,SaaS,Enterprise,Pendiente,""
+P258,SecurityScorecard,Ratings Platform,C068,SaaS,"Free, Business, Enterprise",Pendiente,""
+P259,SecurityScorecard,Third-Party Risk Management,C071,SaaS,Enterprise,Pendiente,""
+P260,BitSight,Security Ratings,C068,SaaS,"Security Ratings, Third-Party Risk Management",Pendiente,""
+P261,BitSight,Third-Party Risk Management,C071,SaaS,Enterprise,Pendiente,""
+P262,HashiCorp,Vault,C044,Híbrido,"Open Source, Enterprise, HCP Vault",Pendiente,https://www.hashicorp.com/products/vault
+P263,HashiCorp,Vault,C112,Híbrido,"Open Source, Enterprise, HCP Vault",Pendiente,https://www.hashicorp.com/products/vault
+P264,HashiCorp,Vault Enterprise Key Management,C109,Híbrido,Enterprise,Pendiente,https://www.hashicorp.com/products/vault
+P265,Fortanix,Data Security Manager,C105,Híbrido,"SaaS, On-Prem",Pendiente,""
+P266,Fortanix,Data Security Manager,C109,Híbrido,"SaaS, On-Prem",Pendiente,""
+P267,Fortanix,Confidential Computing Manager,C037,SaaS,Enterprise,Pendiente,""
+P268,Fortanix,Tokenization,C036,SaaS,Enterprise,Pendiente,""
+P269,Fortanix,Privacy Enhancing Computation,C080,SaaS,Enterprise,Pendiente,""
+P270,SandboxAQ,AQtive Guard,C115,SaaS,Enterprise,Pendiente,""
+P271,SandboxAQ,AQtive Guard,C116,SaaS,Enterprise,Pendiente,""
+P272,SandboxAQ,Crypto Agility,C114,SaaS,Enterprise,Pendiente,""
+P273,Feedzai,Feedzai RiskOps Platform,C097,SaaS,Enterprise,Pendiente,""
+P274,BioCatch,Behavioral Biometrics,C097,SaaS,Enterprise,Pendiente,""
+P275,BioCatch,Behavioral Biometrics,C098,SaaS,Enterprise,Pendiente,""
+P276,Checkmarx,Checkmarx One SAST,C038,SaaS,"Essentials, Enterprise",Pendiente,""
+P277,Checkmarx,Checkmarx One ASPM,C041,SaaS,Enterprise,Pendiente,""
+P278,Veracode,Static Analysis,C038,SaaS,"Standard, Enterprise",Pendiente,""
+P279,Veracode,Dynamic Analysis,C039,SaaS,"Standard, Enterprise",Pendiente,""
+P280,Veracode,SCA,C040,SaaS,Enterprise,Pendiente,""
+P281,Synopsys,Coverity (SAST),C038,Híbrido,"Standard, Enterprise",Pendiente,""
+P282,Synopsys,Black Duck (SCA),C040,Híbrido,"Standard, Enterprise",Pendiente,""
+P283,Synopsys,Polaris (DAST),C039,SaaS,Enterprise,Pendiente,""
+P284,Sonar,SonarQube / SonarCloud,C038,Híbrido,"Community (Free), Developer, Enterprise, Data Center",Pendiente,""
+P285,Sonatype,Nexus Lifecycle (SCA),C040,Híbrido,"Starter, Enterprise",Pendiente,""
+P286,Sonatype,Nexus Repository (Supply Chain),C043,Híbrido,"OSS, Pro",Pendiente,""
+P287,JFrog,Xray (SCA),C040,Híbrido,"Free, Pro, Enterprise",Pendiente,""
+P288,JFrog,Artifactory (Supply Chain),C043,Híbrido,"Community (Free), Pro, Enterprise",Pendiente,""
+P289,JFrog,ML Model Management,C087,Híbrido,Enterprise,Pendiente,""
+P290,GitHub,Advanced Security (Dependabot),C040,SaaS,"GitHub Advanced Security, GHAS for Azure DevOps",Pendiente,""
+P291,GitHub,Advanced Security (Code Scanning),C043,SaaS,"GitHub Advanced Security, GHAS for Azure DevOps",Pendiente,""
+P292,Salt Security,Salt Security API Protection,C042,SaaS,Enterprise,Pendiente,""
+P293,Contrast Security,Contrast Protect (RASP),C045,SaaS,"Community, Standard, Enterprise",Pendiente,""
+P294,Akamai,App & API Protector,C005,SaaS,Enterprise,Pendiente,https://www.akamai.com/products/app-and-api-protector
+P295,Akamai,Prolexic DDoS Protection,C006,SaaS,Enterprise,Pendiente,https://www.akamai.com/products/prolexic
+P296,Akamai,Enterprise Threat Protector / DNS,C009,SaaS,Enterprise,Pendiente,""
+P297,Akamai,API Security (Noname),C042,SaaS,Enterprise,Pendiente,https://www.akamai.com/products/api-security
+P298,Akamai,Bot Manager,C099,SaaS,Enterprise,Pendiente,https://www.akamai.com/products/bot-manager
+P299,Akamai,Guardicore Segmentation,C010,Híbrido,Enterprise,Pendiente,https://www.akamai.com/products/akamai-segmentation
+P300,F5,BIG-IP Advanced WAF,C005,Appliance,Enterprise,Pendiente,""
+P301,Imperva,Cloud WAF,C005,SaaS,"Professional, Business, Enterprise",Pendiente,https://www.imperva.com/products/web-application-firewall-waf/
+P302,Imperva,DDoS Protection,C006,SaaS,Enterprise,Pendiente,https://www.imperva.com/products/ddos-protection-services/
+P303,Imperva,API Security,C042,SaaS,Enterprise,Pendiente,https://www.imperva.com/products/api-security/
+P304,Imperva,Database Activity Monitoring,C034,Híbrido,Enterprise,Pendiente,https://www.imperva.com/products/database-security/
+P305,Imperva,Bot Management,C099,SaaS,Enterprise,Pendiente,https://www.imperva.com/products/bot-management/
+P306,Imperva,RASP,C045,On-prem,Enterprise,Pendiente,https://www.imperva.com/products/runtime-application-self-protection-rasp/
+P307,Elastic,Elastic Security (SIEM),C047,Híbrido,"Basic (Free), Gold, Platinum, Enterprise",Pendiente,""
+P308,Exabeam,New-Scale SIEM,C047,SaaS,Enterprise,Pendiente,""
+P309,Exabeam,New-Scale UEBA,C052,SaaS,Enterprise,Pendiente,""
+P310,Tines,Tines Automation Platform,C048,SaaS,"Community (Free), Business, Enterprise",Pendiente,""
+P311,Tines,Tines Automation Platform,C051,SaaS,"Community (Free), Business, Enterprise",Pendiente,""
+P312,Swimlane,Turbine,C048,Híbrido,"Starter, Enterprise",Pendiente,""
+P313,Swimlane,Turbine,C051,Híbrido,"Starter, Enterprise",Pendiente,""
+P314,Torq,Torq Hyperautomation,C048,SaaS,Enterprise,Pendiente,""
+P315,Torq,Torq Hyperautomation,C051,SaaS,Enterprise,Pendiente,""
+P316,SOC Prime,SOC Prime Platform,C050,SaaS,"Community (Free), Business, Enterprise",Pendiente,""
+P317,Cymulate,Cymulate BAS,C065,SaaS,Enterprise,Pendiente,""
+P318,Cymulate,Cymulate Exposure Management,C062,SaaS,Enterprise,Pendiente,""
+P319,Cymulate,Cymulate Security Validation,C066,SaaS,Enterprise,Pendiente,""
+P320,Picus,Picus Security Validation,C065,Híbrido,"Complete, Standard",Pendiente,""
+P321,Picus,Picus Security Validation,C066,Híbrido,"Complete, Standard",Pendiente,""
+P322,Pentera,Pentera Core,C066,Híbrido,"Core, Surface",Pendiente,""
+P323,Pentera,Pentera Surface,C046,SaaS,Enterprise,Pendiente,""
+P324,Pentera,Pentera Core,C065,Híbrido,Enterprise,Pendiente,""
+P325,AttackIQ,AttackIQ Platform,C065,SaaS,"Ready! (Free), Enterprise, Flex",Pendiente,""
+P326,SafeBreach,SafeBreach BAS Platform,C065,SaaS,Enterprise,Pendiente,""
+P327,SafeBreach,SafeBreach BAS Platform,C066,SaaS,Enterprise,Pendiente,""
+P328,Axonius,Axonius Cybersecurity Asset Management,C067,SaaS,Enterprise,Pendiente,""
+P329,Armis,Armis Centrix,C067,SaaS,Enterprise,Pendiente,""
+P330,Armis,Armis Centrix for OT,C088,SaaS,Enterprise,Pendiente,""
+P331,Armis,Armis Centrix for Medical,C091,SaaS,Enterprise,Pendiente,""
+P332,Armis,Armis Centrix for IoT,C090,SaaS,Enterprise,Pendiente,""
+P333,runZero,runZero Platform,C067,Híbrido,"Community (Free), Enterprise",Pendiente,""
+P334,Forescout,Forescout eyeSight,C008,Híbrido,Enterprise,Pendiente,""
+P335,Forescout,Forescout eyeInspect,C088,On-prem,Enterprise,Pendiente,""
+P336,Forescout,Forescout Continuum,C090,Híbrido,Enterprise,Pendiente,""
+P337,Forescout,Forescout eyeInspect for Medical,C091,On-prem,Enterprise,Pendiente,""
+P338,Ping Identity,PingOne for Workforce,C011,SaaS,"Essential, Plus, Premium",Pendiente,""
+P339,Ping Identity,PingOne for Customers,C014,SaaS,"Essential, Plus, Premium",Pendiente,""
+P340,BeyondTrust,Privilege Management,C013,Híbrido,"SaaS, On-Prem",Pendiente,""
+P341,BeyondTrust,Endpoint Privilege Management,C023,Híbrido,"SaaS, On-Prem",Pendiente,""
+P342,Delinea,Secret Server,C013,Híbrido,"Free (25 secrets), Professional, Enterprise",Pendiente,""
+P343,Delinea,Privilege Manager,C023,Híbrido,Enterprise,Pendiente,""
+P344,Saviynt,Enterprise IGA,C012,SaaS,Enterprise,Pendiente,""
+P345,One Identity,Identity Manager,C012,Híbrido,Enterprise,Pendiente,""
+P346,One Identity,Safeguard,C013,Híbrido,Enterprise,Pendiente,""
+P347,Silverfort,Unified Identity Protection,C015,Híbrido,Enterprise,Pendiente,""
+P348,Semperis,Directory Services Protector,C015,Híbrido,Enterprise,Pendiente,""
+P349,Varonis,DatAdvantage Cloud,C015,SaaS,Enterprise,Pendiente,""
+P350,Varonis,Data Security Platform,C032,SaaS,Enterprise,Pendiente,""
+P351,Varonis,Data Classification Engine,C033,Híbrido,Enterprise,Pendiente,""
+P352,Lookout,Lookout Mobile Endpoint Security,C022,SaaS,"Basic, Advanced",Pendiente,""
+P353,Zimperium,MAPS,C022,SaaS,Enterprise,Pendiente,""
+P354,Trend Micro,Trend Vision One Endpoint,C019,SaaS,"Standard, Advanced",Pendiente,""
+P355,Trend Micro,Trend Vision One XDR,C021,SaaS,Enterprise,Pendiente,""
+P356,Trend Micro,Trend Vision One Cloud Security,C027,SaaS,Enterprise,Pendiente,""
+P357,Trellix,Trellix Endpoint Security,C019,Híbrido,Enterprise,Pendiente,""
+P358,Trellix,Trellix DLP,C031,Híbrido,"Endpoint, Network, Cloud",Pendiente,""
+P359,Broadcom Symantec,Symantec DLP,C031,Híbrido,"Endpoint, Network, Cloud, Storage",Pendiente,""
+P360,Forcepoint,Forcepoint DLP,C031,Híbrido,"Cloud, Enterprise",Pendiente,""
+P361,Cyera,Cyera Data Security Platform,C032,SaaS,Enterprise,Pendiente,""
+P362,BigID,BigID Data Intelligence Platform,C032,SaaS,Enterprise,Pendiente,""
+P363,BigID,BigID Data Discovery & Classification,C033,SaaS,Enterprise,Pendiente,""
+P364,BigID,BigID Privacy Suite,C077,SaaS,Enterprise,Pendiente,""
+P365,Fortra,Fortra Data Classification Suite,C033,Híbrido,Enterprise,Pendiente,""
+P366,ThreatConnect,ThreatConnect Platform,C055,SaaS,"TC Identify, TC Complete",Pendiente,""
+P367,Anomali,Anomali ThreatStream,C055,SaaS,Enterprise,Pendiente,""
+P368,EclecticIQ,EclecticIQ Intelligence Center,C055,Híbrido,"Community, Enterprise",Pendiente,""
+P369,Flashpoint,Flashpoint Intelligence Platform,C056,SaaS,Enterprise,Pendiente,""
+P370,Flashpoint,Flashpoint Digital Risk Protection,C058,SaaS,Enterprise,Pendiente,""
+P371,Intel 471,TITAN Intelligence Platform,C056,SaaS,Enterprise,Pendiente,""
+P372,KELA,KELA Cyber Intelligence Platform,C056,SaaS,Enterprise,Pendiente,""
+P373,KELA,KELA Digital Risk Protection,C058,SaaS,Enterprise,Pendiente,""
+P374,VirusTotal,VirusTotal Enterprise,C059,SaaS,"Free, Premium, Enterprise",Pendiente,""
+P375,ANY.RUN,ANY.RUN Interactive Sandbox,C059,SaaS,"Free, Hunter, Enterprise",Pendiente,""
+P376,ReversingLabs,TitaniumPlatform,C059,Híbrido,"A1000, TitaniumCloud",Pendiente,""
+P377,Intezer,Intezer Analyze,C059,SaaS,"Community, Enterprise",Pendiente,""
+P378,MISP,MISP Threat Sharing Platform,C057,On-prem,Community (Free),Pendiente,https://github.com/MISP/MISP
+P379,OpenCTI,OpenCTI Platform,C055,Híbrido,"Community (Free), Enterprise",Pendiente,https://github.com/OpenCTI-Platform/opencti
+P380,OpenCTI,OpenCTI Platform,C057,Híbrido,"Community (Free), Enterprise",Pendiente,https://github.com/OpenCTI-Platform/opencti
+P381,SOCRadar,SOCRadar Extended Threat Intelligence,C058,SaaS,"Free, Advanced, Enterprise",Pendiente,""
+P382,Cybersixgill,Cybersixgill DVE Intelligence,C058,SaaS,Enterprise,Pendiente,""
+P383,Group-IB,Threat Intelligence Platform,C058,SaaS,Enterprise,Pendiente,""
+P384,ZeroFox,ZeroFox Platform,C060,SaaS,Enterprise,Pendiente,""
+P385,ZeroFox,Brand Protection,C100,SaaS,Enterprise,Pendiente,""
+P386,Bolster,Bolster Platform,C060,SaaS,Enterprise,Pendiente,""
+P387,Bolster,Brand Protection,C100,SaaS,Enterprise,Pendiente,""
+P388,CyCognito,CyCognito Attack Surface Management,C061,SaaS,Enterprise,Pendiente,""
+P389,Censys,Censys Attack Surface Management,C061,SaaS,Enterprise,Pendiente,""
+P390,XM Cyber,XM Cyber Continuous Exposure Management,C062,SaaS,Enterprise,Pendiente,""
+P391,Greenbone,OpenVAS / Greenbone Enterprise,C063,Híbrido,"Community (Free), Enterprise",Pendiente,""
+P392,Nucleus Security,Nucleus Platform,C064,SaaS,Enterprise,Pendiente,""
+P393,Vulcan Cyber,Vulcan Cyber ExposureOS,C064,SaaS,Enterprise,Pendiente,""
+P394,JupiterOne,JupiterOne CAASM,C067,SaaS,"Community (Free), Enterprise",Pendiente,""
+P395,Archer,Archer IRM,C069,Híbrido,"SaaS, On-Prem",Pendiente,""
+P396,Archer,Archer IRM,C070,Híbrido,"SaaS, On-Prem",Pendiente,""
+P397,MetricStream,MetricStream GRC Platform,C069,SaaS,Enterprise,Pendiente,""
+P398,MetricStream,MetricStream Audit Management,C074,SaaS,Enterprise,Pendiente,""
+P399,LogicGate,Risk Cloud,C070,SaaS,Enterprise,Pendiente,""
+P400,AuditBoard,AuditBoard IT Risk,C070,SaaS,Enterprise,Pendiente,""
+P401,AuditBoard,AuditBoard Audit Management,C074,SaaS,Enterprise,Pendiente,""
+P402,Secureframe,Secureframe Compliance,C072,SaaS,"Growth, Enterprise",Pendiente,""
+P403,Secureframe,Secureframe Compliance,C076,SaaS,"Growth, Enterprise",Pendiente,""
+P404,Sprinto,Sprinto Compliance Automation,C076,SaaS,"Startup, Growth, Enterprise",Pendiente,""
+P405,ProcessUnity,ProcessUnity TPRM,C071,SaaS,Enterprise,Pendiente,""
+P406,UpGuard,UpGuard BreachSight,C068,SaaS,"Starter, Professional, Corporate, Enterprise",Pendiente,""
+P407,UpGuard,UpGuard Vendor Risk,C071,SaaS,"Starter, Professional, Corporate, Enterprise",Pendiente,""
+P408,Safe Security,SAFE One Platform,C073,SaaS,Enterprise,Pendiente,""
+P409,Kovrr,Kovrr CRQ Platform,C073,SaaS,Enterprise,Pendiente,""
+P410,TrustArc,TrustArc Privacy Management,C077,SaaS,Enterprise,Pendiente,""
+P411,TrustArc,TrustArc Consent Manager,C078,SaaS,Enterprise,Pendiente,""
+P412,Securiti,Securiti Data Command Center,C077,SaaS,Enterprise,Pendiente,""
+P413,Securiti,Securiti DSR Automation,C079,SaaS,Enterprise,Pendiente,""
+P414,Transcend,Transcend Privacy Platform,C077,SaaS,"Startup, Enterprise",Pendiente,""
+P415,Transcend,Transcend DSR Automation,C079,SaaS,"Startup, Enterprise",Pendiente,""
+P416,Usercentrics,Usercentrics CMP,C078,SaaS,"Free, Standard, Enterprise",Pendiente,""
+P417,Didomi,Didomi CMP,C078,SaaS,"Self-Service, Enterprise",Pendiente,""
+P418,Credo AI,Credo AI Governance Platform,C081,SaaS,Enterprise,Pendiente,""
+P419,Credo AI,Credo AI Governance Platform,C085,SaaS,Enterprise,Pendiente,""
+P420,Holistic AI,Holistic AI Platform,C081,SaaS,Enterprise,Pendiente,""
+P421,Holistic AI,Holistic AI Platform,C085,SaaS,Enterprise,Pendiente,""
+P422,Protect AI,Guardian,C082,SaaS,Enterprise,Pendiente,""
+P423,Protect AI,Guardian,C083,SaaS,Enterprise,Pendiente,""
+P424,Protect AI,ModelScan,C087,Híbrido,"Open Source, Enterprise",Pendiente,""
+P425,Protect AI,Guardian,C086,SaaS,Enterprise,Pendiente,""
+P426,HiddenLayer,MLDR,C082,SaaS,Enterprise,Pendiente,""
+P427,HiddenLayer,MLDR,C083,SaaS,Enterprise,Pendiente,""
+P428,HiddenLayer,Model Scanner,C087,SaaS,Enterprise,Pendiente,""
+P429,Lakera,Lakera Guard,C083,SaaS,"Free, Pro, Enterprise",Pendiente,""
+P430,Lakera,Lakera Red,C084,SaaS,Enterprise,Pendiente,""
+P431,Lakera,Lakera Guard,C086,SaaS,Enterprise,Pendiente,""
+P432,Kong,Kong AI Gateway,C086,Híbrido,"OSS (Free), Enterprise, Konnect",Pendiente,""
+P433,Mimecast,Mimecast Email Security,C093,SaaS,"Essentials, Advanced",Pendiente,""
+P434,Barracuda,Barracuda Email Protection,C093,SaaS,"Essential, Complete, Premium",Pendiente,""
+P435,Material Security,Material Security Platform,C094,SaaS,Enterprise,Pendiente,""
+P436,Sublime Security,Sublime Platform,C094,Híbrido,"Free, Enterprise",Pendiente,""
+P437,Valimail,Valimail Enforce,C095,SaaS,"Monitor (Free), Enforce",Pendiente,""
+P438,EasyDMARC,EasyDMARC Platform,C095,SaaS,"Free, Plus, Business, Enterprise",Pendiente,""
+P439,Red Sift,OnDMARC,C095,SaaS,"Essential, Advanced",Pendiente,""
+P440,Featurespace,ARIC Risk Hub,C097,SaaS,Enterprise,Pendiente,""
+P441,NICE Actimize,X-Sight Platform,C097,SaaS,Enterprise,Pendiente,""
+P442,HUMAN,HUMAN Bot Defender,C099,SaaS,Enterprise,Pendiente,""
+P443,HUMAN,HUMAN Account Defender,C098,SaaS,Enterprise,Pendiente,""
+P444,DataDome,DataDome Bot Protection,C099,SaaS,"Business, Corporate, Enterprise",Pendiente,""
+P445,Sift,Sift Digital Trust & Safety,C098,SaaS,Enterprise,Pendiente,""
+P446,Arkose Labs,Arkose Bot Manager,C098,SaaS,Enterprise,Pendiente,""
+P447,Transmit Security,Transmit Security Detection & Response,C098,SaaS,Enterprise,Pendiente,""
+P448,Secureworks,Taegis ManagedXDR,C101,SaaS,Enterprise,Pendiente,""
+P449,ReliaQuest,GreyMatter,C101,SaaS,Enterprise,Pendiente,""
+P450,Magnet Forensics,Magnet AXIOM,C053,Híbrido,"AXIOM Examine, AXIOM Cyber",Pendiente,""
+P451,Magnet Forensics,Magnet AXIOM,C122,Híbrido,"AXIOM Examine, AXIOM Cyber",Pendiente,""
+P452,Cellebrite,Cellebrite UFED,C053,Híbrido,"UFED Touch2, UFED 4PC",Pendiente,""
+P453,Cellebrite,Cellebrite UFED,C122,Híbrido,"UFED Touch2, UFED 4PC",Pendiente,""
+P454,Orca Security,Orca Cloud Security Platform,C025,SaaS,Enterprise,Pendiente,""
+P455,Orca Security,Orca CSPM,C026,SaaS,Enterprise,Pendiente,""
+P456,Red Hat,Red Hat Advanced Cluster Security,C029,Híbrido,Enterprise,Pendiente,""
+P457,Illumio,Illumio Core,C010,Híbrido,"Core, Endpoint, CloudSecure",Pendiente,""
+P458,Skyhigh Security,Skyhigh SSE,C002,SaaS,Enterprise,Pendiente,""
+P459,Cato Networks,Cato SASE Cloud,C003,SaaS,Enterprise,Pendiente,""
+P460,Appgate,Appgate SDP,C004,Híbrido,"SaaS, Self-Hosted",Pendiente,""
+P461,HPE Aruba,EdgeConnect SD-WAN / SASE,C003,Híbrido,Enterprise,Pendiente,""
+P462,HPE Aruba,ClearPass,C008,On-prem,Enterprise,Pendiente,""
+P463,Infoblox,BloxOne Threat Defense,C009,SaaS,"Business Essential, Business Cloud, Advanced",Pendiente,""
+P464,Juniper,SRX Series Firewall,C001,Appliance,"SRX300, SRX1500, SRX4600, SRX5800",Pendiente,""
+P465,Radware,DefensePro DDoS Protection,C006,Appliance,Enterprise,Pendiente,""
+P466,Radware,Cloud WAF,C005,SaaS,Enterprise,Pendiente,""
+P467,Fastly,Next-Gen WAF (Signal Sciences),C005,SaaS,Enterprise,Pendiente,""
+P468,Netscout,Arbor DDoS Protection,C006,Appliance,"Arbor Edge Defense, Arbor Sightline",Pendiente,""
+P469,Corelight,Corelight Open NDR Platform,C007,Híbrido,"Cloud, Enterprise, Free",Pendiente,""
+P470,Portnox,Portnox Cloud NAC,C008,SaaS,Enterprise,Pendiente,""
+P471,Yubico,YubiKey,C016,Appliance,"YubiKey 5 NFC, YubiKey 5C, YubiKey Bio",Pendiente,""
+P472,Yubico,YubiKey,C108,Appliance,"YubiKey 5 NFC, YubiKey 5C, YubiKey Bio",Pendiente,""
+P473,RSA,RSA SecurID,C018,Híbrido,"Cloud Authentication Service, Access Manager",Pendiente,""
+P474,Horizon3.ai,NodeZero,C066,SaaS,"NodeZero, NodeZero Federal",Pendiente,""
+P475,Horizon3.ai,NodeZero,C046,SaaS,Enterprise,Pendiente,""
+P476,Oracle,Oracle IAM,C011,Cloud,Enterprise,Pendiente,""
+P477,Oracle,Oracle Audit Vault & Database Firewall,C034,On-prem,Enterprise,Pendiente,""
+P478,Utimaco,CryptoServer HSM,C105,Appliance,"General Purpose, Payment",Pendiente,""
+P479,Futurex,Vectera Plus HSM,C105,Appliance,Enterprise,Pendiente,""
+P480,Sectigo,Sectigo Certificate Manager,C110,SaaS,Enterprise,Pendiente,""
+P481,Sectigo,Sectigo Certificate Manager,C111,SaaS,Enterprise,Pendiente,""
+P482,Sectigo,Sectigo Code Signing,C113,SaaS,Enterprise,Pendiente,""
+P483,AppViewX,CERT+ PKI,C110,Híbrido,Enterprise,Pendiente,""
+P484,AppViewX,CERT+ CLM,C111,Híbrido,Enterprise,Pendiente,""
+P485,AppViewX,Crypto Agility,C114,Híbrido,Enterprise,Pendiente,""
+P486,Akeyless,Akeyless Vault Platform,C044,SaaS,"Community, Enterprise",Pendiente,""
+P487,Akeyless,Akeyless Vault Platform,C112,SaaS,"Community, Enterprise",Pendiente,""
+P488,Akeyless,Akeyless Machine Identity,C017,SaaS,Enterprise,Pendiente,""
+P489,SignPath,SignPath Code Signing,C113,SaaS,"Starter, Enterprise",Pendiente,""
+P490,Upstream Security,Upstream V-XDR Platform,C092,SaaS,Enterprise,Pendiente,""
+P491,VicOne,xZETA Automotive Security,C092,SaaS,Enterprise,Pendiente,""
+P492,Phosphorus,Phosphorus xIoT Security,C090,SaaS,Enterprise,Pendiente,""
+P493,ID Quantique,Cerberis QKD,C117,Appliance,Enterprise,Pendiente,""
+P494,ID Quantique,Quantis QRNG,C118,Appliance,"PCIe, USB",Pendiente,""
+P495,Quantum Xchange,Phio TX,C117,Híbrido,Enterprise,Pendiente,""
+P496,Quantum Xchange,Phio TX,C115,Híbrido,Enterprise,Pendiente,""
+P497,InfoSec Global,AgileSec Analytics,C114,SaaS,Enterprise,Pendiente,""
+P498,InfoSec Global,AgileSec Analytics,C115,SaaS,Enterprise,Pendiente,""
+P499,Fusion Risk Management,Fusion Framework System,C075,SaaS,Enterprise,Pendiente,""
+P500,Diligent,Diligent One HighBond,C074,SaaS,Enterprise,Pendiente,""
+P501,Kroll,Kroll Incident Response,C104,SaaS,Enterprise,Pendiente,""
+P502,Kroll,Kroll Cyber Due Diligence,C120,SaaS,Enterprise,Pendiente,""
+P503,Kroll,Kroll Digital Forensics,C122,SaaS,Enterprise,Pendiente,""
+P504,NCC Group,NCC Group Penetration Testing,C120,SaaS,Enterprise,Pendiente,""
+P505,NCC Group,NCC Group IR Retainer,C104,SaaS,Enterprise,Pendiente,""
+P506,Invicti,Invicti / Acunetix (DAST),C039,SaaS,"Standard, Enterprise",Pendiente,""
+P507,OpenText Fortify,Fortify on Demand SAST,C038,SaaS,Enterprise,Pendiente,""
+P508,OpenText Fortify,Fortify WebInspect DAST,C039,Híbrido,Enterprise,Pendiente,""
+P509,Mend.io,Mend SCA,C040,SaaS,"Free, Enterprise",Pendiente,""
+P510,Chainguard,Chainguard Images,C043,SaaS,"Developer, Enterprise",Pendiente,""
+P511,Traceable,Traceable AI API Security,C042,SaaS,Enterprise,Pendiente,""
+P512,Detectify,Detectify Surface Monitoring,C046,SaaS,"Starter, Professional",Pendiente,""
+P513,AWS,AWS Shield,C006,Cloud,"Standard (Free), Advanced",Pendiente,https://aws.amazon.com/shield/
+P514,AWS,AWS Secrets Manager,C044,Cloud,Pay-as-you-go,Pendiente,https://aws.amazon.com/secrets-manager/
+P515,AWS,AWS KMS,C109,Cloud,Pay-as-you-go,Pendiente,https://aws.amazon.com/kms/
+P516,AWS,AWS CloudHSM,C105,Cloud,Pay-as-you-go,Pendiente,https://aws.amazon.com/cloudhsm/
+P517,Google Cloud,Google Cloud KMS,C044,Cloud,Pay-as-you-go,Pendiente,https://cloud.google.com/security/products/security-key-management
+P518,Google Cloud,Google Cloud Confidential Computing,C037,Cloud,Enterprise,Pendiente,https://cloud.google.com/confidential-computing
+P519,Google Security Operations,Google SecOps (Chronicle),C047,SaaS,"Standard, Enterprise, Enterprise Plus",Pendiente,https://chronicle.security/
+P520,Google,Google Security Command Center,C049,Cloud,"Standard (Free), Premium, Enterprise",Pendiente,https://cloud.google.com/security/products/security-command-center
+P521,Panther,Panther SIEM,C050,SaaS,"Team, Professional, Enterprise",Pendiente,""
+P522,Hunters,Hunters SOC Platform,C050,Híbrido,Enterprise,Pendiente,""
+P523,Anvilogic,Anvilogic Detection Engineering,C050,SaaS,Enterprise,Pendiente,""
+P524,Blink Ops,Blink Security Automation,C051,SaaS,"Free, Enterprise",Pendiente,""
+P525,Shuffle,Shuffle Automation,C051,Híbrido,"Community (Free), Enterprise",Pendiente,""
+P526,TheHive,TheHive Project,C054,On-prem,"Community (Free), Enterprise",Pendiente,https://github.com/TheHive-Project/TheHive
+P527,Robust Intelligence,RIME AI Firewall,C082,SaaS,Enterprise,Pendiente,""
+P528,ModelOp,ModelOp Center,C081,SaaS,Enterprise,Pendiente,""
+P529,ModelOp,ModelOp Center,C085,SaaS,Enterprise,Pendiente,""
+P530,Securonix,Securonix UEBA,C052,SaaS,Enterprise,Pendiente,""
+P531,Gurucul,Gurucul UEBA,C052,SaaS,Enterprise,Pendiente,""
+P532,LexisNexis,LexisNexis ThreatMetrix,C097,SaaS,Enterprise,Pendiente,""
+P533,SAS,SAS Fraud Management,C097,Híbrido,Enterprise,Pendiente,""
+P534,Kasada,Kasada Bot Defense,C099,SaaS,Enterprise,Pendiente,""
+P535,Black Kite,Black Kite Cyber Ratings,C068,SaaS,Enterprise,Pendiente,""
+P536,RiskRecon,RiskRecon (Mastercard),C068,SaaS,Enterprise,Pendiente,""
+P537,Privitar,Privitar PET Platform,C080,Híbrido,Enterprise,Pendiente,""
+P538,Protegrity,Protegrity Data Protection,C035,Híbrido,Enterprise,Pendiente,""
+P539,Protegrity,Protegrity Encryption,C036,Híbrido,Enterprise,Pendiente,""
+P540,Protegrity,Protegrity PET,C080,Híbrido,Enterprise,Pendiente,""
+P541,Spin.AI,SpinOne SaaS Security,C096,SaaS,"Business, Enterprise",Pendiente,""
+P542,WALLIX,WALLIX PAM,C013,Híbrido,Enterprise,Pendiente,""
+P543,ColorTokens,Xshield Microsegmentation,C010,SaaS,Enterprise,Pendiente,""
+P544,VMware,NSX Distributed Firewall,C010,On-prem,Enterprise,Pendiente,""
+P545,VMware Carbon Black,Carbon Black App Control,C024,Híbrido,Enterprise,Pendiente,""
+P546,ThreatLocker,ThreatLocker Protect,C024,SaaS,Enterprise,Pendiente,""
+P547,ThreatLocker,ThreatLocker Elevation Control,C023,SaaS,Enterprise,Pendiente,""
+P548,Ivanti,Ivanti Neurons for MTD,C022,SaaS,Enterprise,Pendiente,""
+P549,Ivanti,Ivanti Application Control,C024,On-prem,Enterprise,Pendiente,""
+P550,Jamf,Jamf Protect,C022,SaaS,Enterprise,Pendiente,""

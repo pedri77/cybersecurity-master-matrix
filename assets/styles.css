@@ -446,6 +446,22 @@ a.card {
   color: #c8a0ff;
 }
 
+.badge.tier-1 {
+  background: rgba(255, 209, 102, 0.2);
+  color: var(--warning);
+  font-weight: 700;
+}
+
+.badge.tier-2 {
+  background: rgba(85, 194, 255, 0.15);
+  color: var(--accent);
+}
+
+.badge.tier-3 {
+  background: rgba(155, 155, 175, 0.15);
+  color: #9b9baf;
+}
+
 .badge.deploy-cloud {
   background: rgba(110, 231, 168, 0.15);
   color: var(--success);

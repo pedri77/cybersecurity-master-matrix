@@ -168,6 +168,10 @@
                 <span class="badge">${esc(provider['Estado análisis'])}</span>
               </div>
               <div class="sidebar-row">
+                <span>Tier</span>
+                ${provider.Tier ? tierBadge(provider.Tier) : '<span class="badge">Sin clasificar</span>'}
+              </div>
+              <div class="sidebar-row">
                 <span>Peers</span>
                 <strong>${peers.length}</strong>
               </div>

@@ -1,344 +1,343 @@
-﻿Proveedor,N.º dominios,N.º categorías,Dominios,Categorías,Estado análisis
-AENOR,1,1,D20,C121,Pendiente
-AMD,2,3,D05; D17,C037; C106; C107,Pendiente
-ANY.RUN,1,1,D08,C059,Pendiente
-AWS,4,5,D01; D05; D06; D18,C006; C037; C044; C109; C112,Pendiente
-AWS Nitro,1,1,D17,C107,Pendiente
-Abnormal Security,1,1,D14,C094,Pendiente
-Abuse.ch,1,1,D08,C057,Pendiente
-Accenture,2,3,D16; D20,C102; C103; C119,Pendiente
-Admin By Request,1,1,D03,C023,Pendiente
-Airlock Digital,1,1,D03,C024,Pendiente
-Akamai,3,5,D01; D06; D15,C005; C006; C009; C042; C099,Pendiente
-Akamai Guardicore,1,1,D01,C010,Pendiente
-Akeyless,3,3,D02; D06; D18,C017; C044; C112,Pendiente
-AlienVault OTX,1,1,D08,C057,Pendiente
-Anomali,1,1,D08,C055,Pendiente
-Anvilogic,1,1,D07,C050,Pendiente
-Apiiro,1,1,D06,C041,Pendiente
-AppViewX,1,3,D18,C110; C111; C114,Pendiente
-Appgate,1,1,D01,C004,Pendiente
-Apple,1,1,D17,C107,Pendiente
-Aqua Security,1,1,D04,C029,Pendiente
-Archer,1,3,D10,C069; C070; C075,Pendiente
-Arctic Wolf,1,1,D16,C101,Pendiente
-Argus,1,1,D13,C092,Pendiente
-Arista Awake,1,1,D01,C007,Pendiente
-Arkose Labs,1,1,D15,C098,Pendiente
-Arm,1,1,D17,C107,Pendiente
-Armis,2,5,D09; D13,C067; C088; C089; C090; C091,Pendiente
-ArmorCode,1,1,D06,C041,Pendiente
-AttackIQ,1,1,D09,C065,Pendiente
-AuditBoard,1,2,D10,C070; C074,Pendiente
-Axio,1,1,D10,C073,Pendiente
-Axonius,1,1,D09,C067,Pendiente
-Azure Key Vault,1,1,D06,C044,Pendiente
-BSI,1,1,D20,C121,Pendiente
-Barracuda,1,1,D14,C093,Pendiente
-Beyond Identity,1,1,D02,C016,Pendiente
-BeyondTrust,2,2,D02; D03,C013; C023,Pendiente
-BigID,2,3,D05; D11,C032; C033; C077,Pendiente
-BioCatch,1,2,D15,C097; C098,Pendiente
-Bishop Fox,1,1,D20,C120,Pendiente
-BitSight,2,2,D09; D10,C068; C071,Pendiente
-Black Kite,1,1,D09,C068,Pendiente
-Blink Ops,1,1,D07,C051,Pendiente
-Bolster,2,2,D08; D15,C060; C100,Pendiente
-Brinqa,1,1,D09,C064,Pendiente
-Broadcom Symantec,1,1,D05,C031,Pendiente
-Bureau Veritas,1,1,D20,C121,Pendiente
-C2A Security,1,1,D13,C092,Pendiente
-CERTs,1,1,D08,C057,Pendiente
-CIRCL,1,1,D08,C057,Pendiente
-CYE,1,1,D10,C073,Pendiente
-Capgemini,1,1,D16,C102,Pendiente
-CardinalOps,1,1,D07,C050,Pendiente
-Castellan,1,1,D10,C075,Pendiente
-Cato Networks,1,1,D01,C003,Pendiente
-Cellebrite,2,2,D07; D20,C053; C122,Pendiente
-Censys,1,1,D09,C061,Pendiente
-Chainguard,1,1,D06,C043,Pendiente
-Check Point,3,5,D01; D04; D14,C001; C025; C026; C093; C096,Pendiente
-Check Point Avanan,1,1,D14,C094,Pendiente
-Checkmarx,1,2,D06,C038; C041,Pendiente
-Cisco,5,11,D01; D03; D07; D12; D14,C001; C002; C003; C004; C007; C008; C010; C021; C049; C083; C093,Pendiente
-Cisco Duo,1,2,D02,C016; C018,Pendiente
-Cisco Umbrella,1,1,D01,C009,Pendiente
-Claroty,1,2,D13,C088; C089,Pendiente
-Claroty Medigate,1,1,D13,C091,Pendiente
-Cloudflare,4,9,D01; D06; D12; D15,C002; C004; C005; C006; C009; C042; C083; C086; C099,Pendiente
-ColorTokens,1,1,D01,C010,Pendiente
-Contrast Security,1,1,D06,C045,Pendiente
-Corelight,1,1,D01,C007,Pendiente
-Corsearch,1,1,D15,C100,Pendiente
-Credo AI,1,2,D12,C081; C085,Pendiente
-CrowdStrike,7,12,D02; D03; D04; D07; D08; D16; D20,C015; C019; C020; C021; C025; C027; C030; C049; C056; C101; C104; C122,Pendiente
-CyCognito,1,1,D09,C061,Pendiente
-CyberArk,5,7,D02; D03; D04; D06; D18,C011; C013; C017; C023; C028; C044; C112,Pendiente
-Cybersixgill,1,1,D08,C058,Pendiente
-Cycode,1,1,D06,C041,Pendiente
-Cyera,1,1,D05,C032,Pendiente
-Cymulate,1,3,D09,C062; C065; C066,Pendiente
-Cynerio,1,1,D13,C091,Pendiente
-DNV,1,1,D20,C121,Pendiente
-Darktrace,2,2,D01; D13,C007; C089,Pendiente
-DataDome,1,1,D15,C099,Pendiente
-DataGrail,1,1,D11,C079,Pendiente
-DataSunrise,1,1,D05,C034,Pendiente
-Delinea,2,2,D02; D03,C013; C023,Pendiente
-Deloitte,2,3,D16; D20,C103; C119; C120,Pendiente
-Delphix,1,1,D05,C035,Pendiente
-Detectify,1,1,D06,C046,Pendiente
-Didomi,1,1,D11,C078,Pendiente
-DigiCert,2,4,D18; D19,C110; C111; C113; C116,Pendiente
-Diligent,1,1,D10,C074,Pendiente
-Dragos,1,2,D13,C088; C089,Pendiente
-Drata,1,2,D10,C072; C076,Pendiente
-Duality,1,1,D11,C080,Pendiente
-EY,1,1,D20,C119,Pendiente
-EasyDMARC,1,1,D14,C095,Pendiente
-EclecticIQ,1,1,D08,C055,Pendiente
-Elastic,1,1,D07,C047,Pendiente
-Entrust,4,5,D05; D17; D18; D19,C036; C105; C109; C110; C116,Pendiente
-Ermetic,1,1,D04,C028,Pendiente
-Exabeam,1,2,D07,C047; C052,Pendiente
-Exterro,1,1,D07,C053,Pendiente
-ExtraHop,1,1,D01,C007,Pendiente
-F5,1,1,D01,C005,Pendiente
-FairNow,1,1,D12,C085,Pendiente
-Fastly,1,1,D01,C005,Pendiente
-Featurespace,1,1,D15,C097,Pendiente
-Feedzai,1,1,D15,C097,Pendiente
-Feitian,1,1,D17,C108,Pendiente
-Flashpoint,1,2,D08,C056; C058,Pendiente
-Forcepoint,1,1,D05,C031,Pendiente
-Forescout,2,4,D01; D13,C008; C088; C090; C091,Pendiente
-ForgeRock,1,1,D02,C014,Pendiente
-Fortanix,4,5,D05; D11; D17; D18,C036; C037; C080; C105; C109,Pendiente
-Fortinet,2,4,D01; D07,C001; C003; C008; C049,Pendiente
-Fortra,1,1,D05,C033,Pendiente
-Fusion Risk Management,1,1,D10,C075,Pendiente
-Futurex,1,1,D17,C105,Pendiente
-Garak,1,1,D12,C084,Pendiente
-Giskard,1,1,D12,C084,Pendiente
-GitHub,2,3,D06; D12,C040; C043; C087,Pendiente
-GitLab,1,1,D06,C043,Pendiente
-Google,3,3,D07; D12; D18,C049; C081; C112,Pendiente
-Google Cloud,2,2,D05; D06,C037; C044,Pendiente
-Google Security Operations,1,1,D07,C047,Pendiente
-Greenbone,1,1,D09,C063,Pendiente
-Group-IB,1,1,D08,C058,Pendiente
-Gurucul,1,1,D07,C052,Pendiente
-HID Global,1,1,D17,C108,Pendiente
-HPE Aruba,1,2,D01,C003; C008,Pendiente
-HUMAN,1,2,D15,C098; C099,Pendiente
-HYPR,1,1,D02,C016,Pendiente
-HashiCorp,2,3,D02; D18,C017; C109; C112,Pendiente
-HashiCorp Vault,1,1,D06,C044,Pendiente
-Helicone,1,1,D12,C086,Pendiente
-HiddenLayer,1,4,D12,C082; C083; C084; C087,Pendiente
-Holistic AI,1,2,D12,C081; C085,Pendiente
-Horizon3.ai,2,2,D06; D09,C046; C066,Pendiente
-Hugging Face,1,1,D12,C087,Pendiente
-Hunters,1,1,D07,C050,Pendiente
-Hyperproof,1,1,D10,C072,Pendiente
-IBM,9,18,D02; D05; D07; D12; D16; D17; D18; D19; D20,C011; C012; C032; C035; C036; C048; C053; C054; C081; C085; C102; C103; C105; C109; C114; C115; C116; C119,Pendiente
-IBM Guardium,1,1,D05,C034,Pendiente
-IBM OpenPages,1,1,D10,C069,Pendiente
-IBM QRadar,1,1,D07,C047,Pendiente
-IBM X-Force,1,1,D16,C104,Pendiente
-ID Quantique,1,2,D19,C117; C118,Pendiente
-IOActive,1,1,D20,C120,Pendiente
-Illumio,1,1,D01,C010,Pendiente
-Imperva,4,6,D01; D05; D06; D15,C005; C006; C034; C042; C045; C099,Pendiente
-Infineon,1,1,D17,C106,Pendiente
-InfoSec Global,2,2,D18; D19,C114; C115,Pendiente
-Infoblox,1,1,D01,C009,Pendiente
-Inpher,1,1,D11,C080,Pendiente
-Intel,2,3,D05; D17,C037; C106; C107,Pendiente
-Intel 471,1,1,D08,C056,Pendiente
-Intezer,1,1,D08,C059,Pendiente
-Intruder,1,1,D06,C046,Pendiente
-Invicti,1,1,D06,C039,Pendiente
-Ivanti,1,2,D03,C022; C024,Pendiente
-JFrog,2,3,D06; D12,C040; C043; C087,Pendiente
-Jamf,1,1,D03,C022,Pendiente
-Joe Sandbox,1,1,D08,C059,Pendiente
-Juniper,1,1,D01,C001,Pendiente
-JupiterOne,1,1,D09,C067,Pendiente
-KELA,1,2,D08,C056; C058,Pendiente
-KPMG,1,1,D20,C119,Pendiente
-Karamba,1,1,D13,C092,Pendiente
-Kasada,1,1,D15,C099,Pendiente
-Ketch,1,1,D11,C078,Pendiente
-Keyfactor,3,7,D02; D18; D19,C017; C110; C111; C113; C114; C115; C116,Pendiente
-Kong,1,1,D12,C086,Pendiente
-Kovrr,1,1,D10,C073,Pendiente
-Kroll,2,3,D16; D20,C104; C120; C122,Pendiente
-Kyndryl,1,1,D16,C103,Pendiente
-Lakera,1,3,D12,C083; C084; C086,Pendiente
-Legit Security,1,1,D06,C041,Pendiente
-LexisNexis,1,1,D15,C097,Pendiente
-LogicGate,1,1,D10,C070,Pendiente
-Lookout,1,1,D03,C022,Pendiente
-LuxQuanta,1,1,D19,C117,Pendiente
-MISP,1,1,D08,C057,Pendiente
-Magnet Forensics,2,2,D07; D20,C053; C122,Pendiente
-Mandiant,3,5,D08; D16; D20,C055; C056; C104; C120; C122,Pendiente
-Material Security,1,1,D14,C094,Pendiente
-Mend.io,1,1,D06,C040,Pendiente
-MetricStream,1,2,D10,C069; C074,Pendiente
-Microsoft,11,29,D02; D03; D04; D05; D07; D09; D12; D13; D14; D17; D18,C011; C012; C014; C015; C016; C018; C019; C020; C021; C022; C024; C025; C027; C028; C030; C031; C036; C037; C049; C052; C061; C063; C081; C088; C090; C093; C096; C107; C112,Pendiente
-Microsoft Defender for Cloud,1,1,D04,C026,Pendiente
-Microsoft Purview,1,1,D05,C033,Pendiente
-Microsoft PyRIT,1,1,D12,C084,Pendiente
-Microsoft Sentinel,1,1,D07,C047,Pendiente
-Mimecast,1,1,D14,C093,Pendiente
-MineOS,1,1,D11,C079,Pendiente
-ModelOp,1,2,D12,C081; C085,Pendiente
-NCC Group,2,2,D16; D20,C104; C120,Pendiente
-NICE Actimize,1,1,D15,C097,Pendiente
-NTT DATA,1,1,D16,C102,Pendiente
-Netscout,1,1,D01,C006,Pendiente
-Netskope,3,4,D01; D05; D14,C002; C004; C031; C096,Pendiente
-Nitrokey,1,1,D17,C108,Pendiente
-Noetic Cyber,1,1,D09,C067,Pendiente
-Noname Security,1,1,D06,C042,Pendiente
-Nozomi Networks,1,2,D13,C088; C089,Pendiente
-Nucleus Security,1,1,D09,C064,Pendiente
-Nuvoton,1,1,D17,C106,Pendiente
-Okta,1,3,D02,C011; C016; C018,Pendiente
-Okta Auth0,1,1,D02,C014,Pendiente
-Omada,1,1,D02,C012,Pendiente
-One Identity,1,2,D02,C012; C013,Pendiente
-OneTrust,3,7,D10; D11; D12,C069; C070; C071; C077; C078; C079; C085,Pendiente
-OpenCTI,1,2,D08,C055; C057,Pendiente
-OpenText,1,1,D06,C045,Pendiente
-OpenText EnCase,1,1,D07,C053,Pendiente
-OpenText Fortify,1,2,D06,C038; C039,Pendiente
-Oracle,2,2,D02; D05,C011; C034,Pendiente
-Orange Cyberdefense,1,2,D16,C102; C103,Pendiente
-Orca Security,1,2,D04,C025; C026,Pendiente
-Ordr,1,1,D13,C091,Pendiente
-Palo Alto Cortex XSOAR,1,1,D07,C048,Pendiente
-Palo Alto Networks,8,19,D01; D03; D04; D05; D07; D09; D12; D13,C001; C002; C003; C004; C009; C020; C021; C025; C027; C028; C029; C030; C032; C049; C054; C061; C082; C083; C090,Pendiente
-Panther,1,1,D07,C050,Pendiente
-Pentera,2,3,D06; D09,C046; C065; C066,Pendiente
-Phosphorus,1,1,D13,C090,Pendiente
-Picus,1,3,D09,C062; C065; C066,Pendiente
-Ping Identity,1,2,D02,C011; C014,Pendiente
-Portkey,1,1,D12,C086,Pendiente
-Portnox,1,1,D01,C008,Pendiente
-PowerDMARC,1,1,D14,C095,Pendiente
-Prisma Cloud,1,1,D04,C026,Pendiente
-Privitar,1,1,D11,C080,Pendiente
-ProcessUnity,1,1,D10,C071,Pendiente
-Proofpoint,4,6,D05; D08; D14; D15,C031; C060; C093; C095; C096; C100,Pendiente
-Protect AI,1,5,D12,C082; C083; C084; C086; C087,Pendiente
-Protegrity,2,3,D05; D11,C035; C036; C080,Pendiente
-PwC,1,1,D20,C119,Pendiente
-QNu Labs,1,1,D19,C117,Pendiente
-Qualys,1,3,D09,C062; C063; C064,Pendiente
-Quantum Dice,1,1,D19,C118,Pendiente
-Quantum Xchange,1,2,D19,C115; C117,Pendiente
-QuintessenceLabs,1,1,D19,C118,Pendiente
-Quside,1,1,D19,C118,Pendiente
-RSA,1,1,D02,C018,Pendiente
-Radware,1,2,D01,C005; C006,Pendiente
-Rapid7,3,7,D06; D09; D16,C039; C046; C061; C062; C063; C064; C101,Pendiente
-Recorded Future,1,5,D08,C055; C056; C058; C059; C060,Pendiente
-Red Hat,1,1,D04,C029,Pendiente
-Red Points,2,2,D08; D15,C060; C100,Pendiente
-Red Sift,1,1,D14,C095,Pendiente
-ReliaQuest,1,1,D16,C101,Pendiente
-ReversingLabs,1,1,D08,C059,Pendiente
-RiskLens,1,1,D10,C073,Pendiente
-RiskRecon,1,1,D09,C068,Pendiente
-Riskonnect,1,1,D10,C075,Pendiente
-Robust Intelligence,1,1,D12,C082,Pendiente
-SAP,2,2,D02; D10,C014; C069,Pendiente
-SAS,1,1,D15,C097,Pendiente
-SGS,1,1,D20,C121,Pendiente
-SOC Prime,1,1,D07,C050,Pendiente
-SOCRadar,1,1,D08,C058,Pendiente
-STMicroelectronics,1,1,D17,C106,Pendiente
-Safe Security,1,1,D10,C073,Pendiente
-SafeBreach,1,2,D09,C065; C066,Pendiente
-SailPoint,1,1,D02,C012,Pendiente
-Salt Security,1,1,D06,C042,Pendiente
-SandboxAQ,2,3,D18; D19,C114; C115; C116,Pendiente
-Saviynt,1,1,D02,C012,Pendiente
-Scytale,1,1,D10,C076,Pendiente
-Sectigo,1,3,D18,C110; C111; C113,Pendiente
-Secureframe,1,2,D10,C072; C076,Pendiente
-Secureworks,1,1,D16,C101,Pendiente
-Securiti,1,2,D11,C077; C079,Pendiente
-SecurityScorecard,2,2,D09; D10,C068; C071,Pendiente
-Securonix,1,1,D07,C052,Pendiente
-Semperis,1,1,D02,C015,Pendiente
-SentinelOne,2,4,D03; D04,C019; C020; C021; C030,Pendiente
-ServiceNow,2,6,D07; D10,C054; C069; C070; C071; C074; C075,Pendiente
-Shuffle,1,1,D07,C051,Pendiente
-Sift,1,1,D15,C098,Pendiente
-SignPath,1,1,D18,C113,Pendiente
-Silverfort,1,1,D02,C015,Pendiente
-Skyhigh Security,1,1,D01,C002,Pendiente
-Snyk,2,5,D04; D06,C029; C038; C040; C041; C043,Pendiente
-Sonar,1,1,D06,C038,Pendiente
-Sonatype,1,2,D06,C040; C043,Pendiente
-Sonrai Security,1,1,D04,C028,Pendiente
-Sophos,3,4,D01; D03; D16,C001; C019; C020; C101,Pendiente
-Spin.AI,1,1,D14,C096,Pendiente
-Spirion,1,1,D05,C033,Pendiente
-Splunk,1,2,D07,C047; C052,Pendiente
-Splunk SOAR,1,1,D07,C048,Pendiente
-Sprinto,1,1,D10,C076,Pendiente
-Sublime Security,1,1,D14,C094,Pendiente
-Swimlane,1,3,D07,C048; C051; C054,Pendiente
-Synopsys,1,3,D06,C038; C039; C040,Pendiente
-Sysdig,1,2,D04,C027; C029,Pendiente
-TeamMate,1,1,D10,C074,Pendiente
-Telefónica Tech,1,1,D16,C102,Pendiente
-Tenable,2,5,D02; D09,C015; C061; C062; C063; C064,Pendiente
-Thales,5,10,D02; D05; D17; D18; D19,C018; C034; C035; C036; C105; C108; C109; C114; C115; C116,Pendiente
-TheHive,1,1,D07,C054,Pendiente
-Thoropass,1,1,D10,C072,Pendiente
-ThreatConnect,1,1,D08,C055,Pendiente
-ThreatLocker,1,2,D03,C023; C024,Pendiente
-Tines,1,2,D07,C048; C051,Pendiente
-Torq,1,2,D07,C048; C051,Pendiente
-Toshiba,1,1,D19,C117,Pendiente
-Traceable,1,1,D06,C042,Pendiente
-Transcend,1,2,D11,C077; C079,Pendiente
-Transmit Security,1,1,D15,C098,Pendiente
-Trellix,2,2,D03; D05,C019; C031,Pendiente
-Trend Micro,2,3,D03; D04,C019; C021; C027,Pendiente
-TrustArc,1,2,D11,C077; C078,Pendiente
-TÜV,1,1,D20,C121,Pendiente
-Unit 42,1,1,D16,C104,Pendiente
-UpGuard,2,2,D09; D10,C068; C071,Pendiente
-Upstream Security,1,1,D13,C092,Pendiente
-Usercentrics,1,1,D11,C078,Pendiente
-Utimaco,1,1,D17,C105,Pendiente
-VMware,1,1,D01,C010,Pendiente
-VMware Carbon Black,1,1,D03,C024,Pendiente
-Vade,1,1,D14,C094,Pendiente
-Valimail,1,1,D14,C095,Pendiente
-Vanta,1,2,D10,C072; C076,Pendiente
-Varonis,2,3,D02; D05,C015; C032; C033,Pendiente
-Vectra AI,1,1,D01,C007,Pendiente
-Venafi,2,4,D02; D18,C017; C110; C111; C113,Pendiente
-Veracode,1,3,D06,C038; C039; C045,Pendiente
-Versa,1,1,D01,C003,Pendiente
-VicOne,1,1,D13,C092,Pendiente
-VirusTotal,1,1,D08,C059,Pendiente
-Vulcan Cyber,1,1,D09,C064,Pendiente
-WALLIX,1,1,D02,C013,Pendiente
-Wiz,3,5,D04; D05; D12,C025; C026; C030; C032; C082,Pendiente
-XM Cyber,1,1,D09,C062,Pendiente
-Yubico,2,2,D02; D17,C016; C108,Pendiente
-ZeroFox,2,2,D08; D15,C060; C100,Pendiente
-Zimperium,1,1,D03,C022,Pendiente
-Zscaler,1,2,D01,C002; C004,Pendiente
-comforte,1,1,D05,C035,Pendiente
-runZero,1,1,D09,C067,Pendiente
+Proveedor,N.º dominios,N.º categorías,Dominios,Categorías,Estado análisis,Tier
+AENOR,1,1,D20,C121,Pendiente,Tier 2
+AMD,2,3,D05; D17,C037; C106; C107,Pendiente,Tier 1
+ANY.RUN,1,1,D08,C059,Pendiente,Tier 3
+AWS,4,5,D01; D05; D06; D18,C006; C037; C044; C109; C112,Pendiente,Tier 1
+AWS Nitro,1,1,D17,C107,Pendiente,Tier 1
+Abnormal Security,1,1,D14,C094,Pendiente,Tier 3
+Abuse.ch,1,1,D08,C057,Pendiente,Tier 3
+Accenture,2,3,D16; D20,C102; C103; C119,Pendiente,Tier 1
+Admin By Request,1,1,D03,C023,Pendiente,Tier 3
+Airlock Digital,1,1,D03,C024,Pendiente,Tier 3
+Akamai,3,5,D01; D06; D15,C005; C006; C009; C042; C099,Pendiente,Tier 1
+Akamai Guardicore,1,1,D01,C010,Pendiente,Tier 1
+Akeyless,3,3,D02; D06; D18,C017; C044; C112,Pendiente,Tier 3
+AlienVault OTX,1,1,D08,C057,Pendiente,Tier 3
+Anomali,1,1,D08,C055,Pendiente,Tier 3
+Anvilogic,1,1,D07,C050,Pendiente,Tier 3
+Apiiro,1,1,D06,C041,Pendiente,Tier 3
+AppViewX,1,3,D18,C110; C111; C114,Pendiente,Tier 3
+Appgate,1,1,D01,C004,Pendiente,Tier 3
+Apple,1,1,D17,C107,Pendiente,Tier 1
+Aqua Security,1,1,D04,C029,Pendiente,Tier 3
+Archer,1,3,D10,C069; C070; C075,Pendiente,Tier 2
+Arctic Wolf,1,1,D16,C101,Pendiente,Tier 2
+Argus,1,1,D13,C092,Pendiente,Tier 3
+Arista Awake,1,1,D01,C007,Pendiente,Tier 2
+Arkose Labs,1,1,D15,C098,Pendiente,Tier 3
+Arm,1,1,D17,C107,Pendiente,Tier 1
+Armis,2,5,D09; D13,C067; C088; C089; C090; C091,Pendiente,Tier 2
+ArmorCode,1,1,D06,C041,Pendiente,Tier 3
+AttackIQ,1,1,D09,C065,Pendiente,Tier 3
+AuditBoard,1,2,D10,C070; C074,Pendiente,Tier 3
+Axio,1,1,D10,C073,Pendiente,Tier 3
+Axonius,1,1,D09,C067,Pendiente,Tier 3
+Azure Key Vault,1,1,D06,C044,Pendiente,Tier 1
+BSI,1,1,D20,C121,Pendiente,Tier 2
+Barracuda,1,1,D14,C093,Pendiente,Tier 2
+Beyond Identity,1,1,D02,C016,Pendiente,Tier 3
+BeyondTrust,2,2,D02; D03,C013; C023,Pendiente,Tier 2
+BigID,2,3,D05; D11,C032; C033; C077,Pendiente,Tier 3
+BioCatch,1,2,D15,C097; C098,Pendiente,Tier 3
+Bishop Fox,1,1,D20,C120,Pendiente,Tier 3
+BitSight,2,2,D09; D10,C068; C071,Pendiente,Tier 2
+Black Kite,1,1,D09,C068,Pendiente,Tier 3
+Blink Ops,1,1,D07,C051,Pendiente,Tier 3
+Bolster,2,2,D08; D15,C060; C100,Pendiente,Tier 3
+Brinqa,1,1,D09,C064,Pendiente,Tier 3
+Broadcom Symantec,1,1,D05,C031,Pendiente,Tier 1
+Bureau Veritas,1,1,D20,C121,Pendiente,Tier 2
+C2A Security,1,1,D13,C092,Pendiente,Tier 3
+CERTs,1,1,D08,C057,Pendiente,Tier 3
+CIRCL,1,1,D08,C057,Pendiente,Tier 3
+CYE,1,1,D10,C073,Pendiente,Tier 3
+Capgemini,1,1,D16,C102,Pendiente,Tier 1
+CardinalOps,1,1,D07,C050,Pendiente,Tier 3
+Castellan,1,1,D10,C075,Pendiente,Tier 3
+Cato Networks,1,1,D01,C003,Pendiente,Tier 3
+Cellebrite,2,2,D07; D20,C053; C122,Pendiente,Tier 2
+Censys,1,1,D09,C061,Pendiente,Tier 3
+Chainguard,1,1,D06,C043,Pendiente,Tier 3
+Check Point,3,5,D01; D04; D14,C001; C025; C026; C093; C096,Pendiente,Tier 1
+Check Point Avanan,1,1,D14,C094,Pendiente,Tier 1
+Checkmarx,1,2,D06,C038; C041,Pendiente,Tier 2
+Cisco,5,11,D01; D03; D07; D12; D14,C001; C002; C003; C004; C007; C008; C010; C021; C049; C083; C093,Pendiente,Tier 1
+Cisco Duo,1,2,D02,C016; C018,Pendiente,Tier 1
+Cisco Umbrella,1,1,D01,C009,Pendiente,Tier 1
+Claroty,1,2,D13,C088; C089,Pendiente,Tier 2
+Claroty Medigate,1,1,D13,C091,Pendiente,Tier 2
+Cloudflare,4,9,D01; D06; D12; D15,C002; C004; C005; C006; C009; C042; C083; C086; C099,Pendiente,Tier 1
+ColorTokens,1,1,D01,C010,Pendiente,Tier 3
+Contrast Security,1,1,D06,C045,Pendiente,Tier 3
+Corelight,1,1,D01,C007,Pendiente,Tier 3
+Corsearch,1,1,D15,C100,Pendiente,Tier 3
+Credo AI,1,2,D12,C081; C085,Pendiente,Tier 3
+CrowdStrike,7,12,D02; D03; D04; D07; D08; D16; D20,C015; C019; C020; C021; C025; C027; C030; C049; C056; C101; C104; C122,Pendiente,Tier 1
+CyCognito,1,1,D09,C061,Pendiente,Tier 3
+CyberArk,5,7,D02; D03; D04; D06; D18,C011; C013; C017; C023; C028; C044; C112,Pendiente,Tier 1
+Cybersixgill,1,1,D08,C058,Pendiente,Tier 3
+Cycode,1,1,D06,C041,Pendiente,Tier 3
+Cyera,1,1,D05,C032,Pendiente,Tier 3
+Cymulate,1,3,D09,C062; C065; C066,Pendiente,Tier 3
+Cynerio,1,1,D13,C091,Pendiente,Tier 3
+DNV,1,1,D20,C121,Pendiente,Tier 2
+Darktrace,2,2,D01; D13,C007; C089,Pendiente,Tier 2
+DataDome,1,1,D15,C099,Pendiente,Tier 3
+DataGrail,1,1,D11,C079,Pendiente,Tier 3
+DataSunrise,1,1,D05,C034,Pendiente,Tier 3
+Delinea,2,2,D02; D03,C013; C023,Pendiente,Tier 2
+Deloitte,2,3,D16; D20,C103; C119; C120,Pendiente,Tier 1
+Delphix,1,1,D05,C035,Pendiente,Tier 3
+Detectify,1,1,D06,C046,Pendiente,Tier 3
+Didomi,1,1,D11,C078,Pendiente,Tier 3
+DigiCert,2,4,D18; D19,C110; C111; C113; C116,Pendiente,Tier 2
+Diligent,1,1,D10,C074,Pendiente,Tier 2
+Dragos,1,2,D13,C088; C089,Pendiente,Tier 2
+Drata,1,2,D10,C072; C076,Pendiente,Tier 3
+Duality,1,1,D11,C080,Pendiente,Tier 3
+EY,1,1,D20,C119,Pendiente,Tier 1
+EasyDMARC,1,1,D14,C095,Pendiente,Tier 3
+EclecticIQ,1,1,D08,C055,Pendiente,Tier 3
+Elastic,1,1,D07,C047,Pendiente,Tier 2
+Entrust,4,5,D05; D17; D18; D19,C036; C105; C109; C110; C116,Pendiente,Tier 2
+Ermetic,1,1,D04,C028,Pendiente,Tier 3
+Exabeam,1,2,D07,C047; C052,Pendiente,Tier 2
+Exterro,1,1,D07,C053,Pendiente,Tier 3
+ExtraHop,1,1,D01,C007,Pendiente,Tier 2
+F5,1,1,D01,C005,Pendiente,Tier 1
+FairNow,1,1,D12,C085,Pendiente,Tier 3
+Fastly,1,1,D01,C005,Pendiente,Tier 2
+Featurespace,1,1,D15,C097,Pendiente,Tier 3
+Feedzai,1,1,D15,C097,Pendiente,Tier 3
+Feitian,1,1,D17,C108,Pendiente,Tier 3
+Flashpoint,1,2,D08,C056; C058,Pendiente,Tier 2
+Forcepoint,1,1,D05,C031,Pendiente,Tier 2
+Forescout,2,4,D01; D13,C008; C088; C090; C091,Pendiente,Tier 2
+ForgeRock,1,1,D02,C014,Pendiente,Tier 2
+Fortanix,4,5,D05; D11; D17; D18,C036; C037; C080; C105; C109,Pendiente,Tier 3
+Fortinet,2,4,D01; D07,C001; C003; C008; C049,Pendiente,Tier 1
+Fortra,1,1,D05,C033,Pendiente,Tier 2
+Fusion Risk Management,1,1,D10,C075,Pendiente,Tier 3
+Futurex,1,1,D17,C105,Pendiente,Tier 3
+Garak,1,1,D12,C084,Pendiente,Tier 3
+Giskard,1,1,D12,C084,Pendiente,Tier 3
+GitHub,2,3,D06; D12,C040; C043; C087,Pendiente,Tier 1
+GitLab,1,1,D06,C043,Pendiente,Tier 2
+Google,3,3,D07; D12; D18,C049; C081; C112,Pendiente,Tier 1
+Google Cloud,2,2,D05; D06,C037; C044,Pendiente,Tier 1
+Google Security Operations,1,1,D07,C047,Pendiente,Tier 1
+Greenbone,1,1,D09,C063,Pendiente,Tier 3
+Group-IB,1,1,D08,C058,Pendiente,Tier 2
+Gurucul,1,1,D07,C052,Pendiente,Tier 3
+HID Global,1,1,D17,C108,Pendiente,Tier 2
+HPE Aruba,1,2,D01,C003; C008,Pendiente,Tier 1
+HUMAN,1,2,D15,C098; C099,Pendiente,Tier 3
+HYPR,1,1,D02,C016,Pendiente,Tier 3
+HashiCorp,2,3,D02; D18,C017; C109; C112,Pendiente,Tier 2
+HashiCorp Vault,1,1,D06,C044,Pendiente,Tier 2
+Helicone,1,1,D12,C086,Pendiente,Tier 3
+HiddenLayer,1,4,D12,C082; C083; C084; C087,Pendiente,Tier 3
+Holistic AI,1,2,D12,C081; C085,Pendiente,Tier 3
+Horizon3.ai,2,2,D06; D09,C046; C066,Pendiente,Tier 3
+Hugging Face,1,1,D12,C087,Pendiente,Tier 3
+Hunters,1,1,D07,C050,Pendiente,Tier 3
+Hyperproof,1,1,D10,C072,Pendiente,Tier 3
+IBM,9,18,D02; D05; D07; D12; D16; D17; D18; D19; D20,C011; C012; C032; C035; C036; C048; C053; C054; C081; C085; C102; C103; C105; C109; C114; C115; C116; C119,Pendiente,Tier 1
+IBM Guardium,1,1,D05,C034,Pendiente,Tier 1
+IBM OpenPages,1,1,D10,C069,Pendiente,Tier 1
+IBM QRadar,1,1,D07,C047,Pendiente,Tier 1
+IBM X-Force,1,1,D16,C104,Pendiente,Tier 1
+ID Quantique,1,2,D19,C117; C118,Pendiente,Tier 3
+IOActive,1,1,D20,C120,Pendiente,Tier 3
+Illumio,1,1,D01,C010,Pendiente,Tier 2
+Imperva,4,6,D01; D05; D06; D15,C005; C006; C034; C042; C045; C099,Pendiente,Tier 2
+Infineon,1,1,D17,C106,Pendiente,Tier 1
+Infoblox,1,1,D01,C009,Pendiente,Tier 2
+Inpher,1,1,D11,C080,Pendiente,Tier 3
+Intel,2,3,D05; D17,C037; C106; C107,Pendiente,Tier 1
+Intel 471,1,1,D08,C056,Pendiente,Tier 3
+Intezer,1,1,D08,C059,Pendiente,Tier 3
+Intruder,1,1,D06,C046,Pendiente,Tier 3
+Invicti,1,1,D06,C039,Pendiente,Tier 2
+Ivanti,1,2,D03,C022; C024,Pendiente,Tier 2
+JFrog,2,3,D06; D12,C040; C043; C087,Pendiente,Tier 2
+Jamf,1,1,D03,C022,Pendiente,Tier 2
+Joe Sandbox,1,1,D08,C059,Pendiente,Tier 3
+Juniper,1,1,D01,C001,Pendiente,Tier 1
+JupiterOne,1,1,D09,C067,Pendiente,Tier 3
+KELA,1,2,D08,C056; C058,Pendiente,Tier 3
+KPMG,1,1,D20,C119,Pendiente,Tier 1
+Karamba,1,1,D13,C092,Pendiente,Tier 3
+Kasada,1,1,D15,C099,Pendiente,Tier 3
+Ketch,1,1,D11,C078,Pendiente,Tier 3
+Keyfactor,3,7,D02; D18; D19,C017; C110; C111; C113; C114; C115; C116,Pendiente,Tier 3
+Kong,1,1,D12,C086,Pendiente,Tier 3
+Kovrr,1,1,D10,C073,Pendiente,Tier 3
+Kroll,2,3,D16; D20,C104; C120; C122,Pendiente,Tier 2
+Kyndryl,1,1,D16,C103,Pendiente,Tier 2
+Lakera,1,3,D12,C083; C084; C086,Pendiente,Tier 3
+Legit Security,1,1,D06,C041,Pendiente,Tier 3
+LexisNexis,1,1,D15,C097,Pendiente,Tier 2
+LogicGate,1,1,D10,C070,Pendiente,Tier 3
+Lookout,1,1,D03,C022,Pendiente,Tier 3
+LuxQuanta,1,1,D19,C117,Pendiente,Tier 3
+MISP,1,1,D08,C057,Pendiente,Tier 3
+Magnet Forensics,2,2,D07; D20,C053; C122,Pendiente,Tier 3
+Mandiant,3,5,D08; D16; D20,C055; C056; C104; C120; C122,Pendiente,Tier 2
+Material Security,1,1,D14,C094,Pendiente,Tier 3
+Mend.io,1,1,D06,C040,Pendiente,Tier 3
+MetricStream,1,2,D10,C069; C074,Pendiente,Tier 2
+Microsoft,11,29,D02; D03; D04; D05; D07; D09; D12; D13; D14; D17; D18,C011; C012; C014; C015; C016; C018; C019; C020; C021; C022; C024; C025; C027; C028; C030; C031; C036; C037; C049; C052; C061; C063; C081; C088; C090; C093; C096; C107; C112,Pendiente,Tier 1
+Microsoft Defender for Cloud,1,1,D04,C026,Pendiente,Tier 1
+Microsoft Purview,1,1,D05,C033,Pendiente,Tier 1
+Microsoft PyRIT,1,1,D12,C084,Pendiente,Tier 1
+Microsoft Sentinel,1,1,D07,C047,Pendiente,Tier 1
+Mimecast,1,1,D14,C093,Pendiente,Tier 2
+MineOS,1,1,D11,C079,Pendiente,Tier 3
+ModelOp,1,2,D12,C081; C085,Pendiente,Tier 3
+NCC Group,2,2,D16; D20,C104; C120,Pendiente,Tier 2
+NICE Actimize,1,1,D15,C097,Pendiente,Tier 2
+NTT DATA,1,1,D16,C102,Pendiente,Tier 1
+Netscout,1,1,D01,C006,Pendiente,Tier 2
+Netskope,3,4,D01; D05; D14,C002; C004; C031; C096,Pendiente,Tier 2
+Nitrokey,1,1,D17,C108,Pendiente,Tier 3
+Noetic Cyber,1,1,D09,C067,Pendiente,Tier 3
+Noname Security,1,1,D06,C042,Pendiente,Tier 3
+Nozomi Networks,1,2,D13,C088; C089,Pendiente,Tier 3
+Nucleus Security,1,1,D09,C064,Pendiente,Tier 3
+Nuvoton,1,1,D17,C106,Pendiente,Tier 3
+Okta,1,3,D02,C011; C016; C018,Pendiente,Tier 1
+Okta Auth0,1,1,D02,C014,Pendiente,Tier 1
+Omada,1,1,D02,C012,Pendiente,Tier 3
+One Identity,1,2,D02,C012; C013,Pendiente,Tier 2
+OneTrust,3,7,D10; D11; D12,C069; C070; C071; C077; C078; C079; C085,Pendiente,Tier 2
+OpenCTI,1,2,D08,C055; C057,Pendiente,Tier 3
+OpenText,1,1,D06,C045,Pendiente,Tier 2
+OpenText EnCase,1,1,D07,C053,Pendiente,Tier 2
+OpenText Fortify,1,2,D06,C038; C039,Pendiente,Tier 2
+Oracle,2,2,D02; D05,C011; C034,Pendiente,Tier 1
+Orange Cyberdefense,1,2,D16,C102; C103,Pendiente,Tier 2
+Orca Security,1,2,D04,C025; C026,Pendiente,Tier 3
+Ordr,1,1,D13,C091,Pendiente,Tier 3
+Palo Alto Cortex XSOAR,1,1,D07,C048,Pendiente,Tier 1
+Palo Alto Networks,8,19,D01; D03; D04; D05; D07; D09; D12; D13,C001; C002; C003; C004; C009; C020; C021; C025; C027; C028; C029; C030; C032; C049; C054; C061; C082; C083; C090,Pendiente,Tier 1
+Panther,1,1,D07,C050,Pendiente,Tier 3
+Pentera,2,3,D06; D09,C046; C065; C066,Pendiente,Tier 3
+Phosphorus,1,1,D13,C090,Pendiente,Tier 3
+Picus,1,3,D09,C062; C065; C066,Pendiente,Tier 3
+Ping Identity,1,2,D02,C011; C014,Pendiente,Tier 2
+Portkey,1,1,D12,C086,Pendiente,Tier 3
+Portnox,1,1,D01,C008,Pendiente,Tier 3
+PowerDMARC,1,1,D14,C095,Pendiente,Tier 3
+Prisma Cloud,1,1,D04,C026,Pendiente,Tier 1
+Privitar,1,1,D11,C080,Pendiente,Tier 3
+ProcessUnity,1,1,D10,C071,Pendiente,Tier 3
+Proofpoint,4,6,D05; D08; D14; D15,C031; C060; C093; C095; C096; C100,Pendiente,Tier 2
+Protect AI,1,5,D12,C082; C083; C084; C086; C087,Pendiente,Tier 3
+Protegrity,2,3,D05; D11,C035; C036; C080,Pendiente,Tier 3
+PwC,1,1,D20,C119,Pendiente,Tier 1
+QNu Labs,1,1,D19,C117,Pendiente,Tier 3
+Qualys,1,3,D09,C062; C063; C064,Pendiente,Tier 2
+Quantum Dice,1,1,D19,C118,Pendiente,Tier 3
+Quantum Xchange,1,2,D19,C115; C117,Pendiente,Tier 3
+QuintessenceLabs,1,1,D19,C118,Pendiente,Tier 3
+Quside,1,1,D19,C118,Pendiente,Tier 3
+RSA,1,1,D02,C018,Pendiente,Tier 2
+Radware,1,2,D01,C005; C006,Pendiente,Tier 2
+Rapid7,3,7,D06; D09; D16,C039; C046; C061; C062; C063; C064; C101,Pendiente,Tier 2
+Recorded Future,1,5,D08,C055; C056; C058; C059; C060,Pendiente,Tier 2
+Red Hat,1,1,D04,C029,Pendiente,Tier 1
+Red Points,2,2,D08; D15,C060; C100,Pendiente,Tier 3
+Red Sift,1,1,D14,C095,Pendiente,Tier 3
+ReliaQuest,1,1,D16,C101,Pendiente,Tier 2
+ReversingLabs,1,1,D08,C059,Pendiente,Tier 3
+RiskLens,1,1,D10,C073,Pendiente,Tier 3
+RiskRecon,1,1,D09,C068,Pendiente,Tier 3
+Riskonnect,1,1,D10,C075,Pendiente,Tier 3
+Robust Intelligence,1,1,D12,C082,Pendiente,Tier 3
+SAP,2,2,D02; D10,C014; C069,Pendiente,Tier 1
+SAS,1,1,D15,C097,Pendiente,Tier 2
+SGS,1,1,D20,C121,Pendiente,Tier 2
+SOC Prime,1,1,D07,C050,Pendiente,Tier 3
+SOCRadar,1,1,D08,C058,Pendiente,Tier 3
+STMicroelectronics,1,1,D17,C106,Pendiente,Tier 1
+Safe Security,1,1,D10,C073,Pendiente,Tier 3
+SafeBreach,1,2,D09,C065; C066,Pendiente,Tier 3
+SailPoint,1,1,D02,C012,Pendiente,Tier 2
+Salt Security,1,1,D06,C042,Pendiente,Tier 3
+SandboxAQ,2,3,D18; D19,C114; C115; C116,Pendiente,Tier 3
+Saviynt,1,1,D02,C012,Pendiente,Tier 3
+Scytale,1,1,D10,C076,Pendiente,Tier 3
+Sectigo,1,3,D18,C110; C111; C113,Pendiente,Tier 3
+Secureframe,1,2,D10,C072; C076,Pendiente,Tier 3
+Secureworks,1,1,D16,C101,Pendiente,Tier 2
+Securiti,1,2,D11,C077; C079,Pendiente,Tier 3
+SecurityScorecard,2,2,D09; D10,C068; C071,Pendiente,Tier 2
+Securonix,1,1,D07,C052,Pendiente,Tier 2
+Semperis,1,1,D02,C015,Pendiente,Tier 3
+SentinelOne,2,4,D03; D04,C019; C020; C021; C030,Pendiente,Tier 2
+ServiceNow,2,6,D07; D10,C054; C069; C070; C071; C074; C075,Pendiente,Tier 1
+Shuffle,1,1,D07,C051,Pendiente,Tier 3
+Sift,1,1,D15,C098,Pendiente,Tier 3
+SignPath,1,1,D18,C113,Pendiente,Tier 3
+Silverfort,1,1,D02,C015,Pendiente,Tier 3
+Skyhigh Security,1,1,D01,C002,Pendiente,Tier 2
+Snyk,2,5,D04; D06,C029; C038; C040; C041; C043,Pendiente,Tier 2
+Sonar,1,1,D06,C038,Pendiente,Tier 3
+Sonatype,1,2,D06,C040; C043,Pendiente,Tier 2
+Sonrai Security,1,1,D04,C028,Pendiente,Tier 3
+Sophos,3,4,D01; D03; D16,C001; C019; C020; C101,Pendiente,Tier 1
+Spin.AI,1,1,D14,C096,Pendiente,Tier 3
+Spirion,1,1,D05,C033,Pendiente,Tier 3
+Splunk,1,2,D07,C047; C052,Pendiente,Tier 1
+Splunk SOAR,1,1,D07,C048,Pendiente,Tier 1
+Sprinto,1,1,D10,C076,Pendiente,Tier 3
+Sublime Security,1,1,D14,C094,Pendiente,Tier 3
+Swimlane,1,3,D07,C048; C051; C054,Pendiente,Tier 3
+Synopsys,1,3,D06,C038; C039; C040,Pendiente,Tier 2
+Sysdig,1,2,D04,C027; C029,Pendiente,Tier 3
+TeamMate,1,1,D10,C074,Pendiente,Tier 3
+Telefónica Tech,1,1,D16,C102,Pendiente,Tier 1
+Tenable,2,5,D02; D09,C015; C061; C062; C063; C064,Pendiente,Tier 2
+Thales,5,10,D02; D05; D17; D18; D19,C018; C034; C035; C036; C105; C108; C109; C114; C115; C116,Pendiente,Tier 2
+TheHive,1,1,D07,C054,Pendiente,Tier 3
+Thoropass,1,1,D10,C072,Pendiente,Tier 3
+ThreatConnect,1,1,D08,C055,Pendiente,Tier 3
+ThreatLocker,1,2,D03,C023; C024,Pendiente,Tier 3
+Tines,1,2,D07,C048; C051,Pendiente,Tier 3
+Torq,1,2,D07,C048; C051,Pendiente,Tier 3
+Toshiba,1,1,D19,C117,Pendiente,Tier 1
+Traceable,1,1,D06,C042,Pendiente,Tier 3
+Transcend,1,2,D11,C077; C079,Pendiente,Tier 3
+Transmit Security,1,1,D15,C098,Pendiente,Tier 3
+Trellix,2,2,D03; D05,C019; C031,Pendiente,Tier 2
+Trend Micro,2,3,D03; D04,C019; C021; C027,Pendiente,Tier 1
+TrustArc,1,2,D11,C077; C078,Pendiente,Tier 2
+TÜV,1,1,D20,C121,Pendiente,Tier 2
+Unit 42,1,1,D16,C104,Pendiente,Tier 1
+UpGuard,2,2,D09; D10,C068; C071,Pendiente,Tier 3
+Upstream Security,1,1,D13,C092,Pendiente,Tier 3
+Usercentrics,1,1,D11,C078,Pendiente,Tier 3
+Utimaco,1,1,D17,C105,Pendiente,Tier 3
+VMware,1,1,D01,C010,Pendiente,Tier 1
+VMware Carbon Black,1,1,D03,C024,Pendiente,Tier 1
+Vade,1,1,D14,C094,Pendiente,Tier 3
+Valimail,1,1,D14,C095,Pendiente,Tier 3
+Vanta,1,2,D10,C072; C076,Pendiente,Tier 3
+Varonis,2,3,D02; D05,C015; C032; C033,Pendiente,Tier 2
+Vectra AI,1,1,D01,C007,Pendiente,Tier 2
+Venafi,2,4,D02; D18,C017; C110; C111; C113,Pendiente,Tier 2
+Veracode,1,3,D06,C038; C039; C045,Pendiente,Tier 2
+Versa,1,1,D01,C003,Pendiente,Tier 3
+VicOne,1,1,D13,C092,Pendiente,Tier 3
+VirusTotal,1,1,D08,C059,Pendiente,Tier 1
+Vulcan Cyber,1,1,D09,C064,Pendiente,Tier 3
+WALLIX,1,1,D02,C013,Pendiente,Tier 3
+Wiz,3,5,D04; D05; D12,C025; C026; C030; C032; C082,Pendiente,Tier 2
+XM Cyber,1,1,D09,C062,Pendiente,Tier 3
+Yubico,2,2,D02; D17,C016; C108,Pendiente,Tier 2
+ZeroFox,2,2,D08; D15,C060; C100,Pendiente,Tier 3
+Zimperium,1,1,D03,C022,Pendiente,Tier 3
+Zscaler,1,2,D01,C002; C004,Pendiente,Tier 1
+comforte,1,1,D05,C035,Pendiente,Tier 3
+runZero,1,1,D09,C067,Pendiente,Tier 3
