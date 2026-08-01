@@ -222,8 +222,42 @@
         '<th>Cats</th><th>Doms</th><th>P.Alta</th><th>Datos</th><th>Score</th>' +
         '</tr></thead>' +
         '<tbody>' + rows + '</tbody>' +
-        '</table></div></div>';
+        '</table></div></div>' +
+        '<details style="margin-top:16px;color:var(--text-secondary);font-size:0.85rem;">' +
+        '<summary style="cursor:pointer;color:var(--accent);font-weight:600;">Como se calcula el score</summary>' +
+        '<div style="padding:12px 0;line-height:1.7;">' +
+        '<p><strong>Formula:</strong> Score = (Sum de dimensiones normalizadas x peso) / Sum de pesos x 100</p>' +
+        '<p>Cada dimension se normaliza 0-1 respecto al maximo del grupo filtrado:</p>' +
+        '<ul style="padding-left:20px;">' +
+        '<li><strong>Categorias:</strong> productos del proveedor / max del grupo</li>' +
+        '<li><strong>Dominios:</strong> dominios cubiertos / max del grupo</li>' +
+        '<li><strong>Prioridad Alta:</strong> categorias alta prioridad / max del grupo</li>' +
+        '<li><strong>Nicho:</strong> 1 - (competidores / max competidores). Menos competidores = mayor score</li>' +
+        '<li><strong>Amplitud proveedor:</strong> total categorias del proveedor / max del grupo</li>' +
+        '<li><strong>Confianza:</strong> capacidades evaluadas / 20 (maximo)</li>' +
+        '</ul>' +
+        '<p>Filtros eliminatorios descartan productos que no cumplen requisitos obligatorios (despliegue, dominio, categoria, cobertura minima).</p>' +
+        '</div></details>';
     }
+
+    function applyPreset(name) {
+      const presets = {
+        'ciso-siem': { cats: 8, doms: 5, priority: 9, niche: 1, provider: 4, confidence: 7 },
+        'startup-iam': { cats: 3, doms: 2, priority: 6, niche: 5, provider: 2, confidence: 4 },
+        'ot-industrial': { cats: 4, doms: 3, priority: 7, niche: 8, provider: 3, confidence: 6 }
+      };
+      const p = presets[name];
+      if (!p) return;
+      Object.entries(p).forEach(([k, v]) => {
+        const slider = document.getElementById('w-' + k);
+        const valEl = document.getElementById('wv-' + k);
+        if (slider) { slider.value = v; }
+        if (valEl) { valEl.textContent = v; }
+      });
+      render();
+    }
+    // Expose for inline onclick
+    window.applyPreset = applyPreset;
 
     function exportRanking() {
       const data = window._rankingExport || [];

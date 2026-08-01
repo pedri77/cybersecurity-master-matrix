@@ -171,10 +171,12 @@ function renderNav(activePage) {
     { href: 'providers.html', label: 'Proveedores', id: 'providers' },
     { href: 'products.html', label: 'Productos', id: 'products' },
     { href: 'compare.html', label: 'Comparar', id: 'compare' },
-    { href: 'ranking.html', label: 'Ranking', id: 'ranking' }
+    { href: 'ranking.html', label: 'Ranking', id: 'ranking' },
+    { href: 'methodology.html', label: 'Metodologia', id: 'methodology' }
   ];
 
   return `
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
     <nav class="nav">
       <div class="container">
         <a href="index.html" class="nav-brand">
@@ -283,14 +285,43 @@ function initGlobalSearch() {
       return;
     }
 
-    results.innerHTML = hits.map(h =>
-      '<a class="gs-item" href="' + h.href + '">' +
+    results.innerHTML = hits.map((h, i) =>
+      '<a class="gs-item" href="' + h.href + '" role="option" data-idx="' + i + '">' +
       '<span class="gs-type">' + h.type + '</span>' +
       '<span class="gs-label">' + esc(h.label) + '</span>' +
       '<span class="gs-sub">' + esc(h.sub) + '</span>' +
       '</a>'
     ).join('');
+    results.setAttribute('role', 'listbox');
     results.style.display = 'block';
+    _gsIndex = -1;
+  });
+
+  // Keyboard nav: arrows + enter
+  let _gsIndex = -1;
+  input.addEventListener('keydown', (e) => {
+    const items = results.querySelectorAll('.gs-item');
+    if (!items.length || results.style.display === 'none') {
+      if (e.key === 'Escape') { results.style.display = 'none'; input.blur(); }
+      return;
+    }
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      _gsIndex = Math.min(_gsIndex + 1, items.length - 1);
+      items.forEach((el, i) => el.classList.toggle('gs-active', i === _gsIndex));
+      items[_gsIndex].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      _gsIndex = Math.max(_gsIndex - 1, 0);
+      items.forEach((el, i) => el.classList.toggle('gs-active', i === _gsIndex));
+      items[_gsIndex].scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && _gsIndex >= 0) {
+      e.preventDefault();
+      items[_gsIndex].click();
+    } else if (e.key === 'Escape') {
+      results.style.display = 'none';
+      input.blur();
+    }
   });
 
   // Close on click outside
@@ -298,11 +329,6 @@ function initGlobalSearch() {
     if (!e.target.closest('.nav-search-wrapper')) {
       results.style.display = 'none';
     }
-  });
-
-  // Close on Escape
-  input.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') { results.style.display = 'none'; input.blur(); }
   });
 }
 

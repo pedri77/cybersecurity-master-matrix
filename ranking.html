@@ -18,7 +18,7 @@
 <body>
   <div id="nav-slot"></div>
 
-  <main class="page-content">
+  <main class="page-content" id="main-content">
     <div class="container">
 
       <section class="hero">
@@ -72,38 +72,47 @@
         <div class="ranking-weights">
           <h3>Pesos de evaluacion</h3>
 
+          <div style="margin-bottom:14px;">
+            <label style="font-size:0.82rem;color:var(--text-secondary);display:block;margin-bottom:8px;">Presets</label>
+            <div style="display:flex;gap:6px;flex-wrap:wrap;">
+              <button class="btn" style="font-size:0.78rem;padding:4px 12px;" onclick="applyPreset('ciso-siem')">CISO: SIEM/SOC</button>
+              <button class="btn" style="font-size:0.78rem;padding:4px 12px;" onclick="applyPreset('startup-iam')">Startup: IAM</button>
+              <button class="btn" style="font-size:0.78rem;padding:4px 12px;" onclick="applyPreset('ot-industrial')">OT/Industrial</button>
+            </div>
+          </div>
+
           <div class="weight-row">
-            <label>Cobertura de categorias</label>
+            <label title="Cuantas categorias tecnologicas cubre el producto. Mas categorias = solucion mas completa.">Cobertura de categorias</label>
             <input type="range" id="w-cats" min="0" max="10" value="5">
             <span class="weight-val" id="wv-cats">5</span>
           </div>
 
           <div class="weight-row">
-            <label>Cobertura de dominios</label>
+            <label title="En cuantos dominios de seguridad opera el proveedor (red, identidad, cloud, etc.).">Cobertura de dominios</label>
             <input type="range" id="w-doms" min="0" max="10" value="3">
             <span class="weight-val" id="wv-doms">3</span>
           </div>
 
           <div class="weight-row">
-            <label>Prioridad alta (categorias)</label>
+            <label title="Cuantas categorias de prioridad Alta cubre. Alta = evaluadas por Gartner MQ o Market Guide.">Prioridad alta (categorias)</label>
             <input type="range" id="w-priority" min="0" max="10" value="5">
             <span class="weight-val" id="wv-priority">5</span>
           </div>
 
           <div class="weight-row">
-            <label>Competidores (menos = mas nicho)</label>
+            <label title="Menos competidores directos = producto mas especializado/nicho. Invertido: menor competencia = mayor score.">Competidores (menos = mas nicho)</label>
             <input type="range" id="w-niche" min="0" max="10" value="2">
             <span class="weight-val" id="wv-niche">2</span>
           </div>
 
           <div class="weight-row">
-            <label>Amplitud del proveedor</label>
+            <label title="Total de categorias del proveedor (no solo este producto). Mide la amplitud del ecosistema del fabricante.">Amplitud del proveedor</label>
             <input type="range" id="w-provider" min="0" max="10" value="3">
             <span class="weight-val" id="wv-provider">3</span>
           </div>
 
           <div class="weight-row">
-            <label>Confianza (datos evaluados)</label>
+            <label title="Cuantas de las 20 capacidades de evaluacion tienen datos verificados. Mas datos = mayor confianza en la evaluacion.">Confianza (datos evaluados)</label>
             <input type="range" id="w-confidence" min="0" max="10" value="4">
             <span class="weight-val" id="wv-confidence">4</span>
           </div>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Metodologia, criterios de evaluacion y fuentes de la Matriz Maestra Global de Ciberseguridad.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CyberMatrix">
+  <meta property="og:url" content="https://pedri77.github.io/cybersecurity-master-matrix/methodology.html">
+  <meta property="og:title" content="Metodologia — CyberMatrix">
+  <meta property="og:description" content="Metodologia, criterios de evaluacion y fuentes de datos">
+  <link rel="canonical" href="https://pedri77.github.io/cybersecurity-master-matrix/methodology.html">
+  <title>Metodologia — CyberMatrix</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div id="nav-slot"></div>
+
+  <main class="page-content" id="main-content">
+    <div class="container">
+
+      <section class="hero">
+        <div class="eyebrow">Metodologia</div>
+        <h1>Como evaluamos</h1>
+        <p>Criterios, fuentes y limitaciones de la Matriz Maestra Global de Ciberseguridad.</p>
+      </section>
+
+      <div class="detail-layout">
+        <div class="detail-main">
+
+          <div class="detail-section">
+            <h2>Taxonomia</h2>
+            <p>La matriz organiza el mercado de ciberseguridad en una jerarquia de 4 niveles:</p>
+            <dl class="kv-list" style="margin-top:12px;">
+              <dt>Dominios (20)</dt>
+              <dd>Areas estrategicas de ciberseguridad (Network Security, Identity, Cloud, OT/IoT, AI Security, etc.). Basados en la clasificacion de Gartner, NIST y ENISA.</dd>
+              <dt>Categorias (122)</dt>
+              <dd>Tecnologias especificas dentro de cada dominio (NGFW, SIEM, EDR, CNAPP, PAM, HSM, etc.). Cada categoria tiene un tipo de analisis (Magic Quadrant, Market Guide) y una prioridad (Alta, Media).</dd>
+              <dt>Proveedores (371)</dt>
+              <dd>Fabricantes y proveedores de servicios mapeados a las categorias donde compiten. Clasificados en Tier 1 (lider, >$1B revenue), Tier 2 (challenger, $100M-$1B), Tier 3 (nicho/emergente).</dd>
+              <dt>Productos (540+)</dt>
+              <dd>Productos concretos con modelo de despliegue, ediciones y URL oficial. Cada producto se evalua contra 20 capacidades.</dd>
+            </dl>
+          </div>
+
+          <div class="detail-section">
+            <h2>Capacidades de evaluacion (20)</h2>
+            <p>Cada producto se evalua en 20 dimensiones agrupadas en 7 areas:</p>
+            <div id="caps-table"></div>
+          </div>
+
+          <div class="detail-section">
+            <h2>Clasificacion por Tier</h2>
+            <dl class="kv-list" style="margin-top:12px;">
+              <dt>Tier 1</dt>
+              <dd>Lider de mercado. Revenue >$1B en seguridad, o lider en Gartner Magic Quadrant, o posicion dominante. Ejemplos: Palo Alto Networks, CrowdStrike, Microsoft, Cisco.</dd>
+              <dt>Tier 2</dt>
+              <dd>Challenger establecido. Revenue $100M-$1B, o Challenger/Visionario en Gartner, o presencia fuerte en multiples categorias. Ejemplos: SentinelOne, Tenable, Netskope.</dd>
+              <dt>Tier 3</dt>
+              <dd>Nicho o emergente. Revenue <$100M, startup, proyecto open source, o altamente especializado. Ejemplos: Lakera, Pentera, MISP, CounterCraft.</dd>
+            </dl>
+          </div>
+
+          <div class="detail-section">
+            <h2>Definiciones clave</h2>
+            <dl class="kv-list" style="margin-top:12px;">
+              <dt>Prioridad Alta</dt>
+              <dd>Categoria evaluada por Gartner via Magic Quadrant o Market Guide. Representa las tecnologias de mayor impacto estrategico.</dd>
+              <dt>Prioridad Media</dt>
+              <dd>Categoria relevante pero sin evaluacion formal de analista. Tecnologias establecidas o emergentes.</dd>
+              <dt>Madurez Consolidado</dt>
+              <dd>Mercado estable con lideres claros y adopcion amplia.</dd>
+              <dt>Madurez Crecimiento</dt>
+              <dd>Mercado en expansion con nuevos entrantes y consolidacion activa.</dd>
+              <dt>Madurez Emergente</dt>
+              <dd>Mercado nuevo con definiciones de categoria aun en evolucion.</dd>
+              <dt>Estado Pendiente</dt>
+              <dd>Datos no verificados independientemente. Basados en documentacion publica del fabricante.</dd>
+              <dt>Estado Validado</dt>
+              <dd>Datos verificados contra fuentes independientes (MITRE, NIST CMVP, Common Criteria, documentacion oficial).</dd>
+            </dl>
+          </div>
+
+          <div class="detail-section">
+            <h2>Fuentes de datos</h2>
+            <div id="sources-table"></div>
+          </div>
+
+          <div class="detail-section">
+            <h2>Validacion independiente</h2>
+            <p>Para productos que participan en evaluaciones independientes, incluimos fuentes de terceros:</p>
+            <dl class="kv-list" style="margin-top:12px;">
+              <dt>MITRE ATT&CK Evaluations</dt>
+              <dd>Evaluaciones de productos EDR/XDR contra tecnicas reales de adversarios. 9 productos evaluados.</dd>
+              <dt>FIPS 140-2/3 (NIST CMVP)</dt>
+              <dd>Certificacion criptografica para modulos de seguridad. 9 productos con certificacion verificada.</dd>
+              <dt>Common Criteria (EAL4+)</dt>
+              <dd>Certificacion de seguridad internacional. 7 productos con certificacion verificada.</dd>
+            </dl>
+          </div>
+
+          <div class="detail-section">
+            <h2>Limitaciones</h2>
+            <ul style="color:var(--text-secondary);line-height:1.8;padding-left:20px;">
+              <li>Los datos de capacidades son orientativos y estan pendientes de validacion independiente para la mayoria de productos.</li>
+              <li>No incluimos datos de satisfaccion de usuario, reviews ni analyst briefings.</li>
+              <li>Los precios son publicos solo cuando el fabricante los publica; el resto aparece como "Contact sales".</li>
+              <li>La clasificacion por Tier se basa en estimaciones publicas de revenue y posicion en informes de analistas.</li>
+              <li>No tenemos relacion comercial con ningun proveedor listado.</li>
+              <li>Los datos se actualizan periodicamente pero pueden no reflejar cambios recientes en productos o adquisiciones.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <aside class="detail-sidebar">
+          <div class="sidebar-card">
+            <h3>Numeros</h3>
+            <div id="method-stats"></div>
+          </div>
+          <div class="sidebar-card">
+            <h3>Ultima actualizacion</h3>
+            <p id="last-updated" style="font-size:0.95rem;"></p>
+          </div>
+          <div class="sidebar-card">
+            <h3>Contribuir</h3>
+            <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:12px;">Los datos son abiertos. Puedes corregir errores o anadir proveedores via GitHub.</p>
+            <a href="https://github.com/pedri77/cybersecurity-master-matrix/blob/main/CONTRIBUTING.md" class="btn" style="display:block;text-align:center;padding:10px;font-size:0.85rem;border:1px solid var(--accent);border-radius:var(--radius-sm);color:var(--accent);">Ver guia de contribucion</a>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+
+  <script src="assets/data.js"></script>
+  <script>
+    async function init() {
+      try {
+        const db = await loadDB();
+        document.getElementById('nav-slot').innerHTML = renderNav('methodology');
+        document.getElementById('footer-slot').innerHTML = renderFooter();
+
+        // Stats sidebar
+        const m = db.meta;
+        document.getElementById('method-stats').innerHTML =
+          '<div class="sidebar-row"><span>Dominios</span><strong>' + m.domains + '</strong></div>' +
+          '<div class="sidebar-row"><span>Categorias</span><strong>' + m.categories + '</strong></div>' +
+          '<div class="sidebar-row"><span>Proveedores</span><strong>' + m.providers + '</strong></div>' +
+          '<div class="sidebar-row"><span>Productos</span><strong>' + m.unique_products + '</strong></div>' +
+          '<div class="sidebar-row"><span>Capacidades evaluadas</span><strong>' + m.products_with_capabilities + '</strong></div>' +
+          '<div class="sidebar-row"><span>Fuentes de evidencia</span><strong>' + m.product_sources + '</strong></div>';
+
+        document.getElementById('last-updated').textContent = '1 agosto 2026';
+
+        // Capabilities table
+        var caps = db.capabilities || [];
+        document.getElementById('caps-table').innerHTML =
+          '<div class="panel"><div class="table-wrapper"><table>' +
+          '<thead><tr><th>Dimension</th><th>Capacidad</th><th>Valores posibles</th></tr></thead>' +
+          '<tbody>' + caps.map(function(c) {
+            return '<tr><td><strong>' + esc(c['Dimensión']) + '</strong></td>' +
+              '<td>' + esc(c.Capacidad) + '</td>' +
+              '<td style="color:var(--text-secondary);font-size:0.85rem;">' + esc(c['Criterios / valores posibles']) + '</td></tr>';
+          }).join('') + '</tbody></table></div></div>';
+
+        // Sources table
+        var sources = db.sources || [];
+        if (sources.length) {
+          document.getElementById('sources-table').innerHTML =
+            '<div class="panel"><div class="table-wrapper"><table>' +
+            '<thead><tr><th>Tipo</th><th>Organizacion</th><th>Uso</th></tr></thead>' +
+            '<tbody>' + sources.map(function(s) {
+              return '<tr><td><strong>' + esc(s['Tipo de fuente']) + '</strong></td>' +
+                '<td>' + (s.URL ? '<a href="' + esc(s.URL) + '" target="_blank" rel="noopener">' + esc(s['Organización']) + '</a>' : esc(s['Organización'])) + '</td>' +
+                '<td style="color:var(--text-secondary);font-size:0.85rem;">' + esc(s['Uso recomendado']) + '</td></tr>';
+            }).join('') + '</tbody></table></div></div>';
+        }
+      } catch (err) {
+        console.error('Init error:', err);
+      }
+    }
+    init();
+  </script>
+</body>
+</html>
