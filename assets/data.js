@@ -1,10 +1,71 @@
 /**
  * data.js — Shared data loader and utilities
- * Used by all pages in the Cybersecurity Master Matrix v0.5.1
+ * Used by all pages in the Cybersecurity Master Matrix
  */
 
 // Singleton DB cache
 let _db = null;
+
+// --- i18n ---
+const _i18n = {
+  es: {
+    home: 'Inicio', domains: 'Dominios', categories: 'Categorias',
+    providers: 'Proveedores', products: 'Productos', compare: 'Comparar',
+    ranking: 'Ranking', matrix: 'Matrix', methodology: 'Metodologia',
+    search_placeholder: 'Buscar...', skip_content: 'Saltar al contenido',
+    footer_version: 'Cybersecurity Master Matrix v1.0',
+    footer_data: 'Datos en', footer_and: 'y',
+    footer_disclaimer: 'Los datos de esta matriz son orientativos y estan pendientes de validacion independiente. No sustituyen la evaluacion directa de cada producto.',
+    footer_contribute: 'Contribuir con correcciones',
+    all_domains: 'Todos los dominios', all_priorities: 'Todas las prioridades',
+    all_tiers: 'Todos los tiers', all_deploys: 'Todos los despliegues',
+    no_results: 'No hay resultados.', loading: 'Cargando...',
+    product_not_found: 'Producto no encontrado.',
+    provider_not_found: 'Proveedor no encontrado.',
+    category_not_found: 'Categoria no encontrada.',
+    domain_not_found: 'Dominio no encontrado.',
+    see_all: 'Ver todos', error: 'Error',
+    understood: 'Entendido', copy_link: 'Copiar enlace', copied: 'Copiado',
+    export_csv: 'Exportar CSV', clear: 'Limpiar', back_to_top: 'Volver arriba'
+  },
+  en: {
+    home: 'Home', domains: 'Domains', categories: 'Categories',
+    providers: 'Providers', products: 'Products', compare: 'Compare',
+    ranking: 'Ranking', matrix: 'Matrix', methodology: 'Methodology',
+    search_placeholder: 'Search...', skip_content: 'Skip to content',
+    footer_version: 'Cybersecurity Master Matrix v1.0',
+    footer_data: 'Data in', footer_and: 'and',
+    footer_disclaimer: 'The data in this matrix is indicative and pending independent validation. It does not replace direct product evaluation.',
+    footer_contribute: 'Contribute corrections',
+    all_domains: 'All domains', all_priorities: 'All priorities',
+    all_tiers: 'All tiers', all_deploys: 'All deployments',
+    no_results: 'No results.', loading: 'Loading...',
+    product_not_found: 'Product not found.',
+    provider_not_found: 'Provider not found.',
+    category_not_found: 'Category not found.',
+    domain_not_found: 'Domain not found.',
+    see_all: 'See all', error: 'Error',
+    understood: 'Got it', copy_link: 'Copy link', copied: 'Copied',
+    export_csv: 'Export CSV', clear: 'Clear', back_to_top: 'Back to top'
+  }
+};
+
+/** Get current language */
+function getLang() {
+  return localStorage.getItem('cybermatrix-lang') || 'es';
+}
+
+/** Set language */
+function setLang(lang) {
+  localStorage.setItem('cybermatrix-lang', lang);
+  location.reload();
+}
+
+/** Get translated string */
+function t(key) {
+  const lang = getLang();
+  return (_i18n[lang] && _i18n[lang][key]) || (_i18n.es[key]) || key;
+}
 
 /**
  * Load matrix.json (cached after first call)
@@ -156,7 +217,7 @@ function getProductDetails(db, providerName, productName) {
 
 /** Build domain select options */
 function fillDomainSelect(db, selectEl) {
-  selectEl.innerHTML = '<option value="">Todos los dominios</option>' +
+  selectEl.innerHTML = '<option value="">' + t('all_domains') + '</option>' +
     db.domains.map(d => `<option value="${esc(d.ID)}">${esc(d.Dominio)}</option>`).join('');
 }
 
@@ -165,26 +226,29 @@ function fillDomainSelect(db, selectEl) {
 /** Render shared nav bar */
 function renderNav(activePage) {
   const pages = [
-    { href: 'index.html', label: 'Inicio', id: 'home' },
-    { href: 'matrix.html', label: 'Matrix', id: 'matrix' },
-    { href: 'domains.html', label: 'Dominios', id: 'domains' },
-    { href: 'categories.html', label: 'Categorias', id: 'categories' },
-    { href: 'providers.html', label: 'Proveedores', id: 'providers' },
-    { href: 'products.html', label: 'Productos', id: 'products' },
-    { href: 'compare.html', label: 'Comparar', id: 'compare' },
-    { href: 'ranking.html', label: 'Ranking', id: 'ranking' },
-    { href: 'methodology.html', label: 'Metodologia', id: 'methodology' }
+    { href: 'index.html', label: t('home'), id: 'home' },
+    { href: 'matrix.html', label: t('matrix'), id: 'matrix' },
+    { href: 'domains.html', label: t('domains'), id: 'domains' },
+    { href: 'categories.html', label: t('categories'), id: 'categories' },
+    { href: 'providers.html', label: t('providers'), id: 'providers' },
+    { href: 'products.html', label: t('products'), id: 'products' },
+    { href: 'compare.html', label: t('compare'), id: 'compare' },
+    { href: 'ranking.html', label: t('ranking'), id: 'ranking' },
+    { href: 'methodology.html', label: t('methodology'), id: 'methodology' }
   ];
 
+  const otherLang = getLang() === 'es' ? 'en' : 'es';
+  const langLabel = otherLang.toUpperCase();
+
   return `
-    <a href="#main-content" class="skip-link">Saltar al contenido</a>
+    <a href="#main-content" class="skip-link">${t('skip_content')}</a>
     <nav class="nav">
       <div class="container">
         <a href="index.html" class="nav-brand">
           <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> CyberMatrix
         </a>
         <div class="nav-search-wrapper">
-          <input type="search" id="global-search" class="nav-search" placeholder="Buscar..." autocomplete="off">
+          <input type="search" id="global-search" class="nav-search" placeholder="${t('search_placeholder')}" autocomplete="off">
           <div id="global-search-results" class="global-search-results"></div>
         </div>
         <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">&#9776;</button>
@@ -192,6 +256,7 @@ function renderNav(activePage) {
           ${pages.map(p =>
             `<a href="${p.href}" class="${activePage === p.id ? 'active' : ''}">${p.label}</a>`
           ).join('')}
+          <button class="lang-toggle" onclick="setLang('${otherLang}')" title="Switch to ${langLabel}">${langLabel}</button>
         </div>
       </div>
     </nav>`;
@@ -202,14 +267,14 @@ function renderFooter() {
   return `
     <footer class="footer">
       <div class="container">
-        <div class="footer-disclaimer">Los datos de esta matriz son orientativos y estan pendientes de validacion independiente. No sustituyen la evaluacion directa de cada producto. <a href="https://github.com/pedri77/cybersecurity-master-matrix/blob/main/CONTRIBUTING.md">Contribuir con correcciones</a>.</div>
+        <div class="footer-disclaimer">${t('footer_disclaimer')} <a href="https://github.com/pedri77/cybersecurity-master-matrix/blob/main/CONTRIBUTING.md">${t('footer_contribute')}</a>.</div>
         <div class="footer-bottom">
-          <span>Cybersecurity Master Matrix v1.0</span>
-          <span>Datos en <a href="data/matrix.json">JSON</a> y <a href="data/">CSV</a> · <a href="https://github.com/pedri77/cybersecurity-master-matrix">GitHub</a></span>
+          <span>${t('footer_version')}</span>
+          <span>${t('footer_data')} <a href="data/matrix.json">JSON</a> ${t('footer_and')} <a href="data/">CSV</a> · <a href="https://github.com/pedri77/cybersecurity-master-matrix">GitHub</a></span>
         </div>
       </div>
     </footer>
-    <button class="back-to-top" id="btt" onclick="window.scrollTo({top:0})" aria-label="Volver arriba">&#8593;</button>`;
+    <button class="back-to-top" id="btt" onclick="window.scrollTo({top:0})" aria-label="${t('back_to_top')}">&#8593;</button>`;
 }
 
 // Back-to-top visibility + global search init
@@ -429,8 +494,8 @@ function showDisclaimerBanner() {
   if (sessionStorage.getItem('disclaimer-seen')) return;
   const banner = document.createElement('div');
   banner.className = 'disclaimer-banner';
-  banner.innerHTML = '<span>Los datos de esta matriz son orientativos y pendientes de validacion independiente.</span>' +
-    '<button onclick="this.parentElement.remove();sessionStorage.setItem(\'disclaimer-seen\',\'1\')">Entendido</button>';
+  banner.innerHTML = '<span>' + t('footer_disclaimer').split('.')[0] + '.</span>' +
+    '<button onclick="this.parentElement.remove();sessionStorage.setItem(\'disclaimer-seen\',\'1\')">' + t('understood') + '</button>';
   document.body.prepend(banner);
 }
 
