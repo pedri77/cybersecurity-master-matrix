@@ -507,3 +507,221 @@ Cymulate,Cymulate BAS,CAP005,REST API / SDK / integrations SIEM,https://support.
 Cymulate,Cymulate BAS,CAP001,SaaS Enterprise,https://cymulate.com/products/breach-and-attack-simulation/,Documentacion oficial,2026-08-01
 Pentera,Pentera Core,CAP001,Hibrido (Core / Surface),https://www.pentera.io/products/,Documentacion oficial,2026-08-01
 Pentera,Pentera Core,CAP005,REST API / SDK,https://www.pentera.io/products/,Documentacion oficial,2026-08-01
+ESET,ESET PROTECT,CAP014,SOC 2 Type II / ISO 27001 / Common Criteria,https://www.eset.com/int/about/trust-center/,Certificacion,2026-08-01
+ESET,ESET PROTECT,CAP005,REST API / ESET PROTECT API / SDK,https://help.eset.com/protect_admin/latest/en-US/api.html,Documentacion oficial,2026-08-01
+ESET,ESET Inspect,CAP014,SOC 2 Type II / ISO 27001,https://www.eset.com/int/about/trust-center/,Certificacion,2026-08-01
+ESET,ESET Inspect,CAP005,REST API / ESET Inspect API,https://help.eset.com/ei_navigate/latest/en-US/api.html,Documentacion oficial,2026-08-01
+Bitdefender,Bitdefender GravityZone,CAP014,SOC 2 Type II / ISO 27001 / Common Criteria,https://www.bitdefender.com/business/trust.html,Certificacion,2026-08-01
+Bitdefender,Bitdefender GravityZone,CAP005,REST API / GravityZone API / SDK,https://www.bitdefender.com/business/support/en/77209-222786-gravityzone-api.html,Documentacion oficial,2026-08-01
+Bitdefender,Bitdefender EDR,CAP014,SOC 2 Type II / ISO 27001,https://www.bitdefender.com/business/trust.html,Certificacion,2026-08-01
+Bitdefender,Bitdefender EDR,CAP005,REST API / GravityZone API,https://www.bitdefender.com/business/support/en/77209-222786-gravityzone-api.html,Documentacion oficial,2026-08-01
+Bitdefender,Bitdefender MDR,CAP014,SOC 2 Type II / ISO 27001,https://www.bitdefender.com/business/trust.html,Certificacion,2026-08-01
+Bitdefender,Bitdefender MDR,CAP005,REST API / GravityZone API,https://www.bitdefender.com/business/support/en/77209-222786-gravityzone-api.html,Documentacion oficial,2026-08-01
+Kaspersky,Kaspersky Endpoint Security,CAP014,SOC 2 Type II / ISO 27001 / Common Criteria,https://www.kaspersky.com/about/trust-and-transparency,Certificacion,2026-08-01
+Kaspersky,Kaspersky Endpoint Security,CAP005,REST API / KSC OpenAPI / SDK,https://support.kaspersky.com/ksc/14.2/en-US/175015.htm,Documentacion oficial,2026-08-01
+Kaspersky,Kaspersky EDR,CAP014,SOC 2 Type II / ISO 27001,https://www.kaspersky.com/about/trust-and-transparency,Certificacion,2026-08-01
+Kaspersky,Kaspersky EDR,CAP005,REST API / KSC OpenAPI,https://support.kaspersky.com/ksc/14.2/en-US/175015.htm,Documentacion oficial,2026-08-01
+Kaspersky,Kaspersky Threat Intelligence,CAP014,ISO 27001,https://www.kaspersky.com/about/trust-and-transparency,Certificacion,2026-08-01
+Kaspersky,Kaspersky Threat Intelligence,CAP005,REST API / STIX/TAXII / Threat Intelligence Portal API,https://tip.kaspersky.com/Help,Documentacion oficial,2026-08-01
+WithSecure,WithSecure Elements EPP,CAP014,SOC 2 Type II / ISO 27001,https://www.withsecure.com/en/about-us/trust-center,Certificacion,2026-08-01
+WithSecure,WithSecure Elements EPP,CAP005,REST API / Elements API / SDK,https://connect.withsecure.com/api-reference/overview,Documentacion oficial,2026-08-01
+WithSecure,WithSecure Elements EDR,CAP014,SOC 2 Type II / ISO 27001,https://www.withsecure.com/en/about-us/trust-center,Certificacion,2026-08-01
+WithSecure,WithSecure Elements EDR,CAP005,REST API / Elements API,https://connect.withsecure.com/api-reference/overview,Documentacion oficial,2026-08-01
+G DATA,G DATA Endpoint Protection,CAP014,AV-TEST Certified / VB100 / BSI qualified,https://www.gdata.de/ueber-uns/zertifizierungen,Certificacion,2026-08-01
+G DATA,G DATA Endpoint Protection,CAP005,REST API / G DATA Management API,https://www.gdata.de/business/support/dokumentation,Documentacion oficial,2026-08-01
+S21sec,S21sec MDR,CAP014,ISO 27001 / ENS Alto / SOC 2,https://www.s21sec.com/certificaciones/,Certificacion,2026-08-01
+S21sec,S21sec MDR,CAP005,REST API / Portal SOC / SIEM integrations,https://www.s21sec.com/soluciones/,Documentacion oficial,2026-08-01
+S21sec,S21sec Red Team Services,CAP014,ISO 27001 / ENS Alto / CREST,https://www.s21sec.com/certificaciones/,Certificacion,2026-08-01
+S21sec,S21sec Red Team Services,CAP005,Reporting portal / API deliverables,https://www.s21sec.com/soluciones/,Documentacion oficial,2026-08-01
+S2 Grupo,S2 Grupo OT Security Platform,CAP014,ISO 27001 / ENS Alto / Common Criteria,https://s2grupo.es/certificaciones/,Certificacion,2026-08-01
+S2 Grupo,S2 Grupo OT Security Platform,CAP005,REST API / SIEM integrations / OT protocol support,https://s2grupo.es/soluciones/,Documentacion oficial,2026-08-01
+S2 Grupo,S2 Grupo Managed SOC,CAP014,ISO 27001 / ENS Alto,https://s2grupo.es/certificaciones/,Certificacion,2026-08-01
+S2 Grupo,S2 Grupo Managed SOC,CAP005,Portal SOC API / SIEM integrations,https://s2grupo.es/soluciones/,Documentacion oficial,2026-08-01
+Indra,SIA Managed Security,CAP014,ISO 27001 / ENS Alto / SOC 2,https://www.indracompany.com/en/indra/cybersecurity,Certificacion,2026-08-01
+Indra,SIA Managed Security,CAP005,Portal gestion / SIEM API / integraciones,https://www.indracompany.com/en/indra/cybersecurity,Documentacion oficial,2026-08-01
+Indra,Indra OT Cybersecurity,CAP014,ISO 27001 / ENS Alto / IEC 62443,https://www.indracompany.com/en/indra/cybersecurity,Certificacion,2026-08-01
+Indra,Indra OT Cybersecurity,CAP005,OT protocol integrations / SIEM connectors,https://www.indracompany.com/en/indra/cybersecurity,Documentacion oficial,2026-08-01
+Indra,Indra Cybersecurity Consulting,CAP014,ISO 27001 / ENS Alto,https://www.indracompany.com/en/indra/cybersecurity,Certificacion,2026-08-01
+Indra,Indra Cybersecurity Consulting,CAP005,Reporting portal / deliverables API,https://www.indracompany.com/en/indra/cybersecurity,Documentacion oficial,2026-08-01
+GMV,GMV SOC Services,CAP014,ISO 27001 / ENS Alto / LEET Security,https://www.gmv.com/en-es/sectors/cybersecurity,Certificacion,2026-08-01
+GMV,GMV SOC Services,CAP005,Portal SOC / SIEM integrations,https://www.gmv.com/en-es/sectors/cybersecurity,Documentacion oficial,2026-08-01
+GMV,GMV OT Security,CAP014,ISO 27001 / ENS Alto / IEC 62443,https://www.gmv.com/en-es/sectors/cybersecurity,Certificacion,2026-08-01
+GMV,GMV OT Security,CAP005,OT protocol integrations / ICS monitoring API,https://www.gmv.com/en-es/sectors/cybersecurity,Documentacion oficial,2026-08-01
+Tarlogic,Tarlogic Pentesting,CAP014,ISO 27001 / ENS Alto / OSCP/OSCE certified team,https://www.tarlogic.com/sobre-nosotros/,Certificacion,2026-08-01
+Tarlogic,Tarlogic Pentesting,CAP005,Reporting portal / API deliverables,https://www.tarlogic.com/servicios/,Documentacion oficial,2026-08-01
+CounterCraft,CounterCraft Cyber Deception,CAP014,ISO 27001 / NATO certified / ENS,https://www.countercraft.eu/company/,Certificacion,2026-08-01
+CounterCraft,CounterCraft Cyber Deception,CAP005,REST API / STIX/TAXII / SIEM integrations,https://www.countercraft.eu/platform/,Documentacion oficial,2026-08-01
+Aiuken,Aiuken SOC,CAP014,ISO 27001 / ENS Alto,https://www.aiuken.com/certificaciones/,Certificacion,2026-08-01
+Aiuken,Aiuken SOC,CAP005,Portal SOC API / SIEM integrations,https://www.aiuken.com/servicios/,Documentacion oficial,2026-08-01
+Aiuken,Aiuken Managed SIEM,CAP014,ISO 27001 / ENS Alto,https://www.aiuken.com/certificaciones/,Certificacion,2026-08-01
+Aiuken,Aiuken Managed SIEM,CAP005,SIEM API / Log forwarding / REST API,https://www.aiuken.com/servicios/,Documentacion oficial,2026-08-01
+Hispasec,Koodous,CAP014,ISO 27001,https://www.hispasec.com/en/about-us/,Certificacion,2026-08-01
+Hispasec,Koodous,CAP005,REST API / Koodous API / SDK Python,https://docs.koodous.com/,Documentacion oficial,2026-08-01
+Hispasec,Hispasec Vulnerability Assessment,CAP014,ISO 27001 / ENS,https://www.hispasec.com/en/about-us/,Certificacion,2026-08-01
+Hispasec,Hispasec Vulnerability Assessment,CAP005,Reporting portal / API deliverables,https://www.hispasec.com/en/services/,Documentacion oficial,2026-08-01
+Telefónica Tech,Telefónica Tech EASM,CAP014,ISO 27001 / ENS Alto / SOC 2,https://telefonicatech.com/en/trust-center,Certificacion,2026-08-01
+Telefónica Tech,Telefónica Tech EASM,CAP005,REST API / Portal API / SIEM integrations,https://telefonicatech.com/en/cybersecurity,Documentacion oficial,2026-08-01
+Telefónica Tech,Telefónica Tech MDR,CAP014,ISO 27001 / ENS Alto / SOC 2,https://telefonicatech.com/en/trust-center,Certificacion,2026-08-01
+Telefónica Tech,Telefónica Tech MDR,CAP005,REST API / Portal SOC / SIEM integrations,https://telefonicatech.com/en/cybersecurity,Documentacion oficial,2026-08-01
+GlobalSuite Solutions,GlobalSuite GRC,CAP014,ISO 27001 / ENS / certificacion propia,https://www.globalsuitesolutions.com/certificaciones/,Certificacion,2026-08-01
+GlobalSuite Solutions,GlobalSuite GRC,CAP005,REST API / Portal API / integraciones,https://www.globalsuitesolutions.com/software-grc/,Documentacion oficial,2026-08-01
+GlobalSuite Solutions,GlobalSuite Compliance,CAP014,ISO 27001 / ENS,https://www.globalsuitesolutions.com/certificaciones/,Certificacion,2026-08-01
+GlobalSuite Solutions,GlobalSuite Compliance,CAP005,REST API / Portal API,https://www.globalsuitesolutions.com/software-grc/,Documentacion oficial,2026-08-01
+Govertis,Govertis Privacy Suite,CAP014,ISO 27001 / ENS / AEPD certified,https://www.govertis.com/sobre-nosotros/,Certificacion,2026-08-01
+Govertis,Govertis Privacy Suite,CAP005,REST API / Portal privacy / integrations,https://www.govertis.com/soluciones/,Documentacion oficial,2026-08-01
+Govertis,Govertis Compliance Manager,CAP014,ISO 27001 / ENS,https://www.govertis.com/sobre-nosotros/,Certificacion,2026-08-01
+Govertis,Govertis Compliance Manager,CAP005,REST API / Portal compliance,https://www.govertis.com/soluciones/,Documentacion oficial,2026-08-01
+Airbus CyberSecurity,Airbus CyberRange,CAP014,ISO 27001 / NATO restricted / Common Criteria,https://www.airbus.com/en/products-services/defence/cyber-security,Certificacion,2026-08-01
+Airbus CyberSecurity,Airbus CyberRange,CAP005,REST API / Scenario API / integration framework,https://www.airbus.com/en/products-services/defence/cyber-security,Documentacion oficial,2026-08-01
+Airbus CyberSecurity,Airbus SOC Services,CAP014,ISO 27001 / NATO restricted,https://www.airbus.com/en/products-services/defence/cyber-security,Certificacion,2026-08-01
+Airbus CyberSecurity,Airbus SOC Services,CAP005,Portal SOC / SIEM integrations,https://www.airbus.com/en/products-services/defence/cyber-security,Documentacion oficial,2026-08-01
+Atos,Atos MDR,CAP014,ISO 27001 / SOC 2 Type II / Common Criteria,https://atos.net/en/solutions/cyber-security/trust-center,Certificacion,2026-08-01
+Atos,Atos MDR,CAP005,REST API / Portal SOC / SIEM integrations,https://atos.net/en/solutions/cyber-security,Documentacion oficial,2026-08-01
+Atos,Atos Managed SOC,CAP014,ISO 27001 / SOC 2 Type II,https://atos.net/en/solutions/cyber-security/trust-center,Certificacion,2026-08-01
+Atos,Atos Managed SOC,CAP005,Portal SOC API / SIEM integrations,https://atos.net/en/solutions/cyber-security,Documentacion oficial,2026-08-01
+Atos,Atos Cybersecurity Consulting,CAP014,ISO 27001 / SOC 2,https://atos.net/en/solutions/cyber-security/trust-center,Certificacion,2026-08-01
+Atos,Atos Cybersecurity Consulting,CAP005,Reporting portal / deliverables,https://atos.net/en/solutions/cyber-security,Documentacion oficial,2026-08-01
+BT Security,BT Managed Security,CAP014,ISO 27001 / SOC 2 Type II / PCI DSS,https://www.globalservices.bt.com/en/aboutus/our-certifications,Certificacion,2026-08-01
+BT Security,BT Managed Security,CAP005,REST API / Portal SOC / SIEM integrations,https://www.globalservices.bt.com/en/solutions/products/managed-security,Documentacion oficial,2026-08-01
+BT Security,BT Managed SOC,CAP014,ISO 27001 / SOC 2 Type II,https://www.globalservices.bt.com/en/aboutus/our-certifications,Certificacion,2026-08-01
+BT Security,BT Managed SOC,CAP005,Portal SOC API / SIEM integrations,https://www.globalservices.bt.com/en/solutions/products/managed-security,Documentacion oficial,2026-08-01
+Leonardo,Leonardo Cyber SOC,CAP014,ISO 27001 / NATO restricted / Common Criteria,https://www.leonardo.com/en/security-cyber-information/cyber-security,Certificacion,2026-08-01
+Leonardo,Leonardo Cyber SOC,CAP005,Portal SOC / SIEM integrations / REST API,https://www.leonardo.com/en/security-cyber-information/cyber-security,Documentacion oficial,2026-08-01
+Leonardo,Leonardo OT Security,CAP014,ISO 27001 / IEC 62443 / NATO restricted,https://www.leonardo.com/en/security-cyber-information/cyber-security,Certificacion,2026-08-01
+Leonardo,Leonardo OT Security,CAP005,OT protocol integrations / ICS monitoring,https://www.leonardo.com/en/security-cyber-information/cyber-security,Documentacion oficial,2026-08-01
+WALLIX,WALLIX PAM,CAP014,Common Criteria EAL3+ / ISO 27001 / ANSSI qualified,https://www.wallix.com/certifications/,Certificacion,2026-08-01
+WALLIX,WALLIX PAM,CAP005,REST API / SDK / AAPM / Session API,https://docs.wallix.com/en/bastion/latest/api-guide/,Documentacion oficial,2026-08-01
+Tanium,Tanium Platform,CAP014,SOC 2 Type II / FedRAMP High / Common Criteria,https://www.tanium.com/trust-center/,Certificacion,2026-08-01
+Tanium,Tanium Platform,CAP005,REST API / Tanium API Gateway / SDK Python,https://developer.tanium.com/,Documentacion oficial,2026-08-01
+Tanium,Tanium Vulnerability Management,CAP014,SOC 2 Type II / FedRAMP High,https://www.tanium.com/trust-center/,Certificacion,2026-08-01
+Tanium,Tanium Vulnerability Management,CAP005,REST API / Tanium API Gateway,https://developer.tanium.com/,Documentacion oficial,2026-08-01
+WatchGuard,WatchGuard Firebox,CAP014,Common Criteria / FIPS 140-2 / ICSA Labs,https://www.watchguard.com/wgrd-about/certifications,Certificacion,2026-08-01
+WatchGuard,WatchGuard Firebox,CAP005,REST API / WatchGuard Cloud API,https://www.watchguard.com/help/docs/API/Content/en-US/api_about.html,Documentacion oficial,2026-08-01
+WatchGuard,WatchGuard EPDR,CAP014,SOC 2 / ISO 27001 / AV-TEST,https://www.watchguard.com/wgrd-about/certifications,Certificacion,2026-08-01
+WatchGuard,WatchGuard EPDR,CAP005,REST API / WatchGuard Cloud API,https://www.watchguard.com/help/docs/API/Content/en-US/api_about.html,Documentacion oficial,2026-08-01
+SonicWall,SonicWall NSa Firewall,CAP014,Common Criteria / FIPS 140-2 / ICSA Labs,https://www.sonicwall.com/government/certifications/,Certificacion,2026-08-01
+SonicWall,SonicWall NSa Firewall,CAP005,REST API / SonicOS API / GMS API,https://www.sonicwall.com/support/technical-documentation/,Documentacion oficial,2026-08-01
+SonicWall,SonicWall Email Security,CAP014,Common Criteria / ICSA Labs,https://www.sonicwall.com/government/certifications/,Certificacion,2026-08-01
+SonicWall,SonicWall Email Security,CAP005,REST API / SonicWall API,https://www.sonicwall.com/support/technical-documentation/,Documentacion oficial,2026-08-01
+LogRhythm,LogRhythm SIEM,CAP014,SOC 2 Type II / Common Criteria,https://logrhythm.com/company/trust-center/,Certificacion,2026-08-01
+LogRhythm,LogRhythm SIEM,CAP005,REST API / SDK / LogRhythm API,https://docs.logrhythm.com/lrsiem/docs/api-reference,Documentacion oficial,2026-08-01
+Sumo Logic,Sumo Logic Cloud SIEM,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP Moderate / PCI DSS,https://www.sumologic.com/company/compliance-security/,Certificacion,2026-08-01
+Sumo Logic,Sumo Logic Cloud SIEM,CAP005,REST API / SDK / Terraform / OpenTelemetry,https://help.sumologic.com/docs/api/,Documentacion oficial,2026-08-01
+Deep Instinct,Deep Instinct Prevention Platform,CAP014,SOC 2 Type II,https://www.deepinstinct.com/trust-center,Certificacion,2026-08-01
+Deep Instinct,Deep Instinct Prevention Platform,CAP005,REST API / SDK / SIEM integrations,https://docs.deepinstinct.com/,Documentacion oficial,2026-08-01
+Huntress,Huntress Managed EDR,CAP014,SOC 2 Type II,https://www.huntress.com/trust-center,Certificacion,2026-08-01
+Huntress,Huntress Managed EDR,CAP005,REST API / Huntress API / integrations,https://api.huntress.io/docs,Documentacion oficial,2026-08-01
+Menlo Security,Menlo Security Cloud Platform,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP Moderate,https://www.menlosecurity.com/company/trust-center/,Certificacion,2026-08-01
+Menlo Security,Menlo Security Cloud Platform,CAP005,REST API / SDK / SIEM integrations,https://admin.menlosecurity.com/docs/api,Documentacion oficial,2026-08-01
+Cynet,Cynet 360 AutoXDR,CAP014,SOC 2 Type II,https://www.cynet.com/trust-center/,Certificacion,2026-08-01
+Cynet,Cynet 360 AutoXDR,CAP005,REST API / Cynet API / SIEM integrations,https://docs.cynet.com/,Documentacion oficial,2026-08-01
+Cynet,Cynet CyOps MDR,CAP014,SOC 2 Type II,https://www.cynet.com/trust-center/,Certificacion,2026-08-01
+Cynet,Cynet CyOps MDR,CAP005,REST API / Cynet API,https://docs.cynet.com/,Documentacion oficial,2026-08-01
+ExtraHop,RevealX,CAP014,SOC 2 Type II / ISO 27001,https://www.extrahop.com/company/trust-center/,Certificacion,2026-08-01
+ExtraHop,RevealX,CAP005,REST API / SDK Python / STIX/TAXII,https://docs.extrahop.com/current/rest-api-guide/,Documentacion oficial,2026-08-01
+Trellix,Trellix Endpoint Security,CAP014,SOC 2 Type II / Common Criteria / FIPS 140-2,https://www.trellix.com/about/trust-center/,Certificacion,2026-08-01
+Trellix,Trellix Endpoint Security,CAP005,REST API / ePO API / SDK,https://developer.trellix.com/,Documentacion oficial,2026-08-01
+Trellix,Trellix DLP,CAP014,SOC 2 Type II / Common Criteria,https://www.trellix.com/about/trust-center/,Certificacion,2026-08-01
+Trellix,Trellix DLP,CAP005,REST API / ePO API / SDK,https://developer.trellix.com/,Documentacion oficial,2026-08-01
+Forescout,Forescout eyeSight,CAP014,SOC 2 Type II / Common Criteria,https://www.forescout.com/company/trust-center/,Certificacion,2026-08-01
+Forescout,Forescout eyeSight,CAP005,REST API / eyeExtend integrations,https://docs.forescout.com/bundle/api-ref,Documentacion oficial,2026-08-01
+Forescout,Forescout eyeInspect,CAP014,SOC 2 Type II / IEC 62443,https://www.forescout.com/company/trust-center/,Certificacion,2026-08-01
+Forescout,Forescout eyeInspect,CAP005,REST API / OT protocol support,https://docs.forescout.com/bundle/api-ref,Documentacion oficial,2026-08-01
+Forescout,Forescout Continuum,CAP014,SOC 2 Type II,https://www.forescout.com/company/trust-center/,Certificacion,2026-08-01
+Forescout,Forescout Continuum,CAP005,REST API / eyeExtend integrations,https://docs.forescout.com/bundle/api-ref,Documentacion oficial,2026-08-01
+Corelight,Corelight Open NDR Platform,CAP014,SOC 2 Type II,https://corelight.com/company/trust-center,Certificacion,2026-08-01
+Corelight,Corelight Open NDR Platform,CAP005,REST API / Zeek scripting / SIEM integrations,https://docs.corelight.com/docs/api/,Documentacion oficial,2026-08-01
+RSA,RSA SecurID,CAP014,Common Criteria / FIPS 140-2 / SOC 2,https://www.rsa.com/company/trust-center/,Certificacion,2026-08-01
+RSA,RSA SecurID,CAP005,REST API / Authentication API / SDK,https://community.rsa.com/t5/securid-authentication-api/tkb-p/securid-authentication-api,Documentacion oficial,2026-08-01
+Orca Security,Orca Cloud Security Platform,CAP014,SOC 2 Type II / ISO 27001,https://orca.security/trust-center/,Certificacion,2026-08-01
+Orca Security,Orca Cloud Security Platform,CAP005,REST API / SDK / Terraform,https://docs.orcasecurity.io/reference/,Documentacion oficial,2026-08-01
+Orca Security,Orca CSPM,CAP014,SOC 2 Type II / ISO 27001,https://orca.security/trust-center/,Certificacion,2026-08-01
+Orca Security,Orca CSPM,CAP005,REST API / SDK,https://docs.orcasecurity.io/reference/,Documentacion oficial,2026-08-01
+Tines,Tines Automation Platform,CAP014,SOC 2 Type II / ISO 27001,https://www.tines.com/trust-center/,Certificacion,2026-08-01
+Tines,Tines Automation Platform,CAP005,REST API / SDK / webhooks / 300+ integrations,https://www.tines.com/api/,Documentacion oficial,2026-08-01
+Swimlane,Turbine,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP,https://swimlane.com/trust-center/,Certificacion,2026-08-01
+Swimlane,Turbine,CAP005,REST API / SDK Python / playbook SDK,https://apidocs.swimlane.com/,Documentacion oficial,2026-08-01
+Torq,Torq Hyperautomation,CAP014,SOC 2 Type II / ISO 27001,https://torq.io/trust-center/,Certificacion,2026-08-01
+Torq,Torq Hyperautomation,CAP005,REST API / SDK / 500+ integrations,https://docs.torq.io/api-reference/,Documentacion oficial,2026-08-01
+Picus,Picus Security Validation,CAP014,SOC 2 Type II / ISO 27001,https://www.picussecurity.com/trust-center,Certificacion,2026-08-01
+Picus,Picus Security Validation,CAP005,REST API / SDK / SIEM integrations,https://docs.picussecurity.com/,Documentacion oficial,2026-08-01
+AttackIQ,AttackIQ Platform,CAP014,SOC 2 Type II,https://www.attackiq.com/trust-center/,Certificacion,2026-08-01
+AttackIQ,AttackIQ Platform,CAP005,REST API / SDK / MITRE ATT&CK integrations,https://attackiq.com/resources/developer-documentation/,Documentacion oficial,2026-08-01
+SafeBreach,SafeBreach BAS Platform,CAP014,SOC 2 Type II,https://www.safebreach.com/trust-center/,Certificacion,2026-08-01
+SafeBreach,SafeBreach BAS Platform,CAP005,REST API / SDK / SIEM integrations,https://docs.safebreach.com/,Documentacion oficial,2026-08-01
+Saviynt,Enterprise IGA,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP,https://saviynt.com/trust-center/,Certificacion,2026-08-01
+Saviynt,Enterprise IGA,CAP005,REST API / SDK / SCIM / OIDC,https://docs.saviynt.com/,Documentacion oficial,2026-08-01
+One Identity,Identity Manager,CAP014,SOC 2 Type II / Common Criteria,https://www.oneidentity.com/company/trust-center/,Certificacion,2026-08-01
+One Identity,Identity Manager,CAP005,REST API / SDK .NET / PowerShell,https://support.oneidentity.com/identity-manager/technical-documents,Documentacion oficial,2026-08-01
+One Identity,Safeguard,CAP014,SOC 2 Type II / Common Criteria / FIPS 140-2,https://www.oneidentity.com/company/trust-center/,Certificacion,2026-08-01
+One Identity,Safeguard,CAP005,REST API / SDK / PowerShell,https://support.oneidentity.com/one-identity-safeguard/technical-documents,Documentacion oficial,2026-08-01
+Archer,Archer IRM,CAP014,SOC 2 Type II / ISO 27001,https://www.archerirm.com/trust-center,Certificacion,2026-08-01
+Archer,Archer IRM,CAP005,REST API / SDK / integrations framework,https://www.archerirm.community/t5/Documentation/ct-p/documentation,Documentacion oficial,2026-08-01
+MetricStream,MetricStream GRC Platform,CAP014,SOC 2 Type II / ISO 27001,https://www.metricstream.com/trust-center/,Certificacion,2026-08-01
+MetricStream,MetricStream GRC Platform,CAP005,REST API / SDK / integrations,https://docs.metricstream.com/,Documentacion oficial,2026-08-01
+MetricStream,MetricStream Audit Management,CAP014,SOC 2 Type II / ISO 27001,https://www.metricstream.com/trust-center/,Certificacion,2026-08-01
+MetricStream,MetricStream Audit Management,CAP005,REST API / SDK,https://docs.metricstream.com/,Documentacion oficial,2026-08-01
+ThreatConnect,ThreatConnect Platform,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP,https://threatconnect.com/trust-center/,Certificacion,2026-08-01
+ThreatConnect,ThreatConnect Platform,CAP005,REST API / SDK Python / STIX/TAXII / Playbooks,https://docs.threatconnect.com/en/latest/rest_api/rest_api.html,Documentacion oficial,2026-08-01
+Anomali,Anomali ThreatStream,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP,https://www.anomali.com/company/trust-center,Certificacion,2026-08-01
+Anomali,Anomali ThreatStream,CAP005,REST API / SDK / STIX/TAXII / SIEM integrations,https://docs.anomali.com/threatstream/api/,Documentacion oficial,2026-08-01
+EclecticIQ,EclecticIQ Intelligence Center,CAP014,SOC 2 Type II / ISO 27001,https://www.eclecticiq.com/trust-center,Certificacion,2026-08-01
+EclecticIQ,EclecticIQ Intelligence Center,CAP005,REST API / SDK Python / STIX/TAXII 2.1,https://developers.eclecticiq.com/,Documentacion oficial,2026-08-01
+Flashpoint,Flashpoint Intelligence Platform,CAP014,SOC 2 Type II / ISO 27001,https://flashpoint.io/trust-center/,Certificacion,2026-08-01
+Flashpoint,Flashpoint Intelligence Platform,CAP005,REST API / SDK / STIX/TAXII / integrations,https://docs.flashpoint.io/,Documentacion oficial,2026-08-01
+Flashpoint,Flashpoint Digital Risk Protection,CAP014,SOC 2 Type II / ISO 27001,https://flashpoint.io/trust-center/,Certificacion,2026-08-01
+Flashpoint,Flashpoint Digital Risk Protection,CAP005,REST API / webhooks,https://docs.flashpoint.io/,Documentacion oficial,2026-08-01
+SOCRadar,SOCRadar Extended Threat Intelligence,CAP014,SOC 2 Type II / ISO 27001,https://socradar.io/trust-center/,Certificacion,2026-08-01
+SOCRadar,SOCRadar Extended Threat Intelligence,CAP005,REST API / SDK / STIX/TAXII / SIEM integrations,https://docs.socradar.io/,Documentacion oficial,2026-08-01
+Synopsys,Coverity (SAST),CAP014,SOC 2 Type II / ISO 27001,https://www.synopsys.com/company/trust-center.html,Certificacion,2026-08-01
+Synopsys,Coverity (SAST),CAP005,REST API / CLI / IDE plugins / CI-CD,https://sig-docs.synopsys.com/polaris/topics/c_coverity-overview.html,Documentacion oficial,2026-08-01
+Synopsys,Black Duck (SCA),CAP014,SOC 2 Type II / ISO 27001,https://www.synopsys.com/company/trust-center.html,Certificacion,2026-08-01
+Synopsys,Black Duck (SCA),CAP005,REST API / CLI / CI-CD plugins,https://sig-docs.synopsys.com/blackducksca/,Documentacion oficial,2026-08-01
+Synopsys,Polaris (DAST),CAP014,SOC 2 Type II / ISO 27001,https://www.synopsys.com/company/trust-center.html,Certificacion,2026-08-01
+Synopsys,Polaris (DAST),CAP005,REST API / CLI / SDK,https://sig-docs.synopsys.com/polaris/,Documentacion oficial,2026-08-01
+Sonatype,Nexus Lifecycle (SCA),CAP014,SOC 2 Type II,https://www.sonatype.com/trust-center,Certificacion,2026-08-01
+Sonatype,Nexus Lifecycle (SCA),CAP005,REST API / CLI / IDE plugins / CI-CD,https://help.sonatype.com/en/sonatype-api.html,Documentacion oficial,2026-08-01
+Sonatype,Nexus Repository (Supply Chain),CAP014,SOC 2 Type II,https://www.sonatype.com/trust-center,Certificacion,2026-08-01
+Sonatype,Nexus Repository (Supply Chain),CAP005,REST API / CLI / Docker registry,https://help.sonatype.com/en/sonatype-api.html,Documentacion oficial,2026-08-01
+JFrog,Xray (SCA),CAP014,SOC 2 Type II / ISO 27001,https://jfrog.com/trust/,Certificacion,2026-08-01
+JFrog,Xray (SCA),CAP005,REST API / CLI / SDK / CI-CD plugins,https://jfrog.com/help/r/jfrog-rest-apis/xray-rest-apis,Documentacion oficial,2026-08-01
+JFrog,Artifactory (Supply Chain),CAP014,SOC 2 Type II / ISO 27001,https://jfrog.com/trust/,Certificacion,2026-08-01
+JFrog,Artifactory (Supply Chain),CAP005,REST API / CLI / SDK / Terraform,https://jfrog.com/help/r/jfrog-rest-apis/artifactory-rest-apis,Documentacion oficial,2026-08-01
+JFrog,ML Model Management,CAP014,SOC 2 Type II / ISO 27001,https://jfrog.com/trust/,Certificacion,2026-08-01
+JFrog,ML Model Management,CAP005,REST API / CLI / SDK,https://jfrog.com/help/r/jfrog-rest-apis/,Documentacion oficial,2026-08-01
+Sectigo,Sectigo Certificate Manager,CAP014,WebTrust / SOC 2 Type II / ISO 27001,https://www.sectigo.com/trust-center,Certificacion,2026-08-01
+Sectigo,Sectigo Certificate Manager,CAP005,REST API / ACME / SCEP / EST,https://docs.sectigo.com/,Documentacion oficial,2026-08-01
+Sectigo,Sectigo Code Signing,CAP014,WebTrust / SOC 2 Type II,https://www.sectigo.com/trust-center,Certificacion,2026-08-01
+Sectigo,Sectigo Code Signing,CAP005,REST API / CI-CD integrations,https://docs.sectigo.com/,Documentacion oficial,2026-08-01
+AppViewX,CERT+ PKI,CAP014,SOC 2 Type II / ISO 27001,https://www.appviewx.com/trust-center/,Certificacion,2026-08-01
+AppViewX,CERT+ PKI,CAP005,REST API / ACME / SDK,https://docs.appviewx.com/,Documentacion oficial,2026-08-01
+AppViewX,CERT+ CLM,CAP014,SOC 2 Type II / ISO 27001,https://www.appviewx.com/trust-center/,Certificacion,2026-08-01
+AppViewX,CERT+ CLM,CAP005,REST API / ACME / Terraform,https://docs.appviewx.com/,Documentacion oficial,2026-08-01
+AppViewX,Crypto Agility,CAP014,SOC 2 Type II,https://www.appviewx.com/trust-center/,Certificacion,2026-08-01
+AppViewX,Crypto Agility,CAP005,REST API / SDK,https://docs.appviewx.com/,Documentacion oficial,2026-08-01
+Akeyless,Akeyless Vault Platform,CAP014,SOC 2 Type II / ISO 27001,https://www.akeyless.io/trust-center/,Certificacion,2026-08-01
+Akeyless,Akeyless Vault Platform,CAP005,REST API / CLI / SDK / Terraform / Kubernetes,https://docs.akeyless.io/reference/,Documentacion oficial,2026-08-01
+Akeyless,Akeyless Machine Identity,CAP014,SOC 2 Type II / ISO 27001,https://www.akeyless.io/trust-center/,Certificacion,2026-08-01
+Akeyless,Akeyless Machine Identity,CAP005,REST API / CLI / SDK,https://docs.akeyless.io/reference/,Documentacion oficial,2026-08-01
+Fortanix,Data Security Manager,CAP014,FIPS 140-2 Level 3 / SOC 2 Type II,https://www.fortanix.com/trust-center/,Certificacion,2026-08-01
+Fortanix,Data Security Manager,CAP005,REST API / SDK / PKCS#11 / KMIP,https://support.fortanix.com/apidocs/,Documentacion oficial,2026-08-01
+Fortanix,Confidential Computing Manager,CAP014,SOC 2 Type II,https://www.fortanix.com/trust-center/,Certificacion,2026-08-01
+Fortanix,Confidential Computing Manager,CAP005,REST API / SDK,https://support.fortanix.com/apidocs/,Documentacion oficial,2026-08-01
+HUMAN,HUMAN Bot Defender,CAP014,SOC 2 Type II / ISO 27001,https://www.humansecurity.com/trust-center,Certificacion,2026-08-01
+HUMAN,HUMAN Bot Defender,CAP005,REST API / SDK JS / integration framework,https://docs.humansecurity.com/,Documentacion oficial,2026-08-01
+HUMAN,HUMAN Account Defender,CAP014,SOC 2 Type II / ISO 27001,https://www.humansecurity.com/trust-center,Certificacion,2026-08-01
+HUMAN,HUMAN Account Defender,CAP005,REST API / SDK,https://docs.humansecurity.com/,Documentacion oficial,2026-08-01
+Lookout,Lookout Mobile Endpoint Security,CAP014,SOC 2 Type II / ISO 27001 / FedRAMP Moderate,https://www.lookout.com/trust-center,Certificacion,2026-08-01
+Lookout,Lookout Mobile Endpoint Security,CAP005,REST API / SDK / MDM integrations,https://docs.lookout.com/,Documentacion oficial,2026-08-01
+Zimperium,MAPS,CAP014,SOC 2 Type II / FedRAMP,https://www.zimperium.com/trust-center/,Certificacion,2026-08-01
+Zimperium,MAPS,CAP005,REST API / SDK / MDM integrations,https://docs.zimperium.com/,Documentacion oficial,2026-08-01
+ThreatLocker,ThreatLocker Protect,CAP014,SOC 2 Type II,https://www.threatlocker.com/trust-center,Certificacion,2026-08-01
+ThreatLocker,ThreatLocker Protect,CAP005,REST API / SDK / RMM integrations,https://docs.threatlocker.com/,Documentacion oficial,2026-08-01
+ThreatLocker,ThreatLocker Elevation Control,CAP014,SOC 2 Type II,https://www.threatlocker.com/trust-center,Certificacion,2026-08-01
+ThreatLocker,ThreatLocker Elevation Control,CAP005,REST API / SDK,https://docs.threatlocker.com/,Documentacion oficial,2026-08-01
+Secureworks,Taegis ManagedXDR,CAP014,SOC 2 Type II / ISO 27001 / PCI DSS,https://www.secureworks.com/about/trust-center,Certificacion,2026-08-01
+Secureworks,Taegis ManagedXDR,CAP005,REST API / Taegis API / SDK Python,https://docs.ctpx.secureworks.com/,Documentacion oficial,2026-08-01
+ReliaQuest,GreyMatter,CAP014,SOC 2 Type II / ISO 27001,https://www.reliaquest.com/trust-center/,Certificacion,2026-08-01
+ReliaQuest,GreyMatter,CAP005,REST API / SDK / SIEM integrations,https://docs.reliaquest.com/,Documentacion oficial,2026-08-01
+runZero,runZero Platform,CAP014,SOC 2 Type II,https://www.runzero.com/trust-center/,Certificacion,2026-08-01
+runZero,runZero Platform,CAP005,REST API / SDK / CLI / integrations,https://www.runzero.com/docs/leveraging-the-api/,Documentacion oficial,2026-08-01
