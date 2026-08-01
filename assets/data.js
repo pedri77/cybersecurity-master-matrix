@@ -12,6 +12,7 @@ let _db = null;
 async function loadDB(basePath = '') {
   if (_db) return _db;
   const res = await fetch(basePath + 'data/matrix.json');
+  if (!res.ok) throw new Error('Failed to load data (' + res.status + ')');
   _db = await res.json();
   return _db;
 }

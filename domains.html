@@ -53,6 +53,7 @@
   <script src="assets/data.js"></script>
   <script>
     async function init() {
+      try {
       const db = await loadDB();
       document.getElementById('nav-slot').innerHTML = renderNav('domains');
       document.getElementById('footer-slot').innerHTML = renderFooter();
@@ -90,6 +91,11 @@
       searchEl.addEventListener('input', render);
       maturityEl.addEventListener('change', render);
       render();
+      } catch (err) {
+        console.error('Init error:', err);
+        document.getElementById('content')?.classList.remove('loading');
+        alert('Error loading data: ' + err.message);
+      }
     }
     init();
   </script>

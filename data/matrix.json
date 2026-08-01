@@ -1,4 +1,21 @@
 {
+  "meta": {
+    "version": "1.0",
+    "domains": 20,
+    "categories": 122,
+    "providers": 342,
+    "relations": 668,
+    "products": 550,
+    "unique_products": 486,
+    "products_with_capabilities": 493,
+    "product_sources": 195,
+    "products_with_url": 234,
+    "tiers": {
+      "Tier 2": 88,
+      "Tier 1": 65,
+      "Tier 3": 189
+    }
+  },
   "domains": [
     {
       "ID": "D01",
@@ -10315,252 +10332,6 @@
       "Notas": ""
     }
   ],
-  "capabilities": [
-    {
-      "ID": "CAP001",
-      "Dimensión": "Producto y arquitectura",
-      "Capacidad": "Modelo de despliegue",
-      "Criterios / valores posibles": "SaaS; Cloud dedicado; On-prem; Híbrido; Appliance"
-    },
-    {
-      "ID": "CAP002",
-      "Dimensión": "Producto y arquitectura",
-      "Capacidad": "Multi-tenancy",
-      "Criterios / valores posibles": "Nativa; Parcial; No disponible"
-    },
-    {
-      "ID": "CAP003",
-      "Dimensión": "Producto y arquitectura",
-      "Capacidad": "Alta disponibilidad",
-      "Criterios / valores posibles": "Activo-activo; Activo-pasivo; Dependiente de plataforma"
-    },
-    {
-      "ID": "CAP004",
-      "Dimensión": "Producto y arquitectura",
-      "Capacidad": "Escalabilidad",
-      "Criterios / valores posibles": "Vertical; Horizontal; Autoscaling"
-    },
-    {
-      "ID": "CAP005",
-      "Dimensión": "Integración",
-      "Capacidad": "API",
-      "Criterios / valores posibles": "REST; GraphQL; SDK; Webhooks"
-    },
-    {
-      "ID": "CAP006",
-      "Dimensión": "Integración",
-      "Capacidad": "Integraciones nativas",
-      "Criterios / valores posibles": "SIEM; SOAR; IAM; ITSM; Data Lake; EDR; Cloud"
-    },
-    {
-      "ID": "CAP007",
-      "Dimensión": "Integración",
-      "Capacidad": "Formatos y estándares",
-      "Criterios / valores posibles": "STIX/TAXII; Syslog; CEF; LEEF; OpenTelemetry; SCIM; SAML; OIDC"
-    },
-    {
-      "ID": "CAP008",
-      "Dimensión": "Seguridad",
-      "Capacidad": "Cifrado",
-      "Criterios / valores posibles": "En tránsito; En reposo; BYOK; HYOK; HSM"
-    },
-    {
-      "ID": "CAP009",
-      "Dimensión": "Seguridad",
-      "Capacidad": "Identidad y acceso",
-      "Criterios / valores posibles": "RBAC; ABAC; MFA; SSO; PAM"
-    },
-    {
-      "ID": "CAP010",
-      "Dimensión": "Seguridad",
-      "Capacidad": "Auditoría",
-      "Criterios / valores posibles": "Logs inmutables; evidencias; trazabilidad; exportación"
-    },
-    {
-      "ID": "CAP011",
-      "Dimensión": "Operación",
-      "Capacidad": "Automatización",
-      "Criterios / valores posibles": "Playbooks; workflows; no-code; API"
-    },
-    {
-      "ID": "CAP012",
-      "Dimensión": "Operación",
-      "Capacidad": "Analítica e IA",
-      "Criterios / valores posibles": "ML; IA generativa; copiloto; recomendaciones"
-    },
-    {
-      "ID": "CAP013",
-      "Dimensión": "Operación",
-      "Capacidad": "Observabilidad",
-      "Criterios / valores posibles": "Métricas; logs; tracing; SLA"
-    },
-    {
-      "ID": "CAP014",
-      "Dimensión": "Cumplimiento",
-      "Capacidad": "Certificaciones",
-      "Criterios / valores posibles": "ISO 27001; SOC 2; ENS; FedRAMP; CSA STAR"
-    },
-    {
-      "ID": "CAP015",
-      "Dimensión": "Cumplimiento",
-      "Capacidad": "Residencia de datos",
-      "Criterios / valores posibles": "UE; España; regiones configurables"
-    },
-    {
-      "ID": "CAP016",
-      "Dimensión": "Comercial",
-      "Capacidad": "Licenciamiento",
-      "Criterios / valores posibles": "Usuario; activo; volumen; consumo; tenant; appliance"
-    },
-    {
-      "ID": "CAP017",
-      "Dimensión": "Comercial",
-      "Capacidad": "Transparencia de precios",
-      "Criterios / valores posibles": "Público; bajo oferta; partner"
-    },
-    {
-      "ID": "CAP018",
-      "Dimensión": "Comercial",
-      "Capacidad": "Servicios profesionales",
-      "Criterios / valores posibles": "Implantación; migración; soporte; formación"
-    },
-    {
-      "ID": "CAP019",
-      "Dimensión": "Riesgo de proveedor",
-      "Capacidad": "Viabilidad",
-      "Criterios / valores posibles": "Ingresos; financiación; crecimiento; base instalada"
-    },
-    {
-      "ID": "CAP020",
-      "Dimensión": "Riesgo de proveedor",
-      "Capacidad": "Dependencia",
-      "Criterios / valores posibles": "Lock-in; portabilidad; formatos abiertos; exportación"
-    }
-  ],
-  "sources": [
-    {
-      "Tipo de fuente": "Analista",
-      "Organización": "Gartner",
-      "Uso recomendado": "Magic Quadrants, Market Guides, Hype Cycles",
-      "URL": "https://www.gartner.com/en/cybersecurity",
-      "Notas": "Acceso completo normalmente bajo suscripción"
-    },
-    {
-      "Tipo de fuente": "Analista",
-      "Organización": "Forrester",
-      "Uso recomendado": "Waves, landscapes y research de mercado",
-      "URL": "https://www.forrester.com/security-risk/",
-      "Notas": "Complementar posicionamiento y capacidades"
-    },
-    {
-      "Tipo de fuente": "Analista",
-      "Organización": "IDC",
-      "Uso recomendado": "MarketScapes y estudios de cuota",
-      "URL": "https://www.idc.com/",
-      "Notas": "Útil para tamaño y evolución de mercado"
-    },
-    {
-      "Tipo de fuente": "Analista",
-      "Organización": "Omdia",
-      "Uso recomendado": "Market radars y análisis tecnológicos",
-      "URL": "https://omdia.tech.informa.com/",
-      "Notas": "Cobertura amplia de ciberseguridad"
-    },
-    {
-      "Tipo de fuente": "Analista",
-      "Organización": "GigaOm",
-      "Uso recomendado": "Radar reports",
-      "URL": "https://gigaom.com/",
-      "Notas": "Comparativas técnicas por mercado"
-    },
-    {
-      "Tipo de fuente": "Estándares",
-      "Organización": "NIST",
-      "Uso recomendado": "CSF, SP 800 y criptografía",
-      "URL": "https://www.nist.gov/cyberframework",
-      "Notas": "Fuente normativa y técnica primaria"
-    },
-    {
-      "Tipo de fuente": "Estándares",
-      "Organización": "ENISA",
-      "Uso recomendado": "Guías, amenazas y cumplimiento europeo",
-      "URL": "https://www.enisa.europa.eu/",
-      "Notas": "Referencia UE"
-    },
-    {
-      "Tipo de fuente": "Estándares",
-      "Organización": "MITRE",
-      "Uso recomendado": "ATT&CK, D3FEND y evaluaciones",
-      "URL": "https://www.mitre.org/",
-      "Notas": "Capacidades de detección y defensa"
-    },
-    {
-      "Tipo de fuente": "Estándares",
-      "Organización": "CIS",
-      "Uso recomendado": "Controles y benchmarks",
-      "URL": "https://www.cisecurity.org/",
-      "Notas": "Evaluación de cobertura de controles"
-    },
-    {
-      "Tipo de fuente": "Mercado",
-      "Organización": "CISA",
-      "Uso recomendado": "Catálogos, KEV y guías",
-      "URL": "https://www.cisa.gov/",
-      "Notas": "Vulnerabilidades explotadas y recomendaciones"
-    },
-    {
-      "Tipo de fuente": "Vulnerabilidades",
-      "Organización": "FIRST EPSS",
-      "Uso recomendado": "Probabilidad de explotación",
-      "URL": "https://www.first.org/epss/",
-      "Notas": "Priorización de vulnerabilidades"
-    },
-    {
-      "Tipo de fuente": "Vulnerabilidades",
-      "Organización": "NVD",
-      "Uso recomendado": "CVEs y puntuaciones CVSS",
-      "URL": "https://nvd.nist.gov/",
-      "Notas": "Fuente pública de vulnerabilidades"
-    },
-    {
-      "Tipo de fuente": "Producto",
-      "Organización": "Sitio oficial del fabricante",
-      "Uso recomendado": "Datasheets, documentación, precios y certificaciones",
-      "URL": "",
-      "Notas": "Siempre adjuntar URL exacta por producto"
-    },
-    {
-      "Tipo de fuente": "Producto",
-      "Organización": "Repositorios GitHub",
-      "Uso recomendado": "Actividad, licencias, releases y comunidad",
-      "URL": "https://github.com/",
-      "Notas": "Especialmente relevante para open source"
-    },
-    {
-      "Tipo de fuente": "Finanzas",
-      "Organización": "Crunchbase / Dealroom",
-      "Uso recomendado": "Financiación y evolución empresarial",
-      "URL": "https://www.crunchbase.com/",
-      "Notas": "Validar con fuentes corporativas"
-    }
-  ],
-  "meta": {
-    "version": "1.0",
-    "domains": 20,
-    "categories": 122,
-    "providers": 343,
-    "relations": 668,
-    "products": 550,
-    "unique_products": 486,
-    "products_with_capabilities": 493,
-    "product_sources": 195,
-    "tiers": {
-      "Tier 2": 88,
-      "Tier 1": 65,
-      "Tier 3": 189
-    },
-    "products_with_url": 270
-  },
   "products": [
     {
       "ID producto": "P001",
@@ -16061,6 +15832,128 @@
       "Ediciones": "Enterprise",
       "Estado": "Pendiente",
       "URL": ""
+    }
+  ],
+  "capabilities": [
+    {
+      "ID": "CAP001",
+      "Dimensión": "Producto y arquitectura",
+      "Capacidad": "Modelo de despliegue",
+      "Criterios / valores posibles": "SaaS; Cloud dedicado; On-prem; Híbrido; Appliance"
+    },
+    {
+      "ID": "CAP002",
+      "Dimensión": "Producto y arquitectura",
+      "Capacidad": "Multi-tenancy",
+      "Criterios / valores posibles": "Nativa; Parcial; No disponible"
+    },
+    {
+      "ID": "CAP003",
+      "Dimensión": "Producto y arquitectura",
+      "Capacidad": "Alta disponibilidad",
+      "Criterios / valores posibles": "Activo-activo; Activo-pasivo; Dependiente de plataforma"
+    },
+    {
+      "ID": "CAP004",
+      "Dimensión": "Producto y arquitectura",
+      "Capacidad": "Escalabilidad",
+      "Criterios / valores posibles": "Vertical; Horizontal; Autoscaling"
+    },
+    {
+      "ID": "CAP005",
+      "Dimensión": "Integración",
+      "Capacidad": "API",
+      "Criterios / valores posibles": "REST; GraphQL; SDK; Webhooks"
+    },
+    {
+      "ID": "CAP006",
+      "Dimensión": "Integración",
+      "Capacidad": "Integraciones nativas",
+      "Criterios / valores posibles": "SIEM; SOAR; IAM; ITSM; Data Lake; EDR; Cloud"
+    },
+    {
+      "ID": "CAP007",
+      "Dimensión": "Integración",
+      "Capacidad": "Formatos y estándares",
+      "Criterios / valores posibles": "STIX/TAXII; Syslog; CEF; LEEF; OpenTelemetry; SCIM; SAML; OIDC"
+    },
+    {
+      "ID": "CAP008",
+      "Dimensión": "Seguridad",
+      "Capacidad": "Cifrado",
+      "Criterios / valores posibles": "En tránsito; En reposo; BYOK; HYOK; HSM"
+    },
+    {
+      "ID": "CAP009",
+      "Dimensión": "Seguridad",
+      "Capacidad": "Identidad y acceso",
+      "Criterios / valores posibles": "RBAC; ABAC; MFA; SSO; PAM"
+    },
+    {
+      "ID": "CAP010",
+      "Dimensión": "Seguridad",
+      "Capacidad": "Auditoría",
+      "Criterios / valores posibles": "Logs inmutables; evidencias; trazabilidad; exportación"
+    },
+    {
+      "ID": "CAP011",
+      "Dimensión": "Operación",
+      "Capacidad": "Automatización",
+      "Criterios / valores posibles": "Playbooks; workflows; no-code; API"
+    },
+    {
+      "ID": "CAP012",
+      "Dimensión": "Operación",
+      "Capacidad": "Analítica e IA",
+      "Criterios / valores posibles": "ML; IA generativa; copiloto; recomendaciones"
+    },
+    {
+      "ID": "CAP013",
+      "Dimensión": "Operación",
+      "Capacidad": "Observabilidad",
+      "Criterios / valores posibles": "Métricas; logs; tracing; SLA"
+    },
+    {
+      "ID": "CAP014",
+      "Dimensión": "Cumplimiento",
+      "Capacidad": "Certificaciones",
+      "Criterios / valores posibles": "ISO 27001; SOC 2; ENS; FedRAMP; CSA STAR"
+    },
+    {
+      "ID": "CAP015",
+      "Dimensión": "Cumplimiento",
+      "Capacidad": "Residencia de datos",
+      "Criterios / valores posibles": "UE; España; regiones configurables"
+    },
+    {
+      "ID": "CAP016",
+      "Dimensión": "Comercial",
+      "Capacidad": "Licenciamiento",
+      "Criterios / valores posibles": "Usuario; activo; volumen; consumo; tenant; appliance"
+    },
+    {
+      "ID": "CAP017",
+      "Dimensión": "Comercial",
+      "Capacidad": "Transparencia de precios",
+      "Criterios / valores posibles": "Público; bajo oferta; partner"
+    },
+    {
+      "ID": "CAP018",
+      "Dimensión": "Comercial",
+      "Capacidad": "Servicios profesionales",
+      "Criterios / valores posibles": "Implantación; migración; soporte; formación"
+    },
+    {
+      "ID": "CAP019",
+      "Dimensión": "Riesgo de proveedor",
+      "Capacidad": "Viabilidad",
+      "Criterios / valores posibles": "Ingresos; financiación; crecimiento; base instalada"
+    },
+    {
+      "ID": "CAP020",
+      "Dimensión": "Riesgo de proveedor",
+      "Capacidad": "Dependencia",
+      "Criterios / valores posibles": "Lock-in; portabilidad; formatos abiertos; exportación"
     }
   ],
   "productCapabilities": [

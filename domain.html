@@ -29,6 +29,7 @@
   <script src="assets/data.js"></script>
   <script>
     async function init() {
+      try {
       const db = await loadDB();
       document.getElementById('nav-slot').innerHTML = renderNav('domains');
       document.getElementById('footer-slot').innerHTML = renderFooter();
@@ -155,6 +156,11 @@
           </aside>
         </div>
       `;
+      } catch (err) {
+        const el = document.getElementById('content');
+        if (el) { el.classList.remove('loading'); el.innerHTML = '<div class="empty">Error: ' + err.message + '</div>'; }
+        console.error(err);
+      }
     }
 
     init();

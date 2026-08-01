@@ -28,9 +28,13 @@
   <script src="assets/data.js"></script>
   <script>
     (async () => {
-      await loadDB();
-      document.getElementById('nav-slot').innerHTML = renderNav('');
-      document.getElementById('footer-slot').innerHTML = renderFooter();
+      try {
+        await loadDB();
+        document.getElementById('nav-slot').innerHTML = renderNav('');
+        document.getElementById('footer-slot').innerHTML = renderFooter();
+      } catch (err) {
+        console.error('Init error:', err);
+      }
     })();
   </script>
 </body>
